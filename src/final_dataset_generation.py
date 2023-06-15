@@ -76,13 +76,13 @@ for q in chatgpt_dataset:
     
     gen_entry = {
         "entry_id" : f"ge{i}",
-        "instruction" : q["question"]
+        "instruction" : q["question"],
+        "input" : "",
+        "output": q["gpt_chosen"]
     }
 
     if not is_open_ended:
         gen_entry["input"] = "\n".join(f"{i+1}) {choice}" for i, choice in enumerate(q["choices"]))
-        
-    gen_entry["output"] = q["gpt_chosen"]
 
     gen_dataset.append(gen_entry)
     i+=1
