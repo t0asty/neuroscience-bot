@@ -50,6 +50,7 @@ for question, datapoints in reddit_dataset_by_question.items():
         gen_dataset.append({
             "entry_id" : f"gr{i}",
             "instruction" : question,
+            "input": "",
             "output" : good["answer"]
         })
         i += 1
