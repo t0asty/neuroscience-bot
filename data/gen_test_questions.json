@@ -1,0 +1,1900 @@
+[
+    {
+        "answer": "} \n1100010110\\ se d\u00e9compose donc comme:\n1  100  010110, ce qui se lit donc comme:\n - 2^{4} \u00d7 1,010110 = - ( 16 + 4 + 1\n  +1/2)= - 21.5",
+        "question": "En utilisant une repr\u00e9sentation \u00e0 virgule\nflottante dans l'ordre signe, 3 bits d'exposant (cod\u00e9 simplement\nen binaire, sans d\u00e9calage) et 6 bits de matisse, \u00e0 quelle valeur\nd\u00e9cimale correspond\n1100010110 ?\nJustifiez bri\u00e8vement votre r\u00e9ponse.",
+        "sol_id": 1204861
+    },
+    {
+        "answer": "{Vu que $A$ est r\\'eelle ($A = \\overline{A}$) et sym\\'etrique ($A=A^T$), on obtient$$\\overline{\\overline{x}^TAx}=x^T\\overline{A}\\overline{x}=\\underbrace{x^TA\\overline{x}}_{\\in \\mathbb{C}}=\\left(x^TA\\overline{x}\\right)^T=\\overline{x}^TAx.$$Il s'ensuit que $\\overline{x}^TAx$ est r\\'eel. En plus, si $x$ est un vecteur propre associ\\'e \\`a la valeur propre $\\lambda$ de $A$, alors$$\\overline{x}^TAx = \\overline{x}^T\\lambda x=\\lambda \\overline{x}^Tx.$$On observe que $\\overline{x}^Tx=\\sum\\limits_{i=1}^n \\overline{x}_ix_i=\\sum\\limits_{i=1}^n |x_i|^2 \\in \\mathbb{R}$.D'o\\`u $\\lambda \\in \\mathbb{R}$.}",
+        "choices": null,
+        "explanation": null,
+        "question": "Soit $A$ une matrice r\\'eelle de taille $n \\times n$.Montrer que si $A = A^T$, alors pour tout $x \\in \\mathbb{C}^n$ le nombre $\\overline{x}^TAx$ est r\\'eel.En d\\'eduire que les valeurs propres d'une matrice r\\'eelle et sym\\'etrique sont r\\'eelles.",
+        "sol_id": 2582061
+    },
+    {
+        "answer": " La pression en fonction du volume est sous la forme $P = \frac{cst}{V^\\gamma}$ o\u00f9 la constante peut \u00eatre trouv\u00e9e avec les conditions initiales  $P_i{V_i}^\\gamma$. Le travail effectu\u00e9 est donc :\n\t$$W = - \\int P\\,\\mathrm{d}V = -P_i{V_i}^\\gamma \\int_{V_i}^{V_f} V^{-\\gamma}\\,\\mathrm{d}V $$\n\t$$W= -P_0{V_0}^\\gamma \\left(\frac{V^{-\\gamma+1}}{-\\gamma+1}\right) \\Bigg|^{V_1}_{V_0}$$\n\t$$= \frac{P_0{V_0}^\\gamma}{\\gamma-1}\\left(\frac{1}{V_1^{\\gamma-1}} -\frac{1}{V_0^{\\gamma-1}}\right) = \frac{P_0 V_0}{\\gamma-1}\\left[\\left(\frac{V_0}{V_1}\right)^{\\gamma-1} -1\right] $$\n\t$$= \frac{1~L~atm}{\frac{2}{5}}*[(4.0)^{\frac{2}{5}}-1] = 1.86~L~atm=188~J$$ ",
+        "question": " Lorsqu'on gonfle le pneu d'un v\u00e9lo, un litre d'air ($V_0=1~L$) \u00e0 pression \n     atmosph\u00e9rique ($P_0=1~atm$) est compress\u00e9 de mani\u00e8re adiabatique \u00e0 une pression de 7 atmosph\u00e8res ($P_1=7~atm$). \n     (L'air est majoritairement du diasote $N_2$ et de l'oxyg\u00e8ne.)\n     Quel est le travail n\u00e9cessaire pour comprimer l'air ?",
+        "sol_id": 2782029
+    },
+    {
+        "answer": "{En utilisant (d) et (a) on a$\\overline{rz} = \\overline{r} \\cdot \\overline{z} = r \\overline{z}$.}",
+        "choices": null,
+        "explanation": null,
+        "question": "Montrer que pour $z, w \\in \\mathbb{C}$ on a$\\overline{rz} = r\\overline{z}$ si $r \\in \\mathbb{R}$,",
+        "sol_id": 1725949
+    },
+    {
+        "answer": "the resitance [mathjaxinline]R[/mathjaxinline] needs to be changed from [mathjaxinline]R[/mathjaxinline] to [mathjaxinline]R/2[/mathjaxinline].",
+        "choices": [
+            "the resitance [mathjaxinline]R[/mathjaxinline] needs to be changed from [mathjaxinline]R[/mathjaxinline] to [mathjaxinline]2R[/mathjaxinline].",
+            "the resitance [mathjaxinline]R[/mathjaxinline] needs to be changed from [mathjaxinline]R[/mathjaxinline] to [mathjaxinline]R/2[/mathjaxinline].",
+            "[mathjaxinline]R[/mathjaxinline] does not change.",
+            "the membrane conductance increases by a factor of 2."
+        ],
+        "explanation": null,
+        "question": "Suppose the ionic currents through the membrane are well approximated by a simple leak current. For a dendritic segment of size [mathjaxinline]dx[/mathjaxinline], the leak current is characterized by a membrane resistance [mathjaxinline]R[/mathjaxinline]. If we change the size of the segment from [mathjaxinline]dx[/mathjaxinline] to [mathjaxinline]2dx[/mathjaxinline]:",
+        "sol_id": 1315355
+    },
+    {
+        "answer": "New understanding when you succeed",
+        "choices": [
+            "New knowledge when you succeed",
+            "New understanding when you succeed",
+            "New knowledge when you fail",
+            "New understanding when you fail"
+        ],
+        "explanation": "When the process fails, the reconstruction is wrong and hence some of the underlying principles used to reconstruct are probably wrong. What we previously held as true is now proven to be wrong, which is a new piece of knowledge.",
+        "question": "What should you take out of the iterative reconstruction and testing?",
+        "sol_id": 1711011
+    },
+    {
+        "answer": "{%A) On applique la m\\'ethode de Gram-Schmidt aux vecteurs $\\vec w_1 = \\left(\\begin{array}{c} 2 \\\\ 2 \\\\ 1 \\end{array}\\right)$et $\\vec w_2 = \\left(\\begin{array}{c} 3 \\\\ 4 \\\\ 1 \\end{array}\\right)$, puis on les normalise. On obtient$\\vec u_1 = \\left(\\begin{array}{c} 2/3 \\\\ 2/3 \\\\ 1/3 \\end{array}\\right)$et$\\vec u_2 = \\left(\\begin{array}{c}-1/3 \\\\ 2/3 \\\\ -2/3 \\end{array}\\right)$,d'o\\`u$Q = \\left(\\begin{array}{cc}2/3 &  -1/3 \\\\2/3 &  2/3 \\\\1/3 &  -2/3 \\end{array} \\right)$, et$R = Q^T A = \\left(\\begin{array}{cc}3 &  5 \\\\0 &  1 \\\\ \\end{array}\\right)$.B) $Q = \\left(\\begin{array}{ccc}1/\\sqrt{3} & -2/\\sqrt{6} & 0 \\\\1/\\sqrt{3} & 1/\\sqrt{6} & 1/\\sqrt{2} \\\\1/\\sqrt{3} & 1/\\sqrt{6} & -1/\\sqrt{2}\\end{array}\\right)$,$R = \\left(\\begin{array}{ccc}\\sqrt{3} & 5/\\sqrt{3} & -1/\\sqrt{3} \\\\0 & \\sqrt{6}/3 & \\sqrt{6}/3 \\\\0 & 0 & \\sqrt{2}\\end{array}\\right)$.C)$Q = \\left(\\begin{array}{cc}0 & 0 \\\\1/\\sqrt{2} & 3/\\sqrt{22} \\\\0 & -2/\\sqrt{22} \\\\-1/\\sqrt{2} & 3/\\sqrt{22}\\end{array}\\right)$,$R = \\left(\\begin{array}{cc}\\sqrt{2} & 1/\\sqrt{2} \\\\0 & \\sqrt{11/2}\\end{array}\\right)$.}",
+        "choices": null,
+        "explanation": null,
+        "question": "Calculer la d\\'ecomposition QR des matrices suivantes.\\[A=\\left(\\begin{array}{cc} 2 & 3 \\\\  2 & 4 \\\\  1 & 1 \\\\ \\end{array}\\right)\\,,\\qquadB = \\left(\\begin{array}{ccc}1 & 1 & -1 \\\\1 & 2 & 1 \\\\1 & 2 & -1\\end{array}\\right)\\,,\\qquadC = \\left(\\begin{array}{cc}0 & 0 \\\\1 & 2 \\\\0 & -1 \\\\-1 & 1\\end{array}\\right)\\]",
+        "sol_id": 1950916
+    },
+    {
+        "answer": "{%$A$: Comme la colonne $1$ est un multiple de la colonne $2$, les colonnes sontlin\\'eairement d\\'ependantes, et donc la matrice $A$ n'est pas inversible.$B$:Apr\\`es plusieurs op\\'erations de r\\'eduction sur les lignes, on obtient uneforme \\'echelonn\\'ee (non r\\'eduite) \\[B \\sim \\left(\\begin{array}{cccc} 1 &  3 &  0 &  -1 \\\\  0 &  1 &  -2 &  -1 \\\\  0 &  0 &  3 &  0 \\\\  0 & -4 &  8 &  0 \\end{array}\\right)\\sim \\left(\\begin{array}{cccc} 1&  3 &  0 &  -1 \\\\  0 &  1 &  -2 &  -1 \\\\  0 &  0 &  3 &  0 \\\\  0 & 0 &  0 & -4 \\end{array}\\right).\\]On trouve un pivot dans chaque ligne et la matrice est carr\\'ee, donc elle estinversible.$C$: $C$ est inversible car sous forme \\'echelonn\\'ee (non r\\'eduite) avec pivot danschaque ligne et la matrice est carr\\'ee.$D$:$D^ T$ est sous forme \\'echelonn\\'ee, avec un pivot dans chaque ligne et detaille carr\\'ee, donc $D^ T$ est inversible.  Par cons\\'equent, $D$ est\\'egalement inversible. $E$:La matrice $E$ n'est pas carr\\'ee, donc non inversible. }",
+        "choices": null,
+        "explanation": null,
+        "question": "D\\'eterminer si les matrices suivantes sont inversibles (utiliser lemoins de calculs possible, justifier votre r\\'eponse).\\[\\begin{gathered}A = \\left(\\begin{array}{cccc} 1 &  2 &  1 &  2 \\\\  0 &  0 &  3 &  4 \\\\  2 &  4 &  5 &  1 \\\\  7 &  14 &  -1 &  -3 \\end{array}\\right)\\,,\\quadB = \\left(\\begin{array}{cccc} 1 &  3 &  0 &  -1 \\\\  0 &  1 &  -2 &  -1 \\\\  -2 &  -6 &  3 &  2 \\\\  3 &  5 &  8 &  -3 \\end{array}\\right),\\,\\quad C = \\left(\\begin{array}{cccc} 1 & -4 & -7 & 3 \\\\ 0 & 3 & 1 & -2 \\\\ 0 & 0 & 18 & 3 \\\\ 0 & 0 & 0 & 17 \\end{array}\\right),\\,\\\\D = \\left(\\begin{array}{cccc} 1 & 0 & 0 & 0 \\\\ 2 & 5 & 0 & 0 \\\\ 3 & 6 & 8 & 0 \\\\ 4 & 7 & 9 & 10 \\end{array}\\right),\\,\\quadE = \\left(\\begin{array}{ccc} 1 & 0 & 1 \\\\ 0 & 2 & 2 \\\\ 1 & 0 & 3 \\\\ 0 & 2 & 4 \\end{array}\\right)\\,.\\end{gathered}\\]",
+        "sol_id": 2462320
+    },
+    {
+        "answer": "\\(\\Delta\\omega/\\omega \\approx -\\Delta n / n\\)",
+        "choices": [
+            "\\(\\Delta\\omega/\\omega \\approx -\\Delta n / n\\)",
+            "\\(\\Delta\\omega/\\omega \\approx -\\Delta \\epsilon / \\epsilon\\)",
+            "\\(\\Delta\\omega/\\omega \\approx \\Delta n / n\\)",
+            "\\(\\Delta\\omega/\\omega \\approx -\\Delta \\epsilon / \\epsilon\\)"
+        ],
+        "explanation": null,
+        "question": "For a small and uniform perturbation of the refractive index \\(n\\), or equivalently the permittivity \\(\\epsilon\\), in a material system, how does the relative frequency shift \\(\\Delta\\omega/\\omega\\) scale?",
+        "sol_id": 1985477
+    },
+    {
+        "answer": "Entropy",
+        "choices": [
+            "Total number of particles",
+            "Total momentum",
+            "Total energy",
+            "Entropy"
+        ],
+        "explanation": "While both the Vlasov and Boltzmann equations conserve particle number, momentum, and energy, only Vlasov equation conserves entropy. This is due to the fact that the Boltzmann equation takes into account collisions, which are irreversible processes.",
+        "question": "The following quantity is conserved by Vlasov's equation, but not by Boltzmann's equation:",
+        "sol_id": 1716664
+    },
+    {
+        "answer": "2.",
+        "choices": [
+            "1. La r\u00e9gulation combinatoire de l'expression des g\u00e8nes par des prot\u00e9ines qui r\u00e9gulent la transcription est utilis\u00e9e dans les cellules eucaryotes et procaryotes.",
+            "2. Le contr\u00f4le de l'expression des g\u00e8nes par la formation de boucles d'ADN est propre aux cellules procaryotes.",
+            "3. Les \u00e9l\u00e9ments isolateurs limitent l'\u00e9tendue de l'action d'un enhancer sur les g\u00e8nes environnants en emp\u00eachant le contact entre le enhancer et un promoteur particulier.",
+            "4. Le complexe m\u00e9diateur permet la communication entre l'ARN polym\u00e9rase, les facteurs de transcription g\u00e9n\u00e9raux et les enzymes de modification de la chromatine.",
+            "5. Au cours de la transcription, un complexe ARN polym\u00e9rase individuel ne transcrit qu'un seul brin de la matrice d'ADN."
+        ],
+        "explanation": "",
+        "question": "Laquelle des affirmations suivantes est fausse ? Veuillez en choisir une dans la liste (a-e) ci-dessous.",
+        "sol_id": 2331240
+    },
+    {
+        "answer": "En int\u00e9grant l'\u00e9quation~\\eqref{eq:varp}, on obtient:\n\\[p=\frac{1}{\\kappa}\\ln\rho + \text{const}\text{,}\\]\nd'o\u00f9\n\\[p-p_0=\frac{1}{\\kappa}\\ln\\left(\frac{\rho}{\rho_0}\right)\text{,}\\]\net\n\\[\rho=\rho_0 \\exp\big(\\kappa(p-p_0)\big)\text{.}\\]\nLa variation relative de masse volumique du mercure lorsque la pression varie de\n50~bar est:\n\\[\frac{\rho-\rho_0}{\rho_0}=\\exp\big(\\kappa(p-p_0)\big)-1 \u0007pprox\n\\kappa(p-p_0)= 1.3\\cdot10^{-4}\text{.}\\]\nPour les petites variations on retrouve la m\u00eame loi qu'\u00e0 l'exercice~4. ",
+        "question": "  Le coefficient de compression isotherme du mercure vaut:\n     $\\kappa=26\\cdot10^{-12}$~$\text{Pa}^{-1}$. On suppose ce coefficient constant.\n     A la surface du mercure, les conditions sont $p=p_0$ et $\rho\n=\rho_0$. D\u00e9duire l'expression du rapport $\rho/\rho_0$ en\nfonction de $\\kappa$, $p$ et $p_0$. Ensuite, calculer la variation de la masse\nvolumique du mercure quand la pression varie de 50 bar.",
+        "sol_id": 1368861
+    },
+    {
+        "answer": "(La preuve est donn\u00e9e dans le \n\\weblink{polycopi\u00e9}{https://botafogo.saitis.net/analyse-1/index.html?section=m_derivee_theoreme_accroissements_finis}.)",
+        "question": "Soit \\(f:[a,b]\\to \\bR\\) continue, d\u00e9rivable sur \\(]a,b[\\).\nMontrer que si \\(\\lim_{x\\to a^+}f'(x)\\) existe, alors \\(f\\) est d\u00e9rivable \u00e0\ndroite en \\(a\\), et \\(f'_+(a)=\\lim_{x\\to a^+}f'(x)\\).",
+        "sol_id": 1981510
+    },
+    {
+        "answer": "\\newcommand{\\Hh}[2]{\frac{#1}{#2}\\log_2\\left(\\frac{#2}{#1}\\right)} $$a=-\\frac23\\qquad\\text{et}\\qquad b=\\frac32$$ $$\\Hh{8}{18}+\\Hh{3}{18}+\\Hh{6}{18}+\\Hh{1}{18}$$ $$=\\log_2(18)-\\frac1{18}\\left(8\\log_2(8)+3\\log_2(3)+6\\log_2(6)\\right)$$ $$=2\\log_2(3)-\\frac{24}{18}-\\frac{6}{18}-(\\frac3{18}+\\frac6{18})\\log_2(3) =-\\frac{12}{18}+\\frac{27}{18}\\log_2(3) =-\\frac23+\\frac32\\log_2(3)$$",
+        "question": "Le plan du march\u00e9 de No\u00ebl comporte 8 stands de nourriture, 3 stands d\u2019habits chauds, 6 stands de bijoux et 1 stand pour faire des dons \u00e0 une association carritative. Quelle est l\u2019entropie du plan des stands du march\u00e9 de No\u00ebl ? Donnez votre r\u00e9ponse sous la forme a + b * log_2(3), avec a et b deux fractions (non nulles) ; puis justifiez la bri\u00e8vement.",
+        "sol_id": 2136943
+    },
+    {
+        "answer": "1+2",
+        "explanation": null,
+        "question": "Indiquer si les caract\u00e9ristiques suivantes d\u00e9crivent un HLA de type I (1) ou de type II (2) ou sont communes aux deux (1+2).Expression augmente en cas d\u2019inflammation",
+        "sol_id": 2584990
+    },
+    {
+        "answer": "Continuous integration can run code analysis and automated tests that developers wrote, but it does not create its own tests.",
+        "choices": null,
+        "explanation": null,
+        "question": "You've been hired to modernize a codebase from a 50-year-old company: version control, automated builds, and continuous integration. One of your colleagues, who is not completely up-to-date with modern practices, asks you the following question:\n\"Does adding \"continuous integration\" mean we no longer need to worry about testing?\"\nWhat would be your answer?",
+        "sol_id": 2336123
+    },
+    {
+        "answer": "\\( 6.64 \\cdot 10^8 \\; sec \\)",
+        "choices": [
+            "\\( 3.11 \\cdot 10^5 \\; sec \\)",
+            "\\( 6.64 \\cdot 10^8 \\; sec \\)",
+            "\\( 5.29 \\cdot 10^{11} \\; sec \\)",
+            "\\( 1.84 \\cdot 10^{14} \\; sec \\)"
+        ],
+        "explanation": null,
+        "question": "Which of the following is approximately the free-fall time for a cloud with a density \\( 10^{-8} \\; kg \\cdot m^{-3} \\)?",
+        "sol_id": 2942732
+    },
+    {
+        "answer": "{ Les $\\min(m,n)$ valeurs singuli\\`eres sont les racines carr\\'ees de valeurspropres de la matrice $A^TA$ de taille $n\\times n$, elles sont donc uniques.Comme $\\Sigma$ est la matrice diagonale (de taille $m\\times n$) des valeurssinguli\\`eres ordonn\\'ees par ordre d\\'ecroissant, cette matrice est unique.  Les matrices $U$ et $V$ ne sont pas uniques. En effet, on peut toujoursmultiplier $U$ et $V$ par $-1$: $$ A=(-U)  \\Sigma (-V)^T, $$ce qui donne une autre d\\'ecomposition. } ",
+        "choices": null,
+        "explanation": null,
+        "question": "Soit $A$ une matrice de taille $m \\times n$. Et soit $A=U\\Sigma V^T$ uned\\'ecomposition en valeurs singuli\\`eres ($U$ est une matrice orthogonale detaille $m\\times m$ et $V$ une matrice orthogonale de taille $n\\times n$).Montrer que les matrices $U$ et $V$ ne sont pas uniques en g\\'en\\'eral maisque la matrice $\\Sigma$ est unique.  ",
+        "sol_id": 1455116
+    },
+    {
+        "answer": "The gas flow is more likely to be laminar in a smaller reactor",
+        "choices": [
+            "Inertial forces are much larger than viscous forces",
+            "The gas flow is more likely to be laminar in a smaller reactor",
+            "The mean free path of gas molecules is shorter than in the turbulent regime",
+            "Inertial forces become progressively more important than viscous forces when the flow advances along the substrate"
+        ],
+        "explanation": "The Reynolds number is proportional to the horizontal coordinate x along the reactor and thus increases when the reactor size increases. This is why the gas flow in the reactor is more likely to be turbulent in a larger reactor. When the reactor size is getting smaller, the gas flow is more likely to be laminar throughout the chamber. See \"Theoretical concepts of gas flow in CVD reactors\" video from 06:01 to 07:05 for detailed explanations.",
+        "question": "What can be correctly said about the laminar regime of the boundary layer?",
+        "sol_id": 2378551
+    },
+    {
+        "answer": "Cone cells are responsible for colors and rod cells are helpful for detection of intensity change. For a deer that escapes from danger, the shape is much more important than color.",
+        "question": "Rods (peak response at $\\lambda=507 \\mathrm{~nm}$ ) and cones (peak response at $555 \\mathrm{~nm}$ ) are the photosensitive cells in human eye. Although\n\nrods are more sensitive, they cannot register colors (unlike cones).\n\nWhat might be the reason for the higher sensitivity of rods?",
+        "sol_id": 1737800
+    },
+    {
+        "answer": "Wien's law",
+        "choices": [
+            "Wien's law",
+            "Wine's law",
+            "Stefan-Bolzman law",
+            "Jude Law"
+        ],
+        "question": "Which law quantitatively describes the aforementioned phenomenon?",
+        "sol_id": 2746148
+    },
+    {
+        "answer": "Because we want to be able to predict electrical behavior from molecular profiles that are easier to obtain",
+        "choices": [
+            "Because we want to better understand  the relationship between some channels and some electrical behavior",
+            "Because we want to be able to better classify our neuron types",
+            "Because we want to be able to predict electrical behavior from molecular profiles that are easier to obtain",
+            "Because these entities are superposed (one electrical type = one molecular profile) and it is important to know what is what"
+        ],
+        "explanation": null,
+        "question": "Why is it so important to connect electrical profile to molecular profile?",
+        "sol_id": 2653646
+    },
+    {
+        "answer": "Autoencoders",
+        "choices": [
+            "PCA for discovering structures in functional data",
+            "Autoencoders",
+            "Reverse inference using functional compartments assigned to mostly one type of cognitive process",
+            "Combination of networks derived form resting-state data and task-dependent data"
+        ],
+        "explanation": null,
+        "question": "Which of the following methodological concepts are located across organizational principles?",
+        "sol_id": 2215454
+    },
+    {
+        "answer": "-174",
+        "explanation": null,
+        "question": "Power spectral density in 50 \\(\\Omega\\) microwave systems is often given in terms of temperature. How large is the noise power per unit band corresponding to room temperature? Please, give the power in terms of dBm, for which the zero dBm level is set at 1 mW.",
+        "sol_id": 1137883
+    },
+    {
+        "answer": "Integrated data from different scales and types of experiments",
+        "choices": [
+            "Genetic data",
+            "Behavioral data",
+            "Integrated data from different scales and types of experiments",
+            "Brain imaging data"
+        ],
+        "explanation": null,
+        "question": "What kind of data is most useful in building a better understanding of brain disorders?",
+        "sol_id": 2394832
+    },
+    {
+        "answer": "Healthy tissue from diseased patients",
+        "choices": [
+            "Tissue from healthy donors",
+            "Healthy tissue from diseased patients",
+            "Diseased tissue from epileptic patients",
+            "Tumor tissue from brain cancer patients"
+        ],
+        "explanation": null,
+        "question": "What is the origin of the living brain tissue used to study human neuronal microcircuits?",
+        "sol_id": 2565648
+    },
+    {
+        "answer": " Nous cherchons le rayon $r$ de l'ast\u00e9ro\"ide.\n     - Rayon de la Terre: $R_T=6400$ km $=6.4\\cdot10^6$ m\n     - Surface de la Terre: $S_T=4\\pi\\cdot R_T^2$\n     - Hauteur de la couche de poussi\u00e8re d\u00e9pos\u00e9e: $h=100$ $\\mu$m\n     En supposant que la masse volumique du mat\u00e9riau de la poussi\u00e8re est la m\\^eme que celle composant l'ast\u00e9ro\"ide, on peut  pr\u00e9tendre que le volume d\u00e9pos\u00e9 correspond \u00e0 20\\% du volume total $V_a$ de l'ast\u00e9ro\"ide. Ainsi, il vient:\n     S_T\\cdot h &= 0.2\\cdot V_a\n     4\\pi\\cdot R_T^2\\cdot h&=0.2\\cdot\frac43\\pi\\cdot r^3\n     r^3&=\frac{3R_T^2\\cdot h}{0.2}\\Rightarrow r=\\sqrt[3]{\frac{3R_T^2\\cdot h}{0.2}}\n     A.N.: Le rayon est environ 4 km, soit un diam\u00e8tre approximatif de 8 km.\n     Dans la litt\u00e9rature, il existe une dizaine de ces mastodontes qui ont percut\u00e9 la Terre. \n     Une collision avec des g\u00e9ocroiseurs de plus de 5 km se produit environ tous les 10 mio ans (la derni\u00e8re ayant \u00e9t\u00e9 il y a \n     65 mio ans, l'\"extinction c\u00e9tac\u00e9-tertiaire\"). Pour plus d'informations sur les ast\u00e9ro\"ides.",
+        "question": "La disparition des dinosaures est maintenant attribu\u00e9e \u00e0 une m\u00e9t\u00e9orite dont on a retrouv\u00e9 des \n     traces dans les roches tout autour de la Terre. En supposant que 20\\% de sa masse se soit d\u00e9pos\u00e9e uniform\u00e9ment \u00e0 la \n     surface de la Terre, et que la couche mesur\u00e9e corresponde \u00e0 une \u00e9paisseur de 100 microns de mat\u00e9riau d\u00e9pos\u00e9 par la m\u00e9t\u00e9orite, \n     quel \u00e9tait son diam\u00e8tre?",
+        "sol_id": 2854164
+    },
+    {
+        "answer": "We start again from equation 1 , and sum both sides over the index $i=1, \\ldots, N$, divide everything by $N$, and obtain: $$ \\frac{1}{N} \\sum_{i=1}^N S_i^{t+1}=\\frac{1}{N} \\sum_{i=1}^N \\operatorname{sign}\\left(h_i+\\frac{1}{N} \\sum_{i=1}^N S_i^t\\right) . $$ Now, we can notice that, both on the left side and the right side we only have a dependence on the effective local field $\\bar{S}=m$ at the two subsequent steps: $$ m^{t+1}=\\frac{1}{N} \\sum_{i=1}^N \\operatorname{sign}\\left(h_i+m^t\\right) . $$ On the RHS, instead, we recognize an empirical average over the components of the random field $h$. Since each component of the random field is sampled i.i.d. from the same Gaussian distribution $h_i \\sim \\mathcal{N}(0, \\Delta)$, in the limit of large number of samples $(N \\rightarrow \\infty)$, the empirical average converges to the population average, i.e. the expectation: $$ m^{t+1}=\\mathbb{E}_{h \\sim \\mathcal{N}(0, \\Delta)} \\operatorname{sign}\\left(h_i+m^t\\right) $$ We just derived a pretty amazing result! With the above prescribed parallel update for the spins, 1 , for different realizations of the field $h$ and different initialization, one might expect a strong dependence on the boundary conditions and maybe even chaotic behavior. Instead, in high dimensions, the dynamics of the system becomes fully deterministic and the trajectories of our algorithm concentrate around a single curve, obtained from a one-dimensional equation. This type of asymptotic equation, able to predict the exact trajectory of our algorithm (at large $N$ ) is traditionally called State Evolution. In the notebook, we check the tracking property through some numerical experiments.",
+        "question": "State Evolution for the RFIM: Our aim in this exercise is to provide an algorithm for finding the lowest energy configuration, and to analyse its property. 3. Show that in the large $N$ limit, the dynamics of this algorithm obeys a \"state evolution\" equation, that is, that at each time the average magnetization is given by the deterministic equation: $$ m^{t+1}=\\mathbb{E}_h \\operatorname{sign}\\left(h+m^t\\right) $$ and conclude that the algorithm is performing a fixed point iteration of the replica symmetric free energy (2.2.3).",
+        "sol_id": 1332143
+    },
+    {
+        "answer": "FAUX",
+        "question": "Par \u00abcolorier une carte\u00bb, on veut dire\n\u00ab colorier tous les pays de cette carte de sorte qu'aucun pays \nn'ait la m\u00eame couleur qu'un de ses voisins (Et par \u00ab voisin \u00bb,\n  on entend \u00ab ayant une fronti\u00e8re commune non ponctuelle \u00bb) \u00bb; et par \u00ab facile de d\u00e9cider \u00bb, on veut dire\nque le probl\u00e8me de d\u00e9cision correspondant est dans la classe P.\nToute carte peut \u00eatre colori\u00e9e avec trois couleurs.\n Vrai ou Faux?",
+        "sol_id": 2269130
+    },
+    {
+        "answer": "{La matrice cherch\u00e9e \u00e9tant diagonalisable, elle s'exprime, dans la base\\(\\mathcal{B}=(\\vec{v}_1,\\vec{v}_2)\\), par\\[ [A]_{\\mathcal{B}}=\\begin{pmatrix} 2&0\\\\ 0&-3 \\end{pmatrix}\\,.\\]On obtient donc \\([A]_{\\mathcal{E}}\\) en calculant \\[ [A]_{\\mathcal{E}}=P_{\\mathcal{E}\\mathcal{B}}[A]_{\\mathcal{B}}P_{\\mathcal{B}\\mathcal{E}}\\,,\\]o\u00f9 la matrice de changement de base est donn\u00e9e par\\[ P_{\\mathcal{E}\\mathcal{B}}=\\bigl[[\\vec{v}_1]_{\\mathcal{E}}\\,[\\vec{v}_2]_{\\mathcal{E}}\\bigr]=\\begin{pmatrix} \\mathcal{B&E\\\\ \\mathcal{E&B \\end{pmatrix}\\,.\\]On a alors\\[ P_{\\mathcal{B}\\mathcal{E}}=P_{\\mathcal{E}\\mathcal{B}}^{-1}=-\\frac14\\begin{pmatrix} -1&-1\\\\ -3&1 \\end{pmatrix}\\,.\\]On trouve:\\[ [A]_{\\mathcal{E}}=P_{\\mathcal{E}\\mathcal{B}}[A]_{\\mathcal{E}}P_{\\mathcal{B}\\mathcal{E}}=\\begin{pmatrix} -7/4&5/4\\\\ 15/4&3/4 \\end{pmatrix}\\,.\\]}",
+        "choices": null,
+        "explanation": null,
+        "question": "Construire une matrice \\(A\\) (\\(2\\times 2\\)) ayant pour vecteurs propres\\(\\vec{v}_1=\\left(\\begin{smallmatrix} 1\\\\3 \\end{smallmatrix}\\right)\\) (associ\u00e9 \u00e0 la valeur propre \\(\\lambda_1=2\\)) et \\(\\vec{v}_2=\\left(\\begin{smallmatrix} 1\\\\-1 \\end{smallmatrix}\\right)\\) (associ\u00e9 \u00e0 la valeur propre \\(\\lambda_2=-3\\)).",
+        "sol_id": 2503485
+    },
+    {
+        "answer": [
+            "It provably returns the k documents with the largest aggregate scores"
+        ],
+        "choices": [
+            "It performs a complete scan over the posting files",
+            "It provably returns the k documents with the largest aggregate scores",
+            "Posting files need to be indexed by the TF-IDF weights",
+            "It never reads more than (kn)\u00bd entries from a posting list"
+        ],
+        "question": "In general, what is true regarding Fagin's algorithm?",
+        "sol_id": 1870197
+    },
+    {
+        "answer": "It is possible to define a relationship between some electrical behaviors of neurons and the presence or absence of some specific proteins",
+        "choices": [
+            "These are two distinct entities: each electrical type can be combined with numerous molecular profiles and molecular profiles show a variety of electrical profiles.",
+            "It is possible to define a relationship between some electrical behaviors of neurons and the presence or absence of some specific proteins"
+        ],
+        "explanation": "Electrical behavior of the neuron is based on the expression of different ion channels. By using molecular profiling, one can relate some behaviors such as fast spiking or delayed starting of spike trains, to the presence or absence of some ion channels .",
+        "question": "What signifies the relationship between the molecular profile and the electrical profile of neurons?",
+        "sol_id": 2076019
+    },
+    {
+        "answer": "The action potentials in the axons",
+        "choices": [
+            "The action potentials in the dendrites",
+            "The action potentials in the axons",
+            "The synaptic potentials in the axons",
+            "The synaptic potentials in the dendrites"
+        ],
+        "explanation": "The dendrites carry a noisy low voltage (1-10mV) signal called the synaptic potential. The axon present from time to time big phenomena called action potentials or spikes in the range of 100mV.",
+        "question": "What are the two types of elementary signals potential that neurons carry?",
+        "sol_id": 1739370
+    },
+    {
+        "answer": "{%Le produit $AB$ est bien d\\'efini, le nombre $m$ de colonnes de $A$ est \\'egal au nombre de lignes de $B$.En transposant, le nombre de lignes de $A^ T$ est \\'egal au nombre de colonnes de $B^T$, donc le produit $B^T A^T$ est \\'egalement bien d\\'efini. On note $A=(a_{ij})$ et $B=(b_{ij})$ eton compare les \\'el\\'ements d'indice $ij$ des matrices $(AB)^T$ et $B^T A^T$:\t\\[\t\t\\left((AB)^T\\right)_{ij} = \\left(AB\\right)_{ji} =  \\sum\\limits_{k=1}^m a_{j k}b_{k i},\t\\]\t\\[\t\t\\left(B^T A^T\\right)_{ij} = \\sum\\limits_{k=1}^m \\left(B^T\\right)_{i k}\\left(A^T\\right)_{k j}\t\t =\\sum\\limits_{k=1}^m b_{k i} a_{j k},\t\\]\ton obtient les m\\^emes quantit\\'es, ainsi $(AB)^T = B^T A^T$. }",
+        "choices": null,
+        "explanation": null,
+        "question": "Soient  $A$ et $B$ des matrices telles que le produit $AB$ soit bien d\\'efini. Montrer que $(AB)^T = B^T A^T$.",
+        "sol_id": 1195233
+    },
+    {
+        "answer": [
+            "{t} * (1 + {t} + {w})",
+            "({t} - 1) * (1 + {t}) + ({w} - 1) * {t}"
+        ],
+        "question": "If there are {t} PoS tags, what is the maximum number of (not necessarily free) parameters the probabilistic model needs to consider to determine the best possible PoS tag sequence given a word sequence of length {w}, subjected to the limited lexical conditioning and limited scope for syntactic dependencies (1 neighbor) hypotheses.Give your answer as a numerical value (not as a formula).",
+        "sol_id": 1951150
+    },
+    {
+        "answer": "We need to verify the two axioms: \\begin{description} \\item[$(I_1)$] Consider a set $A' \\in \\mathcal{I}$ and a subset $A'' \\subseteq A'$. The matching that match every vertex in $A'$ also matches every vertex in $A''$ so $A'' \\in \\mathcal{I}$ as required. \\item[$(I_2)$] Consider two sets $A_1, A_2 \\in \\mathcal{I}$ with $|A_1| < |A_2|$. Let $M_1$ and $M_2$ be the two matchings that matches all vertices in $A_1$ and $A_2$, respectively. Assume, w.l.o.g. that $|M_1| = |A_1|$ and $|M_2| = |A_2|$. Note that these matchings are guaranteed to exist since $A_1, A_2 \\in \\mathcal{I}$. Now the graph $(V, M_1 \\cup M_2)$ has a matching of cardinality at least $|M_2|$. This means that there is an augmenting path $P$ in $(V, M_1 \\cup M_2)$ with respect to the matching $M_1$.  If we let $M= M_1 \\Delta P$ then $M$ matches all vertices in $A_1$ plus one more vertex $v$ from $A$ since $|M|  = |M_1| + 1$. This vertex has to be from $A_2$ since $A_1 \\cup A_2$ are the only vertices of $A$ that are incident to any edges in graph $(V, M_1 \\cup M_2)$. It follows that $v\\in A_2 \\setminus A_1$ and $A_1 + v \\in \\mathcal{I}$ as required. \\end{description}",
+        "question": "Consider a bipartite graph $G=(V,E)$ where $V$ is partitioned into $A$ and $B$. Let $(A, \\mathcal{I})$ be the matroid with ground set $A$ and \\begin{align*} \\mathcal{I} = \\{ A' \\subseteq A: \\mbox{ $G$ has a matching in which every vertex of $A'$ is matched}\\}\\,. \\end{align*} Recall that we say that a vertex is matched by a matching  $M$ if there is an edge in $M$ incident to $v$. Show that $(A, \\mathcal{I})$ is indeed a matroid by verifying the two axioms.",
+        "sol_id": 1797070
+    },
+    {
+        "answer": "\u201375 mV",
+        "choices": [
+            "0 mV",
+            "\u201335 mV",
+            "\u201355 mV",
+            "\u201375 mV"
+        ],
+        "explanation": "The reversal potential of GABA-A receptor Cl- conductance is about -75 mV. The intracellular chloride concentration is low (5-10 mM) and the extracellular chloride concentration is high (~120 mM).",
+        "question": "The reversal potential of the GABA-A receptor Cl- conductance is typically about:",
+        "sol_id": 1903067
+    },
+    {
+        "answer": "Very high B concentrations are not compatible with standard CMOS devices and they may compromise the crystal quality",
+        "choices": [
+            "The technique requires the application of a positive potential to the wafer that produces holes at the Si/solution interface",
+            "Very high B concentrations are not compatible with standard CMOS devices and they may compromise the crystal quality",
+            "The SiO",
+            "The silicon crystal orientation has a significant influence on the implantation profile"
+        ],
+        "explanation": "The main disadvantage of a B etch-stop is that we have to use very high B concentrations which are not compatible with standard CMOS or bipolar microelectronic devices and also that high B concentrations compromise the crystal quality. Therefore, sometimes an electrochemical etch stop is used as an alternative to make a thin membrane. See \"Etch stop techniques for thin membrane microfabrication and bulk micromachining\" video from 1:45 to 2:50 for detailed explanations.",
+        "question": "The etch stop by B implantation in Si, using B concentrations above 1020atoms/cm3, is a technique used to create thin membranes from Si wafers. Which of the following is a disadvantage of this process?",
+        "sol_id": 1095247
+    },
+    {
+        "answer": "Stellar population in elliptical galaxies is rather old.",
+        "choices": [
+            "Stellar population in elliptical galaxies is rather young.",
+            "Stellar population in elliptical galaxies is rather old.",
+            "Bulge stars of spiral galaxies are rather young.",
+            "Stars in spiral arms are rather young."
+        ],
+        "explanation": null,
+        "question": "Which of the following assertions concerning the stellar polulations are correct?",
+        "sol_id": 2676342
+    },
+    {
+        "answer": "Smaller than the electron plasma frequency and the electron cyclotron frequency, and larger than the ion cyclotron frequency",
+        "choices": [
+            "Smaller than the electron plasma frequency, the electron cyclotron frequency, and the ion cyclotron frequency",
+            "Smaller than the electron plasma frequency and the electron cyclotron frequency, and larger than the ion cyclotron frequency",
+            "Smaller than the electron plasma frequency and larger than the electron cyclotron frequency and the ion cyclotron frequency",
+            "Larger than the electron plasma frequency, the electron cyclotron frequency, and the ion cyclotron frequency"
+        ],
+        "explanation": "As shown in the lecture, the whistler waves are found when \\( \\Omega_i \\ll \\omega \\ll \\omega_{pe} \\lt \\vert \\Omega_e \\vert \\lt \\omega_R\\). In this case, \\( \\Omega_i\\) can be neglected with respect to \\( \\omega \\),  \\( \\omega \\) can be neglected with respect to \\( \\Omega_e \\), and \\( \\omega_{pe}/ \\omega \\gg 1\\).",
+        "question": "The whistler waves are characterized by frequencies that are:",
+        "sol_id": 1789953
+    },
+    {
+        "answer": "When energy is emitted and transferred through light or particles.",
+        "choices": [
+            "When energy is emitted and transferred through matter.",
+            "When energy is emitted and transferred through light or particles.",
+            "When energy is emitted but not transferred through light."
+        ],
+        "explanation": "The term radiation is defined as \"the emission of energy as electromagnetic waves or as moving subatomic particles, especially high-energy particles which cause ionization.\"",
+        "question": "What is called \"radiation\"?",
+        "sol_id": 2941092
+    },
+    {
+        "answer": "$\\frac{4}{7}$",
+        "choices": [
+            "$\\frac{1}{3}$",
+            "$\\frac{3}{4}$",
+            "$\\frac{1}{7}$",
+            "$0$",
+            "$1$",
+            "$\\frac{2}{3}$",
+            "$\\frac{6}{7}$",
+            "$\\frac{4}{7}$",
+            "$\\frac{3}{7}$",
+            "$\\frac{1}{4}$",
+            "$\\frac{2}{4}$"
+        ],
+        "explanation": "We have $p(Y=1 \\mid X=1)=p(Y=1, X=1) / p(X=1)=0.4 / 0.7=4 / 7$. Therefore, you should guess that $Y=1$ and you will be right a fraction $4 / 7$ of the time. This is the best you can do.",
+        "question": "Consider the following joint distribution on $X$ and $Y$, where both random variables take on the values $\\{0,1\\}: p(X=$ $0, Y=0)=0.1, p(X=0, Y=1)=0.2, p(X=1, Y=0)=0.3, p(X=1, Y=1)=0.4$. You receive $X=1$. What is the largest probability of being correct you can achieve when predicting $Y$ in this case?",
+        "sol_id": 2567580
+    },
+    {
+        "answer": 3,
+        "choices": [
+            "Both algorithms may output solutions that are strictly heavier than $2\\cdot OPT$.",
+            "Algorithm B may output solutions that are strictly heavier than $2\\cdot OPT$ whereas Algorithm A is guaranteed to output a solution of weight at most $2 \\cdot OPT$.",
+            "Both algorithms are guaranteed to output solutions whose weight is at most $2\\cdot OPT$.",
+            "Algorithm A may output solutions that are strictly heavier than $2\\cdot OPT$ whereas Algorithm B is guaranteed to output a solution of weight at most $2 \\cdot OPT$."
+        ],
+        "question": "Let $G = (V,E)$ be an undirected graph $G = (V,E)$ with positive vertex-weights $w : V \\rightarrow \\mathbb{R}_+$. In class, we analyzed the following linear programming relaxation of the vertex cover problem: \\begin{align*} \\textrm{minimize} \\ \\ \\sum_{v\\in V} w(v) & \\cdot x_v \\\\ x_u + x_v & \\geq 1 \\qquad \\mbox{for every $\\{u,v\\} \\in E$} \\\\ x_v & \\geq 0 \\qquad \\mbox{for every $v\\in V$} \\end{align*} In particular, we showed that  simple threshold rounding yields a vertex cover that it at most twice as expensive as the weight of an optimal solution to the linear program. In this problem we are going to analyze two alternative algorithms for the vertex cover problem: \\begin{description}\\itemsep5mm \\item[Algorithm A:] \\ \\\\[-5mm] \\begin{enumerate} \\item[1] Solve the linear program to obtain an optimal extreme point solution $x^*$. \\item[2] Output the vertex cover $\\{v\\in V: x^*_v > 0\\}$. \\end{enumerate} \\item[Algorithm B:]\\ \\\\[-5mm] \\begin{enumerate} \\item[1] Solve the linear program to obtain an optimal solution (but not necessarily an extreme point) $x'$. \\item[2] Output the vertex cover $\\{v\\in V: x'_v > 0 \\}$. \\end{enumerate} \\end{description} It is not hard to show that both algorithms output feasible solutions, but what are the solution guarantees? Let OPT be the weight of an optimal solution to the linear programming relaxation. Then:",
+        "sol_id": 1563963
+    },
+    {
+        "answer": "$\\chi_{s_j}^{j \\rightarrow i}=\\frac{1}{Z^{j \\rightarrow i}} \\prod_{k \\in \\partial j \\backslash i}\\left(1-\\left(1-e^{-\\beta}\\right) \\chi_{s_j}^{k \\rightarrow j}\\right)$",
+        "question": "Write Belief Propagation equations for graph coloring, that we covered in the lecture. (Derivation not needed.)",
+        "sol_id": 2620150
+    },
+    {
+        "answer": "All of the above",
+        "choices": [
+            "Is the viral capsid large enough for the transgene?",
+            "Does the virus trigger a strong immune response in the target population?",
+            "Does the virus infect the target cells?",
+            "All of the above"
+        ],
+        "explanation": null,
+        "question": "What must be considered when choosing a viral vector?",
+        "sol_id": 1998585
+    },
+    {
+        "answer": "Authors of the data",
+        "choices": [
+            "Right of access to the data",
+            "Authors of the data",
+            "Title and abstract describing the data",
+            "Keywords about the data",
+            "Structure of the data"
+        ],
+        "explanation": "Descriptive metadata describes a resource for discovery and identification and thus it may include title, abstract, authors and keywords that render the data easier to find.",
+        "question": "What information can be included in descriptive metadata?",
+        "sol_id": 2627789
+    },
+    {
+        "answer": "\\begin{enumerate}\n\\item \\emph{Premi\u00e8re m\u00e9thode:}\nOn pose \\(z=a+\\icomp b\\), et on injecte dans l'\u00e9quation:\n\\[(a+\\icomp b)^2+6(a+\\icomp b)+12-4\\icomp=0\\,,\n\\]\nqui m\u00e8ne au syst\u00e8me\n\\[\n\\begin{cases}\na^2 - b^2 + 6a + 12 & =0 \\\\ \n2ab + 6b - 4 & =0\\,.\n\\end{cases}\n\\]\nDe la premi\u00e8re \u00e9quation on obtient\n\\(a=-3\\pm \\sqrt{b^{2}-3}\\),\net donc \\(|b|\\geq\\sqrt{3}\\) car \\(a\\) doit \u00eatre r\u00e9el. On peut alors r\u00e9crire la\ndeuxi\u00e8me \u00e9quation du syst\u00e8me comme\n\\(a=\\frac{2}{b}-3\\)\net on trouve\n\\[-3\\pm\\sqrt{b^2-3}=\\frac{2}{b}-3 \n\\,\\Leftrightarrow \n\\, \\pm \\sqrt{b^2-3}=\\frac{2}{b}\\,,\n\\]\nd'o\u00f9\n\\(b^2-3=\\frac{4}{b^2}\\),\nou encore\n\\[\n(b^2)^2-3b^2-4=(b^2-4)(b^2+1)=0\\,.\n\\]\nOn a alors \\(b=\\pm 2\\) car \\(b\\) \ndoit \u00eatre r\u00e9el. Les solutions de l'\u00e9quation\ninitiale sont donc \\(z_{1}=-2+2\\icomp\\), \\(z_{2}=-4-2\\icomp\\).\n\\medskip\n\\emph{Deuxi\u00e8me m\u00e9thode:} On utilise directement la formule pour\nl'\u00e9quation quadratique, . Comme \\(a=1\\), \\(b=6\\) et \\(c=12-4i\\), on obtient\n\\[\nz_{\\pm}=\\frac{-6\\pm\\sqrt{36-48+16\\icomp}}{2}=-3\\pm\\sqrt{-3+4\\icomp}\\,,\n\\]\no\u00f9 on fait bien attention \u00e0 interpr\u00e9ter \\(\\pm\\sqrt{-3+4\\icomp}\\)\ncomme les deux nombres complexes dont le carr\u00e9 vaut \\(-3+4\\icomp\\).\nOr cette racine a d\u00e9j\u00e0 \u00e9t\u00e9 calcul\u00e9e dans un exercice pr\u00e9c\u00e9dent, et\nvaut \\(\\pm(1+2\\icomp)\\). \nLes solutions sont donc\n\\begin{align*}\nz_+ &= -3+(1+2\\icomp)=-2+2\\icomp\\,,\\\\\nz_- &= -3-(1+2\\icomp)=-4-2\\icomp\\,.\n\\end{align*}\n\\item En posant \\(z^3=w\\), '\u00e9quation devient \\(w^2-2w+2=0\\), dont les solutions\nsont \\(w=1\\pm \\icomp\\). On cherche donc \n\\[\nz^{3}=1\\pm \\icomp=\\sqrt{2}e^{\\pm \\icomp\\frac{\\pi}{4}}\\,.\n\\]\nIl faut alors r\u00e9soudre les \u00e9quations \n\\[\nz^3=\\sqrt{2}e^{\\icomp\\frac{\\pi}{4}}\\,\n\\quad \\text{ et }\nz^3=\\sqrt{2}e^{-\\icomp\\frac{\\pi}{4}}\\,,\n\\] \nen utilisant la m\u00eame technique qu'aux\nexercices pr\u00e9c\u00e9dents. On obtient \\(6\\) solutions:\n\\begin{align*}\nz_{1}&=\\sqrt[6]{2}e^{i\\frac{\\pi}{12}}\\,,\nz_{2}=\\sqrt[6]{2}e^{i\\frac{3\\pi}{4}}\\,,\nz_{3}=\\sqrt[6]{2}e^{i\\frac{17\\pi}{12}}\\\\\nz_{4}&=\\sqrt[6]{2}e^{-i\\frac{\\pi}{12}}=\\sqrt[6]{2}e^{i\\frac{23\\pi}{12}}\\,,\nz_{5}=\\sqrt[6]{2}e^{i\\frac{7\\pi}{12}}\\,,\nz_{6}=\\sqrt[6]{2}e^{i\\frac{5\\pi}{4}}\n\\end{align*}\n\\item En posant \\(z=a+b \\icomp\\), on obtient\n\\[ \n\\bigl(a^2-b^2-a-1\\bigr)-\nb(2a+1)\\icomp=0\\,,\n\\]\nles parties r\u00e9elles et imaginaires devant \u00eatre \u00e9gales \u00e0 z\u00e9ro.\nSi on regarde la partie imaginaire, on peut avoir \\(b=0\\), qui inject\u00e9 dans la\npartie r\u00e9elle donne \\(a^2-a-1=0\\), qui poss\u00e8de deux solutions\n\\(a=\\frac{1\\pm\\sqrt{5}}{2}\\), ou alors \\(a=-\\frac{1}{2}\\), qui inject\u00e9 dans la\npartie r\u00e9elle donne \\(b^2=-\\frac{3}{4}\\), qui n'a pas de solutions.\nL'\u00e9quation de d\u00e9part a donc deux solutions, r\u00e9elles toutes les deux: \n\\(z_\\pm=\\frac{1\\pm\\sqrt{5}}{2}\\).\n\\item Clairement, il faut exclure \\(z=0\\). On peut donc poser \n\\(z=re^{i\\theta}\\) avec \\(r>0\\), et l'\u00e9quation devient\n\\[ \ne^{\\icomp 3\\theta}=\\icomp=e^{\\icomp\\frac{\\pi}{2}}\\,.\n\\] \nOn a donc \\(3\\theta=\\frac{\\pi}{2}+2k\\pi\\), ce qui donne \n\\(3\\) arguments possibles, \n\\(\\theta_k=\\frac{\\pi}{6}+k\\frac{2\\pi}{3}\\), \\(k=0,1,2\\).\n Par contre,\nil n'y a aucune contrainte sur \\(r>0\\). L'ensemble des solutions de l'\u00e9quation\nest donc \n\\[\\{re^{\\icomp \\theta_k}\\,:\\,r>0,\\,k=0,1,2\\}\\,.\\] \nRemarquons que cet ensemble correspond \u00e0 trois demi-droites \npartant de l'origine, faisant des angles de\nrespectivement \\(\\theta_0=\\frac{\\pi}{6}\\),\n\\(\\theta_1=\\frac{5\\pi}{6}\\), et\n\\(\\theta_2=\\frac{3\\pi}{2}\\) avec l'horizontale:\n\\inputimage{trois_demi_droites_a_lorigine.jpg}{0.4}{200}\n\\end{enumerate}",
+        "question": "R\u00e9soudre les \u00e9quations suivantes dans \\(\\bC\\):\n\\begin{multicols}{3}\n\\begin{enumerate}\n\\item \\(z^{2}+6z+12-4\\icomp=0\\)\n\\item \\(z^{6}-2z^{3}+2=0\\)\n\\item \\(\\overline{z}^2=z+1\\)\n\\item \\((\\frac{z}{|z|})^3=\\icomp\\)\n\\end{enumerate}\n\\end{multicols}",
+        "sol_id": 2472076
+    },
+    {
+        "answer": "{%$A \\vec x=\\vec b$ est compatible $\\Leftrightarrow$$\\vec b$ est une combinaison lin\\'eaire des colonnes de $A$ $\\Leftrightarrow$$\\vec b \\in {\\rm Col}\\,A$ $\\Leftrightarrow$${\\rm rg}(A) = {\\rm rg}([\\,A\\ \\vec b\\,])$.}",
+        "choices": null,
+        "explanation": null,
+        "question": "Soit $A = \\left(\\begin{array}{cccc} 1 &  0 &  2 &  3 \\\\  1 &  1 &  1 &  0 \\\\  0 & 0 & 0 & 3 \\end{array}\\right)$.On consid\\`ere une matrice $A$ de taille $m\\times n$ et un vecteur $\\vec b\\in {\\mathbb R}^m$.Quelle doit \\^etre la relation entre le rang de  $[\\,A\\ \\vec b\\,]$ et le rang de $A$ pour que l'\\'equation $A \\vec x=\\vec b$ soit compatible?",
+        "sol_id": 1668789
+    },
+    {
+        "answer": "4.",
+        "choices": [
+            "1. Pendant la prophase de la mitose, les deux chromatides soeurs g\u00e9n\u00e9r\u00e9es pendant la phase S restent attach\u00e9es par des mol\u00e9cules de coh\u00e9sine.",
+            "2. Au cours d'un cycle cellulaire normal et non perturb\u00e9, la cycline A peut former un complexe avec CDK2 ou CDK1, selon le stade du cycle cellulaire.",
+            "3. Une cellule en phase G1 est fusionn\u00e9e avec une cellule en G2. Les deux noyaux se trouvent alors dans un cytoplasme commun. Le r\u00e9sultat est (1) le noyau qui est en G1 entre en phase S au moment pr\u00e9vu. (2) le noyau qui est en G2 ne r\u00e9plique pas son ADN une seconde fois, avant son entr\u00e9e en mitose.",
+            "4. Si une cellule humaine d\u00e9tecte qu'un kin\u00e9tochore n'est pas correctement attach\u00e9 au fuseau mitotique pendant la m\u00e9taphase, le point de contr\u00f4le du fuseau mitotique bloque l'ubiquitination de la coh\u00e9sine, afin d'emp\u00eacher la s\u00e9paration des chromatides soeurs.",
+            "5. La CDK1-CyclinB est essentielle \u00e0 l'entr\u00e9e en mitose en tant que composante du facteur de promotion de la mitose (MPF)."
+        ],
+        "explanation": "",
+        "question": "Laquelle des affirmations ci-dessous est fausse ? Veuillez choisir UNE des options (1-5) ci-dessous.",
+        "sol_id": 1168698
+    },
+    {
+        "answer": "A continuous model using differential equations",
+        "choices": [
+            "A single molecule model",
+            "A boolean network model",
+            "A continuous model using differential equations",
+            "An artificial neural network model"
+        ],
+        "explanation": null,
+        "question": "You want to model a gene regulatory network to study its dynamics. You have many datapoints and do not need details at the molecular level. Which model would you choose?",
+        "sol_id": 1009332
+    },
+    {
+        "answer": "It can be used to visually estimate the number of clusters present in the data",
+        "choices": [
+            "It can be used to visually estimate the number of clusters present in the data",
+            "For n voxels of interest, solutions for 1, 2,\u2026 n clusters will be computed in the process",
+            "It is not a semi-quantitative method",
+            "It takes the voxel location in the brain into consideration"
+        ],
+        "explanation": null,
+        "question": "You can use this template as a guide to the simple editor markdown and OLX markup to use for multiple",
+        "sol_id": 2553292
+    },
+    {
+        "answer": " $P(\textrm{exactement 25 piles et 25 faces})=\frac{\textrm{\\# de mani\u00e8res d'avoir 25 pile set 25 faces}}{\textrm{\\# total de possibilit\u00e9s}} =\frac{\\Omega(50,25)}{\\Omega(tous)}= \frac{1.26e +14}{1.13e + 15}= 1.12e -01$ ",
+        "question": "Chaque \u00e9lectron poss\u00e8de un degr\u00e9 de libert\u00e9 quantique qui s'appelle le spin. Le spin est analogue \u00e0 un aimant microscopique avec un p\u00f4le nord et un p\u00f4le sud. \n     La composante du spin $\u000bec{S}$ de chaque \u00e9lectron selon un axe donn\u00e9 (par ex. $S_z$ selon $z$) ne peut prendre que 2 valeurs:\n     1. $S_z=+1$ (vers le haut) ou\n     2. $S_z=-1$ (vers le bas)\n     Lorsque plus de spins pointent dans une direction plut\u00f4t qu'une autre, le spin total (somme des spins individuels) est non nul et il existe une magn\u00e9tisation du mat\u00e9riau (c'est un aimant au sens commun du terme).\n     Nous voulons \u00e9tudier la physique statistique d'un ensemble de 50 \u00e9lectrons, ayant chacun leur spin pouvant pointer vers \n     le haut ou vers le bas. Cet exercice est particuli\u00e8rement int\u00e9ressant \u00e0 faire chez vous avec un ordinateur \n     (par exemple avec Python) ou une calculatrice graphique, pour les applications num\u00e9riques.\n      Combien y a-t-il de fa\u00e7ons d'obtenir un spin total nul ? Quelle est la probabilit\u00e9 de cette configuration (autant de spins vers le haut et vers le bas) ? ",
+        "sol_id": 1869145
+    },
+    {
+        "answer": "ExplanationC/(g/l - Omega^2): Injecter la solution dans l'\u00e9quation diff\u00e9rentielle.",
+        "explanation": "C/(g/l - Omega^2): Injecter la solution dans l'\u00e9quation diff\u00e9rentielle.",
+        "question": "La solution d'une \u00e9quation diff\u00e9rentielle du type \\(A\\ddot{\\theta}+B\\theta=C\\sin(\\Omega t+\\phi)\\) est de la forme \\(\\theta(t)=\\theta_0\\sin(\\Omega t + \\phi)\\).On pose \\(C:=\\dfrac{F_0}{ml}\\).Exprimez l'amplitude \\(\\theta_0\\) des oscillations de Batman en fonction de \\(C\\) et des grandeurs rencontr\u00e9es jusqu'ici (on notera *Omega* pour \\(\\Omega\\)).",
+        "sol_id": 2616641
+    },
+    {
+        "answer": [
+            "\\(\\displaystyle\\lim_{n\\to\\infty}\n\\frac{a_0+a_1+\\cdots\n+a_{n+1}}{a_0+a_1+\\cdots+a_n}=1\\)\n",
+            "\\(\\displaystyle\\lim_{n\\to\\infty}\\frac{\\sin (\\pi a_n)}{a_n}=\\pi\\)\n"
+        ],
+        "choices": [
+            "\\(\\displaystyle\\lim_{n\\to\\infty}\n\\frac{a_0+a_1+\\cdots\n+a_{n+1}}{a_0+a_1+\\cdots+a_n}=1\\)\n",
+            "\\(\\displaystyle\\lim_{n\\to\\infty}\\frac{a_0+a_1+\\cdots\n+a_{n+1}}{a_0+a_1+\\cdots+a_n}=\\frac{4}{3}\\)",
+            "\\(\\displaystyle\\lim_{n\\to\\infty}(3-(a_0+a_1+a_2+\\cdots+a_{n^2}))=-6\\)",
+            "\\(\\displaystyle\\lim_{n\\to\\infty}\\frac{\\sin (\\pi a_n)}{a_n}=0\\)",
+            "\\(\\displaystyle\\lim_{n\\to\\infty}\\frac{\\sin (\\pi a_n)}{a_n}=\\pi\\)\n",
+            "\\(\\displaystyle\\lim_{n\\to\\infty}\\frac{\\sin (\\pi a_n)}{a_n}=1\\)"
+        ],
+        "question": "Si \\(a_n>0\\) pour tout \\(n\\geq 0\\), et si \n\\(\\sum_{n\\geq 0}a_n\\) converge et que sa somme vaut \\(s=3\\), \nalors",
+        "sol_id": 1225025
+    },
+    {
+        "choices": [
+            "Two for-loops, one to iterate over the weights and the other to iterate over the epochs",
+            "Only one for-loop to iterate over the epochs.",
+            "Only one for-loop to iterate over the weights.",
+            "No for-loop is really necessary. Everything can be vectorized"
+        ],
+        "qtype": "Choose One",
+        "question": "You write a Python code to optimize the weights of your linear regression with 10 features \\textbf{using gradient descent} for 500 epochs. What is the minimum number of for-loops you need to perform your optimization?",
+        "answer": [
+            "Only one for-loop to iterate over the epochs."
+        ],
+        "sol_id": 2956332
+    },
+    {
+        "choices": [
+            "TRUE",
+            "FALSE"
+        ],
+        "qtype": "True/False",
+        "question": "The k-means algorithm for clustering is guaranteed to converge to a local optimum.",
+        "answer": [
+            "TRUE"
+        ],
+        "sol_id": 1096450
+    },
+    {
+        "answer": "Increasing matrix size",
+        "choices": [
+            "Increasing matrix size",
+            "Increasing field of view (FOV)",
+            "Increasing mAs",
+            "Increasing scan time",
+            "Increasing detector quantum efficiency",
+            "Increasing slice thickness",
+            "Increasing K (maximum voltage applied across an X-ray tube)"
+        ],
+        "explanation": null,
+        "question": "Which ones in the list below increase CT signal-to-noise ratio (SNR)?",
+        "sol_id": 2183825
+    },
+    {
+        "answer": "the ion concentration outside cell divided by the ion concentration inside the cell ([ionout]/[ionin])",
+        "choices": [
+            "a constant",
+            "the ion concentration outside cell divided by the ion concentration inside the cell ([ionout]/[ionin])",
+            "the ion concentration inside cell divided by the ion concentration outside cell ([ionin]/[ionout])"
+        ],
+        "explanation": "In the Nernst equation, Q stands for ([ionout]/[ionin]), the ion concentration outside cell divided by the ion concentration inside the cell.",
+        "question": "\\[ E_{ion} = \\frac{RT}{zF}*ln\\ Q\\]",
+        "sol_id": 1232485
+    },
+    {
+        "explanation": "Total order property: Let m1 and m2 be any two messages and suppose p and q are any two correct processes that deliver m1 and m2. If p delivers m1 before m2, then q delivers m1 before m2.\nThis allows a scenario where faulty process p broadcasts messages 1, 2, 3, and correct processes a, b, c behave as follows:\n- Process a delivers 1, then 2.\n- Process b delivers 3, then 2.\n- Process c delivers 1, then 3.",
+        "question": "Would it make sense to add the total-order property to the best-effort broadcast?",
+        "answer": "Total order property: Let m1 and m2 be any two messages and suppose p and q are any two correct processes that deliver m1 and m2. If p delivers m1 before m2, then q delivers m1 before m2.\nThis allows a scenario where faulty process p broadcasts messages 1, 2, 3, and correct processes a, b, c behave as follows:\n- Process a delivers 1, then 2.\n- Process b delivers 3, then 2.\n- Process c delivers 1, then 3.",
+        "sol_id": 1523473
+    },
+    {
+        "answer": "0",
+        "choices": [
+            "0",
+            "\\(\\lvert 0 >\\)",
+            "\\(\\lvert 1 >\\)",
+            "\\(\\lvert 2 >\\)"
+        ],
+        "explanation": null,
+        "question": "We have an optical cavity containing one photon. After applying the operator \\(a^2\\), then the operator \\(a^{\\dagger}\\), what state is the  cavity in?",
+        "sol_id": 2424096
+    },
+    {
+        "answer": "corticales thymiques",
+        "explanation": null,
+        "question": "Anatomie des organes lympho\u00efdes. Annotez ce sch\u00e9ma de thymus.",
+        "sol_id": 2484450
+    },
+    {
+        "answer": "The total number of synapses originating from the neuron",
+        "choices": [
+            "The total number of synapses originating from the neuron",
+            "The number of neurotransmitter release sites",
+            "The strength of each release site",
+            "The reversal potential of the synapse"
+        ],
+        "explanation": null,
+        "question": "Which of the following factor does not play any role in the current-based model of a synapse?",
+        "sol_id": 1044789
+    },
+    {
+        "answer": "Consider an deterministic online algorithm $\\Alg$ and set $x_1 = W$. There are two cases depending on whether \\Alg trades the $1$ Euro the  first day or not.  Suppose first that $\\Alg$ trades the Euro at day $1$. Then we set $x_2 = W^2$ and so the algorithm is only $W/W^2 = 1/W$ competitive. For the other case when  \\Alg waits for the second day,  we set $x_2 = 1$. Then \\Alg gets $1$ Swiss franc whereas optimum would get $W$ and so the algorithm is only $1/W$ competitive again.",
+        "question": "You have $1$ Euro and your goal is to exchange it to Swiss francs during the next two consecutive days. The exchange rate is an arbitrary function from days to real numbers from the interval $[1,W^2]$, where $W\\geq 1$ is known to the algorithm. More precisely, at  day $1$, you learn the exchange rate $x_1 \\in [1,W^2]$, where $x_1$ is the amount of Swiss francs you can buy from $1$ Euro. You then need to decide between the following two options: \\begin{enumerate}[label=(\\roman*)] \\item Trade the whole $1$ Euro at day $1$ and receive $x_1$ Swiss francs. \\item Wait and trade the whole $1$ Euro at day $2$ at  exchange rate $x_2 \\in [1,W^2]$. The exchange rate $x_2$ is known only at day 2, i.e., after you made your decision at day 1. \\end{enumerate} In the following two subproblems, we will analyze the competitive ratio of optimal deterministic algorithms. Recall that we say that an online algorithm  is $c$-competitive  if, for any $x_1, x_2 \\in [1,W^2]$, it exchanges the $1$ Euro into at least $c \\cdot \\max\\{x_1, x_2\\}$ Swiss francs. Show that any deterministic algorithm has  a competitive ratio of at most $1/W$. {\\em (In this problem you are asked to prove that any deterministic algorithm has a competitive ratio of at most $1/W$ for the above problem.    Recall that you are allowed to refer to material covered in the lecture notes.)}",
+        "sol_id": 1680379
+    },
+    {
+        "answer": "We run the simple greedy algorithm: \\begin{enumerate} \\item Initially, let $\\mathcal{T} = \\emptyset$. \\item For each streamed $S$: if $S$ is disjoint from all sets in $\\mathcal{T}$, add $S$ to $\\mathcal{T}$. \\item At the end, we simply return $\\mathcal{T}$ as our solution. \\end{enumerate} We now analyze the greedy algorithm in terms of space and approximation guarantee. \\begin{description} \\item[Space:] Since at all times $\\mathcal{T}$ is a family of disjoint sets, we have $\\sum_{S\\in \\mathcal{T}} |S| \\leq n$. If we store each selected set $S$ as a list of its elements this will take space $|S|\\log n$ for each set $S\\in \\mathcal{T}$  (the $\\log n$ is the space required to save the identifier of each element). Thus, as $\\sum_{S\\in \\mathcal{T}} |S| \\leq n$, we require $O(n \\log n)$ space in total. \\item[Approximation ratio:] Let $\\mathcal{O}$ be an optimal set packing. The greedy algorithm returns a maximal set packing so any $O \\in \\mathcal{O}$ intersects at least one set in $\\mathcal{T}$ (maybe itself if it was selected by greedy). Moreover, any set $S$ can intersect at most $k$ sets in $\\mathcal{O}$ since $|S| \\leq k$.  Therefore, \\begin{align*} |\\mathcal{O}| = \\sum_{O\\in \\mathcal{O}} 1 \\leq \\sum_{O \\in \\mathcal{O}} \\sum_{S\\in \\mathcal{T}: S\\cap O \\neq \\emptyset} 1 =   \\sum_{S \\in \\mathcal{T}} \\sum_{O\\in \\mathcal{O}: S\\cap O \\neq \\emptyset} 1 \\leq  \\sum_{S\\in \\mathcal{T}} k  = k |\\mathcal{T}| \\,. \\end{align*} (This is very similar to Problem 4  in Exercise Set 10.) \\end{description}",
+        "question": "Consider the problem of finding a maximum cardinality set packing in the semi-streaming model. An instance of this problem consists of a known universe $U$ of $n$ elements and sets $S \\subseteq U$ are streamed one-by-one. The goal is to select  a family $\\mathcal{T}$ of pairwise disjoint sets (i.e., $S\\cap S' = \\emptyset$ for any two distinct sets $S, S' \\in \\mathcal{T}$) of maximum cardinality while only using $O(n\\cdot \\textrm{poly}\\log n)$ storage space. Devise an algorithm in this setting that returns a set packing of cardinality at least $1/k$ times that of a maximum cardinality set packing, assuming that each streamed set $S$ has cardinality at most $k$, i.e.,  $|S| \\leq k$. \\\\[0mm] {\\em (In this problem you are asked to (i) design the algorithm, (ii) show that it uses $O(n\\cdot  \\textrm{\\textnormal{poly}}{\\log n})$ space, and (iii) prove that it returns a solution of cardinality at least $1/k$ times the cardinality of a maximum cardinality set packing. Recall that you are allowed to refer to material covered in the course.) }",
+        "sol_id": 1392989
+    },
+    {
+        "answer": "{a) $A$ et $B$ sont deux matrices anti-sym\u00e9triques donc leurs coefficients v\u00e9rifient $a_{ji}=-a_{ij}$ et $b_{ji}=-b_{ij}$ pour tous $1\\leq i,j\\leq n$. La matrice $C=A+B$ a pour coefficients $c_{ij}=a_{ij}+b_{ij}$ et v\u00e9rifie alors $c_{ji}=a_{ji}+b_{ji}=-a_{ij}-b_{ij}=-c_{ij}$. Elle est donc anti-sym\u00e9trique. \\\\Si $A$ est inversible, alors il existe $A^{-1}$ v\u00e9rifiant $A^{-1}A=I_n$. En transposant cette relation, on obtient $A^T{(A^{-1})}^T=I_n$. En utilisant l'anti-sym\u00e9trie de $A$ il vient alors $A{(A^{-1})}^T=-I_n$, et une multiplication \u00e0 gauche par $A^{-1}$ permet d'obtenir $A^{-1}A{(A^{-1})}^T=I_n{(A^{-1})}^T={(A^{-1})}^T=-A^{-1}$, ce qui prouve que $A^{-1}$ est anti-sym\u00e9trique. \\\\b) Posons $S=\\frac{1}{2}(M+M^T)$ et $A=\\frac{1}{2}(M-M^T)$. On v\u00e9rifie que $S^T=S$, i.e. que $S$ est une matrice sym\u00e9trique, et que $A^T=-A$, i.e. que $A$ est une matrice anti-sym\u00e9trique. Par ailleurs, il est facile de v\u00e9rifier que $S+A=M$. On vient donc d'exhiber la d\u00e9composition cherch\u00e9e. \\\\c) Pour la premi\u00e8re matrice $M$, on obtient apr\u00e8s calculs $$S=\\begin{pmatrix}1 &2 &2\\\\ 2 &4 &4\\\\ 2 &4 &2 \\end{pmatrix},\\qquad A=\\begin{pmatrix}0 &0 &1\\\\ 0 &0 &1\\\\ -1 &-1 &0 \\end{pmatrix}.$$ Pour la seconde matrice, on s'aper\u00e7oit qu'elle est sym\u00e9trique et donc trivialement $S=M$ et $A=0_n$.}",
+        "choices": null,
+        "explanation": null,
+        "question": "\\begin{itemize}  \\item[a)] Soit $A$ une matrice anti-sym\u00e9trique de taille $n\\times n$. Montrer que    \\begin{itemize}      \\item[i)] pour toute matrice $B$ de taille $n\\times n$ anti-sym\u00e9trique, $A+B$ est anti-sym\u00e9trique;      \\item[ii)] si $A$ est inversible, alors $A^{-1}$ est anti-sym\u00e9trique.    \\end{itemize}  \\item[b)] Soit $M$ une matrice de taille $n\\times n$. Montrer que $M$ admet une d\u00e9composition sous la forme $M=S+A$, o\u00f9 $S$ est une matrice sym\u00e9trique et $A$ une matrice anti-sym\u00e9trique. {\\em (Indice : on pourra consid\u00e9rer les matrices $\\frac{1}{2}(M+M^T)$ et $\\frac{1}{2}(M-M^T)$)}  \\item[c)] Calculer la d\u00e9composition des matrices $M$ de taille $3\\times 3$ suivantes:$$M=\\begin{pmatrix}1 &2 &3\\\\ 2 &4 &5\\\\ 1 &3 &2 \\end{pmatrix},\\qquad M=\\begin{pmatrix}1 &2 &3\\\\ 2 &4 &5\\\\ 3 &5 &2 \\end{pmatrix}.$$\\end{itemize}",
+        "sol_id": 1824303
+    },
+    {
+        "choices": [
+            "number of training samples",
+            "number of bridge types",
+            "number of test samples",
+            "number of features"
+        ],
+        "qtype": "Choose Multiple",
+        "question": "For logistic regression, how many score functions do you need to predict? (One or multiple answers)",
+        "answer": [
+            "number of bridge types"
+        ],
+        "sol_id": 2129485
+    },
+    {
+        "answer": "Combs provide larger capacitive readout",
+        "choices": [
+            "Combs provide larger capacitive readout",
+            "The key parameter for the sensitivity of capacitive accelerometer is combs gap (g), which should be minimized as much as possible",
+            "Accelerometer needs hermetic encapsulation"
+        ],
+        "explanation": "The combs are designed to have larger capacitive area which turns into an enhanced capacitive readout. The capacitance of a parallel plate capacitor is given by C = \u03b5\u00b7A/g with \u03b5 the permittivity of the material between the parallel plate, A the area of one of the parallel plate, and g the distance between the parallel plates. So the combs gap (g) is the key parameter for the sensitivity and the resolution of capacitive accelerometer. Accelerometer should be encapsulated into hermetic environment to avoid moisture, humidity, and dust.",
+        "question": "1. Which of the following statements about MEMS capacitive comb drive accelerometer are correct?",
+        "sol_id": 1849414
+    },
+    {
+        "answer": "The streams are anatomically more connected in the mouse",
+        "choices": [
+            "The streams are anatomically more connected in the cat",
+            "The streams are functionally more connected in the cat",
+            "The streams are anatomically more connected in the mouse",
+            "The streams are functionally more connected in the mouse"
+        ],
+        "explanation": "The dorsal and ventral streams are less distinct in the mouse than in the cat, both anatomically and functionally; the evidence so far for clear motion-processing and image-processing streams in the mouse is only suggestive.",
+        "question": "How do the dorsal and ventral stream in the mouse compare to that in the cat?",
+        "sol_id": 2411023
+    },
+    {
+        "answer": "Finding the intersection(s) [mathjaxinline] (\\overline{I}^{\\text{*}},\\nu_0^{\\text{*}}) [/mathjaxinline] between the two functions, i.e. solving [mathjaxinline] g\\left(\\overline{I}\\right) = \\nu_0\\left(\\overline{I}\\right)[/mathjaxinline] (the latter taken from Q5)",
+        "choices": [
+            "Taking the derivative of the two functions [mathjaxinline] g\\left(\\overline{I}\\right) [/mathjaxinline] and [mathjaxinline] \\nu_0\\left(\\overline{I}\\right)[/mathjaxinline] (taken from Q5) with respect to [mathjaxinline] \\overline{I} [/mathjaxinline], setting the derivatives to zero and solving for [mathjaxinline] \\overline{I} [/mathjaxinline].",
+            "Finding the intersection(s) [mathjaxinline] (\\overline{I}^{\\text{*}},\\nu_0^{\\text{*}}) [/mathjaxinline] between the two functions, i.e. solving [mathjaxinline] g\\left(\\overline{I}\\right) = \\nu_0\\left(\\overline{I}\\right)[/mathjaxinline] (the latter taken from Q5)",
+            "A numerical analysis only, since the given [mathjaxinline] g\\left(\\overline{I}\\right) [/mathjaxinline] is non-linear."
+        ],
+        "explanation": null,
+        "question": "We now have two expressions for the rate [mathjaxinline] \\nu_0 [/mathjaxinline], depending on the input [mathjaxinline] \\overline{I} [/mathjaxinline]: The gain function [mathjaxinline] g\\left(\\overline{I}\\right) [/mathjaxinline] and the expression found in Q5. We obtain (a) fixed point(s) of the mean-field system by finding (a) self-consistent solution(s) of these two equations. This can be done by:",
+        "sol_id": 2644315
+    },
+    {
+        "answer": "Because the membrane is mostly composed of parts without channels that can accumulate ions and act as a capacitance",
+        "choices": [
+            "Because the presence of many ion channels in the membrane attracts all ion close by the membrane that becomes a capacitance",
+            "Because the membrane has also other channels such as calcium channels that can act as a capacitance",
+            "Because the membrane is mostly composed of parts without channels that can accumulate ions and act as a capacitance"
+        ],
+        "explanation": null,
+        "question": "\\[ I_m=C*\\frac{dV}{dt} + g_{Na}(V,t)*(V_m-E_{Na}) + g_K (V,t)*(V_m-E_K) \\]",
+        "sol_id": 1709985
+    },
+    {
+        "answer": "...to make the coils superconductive.",
+        "choices": [
+            "...to make the coils superconductive.",
+            "...to keep the coils sterile in MRI used in hospital.",
+            "...to prevent overheating of the system."
+        ],
+        "explanation": "The low resistance of superconductors allows the passage of very large currents without heating the material and provides very high field strengths of several Tesla. Such field strength could not be obtained with a copper magnet because the high conductor resistance would lead, during the passage of strong currents, to very intense Joule effect losses (heat dissipation) that would melt the coil.",
+        "question": "In a superconducting magnet, the coils are immersed in liquid helium...",
+        "sol_id": 2853215
+    },
+    {
+        "answer": "About 300 million light-years",
+        "choices": [
+            "About 100 thousand light-years",
+            "About 200 Megaparsec",
+            "About 300 million light-years",
+            "About 450 Megaparsec"
+        ],
+        "explanation": null,
+        "question": "What is the typical size of Large Scale Structures in the Universe?",
+        "sol_id": 2272119
+    },
+    {
+        "answer": [
+            "\u0394Q(\ud835\udc56\u2192\ud835\udc34)<\u0394Q(\ud835\udc56\u2192\ud835\udc35)"
+        ],
+        "choices": [
+            "\u0394Q(\ud835\udc56\u2192\ud835\udc34)>\u0394Q(\ud835\udc56\u2192\ud835\udc35)",
+            "\u0394Q(\ud835\udc56\u2192\ud835\udc34)=\u0394Q(\ud835\udc56\u2192\ud835\udc35)",
+            "\u0394Q(\ud835\udc56\u2192\ud835\udc34)<\u0394Q(\ud835\udc56\u2192\ud835\udc35)",
+            "All options are possible."
+        ],
+        "question": "Assume we run the Louvain algorithm to find communities in the following graph. Let\u00a0\u0394Q(\ud835\udc56 \u2192 \ud835\udc34) and \u0394Q(\ud835\udc56 \u2192 \ud835\udc35) denote the modularity gain of joining node \ud835\udc56 to community\u00a0\ud835\udc34 and \ud835\udc35 respectively. Which is true?",
+        "sol_id": 1829826
+    },
+    {
+        "answer": "Si l\u2019on d\u00e9code la signature comme pr\u00e9c\u00e9demment on trouve : S' = 27^(43) mod 77 = 48. Or par construc- tion le chiffre obtenu (qui repr\u00e9sente M^(d_A) mod n_A) doit \u00eatre plus petit que n_A = 15, ce qui n\u2019est pas le cas ici. Donc un message sign\u00e9 27 ne vient pas de l\u2019assistant.\n\nRemarque : Pour se faire passer pour l\u2019assistant et envoyer la note voulue N, un \u00e9l\u00e8ve doit r\u00e9soudre e_A(x) = N, ce qui par hypoth\u00e8se est difficile [\u00e9videmment pas dans le cadre de cet exercice !]. Si, en effet, l\u2019\u00e9l\u00e8ve est capable de trouver x tel que e_A(x) = N, c\u2019est qu\u2019il a craqu\u00e9 le syst\u00e8me RSA (au moins pour ce cas pr\u00e9cis).\nSupposons donc que l\u2019\u00e9l\u00e8ve tricheur n\u2019ait pas craqu\u00e9 le syst\u00e8me [hypoth\u00e8se, encore une fois, difficilement v\u00e9rifi\u00e9e dans le cas trivial de cet exercice.] ; il ne peut donc pas falsifier la note qu\u2019il veut. En revanche, il peut essayer d\u2019\u00eatre un peu plus malin que dans le cas ci-dessus et g\u00e9n\u00e9rer un S' qui soit compatible avec la cl\u00e9 de l\u2019assistant, c.-\u00e0-d. un S' qui soit plus petit que 15. Mais il n\u2019est alors pas du tout s\u00fbr du r\u00e9sultat.\nSi par exemple il tire au hasard S' = 7 parmi [1,15], il transmettra alors au professeur e_B(7) = 28. Le professeur d\u00e9codera alors : S' = 28^(43) mod 77 = 7, puis M = 7^(3) mod 15 = 13 qui n\u2019est clairement pas un message valide.\nIl est \u00e9vident que dans le cadre trivial de cet exercice, trouver par hasard un message valide dont le S' soit aussi valide est facile. Ceci est d\u00fb \u00e0 la petitesse des messages et \u00e0 la simplicit\u00e9 des cl\u00e9s. Dans la r\u00e9alit\u00e9, la chance est de 1 sur le nombre de valeurs possibles (n_A \u2212 1) puisque x \u2192 x^(d_A) mod n_A est une bijection de [[1, n_A]] dans lui-m\u00eame. Imaginez le probl\u00e8me r\u00e9el avec des cl\u00e9s de 56, 1024, 2048 bits ou plus... (et les tester toutes est beaucoup trop long et/ou co\u00fbteux \u00e0 stocker : p.ex. 2^(1024) \u2243 10^(308), pour environ 10^(79) atomes dans l\u2019Univers observable, ag\u00e9 d\u2019environ 10^(23) \u03bcs).",
+        "question": "Pour assurer l\u2019authenticit\u00e9 des messages contenant les notes, le professeur demande \u00e0 l\u2019assistant de signer ses messages (toujours en utilisant le syst\u00e8me RSA et toujours de fa\u00e7on confidentielle). Sachant que la cl\u00e9 publique de l\u2019assistant est \u00e0 pr\u00e9sent (3, 15) et celle du professeur (7, 77),\nUn message sign\u00e9 27 a-t-il bien \u00e9t\u00e9 envoy\u00e9 par l\u2019assistant ?",
+        "sol_id": 1862639
+    },
+    {
+        "answer": "X-rays pass through the patient then fall onto special detectors.",
+        "choices": [
+            "X-rays pass through the patient then fall onto special detectors.",
+            "The detectors measure the transmission values or attenuation values.",
+            "Values data are recorded to meet the requirements of the reconstruction process."
+        ],
+        "explanation": "The body being imaged is located between an X-ray source and an X-ray detector. X-rays travel through the body and are absorbed in different amounts by different tissues, which is measured by the detectors. The image is then reconstructed.",
+        "question": "Note: be sure you selected all the possible answers, there may be more than one!",
+        "sol_id": 1624340
+    },
+    {
+        "answer": "Inhibitory connections are local and remain between neighbouring units, whereas excitatory connections have a wide range",
+        "choices": [
+            "All types of connections take place across the whole network ring",
+            "All connections are local between neighbouring units",
+            "Excitatory connections are local and remain between neighbouring units, whereas inhibitory connections have a wide range",
+            "Inhibitory connections are local and remain between neighbouring units, whereas excitatory connections have a wide range"
+        ],
+        "explanation": "Anatomical data show that inhibitory connections are local, whereas excitatory cells have a wide connectivity, and this knowledge was used to build the model.",
+        "question": "How are the mean field units connected to each other in the ring of networks?",
+        "sol_id": 1647879
+    },
+    {
+        "answer": "This is known as {\\epsilonm reservoir sampling}. The algorithm is as follows: \\begin{enumerate} \\item Keep the first $k$ items in memory. \\item When the $i$-th item arrives (for $i>k$) \\begin{itemize} \\item with probability $k/i$, keep the new item and discard a uniformly random item of those that are currently in memory; \\item with probability $1-k/i$, keep the old items and ignore the new one. \\epsilonnd{itemize} \\epsilonnd{enumerate} We will perform an induction on the number of elements $m$ that the maintained set is a uniformly random set of $k$ items from the stream. If $m \\leq k$, the algorithm is clearly correct: this provides the base of the induction.  Let us assume that till some time step $j-1$, the maintained set is a uniformly random subset of the first $j-1$ elements of size $k$. The inductive step is provided by the following argument. Note that the probability that the $j$-th element that arrives in the stream belongs to the set of $k$ uniformly random elements from $1,\\ldots, j$ sampled without replacement is exactly $$ {j-1 \\choose k-1}/{j\\choose k}=\\frac{(j-1)!}{(k-1-(j-1))! (k-1)!}\\cdot \\frac{(k-j)! k!}{j!}=\\frac{k}{j}. $$ If $j$ is included, then it suffices to add to $\\{j\\}$ a uniformly random subset of the first $j-1$ elements of size $k-1$. Taking a uniformly random element out of the maintained set of size $k$ achieves exactly this goal.",
+        "question": "Suppose that you are given an insertion only stream of items. For every $k\\geq 1$, give an algorithm that at each point in the stream maintains $k$ uniformly random elements from the prefix of the stream sampled without replacement. Your algorithm must use $O(k\\log n)$ space.",
+        "sol_id": 1754801
+    },
+    {
+        "answer": "You see a decline in the amplitude of the EPSP",
+        "choices": [
+            "You see an increase in the EPSP",
+            "You see a decline in the amplitude of the EPSP",
+            "You see a growing delay in the response (the EPSPs, are slower than the train of spike)",
+            "You see a stable EPSP"
+        ],
+        "explanation": "When a layer 5 pyramidal neuron connects to another layer 5 pyramidal neuron upon a train of spikes in the first neuron, the second neuron will react with a decrease in the amplitude of the EPSPs. This is a phenomenon known has synaptic depression. (1min in the video)",
+        "question": "A layer 5 pyramidal neuron X is connected to a layer 5 pyramidal neuron Y. What happens to the EPSP if you stimulate a neuron to produce a train of spikes?",
+        "sol_id": 2097826
+    },
+    {
+        "answer": "Most cells respond about 30% of the time to their preferred stimulus",
+        "choices": [
+            "Most cells respond with a high consistency to their preferred stimulus",
+            "Most cells respond about 30% of the time to their preferred stimulus",
+            "Some cells respond with a high consistency to their preferred stimulus",
+            "All cells respond about 30% of the time to their preferred stimulus"
+        ],
+        "explanation": "Even though some cells always respond to their preferred stimulus, most cells do so only for 20 to 40% of the trials, maybe due to the awake state of the test animals influencing their responses.",
+        "question": "What can be said about the variability of the responses of a cell?",
+        "sol_id": 1770357
+    },
+    {
+        "answer": "\\(Q\\approx 0.25  \\)",
+        "choices": [
+            "\\(Q\\approx 0.05  \\)",
+            "\\(Q\\approx 0.11  \\)",
+            "\\(Q\\approx 0.19  \\)",
+            "\\(Q\\approx 0.25  \\)"
+        ],
+        "explanation": "Note that from exercise 6.2a), we know that \\(P_{DT} \\gg P_{DD}  \\). This illustrates how much harder it is to reach a high \\(Q\\) if one uses only deuterium instead of a deuterium-tritium mix.",
+        "question": "How large is the physics  fusion gain \\( Q \\) of our \"small\" tokamak?",
+        "sol_id": 2141784
+    },
+    {
+        "answer": "[7*10^-5,8*10^-5) ExplanationThe calculation is analogous to 1.1 a)The result is:\\( \\lambda_D=7.434 \\cdot 10^{-5} m  \\)\\( \\omega_p=5.642 \\cdot 10^{11} rad/s \\)\\( N_D=4.1\\cdot 10^7  \\)",
+        "explanation": null,
+        "question": "Evaluate now \\( \\lambda_D \\), \\( \\omega_p \\), and \\( N_D \\) for a magnetic fusion plasma with   \\( n_e \\approx 10^{20} \\ \\textrm{m}^{-3} \\) and  \\( T_e \\approx 10^{4} \\ \\textrm{eV} \\).",
+        "sol_id": 1449194
+    },
+    {
+        "answer": "We have a variable $x_1$ for moitie moitie, a variable $x_2$ for a la tomate, and a variable $x_3$ for Raclette. The linear program becomes \\begin{align*} \\text{Minimize}  \\quad  &50 x_1 + 75 x_2 + 60 x_3\\\\ \\text{Subject to} \\quad &35 x_1  +  0.5 x_2 + 0. 5x_3  \\geq 0.5 \\\\ &60 x_1  +  300 x_2 + 0. 5x_3  \\geq 15 \\\\ &30 x_1 + 20x_2  + 70 x_3 \\geq 4 \\\\ & x_1, x_2, x_3\\geq 0 \\end{align*}",
+        "question": "You have just started your prestigious and important job as the Swiss Cheese Minister. As it turns out, different fondues and raclettes have different nutritional values and different prices: \\begin{center} \\begin{tabular}{|l|l|l|l||l|} \\hline Food & Fondue moitie moitie & Fondue a la tomate & Raclette & Requirement per week \\\\ \\hline Vitamin A [mg/kg] & 35 & 0.5 & 0.5 & 0.5 mg   \\\\ Vitamin B [mg/kg] & 60 & 300 & 0.5 & 15 mg   \\\\ Vitamin C [mg/kg] & 30 & 20 & 70 & 4 mg   \\\\ \\hline [price [CHF/kg] & 50 & 75 & 60 & --- \\\\ \\hline \\end{tabular} \\end{center} Formulate the problem of finding the cheapest combination of the different fondues (moitie moitie \\& a la tomate) and Raclette so as to satisfy the weekly nutritional requirement  as a  linear program.",
+        "sol_id": 1619455
+    },
+    {
+        "answer": "Attenuation",
+        "choices": [
+            "Bad CNR",
+            "Inefficient detection of X-rays",
+            "Attenuation",
+            "High cost of exam"
+        ],
+        "explanation": "Attenuation is due to X-ray absorption in tissue; it is the loss of detection of true coincidence events because of their absorption in the body or due to their scattering out of the detector field of view. In other words, gamma rays can be absorbed within the object or scattered outside the field of view; gamma rays emitted from deep within the object have a greater chance of being absorbed. Image noise, image artifacts, and image distortion are increased due to this loss of counts. If attenuation is not considered, the reconstructed image appears dark in the interior of the object.",
+        "question": "What is one of the major problem encountered with Emission Tomography?",
+        "sol_id": 1968091
+    },
+    {
+        "answer": "Plate 18a, image d",
+        "choices": [
+            "Plate 18a, image d",
+            "Plate 18a, image h",
+            "Plate 18b, image i",
+            "Plate 18b, image m"
+        ],
+        "explanation": null,
+        "question": "Go to www.emouseatlas.org. In the \u201cAnatomy and histology\u201d tab, choose \u201ceHistology atlas\u201d and look at slices of embryos at E9. On which images from plate 18 (a/b) can you see the neural tube three times?",
+        "sol_id": 2447951
+    },
+    {
+        "answer": "unsupervised ",
+        "question": " Is Principal Component Analysis a supervised or unsupervised method?",
+        "sol_id": 2040613
+    },
+    {
+        "answer": "They can be implemented using gradient approximation via a finite difference formula as shown in the lecture slides. The rest of the options are incorrect since (1) gradient access is not needed, (2) adversarial examples are transferrable between similar models, and (3) they can be implemented via gradient-free optimization methods such as random search.",
+        "choices": [
+            "They require access to the gradients of the model being attacked. ",
+            "They are highly specific and cannot be transferred from a model which is similar to the one being attacked.",
+            "They cannot be implemented via gradient-free (e.g., grid search or random search) optimization methods.",
+            "They can be implemented using gradient approximation via a finite difference formula."
+        ],
+        "question": "Which statement about \textit{black-box} adversarial attacks is true:",
+        "sol_id": 2817072
+    },
+    {
+        "answer": "{Voir ici:\\begin{center}\\url{https://www.youtube.com/watch?v=pSbafxDHdgE&ab_channel=MITOpenCourseWare}\\end{center}}",
+        "choices": null,
+        "explanation": null,
+        "question": "Calculer une d\u00e9composition en valeurs singuli\u00e8res de\\[ A=\\begin{pmatrix}5&5\\\\-1&7\\end{pmatrix}\\]",
+        "sol_id": 2167522
+    },
+    {
+        "answer": "\u2022 accuracy / error rate / 'overall performance': number of correct/incorrect over total number ; adv: simple ; drawback: too simple, does not take unbalancing of classes into account\n\u2022 Precision (for one class): number of correctly classified emails over number of emails classified in that class by the system ; Ignores false negatives ; can be biaised by classifying only very few highly trusted emails\n\u2022 Recall / true positive rate: number of correctly classified emails over number of emails classified in that class by experts (in the referential) ; Ignores false positives ; Can be biaised by classifying all documents in the most important class\n\u2022 Area under ROC Curve ; Plot true positive rate vs false positive rates ; not easy to compute ;\n\u2022 F score: Harmonic mean of precision and recall; balances P and R ; too simple: unary score for complex situation \u2022 false positive rate",
+        "question": "You have been hired to evaluate an email monitoring system aimed at detecting potential security issues. The targeted goal of the application is to decide whether a given email should be further reviewed or not. Give four standard measures usually considered for the evaluation of such a system? Explain their meaning. Briefly discuss their advantages/drawbacks.",
+        "sol_id": 2892282
+    },
+    {
+        "answer": "...is trapped within the cell and undergoes no further metabolism.",
+        "choices": [
+            "...is involved in the formation of pyruvate under aerobic conditions.",
+            "...is trapped within the cell and undergoes no further metabolism."
+        ],
+        "explanation": "Once FDG is phosphorylated, in a process called \"metabolic trapping\", structural changes prevent FDG from being catabolized or transported back into the extracellular space. That is the reason why an accumulation of FDG is observable within abnormally metabolizing tumor cells.",
+        "question": "When FDG is inside the cytoplasm, it undergoes phosphorylation to form FDG-6-P. This FDG-6-P then...",
+        "sol_id": 2365323
+    },
+    {
+        "answer": "7",
+        "choices": [
+            "2",
+            "3",
+            "5",
+            "7"
+        ],
+        "explanation": null,
+        "question": "How many lines are there in the 1H spectrum of CHD3?",
+        "sol_id": 1418089
+    },
+    {
+        "answer": "Functional specialization and functional integration",
+        "choices": [
+            "Functional specialization and functional integration",
+            "Functional specialization and anatomical organization",
+            "Functional integration and anatomical organization",
+            "Anatomical organization and neuronal classification"
+        ],
+        "explanation": "The two main organizational principles based on brain functionality are functional specialization (i.e., brain areas are specialized for specific functions) and functional integration (i.e., different networks are recruited for different functions). Anatomical organization and neuronal classification are not based on functionality.",
+        "question": "What are the two core ways to think about how brain function may be organized?",
+        "sol_id": 2653905
+    },
+    {
+        "answer": " The schedule of statically scheduled HLS is known at\n                    compile time, while with dynamically scheduled HLS,\n                    dependences are encoded in the dataflow graph and resolved at\n                    runtime.",
+        "question": "What are the differences between statically scheduled HLS and dynamically scheduled HLS?\n                    ",
+        "sol_id": 1830064
+    },
+    {
+        "answer": "with 6-20 atoms nearby",
+        "choices": [
+            "with 6-20 atoms nearby",
+            "with 100-200 atoms nearby",
+            "with more than 1000 atoms nearby",
+            "with more than 1000 atoms nearby or far away."
+        ],
+        "explanation": null,
+        "question": "In a typical crystal in nature, each atom interacts",
+        "sol_id": 2165530
+    },
+    {
+        "answer": "Decreased contrast resolution",
+        "choices": [
+            "Increased contrast resolution",
+            "Decreased contrast resolution",
+            "Improved image quality"
+        ],
+        "explanation": "In an image with low noise, we can see more low-contrast lesions. As the image noise increases, fewer and fewer low-contrast objects are visible.",
+        "question": "What is the effect of increased image noise?",
+        "sol_id": 1872393
+    },
+    {
+        "answer": " Quand la glace fond, son entropie augmente de:\n \begin{equation}\n\\Delta S_{glace}  = \frac{Q}{T} = \frac{m \times \\Delta h_{fus}}{T} = \frac{30\times 330}{273}  = 36.3~\text{J.K}^{-1}\n\\end{equation} ",
+        "question": "Un cube de glace ($m=30$~g) at $0^{\\circ}$~C est laiss\u00e9 sur la table de la cuisine, o\u00f9 il \n     fond graduellement. La temp\u00e9rature dans la cuisine est de $25^{\\circ}$~C.\n     Calculez le changement d'entropie du cube de glace, $\\Delta S_{glace}$, quand il fond \u00e0 $0^{\\circ}$~C pour former de l'eau, sans consid\u00e9rer le terme associ\u00e9 \u00e0 un \u00e9ventuel changement de volume. \n     Donn\u00e9es: \n     Masse volumique de l'eau : $m_{V,e} = 1000$~Kg.m$^{-3}$\n     Masse volumique de la glace : $m_{V,g} = 0.91$~g/cm$^3$\n     Enthalpie de fusion de la glace (aussi appel\u00e9e chaleur latente de fusion) : $\\Delta h_{fus} = 330~\text{J.g}^{-1}$\n     Chaleur latente de vaporisation de l'eau \u00e0 0$^\\circ$C : $L_{vap} = 2 500$~kJ/kg\n     Capacit\u00e9 thermique massique de l'eau liquide : $c_{p} = 4.2 \u0007pprox J.K^{-1}.g^{-1}$\n     Dimension du cube : 3.2 cm par c\u00f4t\u00e9\n     ",
+        "sol_id": 1838132
+    },
+    {
+        "answer": "\\(-t(t-2)(t+3)\\).",
+        "choices": [
+            "\\(-t(t-2)(t+3)\\).",
+            "\\(-(t+1)(t-2)(t+3)\\).",
+            "\\(t(2-t)(-t-3)\\).",
+            "\\(t(t+2)(t+3)\\)."
+        ],
+        "explanation": "Soit \\(P=[T]_{\\mathcal{B}\\mathcal{B}}\\) et \\(p(t)\\) le polyn\u00f4me caract\u00e9ristique de \\(T\\). On a \\(p(t)=\\det(P-tI)\\). Ainsi\n\\begin{eqnarray*}\np(t) & = & \\det(P-tI)\\\\\n& = & \\det\n\\begin{pmatrix}\n1-t & 1& 2\\\\\n2 & -t& 4\\\\\n-1 & 1& -2-t\\\\\n\\end{pmatrix} \\\\\n& = & (1-t)((-t)(-2-t)-4)-(2(-2-t)+4)+2(2-t)\\\\\n& = & (1-t)(t^2+2t-4)-(-2t)+(4-2t)\\\\\n&= & (-t^3-t^2+6t-4)+2t+(4-2t)\\\\\n& =& (-t^3-t^2+6t)\\\\\n& = & -t(t^2+t-6)\\\\\n& = & -t(t-2)(t+3).\n\\end{eqnarray*}",
+        "question": "Soit \\(T: \\mathbb{R}^3 \\to \\mathbb{R}^3\\) une application lin\u00e9aire d\u00e9finie par \\(T((x,y,z))=\n  (x+y+2z,2x+4z,-x+y-2z).\\)",
+        "sol_id": 2133695
+    },
+    {
+        "answer": "IR: find document based on lexical cohesion wrt query words.\nautomatic summarization: check coherence of extracted sentences\nsemantic disamguation of possibles choices in spelling error correction (e.g. bag or bug for\n'bxg')\nWSD\nMachine translation (semantic filter)",
+        "question": "The objective of this question is to illustrate the use of a lexical semantics resource to compute\nlexical cohesion.\nConsider the following toy ontology providing a semantic structuring for a (small) set of nouns:\n<ontology>\n    <node text='all'>\n        <children>\n            <node text='animate entities'>\n                <children>\n                    <node text='human beings'>\n                        <children>\n                            <node text='man'></node>\n                            <node text='woman'></node>\n                            <node text='child'></node>\n                        </children>\n                    </node>\n                    <node text='animals'>\n                        <children>\n                            <node text='cat'></node>\n                            <node text='dog'></node>\n                            <node text='mouse'></node>\n                        </children>\n                    </node>\n                </children>\n            </node>\n            <node text='non animate entities'>\n                <children>\n                    <node text='abstract entities'>\n                        <children>\n                            <node text='freedom'></node>\n                            <node text='happiness'></node>\n                        </children>\n                    </node>\n                    <node text='concrete entities'>\n                        <children>\n                            <node text='table'></node>\n                            <node text='pen'></node>\n                            <node text='mouse'></node>\n                        </children>\n                    </node>\n                </children>\n            </node>\n        </children>\n    </node>\n</ontology>\n\nGive some examples of NLP tasks for which lexical cohesion might be useful. Explain why.",
+        "sol_id": 2037868
+    },
+    {
+        "answer": "{Apr\u00e8s plusieurs op\u00e9rations \u00e9l\u00e9mentaires, on transforme \\((A\\,|\\,I_3)\\) en\\[ \\left(\\begin{array}{ccc|ccc}1&0&0&0&1&0\\\\0&1&0&1&-1&0\\\\0&0&\\lambda&-2&1&1\\\\\\end{array}\\right)\\]La matrice \u00e0 gauche est ligne-\u00e9quivalente \u00e0 la matrice identit\u00e9 \\(I_3\\) si etseulement si \\(\\lambda\\neq 0\\). Donc\\(A\\) est inversible si et seulement si \\(\\lambda\\neq 0\\), et dans ce cas soninverse est donn\u00e9 par \\[A^{-1}=\\begin{pmatrix} 0&1&0\\\\ 1&-1&0\\\\ -2/\\lambda&1/\\lambda&1/\\lambda \\end{pmatrix}{0}{1}{0}{1}{-1}{0}{-2/\\lambda}{1/\\lambda}{1/\\lambda}\\]Pour la seconde, on proc\u00e8de de m\u00eame, et on montre que \\(B\\) est inversible si etseulement si \\(\\lambda\\neq 1/2\\), et que dans ce cas\\[ B^{-1}=\\frac{1}{5(1-2\\lambda)}\\begin{pmatrix} 5-7\\lambda&1-\\lambda&-\\lambda\\\\ 3\\lambda&1-\\lambda&-\\lambda\\\\ -15&-5&5 \\end{pmatrix}{5-7\\lambda}{1-\\lambda}{-\\lambda}{3\\lambda}{1-\\lambda}{-\\lambda}{-15}{-5}{5}\\]Pour la troisi\u00e8me, \\(C\\) est inversible si et seulement si \\(\\lambda\\neq 0\\), etson inverse est donn\u00e9 par \\(C^{-1}=\\frac{1}{\\lambda}I_n\\).}",
+        "choices": null,
+        "explanation": null,
+        "question": "\u00c0 l'aide de l'algorithme de Gauss-Jordan, d\u00e9terminer l'ensemble des valeurs du param\u00e8tre \\(\\lambda\\in \\mathbb{R}\\)pour lesquelles les matrices suivantes sont inversibles. Ensuite, donnerl'inverse de la matrice consid\u00e9r\u00e9e pour ces valeurs de \\(\\lambda\\).\\[A=\\begin{pmatrix} 1&1&0\\\\ 1&0&0\\\\ 1&2&\\lambda \\end{pmatrix}{1}{1}{0}{1}{0}{0}{1}{2}{\\lambda}\\,,\\qquadB=\\begin{pmatrix} 1&-1&0\\\\ 0&5&\\lambda\\\\ 3&2&1-\\lambda \\end{pmatrix}{1}{-1}{0}{0}{5}{\\lambda}{3}{2}{1-\\lambda}\\,,\\qquadC=\\lambda I_n\\,.\\]",
+        "sol_id": 2798625
+    },
+    {
+        "answer": "All of the above",
+        "choices": [
+            "Such large datasets cannot be analyzed without statistical methods",
+            "Biologists need to adopt a computational approach",
+            "Algorithm and model need to be developed in order able to extract useful information from the data",
+            "All of the above"
+        ],
+        "explanation": null,
+        "question": "What is the main challenge associated with the data produced by next-generation sequencing methods?",
+        "sol_id": 1730438
+    },
+    {
+        "answer": "\\(\\mbox{m}_{\\mbox{g}}(\\lambda)=1,\\)  \\(\\mbox{m}_{\\mbox{a}}(\\lambda)=3.\\)",
+        "choices": [
+            "\\(\\mbox{m}_{\\mbox{g}}(\\lambda)= \\mbox{m}_{\\mbox{a}}(\\lambda)=1.\\)",
+            "\\(\\mbox{m}_{\\mbox{g}}(\\lambda)=1,\\)  \\(\\mbox{m}_{\\mbox{a}}(\\lambda)=2.\\)",
+            "\\(\\mbox{m}_{\\mbox{g}}(\\lambda)= \\mbox{m}_{\\mbox{a}}(\\lambda)=2.\\)",
+            "\\(\\mbox{m}_{\\mbox{g}}(\\lambda)=1,\\)  \\(\\mbox{m}_{\\mbox{a}}(\\lambda)=3.\\)",
+            "\\(\\mbox{m}_{\\mbox{g}}(\\lambda)=2,\\)  \\(\\mbox{m}_{\\mbox{a}}(\\lambda)=3.\\)",
+            "\\(\\mbox{m}_{\\mbox{g}}(\\lambda)= \\mbox{m}_{\\mbox{a}}(\\lambda)=3.\\)"
+        ],
+        "explanation": null,
+        "question": "Soit \\(\\phi:\\mathbb{P}_2(\\mathbb{R})\\to \\mathbb{P}_2(\\mathbb{R})\\) la transformation lin\u00e9aire donn\u00e9e par \\(\\phi(p(t))=p(t)+p'(t)+p''(t).\\) On a vu dans un quiz pr\u00e9c\u00e9dent que \\(\\phi\\) n'admettait qu'une seule valeur propre: \\(\\lambda=1.\\) Dans ce qui suit, nous d\u00e9signerons par \\(\\mbox{m}_{\\mbox{a}}(\\lambda)\\) la  multiplicit\u00e9 alg\u00e9brique de \\(\\lambda\\) et par \\(\\mbox{m}_{\\mbox{g}}(\\lambda)\\)  la multiplicit\u00e9 g\u00e9om\u00e9trique de \\(\\lambda.\\) Parmi les possibilit\u00e9s suivantes, cochez celle qui vous para\u00eet correcte.",
+        "sol_id": 1205329
+    },
+    {
+        "answer": "def naive_bayes_classifier(tf_dict, query, topics_probs):     \"\"\" Naive Bayes classification     :param tf_dict: A dictionary, with keys the topics/labels and values a dictionary of word frequencies       :param query: Query vector     :param topics_probs: Probaility distribution of each topic/label (dict)     :return: A dictionary containing the log probability estimation for each topic     \"\"\"      log_probabilities = {t:0 for t in tf_dict}     for topic in tf_dict:         prob = 0         for word in query:             if word in tf_dict[topic]:                  pw = (tf_dict[topic][word] + 1) / (sum([tf_dict[t][word] for t in tf_dict]) + 1)                 prob += math.log(pw)          prob += math.log(topics_probs[topic])         log_probabilities[topic] = prob      return log_probabilities",
+        "choices": [
+            ""
+        ],
+        "explanation": "",
+        "question": "Compute the Naive Bayes estimation for a given query",
+        "sol_id": 1399738
+    },
+    {
+        "answer": "Gyromagnetic ratio",
+        "choices": [
+            "Gyromagnetic ratio",
+            "The surrounding spins of other molecules",
+            "Magnetic field",
+            "The temperature",
+            "The angular momentum of the nucleus"
+        ],
+        "explanation": "The magnetic moment of individual spin in induction field Bo depends on the gyromagnetic ratio and the angular momentum of the nucleus: \\( \\mu = \\gamma\\cdot P \\)",
+        "question": "The magnetic moment of individual spin in induction field \\(B_0\\) depends on:",
+        "sol_id": 2476507
+    },
+    {
+        "answer": [
+            "\\(\\)"
+        ],
+        "choices": [
+            "\\(\\)"
+        ],
+        "question": "Parmi les identit\u00e9s suivantes, lesquelles sont correctes?",
+        "sol_id": 1664882
+    },
+    {
+        "answer": "All of the above",
+        "choices": [
+            "The genome",
+            "The epigenome",
+            "The transcriptome",
+            "All of the above"
+        ],
+        "explanation": null,
+        "question": "Which of the following can be used to find biomarkers to identify cell types?",
+        "sol_id": 2012769
+    },
+    {
+        "answer": "Differences are due to two subproducts:\n\nOn one hand:\n\n$$\nP(X \\mid \\mathrm{WPS}) \\cdot P(\\text { first } \\mid X) \\cdot P(Y \\mid X) \\cdot P(\\text { adult } \\mid Y) \\cdot P(\\mathrm{NN} \\mid Y)\n$$\n\nfor $X$ either 'JJ' or 'RB' and $Y$ either 'JJ' of 'NN', and on the other hand:\n\n$$\nP(X \\mid \\mathrm{RB}) \\cdot P(\\text { developed } \\mid X) \\cdot P(Y \\mid X) \\cdot P(\\text { programs } \\mid Y)\n$$\n\nfor $X$ either 'VBD' or 'VBN' and $Y$ either 'NNS' of 'VBZ',\n\nNOTICE:\n\n\\begin{enumerate}\n  \\item do not forget emision probabilities\n\n  \\item do not forget the right hand part of each tag, e.g for 'adult', not only $P(N N \\mid R B)$ (for instance), but also $P(N N \\mid N N)$ for the transition to 'tooth'.\n\n\\end{enumerate}",
+        "question": "We aim at tagging English texts with 'Part-of-Speech' (PoS) tags. For this, we consider using the following model (partial picture):\n\n...some picture...\n\nExplanation of (some) tags:\n\n\\begin{center}\n\\begin{tabular}{l|l|l|l}\nTag & English expl. & Expl. fran\u00e7aise & Example(s) \\\\\n\\hline\nJJ & Adjective & adjectif & yellow \\\\\nNN & Noun, Singular & nom commun singulier & cat \\\\\nNNS & Noun, Plural & nom commun pluriel & cats \\\\\nPRP\\$ & Possessive Pronoun & pronom possessif & my, one's \\\\\nRB & Adverb & adverbe & never, quickly \\\\\nVBD & Verb, Past Tense & verbe au pass\u00e9 & ate \\\\\nVBN & Verb, Past Participle & participe pass\u00e9 & eaten \\\\\nVBZ & Verb, Present 3P Sing & verbe au pr\u00e9sent, 3e pers. sing. & eats \\\\\nWP\\$ & Possessive wh- & pronom relatif (poss.) & whose \\\\\n\\end{tabular}\n\\end{center}\n\nWe use the following (part of) lexicon:\n\n\\begin{center}\n\\begin{tabular}{l|ll|l}\nadult & JJ & has & VBZ \\\\\nadult & $\\mathrm{NN}$ & just & RB \\\\\ndaughter & $\\mathrm{NN}$ & my & PRP\\$ \\\\\ndeveloped & VBD & programs & NNS \\\\\ndeveloped & VBN & programs & VBZ \\\\\nfirst & $\\mathrm{JJ}$ & tooth & $\\mathrm{NN}$ \\\\\nfirst & $\\mathrm{RB}$ & whose & WP\\$ \\\\\n\\end{tabular}\n\\end{center}\n\nand consider the following sentence:\n\nmy daughter whose first adult tooth has just developed programs\n\nWhat (formal) parameters make the difference in the choice of these different PoS taggings (for the above model)?\nGive the explicit mathematical formulas of these parts that are different.",
+        "sol_id": 1188846
+    },
+    {
+        "answer": "\\(\\bigg(\\dfrac{\\kappa}{4\\Omega}\\bigg)^2\\)",
+        "choices": [
+            "\\(\\bigg(\\dfrac{\\kappa}{4\\Omega}\\bigg)^2\\)",
+            "\\(\\dfrac{\\kappa}{4\\Omega}\\)",
+            "\\(\\dfrac{4g^2}{\\kappa\\Gamma}\\)",
+            "\\( \\dfrac{4 g}{\\kappa}\\)"
+        ],
+        "explanation": null,
+        "question": "Consider the case that the mechanical oscillator is coupled to the cavity bath. The laser is pumped red detuned from the cavity resonance by the mechanical frequency. What is the minimum phonon number in the resolved sideband limit (\\(\\Omega_m \u226b \\kappa\\))?",
+        "sol_id": 1067916
+    },
+    {
+        "answer": "l\u2019antig\u00e8ne peptidique et la mol\u00e9cule MHC qui le porte",
+        "choices": [
+            "l\u2019antig\u00e8ne peptidique soluble",
+            "l\u2019antig\u00e8ne peptidique ancr\u00e9 sur une membrane",
+            "l\u2019antig\u00e8ne peptidique et la mol\u00e9cule MHC qui le porte",
+            "la mol\u00e9cule MHC portant l\u2019antig\u00e8ne"
+        ],
+        "explanation": null,
+        "question": "Lors de la reconnaissance d\u2019un antig\u00e8ne, un TCR se lie \u00e0 :",
+        "sol_id": 1709016
+    },
+    {
+        "answer": 10,
+        "choices": [
+            "(a), (c),  (f)",
+            "(a),  (b), (c), (d), (f)",
+            "(a),  (b), (c), (f)",
+            "(a),  (b), (e)",
+            "(a), (c), (d), (f)",
+            "(a),  (b), (c), (d), (e)",
+            "(a), (c), (d), (e)",
+            "(a),  (f)",
+            "(a),  (b), (c), (e)",
+            "(a),  (b), (f)",
+            "(a), (c),  (e)",
+            "(a),  (e)"
+        ],
+        "question": "Let $E$ be a finite ground set and let $\\mathcal{I}$ be a family of ground sets. Which of the following definitions of $\\mathcal{I}$ guarantees that $M = (E, \\mathcal{I})$ is a matroid? \\begin{enumerate} \\item $E$ is the edges of an undirected bipartite graph and $\\mathcal{I} = \\{X \\subseteq E : \\mbox{$X$ is an acyclic edge set}\\}$. \\item $E$ is the edges of an undirected graph and $\\mathcal{I} = \\{X \\subseteq E : \\mbox{$X$ is an acyclic edge set}\\}$. \\item $E$ is the edges of an undirected bipartite graph and $\\mathcal{I} = \\{X \\subseteq E : \\mbox{$X$ is a matching}\\}$. \\item $E$ is the edges of an undirected  graph and $\\mathcal{I} = \\{X \\subseteq E : \\mbox{$X$ is a matching}\\}$. \\item $E = \\{1, 2, \\ldots, n\\}$ is the set of indices of  vectors $v_1, \\ldots, v_n \\in \\mathbb{R}^d$ and \\\\$\\mathcal{I} = \\{X \\subseteq E : \\mbox{the vectors $\\{v_i : i \\in X\\}$ are linearly \\emph{dependent}}\\}$. \\item $E = \\{1, 2, \\ldots, n\\}$ is the set of indices of  vectors $v_1, \\ldots, v_n \\in \\mathbb{R}^d$ and \\\\$\\mathcal{I} = \\{X \\subseteq E : \\mbox{the vectors $\\{v_i : i \\in X\\}$ are linearly \\emph{independent}}\\}$. \\end{enumerate} The definitions of $\\mathcal{I}$ that guarantees that $M = (E, \\mathcal{I})$ is a matroid are:",
+        "sol_id": 1291168
+    },
+    {
+        "answer": "About 95%",
+        "choices": [
+            "About 5%",
+            "About 20%",
+            "About 30%",
+            "About 95%"
+        ],
+        "explanation": null,
+        "question": "What is the approximate percentage of supernova remnants that emit in the radio domain?",
+        "sol_id": 1030949
+    },
+    {
+        "answer": "Il n'est pas possible d'avoir \\(\\|v\\|=0\\).",
+        "choices": [
+            "Il est possible que \\(\\|v\\|=0\\).",
+            "Il n'est pas possible d'avoir \\(\\|v\\|=0\\), sauf dans le cas o\u00f9 \\(\\lambda=0\\).",
+            "Il n'est pas possible d'avoir \\(\\|v\\|=0\\)."
+        ],
+        "explanation": null,
+        "question": "Soit \\(V\\) un espace euclidien, muni du produit scalaire \\(\\langle~,~\\rangle\\) et de la norme correspondante \\(\\|~\\|\\) et \\(T:V\\to V\\) une application lin\u00e9aire.",
+        "sol_id": 1299623
+    },
+    {
+        "answer": "Using those principles is a stochastic way of reconstructing a random connectome",
+        "choices": [
+            "Using those principles is a stochastic way of reconstructing a random connectome",
+            "Using those principles leads to an accurate reproduction of the connectome",
+            "Entropy measurements show that applying the constraints reduce the uncertainty only marginally",
+            "Entropy measurements show that applying the constraints reduce the uncertainty more than 100-fold"
+        ],
+        "explanation": "Although the principles applied strongly constrain the system and reduces the uncertainty of the connectivity pattern, it is still a stochastic process that allows to generate only a random connectome.",
+        "question": "Which of the following assumptions concerning the connectome generated based on the three previous principles are true?",
+        "sol_id": 2311987
+    },
+    {
+        "answer": "The depolarisation of the action potential opens voltage-gated calcium channels",
+        "choices": [
+            "Voltage-gated sodium channels are also permeable to calcium",
+            "The membrane potential change causes release of calcium from intracellular calcium stores",
+            "The depolarisation of the action potential opens voltage-gated calcium channels",
+            "Through activation of the sodium-calcium exchanger"
+        ],
+        "explanation": "There is a high concentration of voltage-gated calcium channels in the presynaptic bouton. As the membrane potential depolarises beyond ~-40 mV, voltage-gated calcium channels become activated. The influx of calcium through those channels increases the calcium concentration in the immediate vicinity of the synaptic vesicles, thus driving vesicle fusion.",
+        "question": "How does an action potential evoke a rise in cytosolic calcium concentration in a presynaptic bouton?",
+        "sol_id": 1820267
+    },
+    {
+        "answer": "It comes from various sources, organisms and types of experiments, and needs to be classified according to several criteria",
+        "choices": [
+            "It was generated using standardized methods and is thus easily organized",
+            "It comes from various sources, organisms and types of experiments, and needs to be classified according to several criteria",
+            "It can be visualized using brain atlases",
+            "New data can be added only if it was generated using specific methods"
+        ],
+        "explanation": "The data used in Blue Brain and similar projects using data-driven modeling comes from a variety of sources and organisms. Specific tools are needed in order to store it, classify it, search it and visualize it.",
+        "question": "Which of the following assertions concerning the data used for the modeling are true?",
+        "sol_id": 1488633
+    },
+    {
+        "answer": "[mathjaxinline]k_B T-\\alpha \\left\\langle x v \\right\\rangle[/mathjaxinline]",
+        "choices": [
+            "[mathjaxinline]k_B T-\\alpha \\left\\langle x v \\right\\rangle[/mathjaxinline]",
+            "[mathjaxinline]2 k_B T-\\alpha \\left\\langle v \\right\\rangle[/mathjaxinline]",
+            "[mathjaxinline]\\frac{1}{2} k_B T-\\alpha \\left\\langle x v \\right\\rangle[/mathjaxinline]",
+            "[mathjaxinline]k_B T-\\alpha \\left\\langle v^2 \\right\\rangle[/mathjaxinline]"
+        ],
+        "explanation": "Taking the ensemble average of the equation in question (a) [mathjaxinline]\nm \\frac{d}{d t}\\langle x v\\rangle=\\left\\langle m v^{2}\\right\\rangle-\\alpha\\langle x v\\rangle[/mathjaxinline]\nIf we consider the long-time limit, when the system goes toward a stationary solution, we can identify this to thermal equilibrium. The equipartition theorem then states that [mathjaxinline]\\left\\langle m v^{2}\\right\\rangle=k_{B} T[/mathjaxinline]",
+        "question": "(c) Assuming that the position and the random Langevin force are statistically independent, i.e. [mathjaxinline]\\left\\langle F_{L}(t) x(t)\\right\\rangle=\\left\\langle F_{L}(t)\\right\\rangle\\langle x(t)\\rangle[/mathjaxinline]. For long times [mathjaxinline]t \\gg m / \\alpha,[/mathjaxinline] we assume that the system will reach thermodynamic equilibrium.",
+        "sol_id": 2984772
+    },
+    {
+        "answer": "16",
+        "choices": [
+            "6",
+            "10",
+            "12",
+            "16"
+        ],
+        "question": "Dans la base hexad\u00e9cimale, de combien de symboles a-t-on besoin pour \u00e9crire les nombres ?",
+        "explanation": "hexa-d\u00e9cimal veut dire 16. On peut compter en n\u2019importe quelle base (sauf 0 et 1), y\n    compris dans des bases plus grandes que 10.",
+        "sol_id": 2517410
+    },
+    {
+        "answer": " No. Dependences need to be statically determined at compile time to build the execution schedule. If there is no way to determine that two accesses are independent, the compiler needs to schedule them conservatively assuming a (possible) dependence.",
+        "question": "Would VLIW processors benefit from a Load Store Queue?",
+        "sol_id": 1806760
+    },
+    {
+        "answer": "All of the above",
+        "choices": [
+            "Because the number of neurons in the models has increased",
+            "Because the number of synapses in the models has increased",
+            "Because the models are more detailed",
+            "All of the above"
+        ],
+        "explanation": null,
+        "question": "Why are models getting larger and larger with time?",
+        "sol_id": 1800313
+    },
+    {
+        "answer": " En utilisant la premi\u00e8re loi, on obtient $\\Delta U = Q + W = 0 + 2 \\mathrm{J} = 2 \\ \\mathrm{J}$.",
+        "question": "Un cylindre ferm\u00e9 contient un litre d'air \u00e0 temp\u00e9rature ambiante ($300$ K) et \u00e0 pression atmosph\u00e9rique ($10^{5} \\  \\mathrm{N}/\\mathrm{m}^{2}$). \n\u00c0 une extr\u00e9mit\u00e9 du cylindre se trouve un piston sans masse, dont la surface est de $0.01 \\ \\mathrm{m}^{2}$. \nSupposons que vous enfonciez le piston tr\u00e8s brusquement, en tapant violemment avec un marteau, exer\u00e7ant une force de 2000~N. \nLe piston ne peux se d\u00e9placer que d'un millim\u00e8tre avant d'\u00eatre bloqu\u00e9 par une but\u00e9e. \nEn supposant que toute l'\u00e9nergie fournie est transmise au gaz (donc pas au piston, ni aux parois du cylindre), de combien augmente l'\u00e9nergie interne du gaz ?",
+        "sol_id": 2664583
+    },
+    {
+        "answer": "{Matrice augment\\'ee: $\\left[\\begin{array}{cccc}1 & -3 & 0 &5\\\\-1 & 1 & 5 & 2\\\\0 & 1 & 1 & 0\\end{array}\\right]$,\\\\Forme \\'echelonn\\'ee r\\'eduite: $\\left[\\begin{array}{cccc}1 & 0 & 0 & 2\\\\0 & 1 & 0 & -1\\\\0 & 0 & 1 & 1\\end{array}\\right]$, Solution: $x_{1}=2$, $x_{2}=-1$, $x_{3}=1$.}",
+        "choices": null,
+        "explanation": null,
+        "question": "\\begin{itemize}\\item [(i)] \\'Ecrire les matrices augment\\'ees correspondant aux syst\\`emes lin\\'eaires suivants.\\item [(ii)] R\\'esoudre ces syst\\`emes lin\\'eaires en utilisant des op\\'erations \\'el\\'ementaires sur les lignes de ces matrices augment\\'ees.\\end{itemize}$\\left\\{\\begin{array}{rrrrrrr}x_{1} & - & 3x_{2} &  &  & = & 5\\\\5x_{3} & - & x_{1} & + & x_{2} & = & 2\\\\x_{2} & + & x_{3} &  &  & = & 0\\end{array}\\right.$",
+        "sol_id": 1281212
+    },
+    {
+        "answer": "In the same manner, $D(n) = D(n/2) + \\Theta(n)$$D(n) = D(n/2) + \\Theta(n)$ which is $\\Theta(n)$$\\Theta(n)$.",
+        "question": "Consider the following contains function defined on Iterable (in particular, it accepts both Vector and List).  def contains[A](l: Iterable[A], elem: A): Boolean =   val n = l.size   if n <= 5 then     for i <- l do       if i == elem then         return true     false   else     val (p0, p1) = parallel(       contains(l.take(n / 2), elem),       contains(l.drop(n / 2), elem)     )   p0 || p1 Let $n$$n$ be the size of l. Assume that drop and take run in $\\Theta(1)$$\\Theta(1)$ on Vector and $\\Theta(n)$$\\Theta(n)$ on List. What is the asymptotic depth of contains if it is called on a List?",
+        "sol_id": 1670224
+    },
+    {
+        "answer": "{%Ici de m\u00eame, les colonnes de la matrice $A$ sont lin\u00e9airement ind\u00e9pendantes,donc d\u00e9composer $A$ selon $A=QR$ et r\u00e9soudre $R\\vec{x}=Q^T\\vec{b}$ est\u00e9quivalent \u00e0 r\u00e9soudre l'\u00e9quation normale.  La d\\'ecomposition a \u00e9galement \u00e9t\u00e9calcul\u00e9e \u00e0 l'exercice 4 (question a)) et est donn\u00e9e par$$Q = \\left(\\begin{array}{cc} 2/3 &  -1/3 \\\\  2/3 &  2/3 \\\\  1/3 &  -2/3 \\\\\\end{array} \\right),\\qquad R= \\left(\\begin{array}{cc}3 &  5 \\\\  0 &  1 \\\\  \\end{array}\\right).$$On trouve$Q^T \\vec b = \\left(\\begin{array}{c}1/3 \\\\-2/3\\end{array}\\right)$,$\\vec x = \\left(\\begin{array}{c}11/9 \\\\-2/3\\end{array}\\right)$.}",
+        "choices": null,
+        "explanation": null,
+        "question": "D\\'eterminer la solution au sens des moindres carr\\'es de $A \\vec x=\\vec b$en utilisant la m\\'ethode QR pour$A = \\left(\\begin{array}{cc}2 & 3 \\\\2 & 4 \\\\1 & 1\\end{array}\\right)$,$\\vec b = \\left(\\begin{array}{c}0 \\\\0 \\\\1\\end{array}\\right)$.",
+        "sol_id": 2360467
+    },
+    {
+        "answer": "Le rapport de deux grandeurs extensives est une grandeur intensive. On peut citer comme exemple la densit\u00e9, qui est le rapport d'une masse sur un volume.\n     La masse molaire est \u00e9galement d\u00e9finie comme le rapport de deux grandeurs extensives, \u00e0 savoir la masse et le nombre de moles. ",
+        "question": "Le rapport de deux grandeurs extensives est-il extensif ou intensif? Trouvez des exemples pour illustrer votre r\u00e9ponse. ",
+        "sol_id": 1957269
+    },
+    {
+        "answer": " hyperparameters (H) ",
+        "question": " Classify the following quantity as parameters (P) or hyperparameters (H) of a learning algorithm: \n          The number of clusters in clustering.",
+        "sol_id": 2474271
+    },
+    {
+        "answer": "They are non-proliferative",
+        "choices": [
+            "They can be found in the ventricular zone of the neural tube",
+            "Stem cells and progenitor cells are post-mitotic",
+            "They are non-proliferative",
+            "They are differentiating or differentiated"
+        ],
+        "explanation": null,
+        "question": "Which statements referring to post-mitotic cells are true?",
+        "sol_id": 1668801
+    },
+    {
+        "answer": [
+            "1"
+        ],
+        "question": "Consider we use the set of transformations: insertion, deletion, substitution, and transposition.\u00a0We want to compute the edit distance between words execution and exceuton, i.e. D(execution, exceuton).When computing the above, what is the value you get for D(exec,exce)?Give your answer as a numerical value.\u00a0",
+        "sol_id": 2144158
+    },
+    {
+        "answer": "140500",
+        "choices": [
+            "5600",
+            "140500",
+            "7.35 million",
+            "246 million"
+        ],
+        "explanation": "\\(P=mgc/2\\approx 7.349 kW\\), and each pointer gives 1 mW",
+        "question": "How many 1 mW laser pointers you would need to float a mosquito (\\(m_{mosquito}=5\\, mg\\)) against gravity?",
+        "sol_id": 1485440
+    },
+    {
+        "answer": "By imaging early gene expression, which is related to neuronal activity",
+        "choices": [
+            "By inducing depolarization in cleared bain tissue",
+            "By measuring the Ca2+ concentration in the cells of interest",
+            "By imaging early gene expression, which is related to neuronal activity",
+            "None of the above"
+        ],
+        "explanation": "Using early gene expression (e.g., Arc gene expression), you can label the neurons which have been activated a few hours before the death of the animal.",
+        "question": "How can the functionality be studied post-mortem?",
+        "sol_id": 1052451
+    },
+    {
+        "answer": "On the density of medium.",
+        "choices": [
+            "On the density of medium.",
+            "Only on the cloud's radius.",
+            "Only on the cloud's mass.",
+            "On the temperature, hotter clouds need more time."
+        ],
+        "explanation": null,
+        "question": "On what depends the free-fall time?",
+        "sol_id": 1620320
+    },
+    {
+        "answer": "The simplest ones - by negative interference of two reflected beams of light.\n\nReflection $=0.076 \\%$\nThey are used on most optical elements to minimize the losses (still important to keep them in mind!). Normally, manufacturers of optical elements provide the transmission/reflections spectra (e.g. Thorlabs, Chroma, etc.)\n\nOther way to minimize reflection - Brewster angle (but this is polarization-dependent!",
+        "question": "Shifting the focus to another typical element of optical setups - lenses! Think about their optical characteristics within the geometrical/wave optics framework!\nHow do anti-reflective coatings work? Where are they used? Are there any other ways to minimize reflection?",
+        "sol_id": 1568152
+    },
+    {
+        "answer": "Supervised classification",
+        "choices": [
+            "Supervised regression, prediction",
+            "upervised regression, estimation",
+            "Supervised classification",
+            "Unsupervised clustering",
+            "Unsupervised generative models"
+        ],
+        "question": "Match one of the tools (a)-(e) to the following task: \n          An industrial greenhouse grows tomatoes. It has a reference dataset for what \u201cripe\u201d and \u201cunready\u201d tomatoes look like. The automated video-enabled picking machine is supposed to determine whether the tomatoes in the greenhouse are ready to be picked or not.",
+        "sol_id": 1005611
+    },
+    {
+        "answer": "D, B, E, A, F, C",
+        "explanation": null,
+        "question": ">>In which order do the following steps take place when modeling a microcircuit? (write the letters in alphabetical order and separate them with a coma followed by a blank space, e.g., \u201cA, B, C\u201d).",
+        "sol_id": 1361816
+    },
+    {
+        "answer": "For [mathjaxinline]t<0 \\ ms[/mathjaxinline] the channel is closed because [mathjaxinline]r = 0[/mathjaxinline].",
+        "choices": [
+            "For [mathjaxinline]t<0 \\ ms[/mathjaxinline] the channel is closed because [mathjaxinline]r = 0[/mathjaxinline].",
+            "At [mathjaxinline]t=1 \\ ms[/mathjaxinline], the channel is partially open because [mathjaxinline]r_0\\simeq 1 \\ and \\ \\tau_r \\simeq 1ms[/mathjaxinline] and so [mathjaxinline]r \\simeq 1-e^{-1} \\simeq 0.6[/mathjaxinline].",
+            "At [mathjaxinline]t=3 \\ ms[/mathjaxinline] the channel is closed because [mathjaxinline]s \\simeq 0[/mathjaxinline]",
+            "At [mathjaxinline]t=3 \\ ms[/mathjaxinline] the channel is almost completely open because [mathjaxinline]r \\simeq 1[/mathjaxinline] but [mathjaxinline]s \\simeq 1[/mathjaxinline] due to its long time constant ([mathjaxinline]15 \\ ms[/mathjaxinline]).",
+            "At [mathjaxinline]t=20 \\ ms[/mathjaxinline] the channel is partially closed because [mathjaxinline]20 \\ ms > \\tau_s[/mathjaxinline] and [mathjaxinline]s_0 \\simeq 0.2[/mathjaxinline].",
+            "At [mathjaxinline]t=20 \\ ms[/mathjaxinline] the channel is opened because [mathjaxinline]s \\simeq 1[/mathjaxinline].",
+            "At [mathjaxinline]t=100 \\ ms[/mathjaxinline] the channel is almost completely closed because [mathjaxinline]s \\simeq 0.2[/mathjaxinline]."
+        ],
+        "explanation": null,
+        "question": "2. How does the channel react (in terms of partial or full opening/closing) to a step change in membrane potential? Suppose that for [mathjaxinline]t < 0 [/mathjaxinline], the membrane potential is clamped at a value [mathjaxinline]u_0[/mathjaxinline], and that at [mathjaxinline]t=0[/mathjaxinline] it instantaneously jumps to a value [mathjaxinline]u'=u_2(1-\\delta)[/mathjaxinline] with [mathjaxinline]\\delta \\ll 1[/mathjaxinline]. See the figure above for the values of [mathjaxinline]u_0,u',u_2,[/mathjaxinline] and [mathjaxinline]u_{ion}[/mathjaxinline] where it is maintained for all [mathjaxinline]t \\geq 0[/mathjaxinline].",
+        "sol_id": 2700720
+    },
+    {
+        "answer": "Combien d\u2019heures faut-il pour remplir ces disques de 1 To (= 1012 octets) chacun ? 1 Go/s n\u00e9cessite \u2243 104 secondes pour remplir 10 To ; 104 s\u2243 2h45",
+        "question": "L\u2019acc\u00e9l\u00e9rateur de particules LHC du CERN g\u00e9n\u00e8re 1 Po/s (= 10^(15) octets/s), soit l\u2019\u00e9quivalent de 12 ans de vid\u00e9o en HD par seconde! Il n\u2019y a simplement aucune technologie au monde qui puisse enregistrer toutes ces donn\u00e9es en temps r\u00e9el. M\u00eame en mettant beaucoup de disques en parall\u00e8le, on n\u2019arriverait pas \u00e0 construire une connexion assez rapide pour y enregistrer toutes ces donn\u00e9es en temps r\u00e9el sans en perdre.\nUne batterie de circuits logiques (hardware) analysent ces donn\u00e9es en temps r\u00e9el et les filtrent par un facteur de l\u2019ordre de 1000 avant de les injecter directement dans les m\u00e9moires centrales d\u2019une batterie de processeurs sp\u00e9cialis\u00e9s qui les r\u00e9duisent encore par un facteur de l\u2019ordre de 1000.\nEn arrondissant aux ordres de grandeur, avec un d\u00e9bit de 1 Go/s, combien d\u2019heures faut-il pour remplir 10 disques de 1 To (= 10^(12) octets) chacun ?",
+        "sol_id": 1505348
+    },
+    {
+        "answer": "[7*10^-8, 8*10^-8) ExplanationThe calculation is analogous to 1.1 a)The result is:\\( \\lambda_D=7.434 \\cdot 10^{-8} m  \\)\\( \\omega_p=1.784 \\cdot 10^{13} rad/s \\)\\( N_D=41.1  \\)Even though \\( N_D \\) is still much larger than 1 and the requirements for a plasma are satisfied, collisional effects are expected to be more important than in the solar wind case.",
+        "explanation": null,
+        "question": "Do now the  same as in 1.1 a) for the plasma in a lightning stroke, where   \\( n_e \\approx 10^{23} \\ \\textrm{m}^{-3} \\) and  \\( T_e \\approx 10 \\ \\textrm{eV} \\).",
+        "sol_id": 2660235
+    },
+    {
+        "answer": "(d1) at (1,2)\n(d2) at (2,0)\n(d3) at (1,1)\n(d4) at (2,2)\n(d5) at (4,1)\n(d6) at (4,4)",
+        "question": "You are responsible for a project aiming at providing on-line recommendations to the customers of\na on-line book selling company.\nThe general idea behind this recommendation system is to cluster books according to both customers\nand content similarities, so as to propose books similar to the books already bought by a given\ncustomer. The core of the recommendation system is a clustering algorithm aiming at regrouping\nbooks likely to be appreciate by the same person. This clustering should not only be achieved\nbased on the purchase history of customers, but should also be refined by the content of the books\nthemselves. It's that latter aspect we want to address in this exam question.\n\nConsider the following six 'documents' (toy example):\nd1: 'Because cows are not sorted as they return from the fields to their home pen, cow flows\nare improved.'\nd2: 'He was convinced that if he owned the fountain pen that he'd seen in the shop window for years, he could write fantastic stories with it. That was the kind of pen you cannot forget.'\nd3: 'With this book you will learn how to draw humans, animals (cows, horses, etc.) and flowers with a charcoal pen.'\nd4: 'The cows were kept in pens behind the farm, hidden from the road. That was the typical kind of pen made for cows.'\nd5: 'If Dracula wrote with a fountain pen, this would be the kind of pen he would write with, filled with blood red ink. It was the pen she chose for my punishment, the pen of my torment. What a mean cow!'\nd6: 'What pen for what cow? A red pen for a red cow, a black pen for a black cow, a brown pen for a brown cow, ... Understand?'\n\nand suppose (toy example) that they are indexed only by the two words: pen and cow.\n\nWhat are their vector representations?",
+        "sol_id": 2125522
+    },
+    {
+        "answer": [
+            "\\(\\displaystyle \\int_{-1}^2(g(x)-f(x))\\,dx\\)"
+        ],
+        "choices": [
+            "\\(\\displaystyle \\int_{-2}^1(f(x)-g(x))\\,dx\\)",
+            "\\(\\displaystyle \\int_{-1}^2(f(x)-g(x))\\,dx\\)",
+            "\\(\\displaystyle \\int_{-1}^2(g(x)-f(x))\\,dx\\)",
+            "\\(\\displaystyle \\int_{-2}^1(g(x)-f(x))\\,dx\\)\n\n\\end{multicols}"
+        ],
+        "question": "(MAN 2021)\nSoit \\(R\\) la r\u00e9gion du plan born\u00e9e, d\u00e9limit\u00e9e par les graphes des fonctions\n\\[f(x)=19x^2-9x\\,,\\qquad g(x)=9x^2+x+20\\,.\\] \nAlors l'aire de \\(R\\) est \u00e9gale \u00e0 \n\\begin{multicols}{2}",
+        "sol_id": 2369215
+    },
+    {
+        "answer": "False",
+        "choices": [
+            "True",
+            "False"
+        ],
+        "explanation": "False. Strictly convex functions have a unique global minimum, but this is not the case for convex functions in general.",
+        "question": "(Minima) Convex functions over a convex set have a unique global minimum.",
+        "sol_id": 2464104
+    },
+    {
+        "answer": "{Rappelons qu'\u00e0 la base, le d\u00e9terminant est d\u00e9fini comme une fonction multilin\u00e9aire de sescolonnes: si \\(A=[\\vec{a}_1 \\cdots \\vec{a}_n]\\), alors \\[ \\det(A)=\\varphi_n(\\vec{a}_1,\\cdots,\\vec{a}_n)\\,.\\]Comme \\(\\varphi_n\\) est aussi altern\u00e9e, ceci a comme cons\u00e9quence directe que le d\u00e9terminant est nul si deux des colonnes de\\(A\\) sont \u00e9gales. Puisque \\(\\det(A^T)=\\det(A)\\), ceci implique que sideux lignes sont \u00e9gales, alors le d\u00e9terminant est aussi nul.Consid\u00e9rons ensuite la matrice \\(A'\\), obtenue \u00e0 partir de \\(A\\) en rempla\u00e7ant sa \\(i\\)\u00e8me colonne \\(\\vec{a}_i\\) par \\(\\vec{a}_i+\\lambda \\vec{a}_j\\) (avec \\(j\\neqi\\)). Par la lin\u00e9arit\u00e9 de \\(\\varphi_n\\) en son \\(i\\)\u00e8me vecteur,\\begin{align*} \\det(A')&=\\varphi_n(\\vec{a}_1,\\cdots,\\vec{a}_{i-1},\\vec{a}_i+\\lambda \\vec{a}_j,\\vec{a}_{i+1},\\cdots,\\vec{a}_n)\\\\&=\\underbrace{\\varphi_n(\\vec{a}_1,\\cdots,\\vec{a}_{i-1},\\vec{a}_i,\\vec{a}_{i+1},\\cdots,\\vec{a}_n)}_{=\\det(A)}+\\lambda\\underbrace{\\varphi_n(\\vec{a}_1,\\cdots,\\vec{a}_{i-1},\\vec{a}_j,\\vec{a}_{i+1},\\cdots,\\vec{a}_n)}_{=0\\text{ car colonnes \\(i\\) et \\(j\\)identiques}}\\\\&=\\det(A)\\end{align*}Puisque \\(\\det(A^T)=\\det(A)\\), ceci implique la m\u00eame propri\u00e9t\u00e9 formul\u00e9e sur leslignes.  }",
+        "choices": null,
+        "explanation": null,
+        "question": "Montrer que le d\u00e9terminant d'une matrice\\begin{enumerate}\\item est nul d\u00e8s que deux colonnes (resp.\\ lignes) sont \u00e9gales.\\item ne change pas si on additionne \u00e0 unecolonne (resp.\\ ligne) un multiple d'une autre colonne (resp.\\ ligne). \\end{enumerate} \\emph{Indication:} Utiliser \\(\\varphi_n\\) (cours).",
+        "sol_id": 2958269
+    },
+    {
+        "answer": "The code synchronously downloads images, thus the app will freeze until the download is over.",
+        "choices": null,
+        "explanation": null,
+        "question": "Assume you are working on a mobile application. Users report that your app freezes when they access its image gallery, which shows images in a scrollable grid. This is the (java) function run to display the gallery:\nvoid startImageGallery() {\n    // Download all the user's images from the application server\n    List<Image> images = getImages();\n    // Display the first few images\n    displayImage(images);\n    // Initialize the behavior of the exit button, back button, zoom button, etc.\n    startComponentBehavior();\n}\nIn one sentence, explain why the application is freezing:",
+        "sol_id": 2865862
+    },
+    {
+        "answer": "G consists of syntactic rules.\nG should be complemented with lexical rules with the following format:\nT --> w, where T is a pre-terminal (i.e. a Part-of-Speech tag) and w is a terminal (i.e. a word).",
+        "choices": null,
+        "explanation": null,
+        "question": "Consider the (toy) grammar $G$ consisting of the following rules:\nR1: S --> NP VP\nR2: NP --> NN\nR3: NP --> Det NN\nR4: NN --> N\nR5: NN --> NN NN\nR6: NN --> NN PNP\nR7: PNP --> Prep NP\nR8: VP --> V\nR9: VP --> Adv V\nWhat type of rules does the provided grammar $G$ consist of?\nWhat type of rules should $G$ be complemented with to be exploitable in practice?\nWhat is the format of these missing rules?",
+        "sol_id": 1907266
+    },
+    {
+        "answer": "Since all parts of a detailed model come together to determine extracellular potentials, they help test the validity of how all pieces of the model are interacting",
+        "choices": [
+            "Since all parts of a detailed model come together to determine extracellular potentials, they help test the validity of how all pieces of the model are interacting",
+            "Extracellular potentials depend on synaptic physiology and an thus be used to validate the modeling of synaptic activity",
+            "Extracellular potentials are only calculated with a fully validated model and cannot be used to validate it",
+            "Different types of neuron morphologies will influence extracellular potentials differently, so that a biologically unrealistic network will not be validated by extracellular simulations"
+        ],
+        "explanation": null,
+        "question": "How can extracellular simulations be used for model validation?",
+        "sol_id": 2023104
+    },
+    {
+        "answer": "Morphological data",
+        "choices": [
+            "Morphological data",
+            "Electrophysiological data",
+            "Transcriptomic data",
+            "Proteomics data"
+        ],
+        "explanation": "Currently, only morphological and electrophysiological data are used to build cell type specific connectivity matrices. However, knowledge of cell type-specific transcriptomics might provide useful information to cell type specific connectomes.",
+        "question": "Cell type specific connectivity is represented in matrices. What data is currently used to build a connectivity matrix?",
+        "sol_id": 2788435
+    },
+    {
+        "answer": "Waves of activity will propagate though different areas as the vertical bar move across the screen",
+        "choices": [
+            "Activity will be observed uniquely in the area responding to vertical bars",
+            "Different areas will be activated depending on the color of the vertical bar",
+            "Waves of activity will propagate though different areas as the vertical bar move across the screen",
+            "Different areas will be activated sequentially depending on the position of the vertical bar"
+        ],
+        "explanation": "Each neuron is activated by stimuli present at a specific location of the visual space, creating a coherent map of the visual space in the cortex.",
+        "question": ">>What can be observed in the visual cortex in response to a vertical bar moving on a screen?",
+        "sol_id": 2028168
+    },
+    {
+        "answer": "Solution 2: In each feasible basic solution, there exists at least one feasible direction.",
+        "choices": [
+            "Solution 1: Multiple degenerate basic solutions may correspond to the same vertex of the feasible region.",
+            "Solution 2: In each feasible basic solution, there exists at least one feasible direction.",
+            "Solution 3: Any feasible direction in a feasible basic solution can be writ- ten as a linear combination of the basic directions.",
+            "Solution 4: If the problem contains only equality constraints, the problem is either infeasible, unbounded or has exactly one feasible solution."
+        ],
+        "explanation": null,
+        "question": "For a linear optimization problem, one of the following statements is false. Mark the false statement.",
+        "sol_id": 1192337
+    },
+    {
+        "answer": [
+            "Its time complexity is \\( O(n^3) \\), where\u00a0\\( n \\) is the length of sequence of words to be parsed.",
+            "The Context-Free Grammar used with the CYK algorithm has to be converted into extended Chomsky normal form.",
+            "It not only generates the syntactic interpretations of the sequence to be analyzed but also generates the syntactic interpretations of all the sub-sequences of the sequence to be analyzed."
+        ],
+        "choices": [
+            "It is a top-down chart parsing algorithm.",
+            "Its time complexity is \\( O(n^3) \\), where\u00a0\\( n \\) is the length of sequence of words to be parsed.",
+            "Its time complexity decreases when the grammar is regular.",
+            "The Context-Free Grammar used with the CYK algorithm has to be converted into extended Chomsky normal form.",
+            "It not only generates the syntactic interpretations of the sequence to be analyzed but also generates the syntactic interpretations of all the sub-sequences of the sequence to be analyzed."
+        ],
+        "question": "Select which statements are true about the CYK algorithm.A penalty will be applied for any incorrect answers.",
+        "sol_id": 1974005
+    },
+    {
+        "choices": [
+            "1 Action, 2 Learning, 3 Perception, 4 Sensing, 5 Communication",
+            "1 Learning,  2 Sensing, 3 Perception, 4 Action, 5 Communication",
+            "1 Perception,  2 Communication, 3 Learning, 4 Action, 5 Sensing ",
+            "1 Sensing, 2 Perception, 3 Learning, 4 Communication, 5 Action"
+        ],
+        "qtype": "Choose One",
+        "question": "How to computationally think? Pick the correct order of the 5 pillars seen in class. (One answer)",
+        "answer": [
+            "1 Sensing, 2 Perception, 3 Learning, 4 Communication, 5 Action"
+        ],
+        "sol_id": 1477073
+    },
+    {
+        "answer": "They recorded a late outward current carried by potassium ions",
+        "choices": [
+            "They recorded a late inward current carried by sodium ions",
+            "They recorded a late outward current carried by potassium ions",
+            "They recorded an early inward current carried by potassium ions",
+            "They recorded an early outward current carried by sodium ions",
+            "They recorded a late inward current carried by potassium ions",
+            "They recorded a late outward current carried by sodium ions",
+            "They recorded an early inward current carried by sodium ions",
+            "They recorded an early outward current carried by potassium ions"
+        ],
+        "explanation": null,
+        "question": "What directionality and tempo of the currents (2) did Hodgkin and Huxley record in their voltage clamp experiment? (inward = from outside to inside / outward = from inside to outside)",
+        "sol_id": 1770382
+    },
+    {
+        "answer": "Similar to what we did in exercise 1.5 , we start by looking at the Hamiltonian of our model, collecting all the terms that have an explicit dependence on spin $i$ : $$ \\begin{aligned} \\mathcal{H}_N\\left(S_i ;\\{S\\}_{j \\neq i},\\{h\\}\\right) & =-\\frac{N}{2}\\left(\\sum_{j \\neq i} \\frac{S_j}{N}+\\frac{S_i}{N}\\right)^2-\\sum_{j \\neq i} h_j S_j-h_i S_i \\\\ & =\\text { const }-\\left(\\sum_{\\mathrm{j} \\neq \\mathrm{i}} \\frac{\\mathrm{S}_{\\mathrm{j}}}{\\mathrm{N}}+\\mathrm{h}_{\\mathrm{i}}\\right) \\mathrm{S}_{\\mathrm{i}} \\epsilonnd{aligned} $$ We now look for a mean-field approximation of the associated Boltzmann-Gibbs measure: starting from a fully-connected model, where each spin interacts with all the other spins, we would like to approximate our probability measure with a factorized probability, i.e. (showing only the dependence on the spins): $$ P\\left(\\{S\\}_{i=1}^N\\right) \\approx \\prod_{i=1}^N Q_{M F}\\left(S_i\\right) $$ where each spin feels the external magnetic field $h_i$, plus a mean-field interaction term that approximates the two-body interaction of the RFIM. In this model we can conveniently approximate: $$ \\sum_{j \\neq i} \\frac{S_j}{N}=\\sum_j \\frac{S_j}{N}+O\\left(\\frac{1}{N}\\right) $$ and replace the interaction by an effective field of intensity $\\bar{S}$, equal for all spins. Now our approximate model is fully factorized: $$ Q_{M F}\\left(S_i, h_i, \\bar{S} ; \\beta\\right)=\\frac{e^{\\beta\\left(h_i+\\bar{S}\\right) S_i}}{2 \\cosh \\left(\\beta\\left(h_i+\\bar{S}\\right)\\right)} . $$ Notice that this is exactly what we used for the sequential Glauber dynamics, in the first homework. Now, we know that the Boltzmann-Gibbs measure peaks on the minima of the energy when the temperature is sent to 0 , i.e. when $\\beta \\rightarrow \\infty$. If we take the same limit in our factorized probability distribution, we immediately see that the probability for each spin will become a Kronecker's $\\delta$, depending only on the sign of the local field: $$ Q_{M F}\\left(S_i=S\\right) \\stackrel{\\beta \\rightarrow \\infty}{=} \\delta_{S, \\operatorname{sign}\\left(h_i+\\bar{S}\\right)} . $$ This suggests us a greedy algorithm (i.e., working directly at zero temperature) for descending our discrete energy landscape: align each spin with the corresponding local field, recompute the effective field, and iterate: $$ S_i^{(t+1)}=\\operatorname{sign}\\left(h_i+\\sum_{j=1}^N S_j^{(t)}\\right) $$ In general, greedy optimization algorithms are prone to getting trapped in local minima, but we will see in the following that in this case the algorithm works like a charm.",
+        "question": "State Evolution for the RFIM: Our aim in this exercise is to provide an algorithm for finding the lowest energy configuration, and to analyse its property. 1. Using the variational approach of lecture 1 , section 1.3 or the cavity method of section 1.4, explain why the following iterative algorithm might be a good one for finding the lowest energy in practice: $$ S_i^{t+1}=\\operatorname{sign}\\left(h_i+\\frac{1}{N} \\sum_i S_i^t\\right) $$",
+        "sol_id": 2488522
+    },
+    {
+        "explanation": "Assume that \u221a2 is rational, i.e. \u221a2 = a/b where a,b are coprime (have no common divisors).\nWe square both sides, thus 2 = a^2/b^2 \u2192 a^2 = 2b^2. Therefore, a^2 is even, and using the result of the previous exercise we know that a is even. Since a is even, it has the form a=2k. We substitute this in the previous equation and we have that: (2k)^2 = 2b^2 \u2192 4k2 = 2b^2 \u2192 b^2 = 2k2. Since b^2 = 2k^2, this means that b2 is even \u2192 b is even, which is a contradiction! The contradiction is that we assumed a,b to be coprime, but we concluded that both are even!",
+        "question": "Prove that \u221a2 is irrational.",
+        "answer": "Assume that \u221a2 is rational, i.e. \u221a2 = a/b where a,b are coprime (have no common divisors).\nWe square both sides, thus 2 = a^2/b^2 \u2192 a^2 = 2b^2. Therefore, a^2 is even, and using the result of the previous exercise we know that a is even. Since a is even, it has the form a=2k. We substitute this in the previous equation and we have that: (2k)^2 = 2b^2 \u2192 4k2 = 2b^2 \u2192 b^2 = 2k2. Since b^2 = 2k^2, this means that b2 is even \u2192 b is even, which is a contradiction! The contradiction is that we assumed a,b to be coprime, but we concluded that both are even!",
+        "sol_id": 1766732
+    },
+    {
+        "answer": "Yes: superficial wounds realized on forearms of volunteer patients can be improved in terms of aesthetic recovery using the kINPen plasma source. Short-term plasma stimulation, repeatedly applied for 3 days, corresponds to be the most effective wound treatment.",
+        "choices": [
+            "No: the cellular and molecular processes involved in initiation, maintenance, and completion of epithelialization do not depend on environmental stress caused by plasma exposure. The wound closure follows the same mechanisms as in any control group.",
+            "Yes: superficial wounds realized on forearms of volunteer patients can be improved in terms of aesthetic recovery using the kINPen plasma source. Short-term plasma stimulation, repeatedly applied for 3 days, corresponds to be the most effective wound treatment.",
+            "Yes: superficial wounds realized on forearms of volunteer patients can be improved in terms of aesthetic recovery using the kINPen plasma source. Single long-term plasma stimulation corresponds to be the most effective wound treatment."
+        ],
+        "explanation": "To show the potential of cold plasma on skin epithelialization, an experiment has been performed on superficial wounds present on forearms of volunteer patients. Upon this experiment, the wounds were treated using the kINPen plasma source and considering three different time exposures: 10 s/day upon 3 days, 10 s/day upon 1 day and 30 s/day upon 1 day. It turns out that 10 days later, the short-term plasma stimulation, repeatedly applied for 3 days, looks to be the most effective in terms of aesthetic recovery. Generally, in plasma medicine, it is often necessary to favor several short-term plasma exposures at a single longer exposure.",
+        "question": "Can plasma promote epithelialization: the process enabling the covering of denuded epithelial surface?",
+        "sol_id": 2468813
+    },
+    {
+        "answer": "Linear attenuation coefficient",
+        "choices": [
+            "Linear attenuation coefficient",
+            "Mass absorption coefficient",
+            "Coefficient of scattering",
+            "Mean attenuation ratio"
+        ],
+        "explanation": "It is expressed numerically in units of \\(\\textrm{cm}^{-1}\\) and it represents the fraction of photons removed from a monoenergetic beam per unit thickness of material. The mass attenuation coefficient is a normalisation of the linear attenuation coefficient per unit density of a material.",
+        "question": "How is termed the fraction of attenuated incident photons per unit thickness of a material?",
+        "sol_id": 1320591
+    },
+    {
+        "answer": "Fourier transform",
+        "choices": [
+            "RF pulse converter",
+            "Fourier transform",
+            "Electron precession equations",
+            "Laplace transform"
+        ],
+        "explanation": "Fourier transform uses mathematical functions to extract from the data retrieved by the MRI system ( based on spatial frequencies) a picture based on spatial localization.",
+        "question": "What does an MRI system use to convert mathematical data into a picture?",
+        "sol_id": 1735713
+    },
+    {
+        "answer": "The purpose of morphology is to study of the internal structure and the variability of the words in a language, like verbal conjugations, plurals, nominalization, ...",
+        "question": "Briefly describe the specific objectives of the morphological module in the general perspective of automated Natural Language Processing.",
+        "sol_id": 2958218
+    },
+    {
+        "answer": "None of the above.",
+        "choices": [
+            "... increases as energy increases.",
+            "... is independent of energy.",
+            "... is inversely proportional to the atomic number.",
+            "None of the above."
+        ],
+        "explanation": "The probability of this type of interaction per unit mass decreases when energy increases and is approximately independant of the atomic number \\(Z\\).",
+        "question": "The probability of a Compton interaction per unit mass...",
+        "sol_id": 1309728
+    },
+    {
+        "question": " If several elements are ready in a reservation station, which\n  one do you think should be selected? \textbf{Very briefly} discuss\n  the options. ",
+        "answer": "Functionally, it does not matter. One could pick one at random,\n    execute the longest latency instructions first, or (if there is a\n    way to determine it efficiently) excecute the instructions with\n    more pending dependences first.",
+        "sol_id": 2746589
+    },
+    {
+        "answer": " P(\u0007lpha|\beta, \\{x_k\\}_{k=1}^N) \\propto P( \\{x_k\\}_{k=1}^N | \u0007lpha, \beta) P(\u0007lpha | \beta) = \\prod_{k=1}^N P(x_k | \u0007lpha, \beta)P(\u0007lpha| \beta) ",
+        "question": " A lighthouse is placed close to a straight coastline at a position \u0007lpha along the shore and a \n          distance \beta out to the sea. The distance \beta is known, but the position \u0007lpha is not known.  \n          The lighthouse emits a series of short flashes at random intervals and hence in random directions \n          (uniformly at random over the full angle of 2\\pi). These pulses are intercepted on the coast by photo-detectors that \n          record only the fact that a flash has occurred, but not the angle from which it came. N flashes have been recorded so \n          far at positions x_k , k = 1, ... , N . \n          Goal: From the N observations x = \\{x_k\\}_{k=1}^N estimate the position of the lighthouse \u0007lpha. \n          Use the Bayes formula to express the probability P (\u0007lpha| \beta, x) that \u0007lpha has a given value conditioned on \n          the value of \beta and the N observations x.",
+        "sol_id": 2603154
+    },
+    {
+        "answer": "sp\u00e9cificit\u00e9",
+        "explanation": null,
+        "question": "Quelles caract\u00e9ristiques du syst\u00e8me adaptatif sont d\u00e9finies ci-dessous ?Capacit\u00e9 d\u2019\u00e9liciter des r\u00e9ponses diff\u00e9rentes en r\u00e9ponse \u00e0 des antig\u00e8nes distincts :",
+        "sol_id": 2530776
+    },
+    {
+        "answer": "We solve the problem using \"deferred decision\" technique. First, note that simply one has $$\\sum_{e\\in S}x_e=\\sum_{e\\in S\\setminus T}x_e +\\sum_{e\\in S\\cap T} x_e$$ and $$\\sum_{e\\in T}x_e=\\sum_{e\\in T\\setminus S}x_e +\\sum_{e\\in T\\cap S} x_e.$$ So, we have $$\\Pr\\left[\\sum_{e\\in S}x_e=\\sum_{e\\in T}x_e\\mid S\\ne T\\right]=\\Pr\\left[\\sum_{e\\in S\\setminus T}x_e=\\sum_{e\\in T\\setminus S}x_e\\mid S\\ne T\\right].$$ Note that since $S\\ne T$, then $(S\\setminus T)\\cup (T\\setminus S)\\ne \\emptyset$, and therefore $\\exists f \\in (S\\setminus T)\\cup (T\\setminus S)$. Without lose of generality suppose that $f\\in (S\\setminus T)$. Then, $$Pr\\left[\\sum_{e\\in S\\setminus T}x_e=\\sum_{e\\in T\\setminus S}x_e\\mid S\\ne T\\right]=Pr\\left[ x_f=\\sum_{e\\in T\\setminus S}x_e-\\sum_{e\\in (S\\setminus T)\\setminus \\{f\\}}x_e\\mid S\\ne T\\right].$$ At this point, assume that we know that values of $x_e$'s for all $e\\in E\\setminus \\{f\\}$, so $c:=\\sum_{e\\in T\\setminus S}x_e-\\sum_{e\\in (S\\setminus T)\\setminus \\{f\\}}x_e$ is fixed. We just need to note that $\\Pr\\left[x_f=c |S\\ne T\\right]=\\Pr\\left[x_f=c \\right]\\le \\frac{2}{3}$ for any $c\\in \\mathbb{R}$ by assumption of the question (line 1 of \\textsc{Random-Check($S,T$)}). So, the claim holds.",
+        "question": "Consider the following algorithm \\textsc{Random-Check} that takes as input two subsets $S\\subseteq E$ and $T\\subseteq E$ of the same ground set $E$. \\begin{center} \\begin{boxedminipage}[t]{0.85\\textwidth} \\textsc{Random-Check}$(S,T)$ \\\\[2mm] 1.  For each element $e\\in E$, independently of other elements randomly set \\begin{align*} x_e = \\begin{cases} 1 & \\mbox{with probability $1/3$} \\\\ 0 & \\mbox{with probability $2/3$} \\end{cases} \\end{align*} 2. \\IF $\\sum_{e\\in S} x_e = \\sum_{e\\in T} x_e$ \\THEN \\\\[1mm] 3. \\qquad \\RETURN  true \\\\[1mm] 4. \\ELSE\\\\ 5. \\qquad \\RETURN false \\end{boxedminipage} \\end{center} Note that \\textsc{Random-Check}$(S,T)$ returns true with probability $1$ if $S=T$. Your task is to analyze the probability that the algorithm returns true if $S \\neq T$. Specifically prove that \\textsc{Random-Check}$(S,T)$ returns true with probability at most $2/3$ if $S\\neq T$.\\\\ {\\em (In this problem you are asked to prove that \\textsc{Random-Check}($S,T$) returns true with probability at most $2/3$ if $S \\neq T$.    Recall that you are allowed to refer to material covered in the lecture notes.)}",
+        "sol_id": 2437211
+    },
+    {
+        "answer": "Equation (13) is only valid for positive energy because it\u2019s derived under the assumption that $q \rightarrow 1$ as $T \rightarrow 0$. This means that the energy is positive for $\\alpha>\\alpha_C$, where $\\alpha_C=2$. On the other hand if for a certain $\\alpha$ the energy is zero, for all smaller $\\alpha$ it\u2019s going to stay zero. We thus have a phase transition of the second order.",
+        "question": "Consider a collection of $N$ couples of patterns and label $\\left\\{\\mathbf{x}^\\mu, y^\\mu\right\\}, \\mu=1, \\ldots, N$ with the patterns $\\mathbf{x}^\\mu \\in$ $\\mathbb{R}^D$, and the labels $y^\\mu \\in\\{-1,1\\}$. We consider the random case $\\mathbf{x}^\\mu \\sim \\mathcal{N}\\left(0, \\mathbb{1}_{D \times D}\right), y^\\mu \\sim \\operatorname{Unif}(\\{-1,1\\})$, so that the patterns $\\mathbf{x}^\\mu$ are Gaussian vectors with zero mean and unit covariance, and the label $y^\\mu$ are -1 or 1 with equal probability.\nNow suppose you are given a function $\\sigma(\\mathbf{x})$ depending on parameters $\\boldsymbol{\\omega} \\in \\mathbb{R}^D$ as\n$$\n\\sigma(\\mathbf{x})=\\operatorname{sign}(\\boldsymbol{\\omega} \\cdot \\mathbf{x})\n$$\nWe fix $\\|\\boldsymbol{\\omega}\\|^2=D$ without loss of generality. We want the above function to be able to reproduce the label for each pattern. In other words, we are looking for a special $\\boldsymbol{\\omega}$ such that $y^\\mu=\\sigma\\left(\\mathbf{x}^\\mu\right)$ for all $\\mu=1, \\ldots, N$. We call such a vector $\\boldsymbol{\\omega}$ a solution. Sketch the dependency of $e_{\\mathrm{av}}^{\\min }(\\alpha)$ as a function of $\\alpha$. What is the critical value $\\alpha_c$?",
+        "sol_id": 2945470
+    },
+    {
+        "answer": "Solution:\\[x = \\sqrt{\\dfrac{\\hbar}{2 m \\omega_m}}\\]",
+        "explanation": null,
+        "question": "Consider a harmonic oscillator in the ground state, verifying equal variance in the position \\(x\\) and the momentum \\(p\\), as dictated by the Heisenberg uncertainty relation. Find the standard deviation of \\(x\\) (in meters), which corresponds to the zero-point motion of a harmonic oscillator in its ground state, in terms of its mass \\(m\\) and its angular frequency \\(\\omega_m\\).",
+        "sol_id": 2610154
+    },
+    {
+        "answer": "Parfois oui, parfois non.",
+        "choices": [
+            "Oui, toujours.",
+            "Parfois oui, parfois non.",
+            "Non, jamais."
+        ],
+        "explanation": null,
+        "question": "Soient \\(A,B\\in M_{n\\times n}\\) deux matrices semblables. Alors \\(A\\) et \\(B\\) sont lignes-\u00e9quivalentes.",
+        "sol_id": 2779843
+    },
+    {
+        "answer": "needs a similarity measure",
+        "choices": [
+            "needs a similarity measure",
+            "needs a distance measure",
+            "needs a method to find the maximum or the minimum."
+        ],
+        "explanation": null,
+        "question": "Classification by closest prototype",
+        "sol_id": 1516351
+    },
+    {
+        "answer": [
+            "(({a}*{b})/(1000*1000))+((1000-{a})*(1000-{b}))/(1000*1000)"
+        ],
+        "question": "In the above, what is the chance agreement between the two annotators?Give your answer\u00a0as a numerical value\u00a0to three decimal places.",
+        "sol_id": 1442097
+    },
+    {
+        "answer": "avalanche photodiode",
+        "choices": [
+            "quadrant photodiode",
+            "CMOS camera",
+            "EMCCD camera",
+            "avalanche photodiode"
+        ],
+        "question": "What IS NOT a suitable detection method for OT?",
+        "sol_id": 1155361
+    },
+    {
+        "answer": "Returns the sum of all elements in the input list",
+        "question": "Given the following function sums:\n1 def add(c: Int, acc: List[(Int, Int)]): List[(Int, Int)] = acc match\n2 case Nil => List((c, 1))\n3 case x :: xs => if x._1 == c then (c, x._2+1) :: xs else x :: add(c, xs)\n4\n5 def sums(digits: List[Int]): List[(Int, Int)] =\n6 digits.foldRight(List[(Int, Int)]())(add)\nYour task is to identify several operations on lists of digits:\nWhat does the following operation implement, for a given input list of digits?\n1 def mystery3(digits: List[Int]): Int = sums(digits) match\n2 case Nil => 0\n3 case t => t.reduceLeft((a, b) => (a._1 * a._2 + b._1 * b._2, 1))._1",
+        "sol_id": 1357589
+    },
+    {
+        "answer": "r\u00e9cursif",
+        "choices": [
+            "r\u00e9cursif",
+            "autochtone",
+            "auto-r\u00e9f\u00e9rent",
+            "it\u00e9ratif"
+        ],
+        "question": "Un algorithme qui contient un appel \u00e0 lui-m\u00eame est dit...",
+        "explanation": "",
+        "sol_id": 1966428
+    },
+    {
+        "answer": "The neuropil is very densely packed",
+        "choices": [
+            "The human brain is large",
+            "The neuropil is very densely packed",
+            "There are many different cell types",
+            "There are more cortical layers than in other species"
+        ],
+        "explanation": "Robust single cell profiling requires preparations where all cells are completely dissociated from each other. Adult human brain tissue has densely packed neuropil and glia, and it is more difficult to dissociate intact neurons than brain tissue from younger human specimens and rodent brain.",
+        "question": "Why is the dissociation of single cells a challenge when handling human brain tissue?",
+        "sol_id": 1932594
+    },
+    {
+        "answer": " Let's consider a uniform distribution over the angle \theta_k, i.e. P(\theta_k|\u0007lpha, \beta) = (1 / \\pi). \n          Expressing the position x_k as a function of the angle \theta_k: x_k = \beta tan \theta_k + \u0007lpha. Then \n          P(x_k|\u0007lpha, \beta ) = \\int \frac{1}{\\pi} \\delta (x_k - [\beta tan \theta_k + \u0007lpha]) d\theta_k. \n          Let D = \beta tan \theta_k + \u0007lpha , dD = \beta(tan^2 \theta_k + 1)d\theta_k = \beta ((\frac{D-\u0007lpha}{\beta})^2 + 1)d\theta_k, \n           P(x_k | \u0007lpha, \beta) = \frac{1}{\\pi} \\int \frac{\\delta(x_k - D)}{\beta((\frac{D-\u0007lpha}{\beta})+ 1)}dD = \frac{1}{\\pi}\frac{1}{\beta((\frac{x_k-\u0007lpha}{\beta})+ 1)} = \frac{\beta}{\\pi [\beta^2 + (x_k - \u0007lpha)^2]}.",
+        "question": " A lighthouse is placed close to a straight coastline at a position \u0007lpha along the shore and a \n          distance \beta out to the sea. The distance \beta is known, but the position \u0007lpha is not known.  \n          The lighthouse emits a series of short flashes at random intervals and hence in random directions \n          (uniformly at random over the full angle of 2\\pi). These pulses are intercepted on the coast by photo-detectors that \n          record only the fact that a flash has occurred, but not the angle from which it came. N flashes have been recorded so \n          far at positions x_k , k = 1, ... , N . \n          Goal: From the N observations x = \\{x_k\\}_{k=1}^N estimate the position of the lighthouse \u0007lpha. \n          Prove that the probability P(x_k|\u0007lpha,\beta) of observing a given value x_k conditioned to \u0007lpha, and \u0007beta is given \n          by the Cauchy distribution\n          P(x_k | \u0007lpha, \beta) = \frac{\beta}{\\pi[\beta^2 + (x_k - \u0007lpha)^2]}. \n          Hint: Recall that if one has a random variable A with probability distribution P(A) and one needs to express a probability \n          distribution of a random variable B = f(A), where f is some known function, one can use \\int P(A)\\delta [B-f(A)]dA, \n          where \\delta() is the Dirac delta function. The integral over B can then be computed by substitution f(A) \rightarrow D \n          and using the definition of a Dirac delta that states g(C) = \\int dD\\delta(C-D)g(D) for any test function g.",
+        "sol_id": 2170363
+    },
+    {
+        "answer": "\\[ F = \\frac{d\u039b_{ab}}{dx} * \u0398_a * \u0398_b \\]",
+        "choices": [
+            "\\[ F = \\frac{d\u039b_{ab}}{dx} * \u0398_a * \u0398_b \\]",
+            "\\[ F = \\frac{1}{2} \\frac{d\u039b_a}{dx} * \u0398_a^2 + \\frac{d\u039b_{ab}}{dx} * \u0398_a * \u0398_b \\]",
+            "\\[ F = \\frac{1}{2} \\frac{d\u039b_b}{dx} * \u0398_b^2 \\]",
+            "\\[ F = \\frac{1}{2} \\frac{d\u039b_a}{dx} * \u0398_a^2 + \\frac{1}{2} \\frac{d\u039b_b}{dx} * \u0398_b^2 + \\frac{d\u039b_{ab}}{dx} * \u0398_a * \u0398_b \\]"
+        ],
+        "explanation": null,
+        "question": "Quelle est l'expression de la force pour un syst\u00e8me \u00e9lectrodynamique ? (une seule r\u00e9ponse possible)",
+        "sol_id": 1930824
+    },
+    {
+        "answer": "The resting potential would decrease",
+        "choices": [
+            "The resting potential would be null",
+            "The resting potential would increase",
+            "The resting potential would decrease",
+            "There would be no effect"
+        ],
+        "explanation": null,
+        "question": "What would be the effect on the resting potential of the cell if the sodium concentration outside the axon was divided by 10? (Consider all conductance as positive)",
+        "sol_id": 1737247
+    },
+    {
+        "answer": "Because there is no catalogue of all possible channels",
+        "choices": [
+            "Because they are theoretically correct",
+            "Because they are easier to manipulate for simulations",
+            "Because there is no catalogue of all possible channels"
+        ],
+        "explanation": null,
+        "question": "In the video lecture on ion channels, Prof Markram explains why we build classes of ion channels and not directly the actual individual ion channels. Why is this?",
+        "sol_id": 1306287
+    },
+    {
+        "answer": "While the magnetic field perturbation travels to the right, the magnetic field lines move vertically with a velocity \\(  -c_Al' \\). This equals the vertical velocity of the plasma we have just derived",
+        "choices": [
+            "While the magnetic field perturbation travels to the right, the magnetic field lines move vertically with a velocity \\(  -c_Al' \\). This equals the vertical velocity of the plasma we have just derived",
+            "As we have assumed that \\(B_{1y}  \\) has only a contribution traveling to the right, the same is true for \\(V_{1y}  \\), and the plasma particles therefore perfectly follow the transverse displacment of the  magnetic field lines"
+        ],
+        "explanation": "The vertical movement of the magnetic field lines is given by \\( -c_Al' \\). We can see this for example by noting that the vertical movement of a field lines is given by \\(\\partial l(z-c_At)/\\partial t\\), and this indeed equals \\( (-c_A)l'  \\). As we found that \\(V_{1y}=V_L(z+c_At)+V_R(z-c_At)=0-c_Al'  \\), we have demonstrated that the plasma moves vertically with the same velocity as the magnetic field lines.",
+        "question": "Why can we conclude from  the relation between \\(V_L\\), \\(V_R\\), and \\(l\\) which we have just derived that the plasma particles perfectly follow the perturbations of the magnetic field lines?",
+        "sol_id": 2738452
+    },
+    {
+        "answer": "38042 ",
+        "explanation": null,
+        "question": "Compute the actual time delay in the pulse time arrival between the frequencies \\( f_1 = 1 \\; GHz \\) and \\( f_2 = 1.2 \\; GHz \\) for a pulsar that is \\( 1 \\; kpc \\) far from the observer, given the mean electron density \\( n_e = 0.03 \\; cm^{-3} \\). (Round the result to the closest integer.)",
+        "sol_id": 1935148
+    },
+    {
+        "answer": "along the frequency-encoding axis",
+        "choices": [
+            "along the frequency-encoding axis",
+            "along the phase-encoding axis",
+            "along the slice-selection axis"
+        ],
+        "explanation": "The frequency of proton precession differs between fat and water molecule, therefore the signal appears at a different location along the frequency-encoding axis.",
+        "question": "Comparing fat and water signals in NMR, fat signal is shifted...",
+        "sol_id": 2546886
+    },
+    {
+        "answer": "[mathjaxinline] h_i(t_0) = p_i^3 m^3(t_0) [/mathjaxinline]",
+        "choices": [
+            "[mathjaxinline] h_i(t_0) = \\sum_i^N p_i^3 m^3(t_0) [/mathjaxinline]",
+            "[mathjaxinline] h_i(t_0) = 1 [/mathjaxinline]",
+            "[mathjaxinline] h_i(t_0) = p_i^3 m^3(t_0) [/mathjaxinline]"
+        ],
+        "explanation": null,
+        "question": "As mentioned before, we assume that only pattern 3 has significant overlap with the initial state [mathjaxinline] m^{\\mu\\neq 3}(t) = 0 [/mathjaxinline]. With this in mind, how can the input potential [mathjaxinline] h_i(t_0) [/mathjaxinline] be simplified",
+        "sol_id": 2388044
+    },
+    {
+        "answer": "{Calculons le polyn\u00f4me characteristique de la matrice $A$\\begin{align}\\label{eq:polchar_1} \\det(\\lambda I - A) = \\lambda^2 - \\lambda \\tr A + \\det A = \\lambda^2 - (a+d) \\lambda + (ad - b^2).\\end{align}Le th\u00e9or\u00e8me spectral pour les matrices sym\u00e9triques indique que la matrice $A$ a deux valeurs propres r\u00e9elles $\\lambda_1, \\lambda_2$ (o\u00f9 $\\lambda_1 = \\lambda_2$ est possible). En utilisant $\\lambda_1, \\lambda_2$, le polyn\u00f4me characteristique de $A$ est repr\u00e9sent\u00e9 par\\begin{align}\\label{eq:polchar_2} \\det(\\lambda I - A) = (\\lambda - \\lambda_1) (\\lambda - \\lambda_2) = \\lambda^2 - (\\lambda_1 + \\lambda_2) \\lambda + \\lambda_1 \\lambda_2,\\end{align}donc, en comparant les co\u00e9fficients de~\\eqref{eq:polchar_1} et~\\eqref{eq:polchar_2}, nous d\u00e9duisons\\begin{align*} \\tr A = \\lambda_1 + \\lambda_2, \\qquad \\det A = \\lambda_1 \\lambda_2.\\end{align*}\\begin{enumerate}[a)] \\item $Q$ est d\u00e9finie positive si et seulement si toutes les valeurs propres de $A$ sont strictement positives.  Comme $\\det A = \\lambda_1 \\lambda_2 > 0$, nous observons que ou $\\lambda_1, \\lambda_2 > 0$ ou $\\lambda_1, \\lambda_2 < 0$, donc les valeurs propres sont de m\u00eame signe.  Comme $\\det A = ad -b^2 > 0$ et $a>0$ il est n\u00e9cessaire que $d>0$, donc $0 < a + d = \\tr A = \\lambda_1 + \\lambda_2$.  En fait, \u00e7a permet \u00e0 conclure que $\\lambda_1, \\lambda_2 > 0$. \\item $Q$ est d\u00e9finie n\u00e9gative si et seulement si toutes les valuers propres de $A$ sont strictement n\u00e9gatives.  Comme dans la partie a) nous d\u00e9duisons de $\\det A > 0$ que $\\lambda_1, \\lambda_2$ sont de m\u00eame signe.  Mais par contre, $\\det A = ad - b^2 > 0$ et $a < 0$ implique que $d < 0$ est n\u00e9cessaire. Alors, comme $0 > a + d = \\tr A = \\lambda_1 + \\lambda_2$ on obtient que $\\lambda_1, \\lambda_2 < 0$. \\item $Q$ est ind\u00e9finie si et seulement si $A$ a des valeurs propres n\u00e9gatives et positives.  De $\\lambda_1 \\lambda_2 = \\det A < 0$ nous d\u00e9duisons directement que $\\lambda_1, \\lambda_2$ sont de signes diff\u00e9rents.\\end{enumerate}}",
+        "choices": null,
+        "explanation": null,
+        "question": "Soit $A = \\begin{pmatrix} a & b \\\\ b & d \\end{pmatrix}$ et la forme quadratique $Q(x) = x^T A x.$ Montrez que\\begin{enumerate}[a)] \\item $Q$ est d\u00e9finie positive si $\\det A > 0$ et $a>0$; \\item $Q$ est d\u00e9finie n\u00e9gative si $\\det A > 0$ et $a<0$; \\item $Q$ est ind\u00e9finie si $\\det A < 0$.\\end{enumerate}",
+        "sol_id": 1895904
+    },
+    {
+        "answer": "As increasing strain is applied to the WSe2 bilayer, the phololuminescence peak shifts towards higher energies and increases in intensity, resembling the peak from the monolayer. This indicates that by applying strain, we can shift the bands to have a direct bandgap in WSe2 bilayers.",
+        "question": "MoS2 and WSe2 are transition metal dichalcogenides (TMDs), which belong to the class of 2D materials. This means that they can be separated into atomically thin layers. What type of band gap do you expect in bilayer WSe2 under 1.52% strain?",
+        "sol_id": 2502826
+    },
+    {
+        "answer": "$$\nf\\left(x^*\\right)=\\min _x \\max _\\lambda \\mathcal{L}(\\mathbf{x}, \\lambda) \\geq \\max _\\lambda \\min _{\\mathbf{x} \\in \\mathbb{R}^p} \\mathcal{L}(\\mathbf{x}, \\lambda)=\\max _\\lambda d(\\lambda)=d\\left(\\lambda^{\\star}\\right)\n$$\nwhere the inequality is due to the fact that min max is lower bounded by max min.",
+        "question": "Given the dual function $d(\\lambda):=\\min _{\\mathbf{x} \\in \\mathbb{R}^p} \\mathcal{L}(\\mathbf{x}, \\lambda)$, show that weak duality always holds. (HINT: Recall that weak duality means that $f\\left(\\mathbf{x}^{\\star}\\right) \\geq d\\left(\\lambda^{\\star}\\right)$.)",
+        "sol_id": 2750272
+    },
+    {
+        "answer": "{Soient les coefficients des matrices $A$ et $B$ donn\\'es respectivement par$(a_{ij})_{i,j=1}^n$ et $(b_{ij})_{i,j=1}^n$. Comme $A$ et $B$ sonttriangulaires inf\\'erieures, on a $a_{ij}=0$ si $j>i$ et $b_{ij}=0$ si $j>i$.Supposons $j>i$ et calculons\\[(AB)_{ij} = \\sum_{k=1}^n a_{ik}b_{kj} = \\sum_{k=1}^{i} a_{ik}b_{kj} + \\sum_{k=i+1}^n a_{ik}b_{kj} = 0,\\]car d'une part $b_{kj}=0$ lorsque $1 \\leq k \\leq i < j$, et d'autre part $a_{ik}=0$ lorsque $i < k\\leq n$.Ainsi, $AB$ est triangulaire inf\\'erieure. Le m\u00eame raisonnement s'applique pour les matrices triangulaires sup\u00e9rieures. On traite le cas de matrices \\(A\\) et $B$ triangulaires sup\\'erieures de mani\u00e8re similaire.\\\\Pour les matrices triangulaires sup\u00e9rieures, on peut refaire un calculsemblable. Mais on peut aussi utiliser ce qui vient d'\u00eatre d\u00e9montr\u00e9 en utilisant l'op\u00e9ration de \\emph{transposition}, qui transforme une matrice triangulairesup\u00e9rieure en une matrice triangulaire inf\u00e9rieure, et vice versa. En effet, soient $A$ et $B$ des matrices triangulaires sup\\'erieures.Alors $AB=((AB)^T)^T=(B^TA^T)^T$. Comme $B^TA^T$ est un produit de matricestriangulaires inf\u00e9rieures, c'est une matrice triangulaire inf\u00e9rieure, et donc$AB$ est triangulaire sup\\'erieure.}",
+        "choices": null,
+        "explanation": null,
+        "question": "Soient $A$ et $B$ des matrices $n \\times n$.Montrer les affirmations suivantes.Si $A$ et $B$ sont des matrices triangulaires inf\\'erieures (resp.sup\\'erieures), alors le produit $AB$ est aussi une matrice triangulaireinf\\'erieure (resp. sup\\'erieure).",
+        "sol_id": 2697598
+    },
+    {
+        "answer": "~400-700 nm",
+        "choices": [
+            "~100-400 nm",
+            "~400-700 nm",
+            "~700-1000 nm",
+            "> 1000 nm"
+        ],
+        "question": "What is the wavelength of the visible light?",
+        "sol_id": 1401690
+    },
+    {
+        "answer": "The opening probability",
+        "choices": [
+            "The number of released neurotransmitter vesicles",
+            "The strength of the release site",
+            "The opening probability",
+            "The driving force"
+        ],
+        "explanation": "The opening probability depends on the time after vesicle release and differs between types of synapses.",
+        "question": "Which factor in the equation describing the current going through a synapse has a time-dependent profile?",
+        "sol_id": 1827482
+    },
+    {
+        "answer": "Ceci ne changerait pas la performance de l'algorithme de mani\u00e8re significative.",
+        "choices": [
+            "Ceci am\u00e9liorerait significativement la performance de l'algorithme.",
+            "Ceci ne changerait pas la performance de l'algorithme de mani\u00e8re significative.",
+            "Ceci d\u00e9graderait significativement la performance de l'algorithme."
+        ],
+        "explanation": null,
+        "question": "Comme nous l'avons vu, la recherche par dichotomie acc\u00e9l\u00e8re de fa\u00e7on significative la recherche d'un \u00e9l\u00e9ment dans une liste ordonn\u00e9e, en limitant \u00e0 chaque fois la recherche \u00e0 une des deux moiti\u00e9s de la liste, suite \u00e0 une comparaison effectu\u00e9e entre l'\u00e9l\u00e9ment recherch\u00e9 x et un \u00e9l\u00e9ment situ\u00e9 au milieu de la liste. Si on d\u00e9cidait maintenant de pousser encore plus loin le principe et de diviser \u00e0 chaque fois la liste en trois parties \u00e9gales plut\u00f4t qu'en deux (et en effectuant deux compraisons, l'une entre x et un \u00e9l\u00e9ment situ\u00e9 au tiers de la liste, l'autre entre x et un \u00e9lement situ\u00e9 aux deux tiers de celle-ci), que se passerait-il?",
+        "sol_id": 2934484
+    },
+    {
+        "answer": "Gyromagnetic ratio",
+        "choices": [
+            "Relaxation time \\(T_1\\)",
+            "Relaxation time \\(T_2\\)",
+            "Gyromagnetic ratio",
+            "Precession frequency"
+        ],
+        "explanation": "The value of the gyromagnetic ratio varies by atomic species, but is a physical constant for the proton. What differs between protons in molecules is the frequency of precession, which is due to the molecular electric field. \\(T_1\\) and \\(T_2\\) characteristics are related to molecular rotation speed and differ as well.",
+        "question": "Protons in different molecules differ in all of the following ways except...",
+        "sol_id": 1440146
+    },
+    {
+        "answer": "We assume that we cannot directly compute $\\phi(\\mathbf{x})$. The complexity would be too high. Instead, we will now apply the kernel trick to this problem:",
+        "choices": [],
+        "question": "In this exercise, we will see how to combine the Principal Component Analysis (PCA) and the kernel method into an algorithm known as kernel PCA. We are given $n$ observations in a low dimensional space $\\mathbf{x}_{1}, \\cdots, \\mathbf{x}_{n} \\in \\mathbb{R}^{L}$ and we consider a kernel $k$ and its associated features $\\operatorname{map} \\phi: \\mathbb{R}^{L} \\mapsto \\mathbb{R}^{H}$ which satisfies: $$ k(\\mathbf{x}, \\mathbf{y})=\\langle\\phi(\\mathbf{x}), \\phi(\\mathbf{y})\\rangle_{\\mathbb{R}^{H}} $$ where $\\langle\\cdot, \\cdot\\rangle_{\\mathbb{R}^{H}}$ is the standard scalar product of $\\mathbb{R}^{H}$. We define the empirical covariance matrix and the empirical covariance matrix of the mapped observations as: $$ \\boldsymbol{\\Sigma}:=\\frac{1}{n} \\sum_{i=1}^{n} \\mathbf{x}_{i} \\mathbf{x}_{i}^{\\top} \\quad \\text { and } \\quad \\boldsymbol{\\Sigma}^{\\mathbf{H}}:=\\frac{1}{n} \\sum_{i=1}^{n} \\phi\\left(\\mathbf{x}_{i}\\right) \\phi\\left(\\mathbf{x}_{i}\\right)^{\\top} $$ The kernel matrix $\\mathbf{K}$ is defined by: $$ \\mathbf{K}_{i, j}:=k\\left(\\mathbf{x}_{i}, \\mathbf{x}_{j}\\right)=\\left\\langle\\phi\\left(\\mathbf{x}_{i}\\right), \\phi\\left(\\mathbf{x}_{j}\\right)\\right\\rangle_{\\mathbb{R}^{H}} $$ We also define the data matrix and the corresponding matrix of the mapped data as: $$ \\mathbf{X}:=\\left(\\begin{array}{c} \\mathbf{x}_{1}^{\\top} \\\\ \\cdots \\\\ \\mathbf{x}_{n}^{\\top} \\end{array}\\right) \\in \\mathbb{R}^{n \\times L} \\quad \\text { and } \\quad \\mathbf{\\Phi}:=\\left(\\begin{array}{c} \\phi\\left(\\mathbf{x}_{1}\\right)^{\\top} \\\\ \\cdots \\\\ \\phi\\left(\\mathbf{x}_{n}\\right)^{\\top} \\end{array}\\right) \\in \\mathbb{R}^{n \\times H} . $$ Finally we denote the eigenpairs (eigenvalues and eigenvectors) of $\\boldsymbol{\\Sigma}^{\\mathbf{H}}$ by $\\left\\{\\left(\\lambda_{i}, \\mathbf{v}_{i}\\right)\\right\\}_{i=1}^{H}$ and those of $\\mathbf{K}$ by $\\left\\{\\left(\\rho_{j}, \\mathbf{w}_{j}\\right)\\right\\}_{j=1}^{n}$. We also assume that the vectors $\\mathbf{v}_{i}$ and $\\mathbf{w}_{j}$ are normalized. Thus: $$ \\boldsymbol{\\Sigma}^{\\mathbf{H}} \\mathbf{v}_{i}=\\lambda_{i} \\mathbf{v}_{i}, \\quad\\left\\|\\mathbf{v}_{i}\\right\\|_{2}=1 \\quad \\text { and } \\quad \\mathbf{K} \\mathbf{w}_{j}=\\rho_{j} \\mathbf{w}_{j}, \\quad\\left\\|\\mathbf{w}_{j}\\right\\|_{2}=1 $$ Let us remind that we assume in the kernel setting that we can compute $k(\\mathbf{x}, \\mathbf{y})$ but that we cannot directly compute $\\phi(\\mathbf{x})$ What we would like to do is to first map the data into the high-dimensional space using the features map $\\phi$ and then to apply the standard PCA algorithm in the high-dimensional space $\\mathbb{R}^{H}$. This would amount to: (a) Computing the empirical covariance matrix $\\boldsymbol{\\Sigma}^{\\mathbf{H}}$ of the mapped data $\\phi\\left(\\mathbf{x}_{i}\\right)$. (b) Computing the eigenvectors $\\mathbf{v}_{1}, \\cdots, \\mathbf{v}_{N}$ associated with the $N$ largest eigenvalues of $\\boldsymbol{\\Sigma}^{\\mathbf{H}}$. (c) Computing the projection $\\Pi\\left(\\phi\\left(\\mathbf{x}_{i}\\right)\\right) \\in \\mathbb{R}^{L}$ for each data point onto these eigenvectors, where the $j$-th component of the projection is given by: $$ \\Pi_{j}\\left(\\phi\\left(\\mathbf{x}_{i}\\right)\\right)=\\left\\langle\\phi\\left(\\mathbf{x}_{i}\\right), \\mathbf{v}_{j}\\right\\rangle_{\\mathbb{R}^{H}} $$ Explain why we cannot directly apply the algorithm explained above.",
+        "sol_id": 2739387
+    },
+    {
+        "answer": "\\begin{equation}\n\\left\\langle n^{2}\\right\\rangle=\\left\\langle\\alpha\\left|a^{\\dagger} a a^{\\dagger} a\\right| \\alpha\\right\\rangle=\\left\\langle\\alpha\\left|\\left(a^{\\dagger} a^{\\dagger} a a+a^{\\dagger} a a\\right)\\right| \\alpha\\right\\rangle=|\\alpha|^{4}+|\\alpha|^{2}\n\\end{equation}",
+        "explanation": null,
+        "question": "Calculate the variance in the number of quanta [mathjaxinline]\\left\\langle\\hat{n}^{2}\\right\\rangle-\\langle\\hat{n}\\rangle^{2}[/mathjaxinline]",
+        "sol_id": 1427867
+    },
+    {
+        "answer": "Cell membranes",
+        "choices": [
+            "Glycoproteins",
+            "Cell membranes",
+            "Basic compounds",
+            "DNA and RNA"
+        ],
+        "explanation": "Osmium binds to cell membranes, which gives them high contrast in the electron microscope.",
+        "question": "With conventional electron microscopy, osmium tetroxide is typically used to stain",
+        "sol_id": 1658890
+    },
+    {
+        "answer": [
+            "Si \\(a_n\\lt x_n\\lt  b_n\\) pour tout \\(n\\) suffisamment grand, et si \n\\(a_n\\to L\\) et \\(b_n\\to L\\), alors \\(x_n\\to L\\).",
+            "Si il existe \\(N_1\\) tel que \\(x_n\\geq a_n\\) pour tout \\(n\\geq N_1\\)\net s'il existe \\(N_2\\) tel que \\(x_n\\leq b_n\\) pour tout \\(n\\geq N_2\\), \net si \\(a_n\\) et \\(b_n\\) convergent vers la m\u00eame limite, alors \\(x_n\\) est\nconvergente."
+        ],
+        "choices": [
+            "Si \\(a_n\\leq x_n\\leq  b_n\\) pour tout \\(n\\) suffisamment grand, et si\n\\(x_n\\) ne converge pas, alors \\(a_n\\) et \\(b_n\\) ne convergent pas non plus.",
+            "Si \\(a_n\\lt x_n\\lt  b_n\\) pour tout \\(n\\) suffisamment grand, et si \n\\(a_n\\to L\\) et \\(b_n\\to L\\), alors \\(x_n\\to L\\).",
+            "Si \\(a_n\\leq x_n\\leq  b_n\\) pour tout \\(n\\) suffisamment grand, et si \n\\(|a_n-b_n|\\to 0\\), alors \\(x_n\\) converge.\n",
+            "Si il existe \\(N_1\\) tel que \\(x_n\\geq a_n\\) pour tout \\(n\\geq N_1\\)\net s'il existe \\(N_2\\) tel que \\(x_n\\leq b_n\\) pour tout \\(n\\geq N_2\\), \net si \\(a_n\\) et \\(b_n\\) convergent vers la m\u00eame limite, alors \\(x_n\\) est\nconvergente.",
+            "Si \\(a_n\\leq x_n\\leq b_n\\) pour tout \\(n\\) suffisamment grand, et si\n\\(\\limninfty a_n\\neq \\limninfty b_n\\), alors \\(x_n\\) n'a pas de limite.\n",
+            "Si \\(|x_n|\\leq n\\) et si \\(y_n\\to 0\\), alors \\(x_ny_n\\to 0\\).\n",
+            "Si \\(e^{x_n}\\) est born\u00e9e et si \\(y_n\\to 0\\), alors \\(x_ny_n\\to 0\\).\n"
+        ],
+        "question": "Vrai ou faux?",
+        "sol_id": 2549137
+    },
+    {
+        "answer": "True",
+        "choices": [
+            "True",
+            "False"
+        ],
+        "explanation": "FastText Supervised Classifier consists of two layers - embedding layer and linear classifier. Embedding layer can be thought of as another linear layer if the input is thought of as encoding word frequency.",
+        "question": "(FastText supervised Classifier) The FastText supervised classifier can be modeled as a one-hidden-layer neural network.",
+        "sol_id": 1973639
+    },
+    {
+        "answer": "Are the same",
+        "choices": [
+            "Are the same",
+            "Fasttext has more",
+            "Self-attention has more"
+        ],
+        "explanation": "In both models the only parameters are the parameters used to store (sub)word embeddings, and therefore the number of parameters are the same. So, the correct answer is the first answer.\n ",
+        "question": "The number of parameters of the fasttext classifier and the simple self-attention classifier",
+        "sol_id": 1823224
+    },
+    {
+        "answer": "{Soient \\(A=(a_{ij})\\) et \\(B=(b_{ij})\\) deux matrices\\(n\\times n\\) triangulaires inf\u00e9rieures, c'est-\u00e0-dire telles que \\(a_{ij}=b_{ij}=0\\) si \\(j<i\\).Le coefficient \\(ij\\) du produit \\(AB\\) est donn\u00e9 par\\[ (AB)_{ij}=\\sum_{\\ell=1}^na_{i\\ell}b_{\\ell j}\\,.\\]Comme \\(A\\) et \\(B\\) sont triangulaires sup\u00e9rieures, on a\\(b_{\\ell j}=0\\) pour les \\(\\ell=1,\\dots,j-1\\) et\\(a_{i\\ell}=0\\) pour les \\(\\ell=i+1,\\dots,n\\). Donc, si l'on prend une paire d'indices \\(ij\\) pour laquelle \\(j>i\\), on aura \\(a_{i\\ell}b_{\\ell j}=0\\) pour tout \\(\\ell=1,\\dots,n\\), et donc \\(c_{ij}=0\\). Ceci montre que \\(AB\\) est triangulaire sup\u00e9rieure.\\\\Pour un produit quelconque de matrices triangulaires sup\u00e9rieures \\(A_1,\\dots,A_n\\), on proc\u00e8de par r\u00e9currence: on a montr\u00e9 ci-dessus que \\(A_1A_2\\) est triangulaire sup\u00e9rieure, donc \\(A_1A_2A_3=(A_1A_2)A_3\\) l'est aussi, etc.}",
+        "choices": null,
+        "explanation": null,
+        "question": "Montrer qu'un produit de matrices \\(n\\times n\\) triangulaires inf\u00e9rieures esttriangulaire inf\u00e9rieur. ",
+        "sol_id": 1032811
+    },
+    {
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "question": "In JOS, is page fault handled by a system call?",
+        "answer": [
+            "No"
+        ],
+        "sol_id": 2737048
+    },
+    {
+        "answer": "{\\begin{enumerate}\\item L'\\'equation normale  $A^T A \\vec x = A^T \\vec b$est\\(\\begin{pmatrix} 12&8\\\\ 8&10 \\end{pmatrix}\\vec x=\\begin{pmatrix} 10\\\\10 \\end{pmatrix}\\), eta pour solution\\(\\vec x = \\begin{pmatrix} 5/14\\\\5/7 \\end{pmatrix}\\).\\item \\(\\vec x = \\begin{pmatrix} 1\\\\1 \\end{pmatrix}\\).\\item $A^T A = \\left(\\begin{array}{ccc}3 & 0 & 0 \\\\0 & 3 & 0 \\\\0 & 0 & 3\\end{array}\\right)$,\\(A^T \\vec b = \\begin{pmatrix} 1\\\\14\\\\-5 \\end{pmatrix}\\),\\(\\vec x = \\begin{pmatrix} 1/3\\\\14/3\\\\-5/3 \\end{pmatrix}\\).\\end{enumerate}}",
+        "choices": null,
+        "explanation": null,
+        "question": "D\\'eterminer la solution de $A \\vec x=\\vec b$,au sens des moindres carr\\'es,en utilisant l'\\'equation normale.\\begin{multicols}{2}\\begin{enumerate}\\item\\(A=\\begin{pmatrix} 2&1\\\\ -2&0\\\\ 2&3 \\end{pmatrix}{2}{1}{-2}{0}{2}{3}\\), \\(\\vec{b}=\\begin{pmatrix} 4\\\\1\\\\2 \\end{pmatrix}\\).\\item\\(A=\\begin{pmatrix} 1&3\\\\ 1&-1\\\\ b&pmatrix \\end{pmatrix}{1}{3}{1}{-1}\\), \\(\\vec{b}=\\begin{pmatrix} 5\\\\1\\\\0 \\end{pmatrix}\\).\\item$A = \\left(\\begin{array}{ccc}1 & 1 & 0 \\\\1 & 0 & -1 \\\\0 & 1 & 1 \\\\-1 & 1 & -1\\end{array}\\right)$,\\quad\\(\\vec{b}=\\begin{pmatrix} 2\\\\5\\\\6\\\\6 \\end{pmatrix}\\)\\end{enumerate}\\end{multicols}",
+        "sol_id": 1632845
+    },
+    {
+        "answer": "from sklearn.datasets import load_boston, train_test_split\n             boston = load_boston()\n             X_train, X_test, y_train, y_test = train_test_split(boston.data, boston.target, test_size=0.4, random_state=0)",
+        "question": "Write a code that loads the Boston house prices dataset and split it into a training and testing sets. (use train test split from Scikit-Learn.)",
+        "sol_id": 1180806
+    },
+    {
+        "answer": "Yes, the results of several independent papers have been reproduced in silico",
+        "choices": [
+            "Spontaneous activity as predicted by the model reproduces known biological activity well, but evoked activity cannot be reproduced yet",
+            "No, the model\u2019s predictions did not match published results so the model must be adapted",
+            "The model is not implemented in a way that allows in silico experiments yet",
+            "Yes, the results of several independent papers have been reproduced in silico"
+        ],
+        "explanation": null,
+        "question": ">>Is the model of a neocortical microcircuit able to reproduce independent biological data?",
+        "sol_id": 2653836
+    },
+    {
+        "answer": [
+            "Si \\(f:]a,b[\\to \\bR\\) est telle que \\(f'(x)=0\\) pour pour tout \\(x\\in\n]a,b[\\), alors \\(f(x_1)=f(x_2)\\) pour toute paire \\(x_1,x_2\\in ]a,b[\\)."
+        ],
+        "choices": [
+            "Si \\(f:\\bR\\to \\bR\\) est constante sur chaque intervalle de la forme\n\\([n,n+1[\\) (\\(n\\in \\bZ\\)), \nalors \\(f'(x)=0\\) pour tout \\(x\\in \\bR\\).\n",
+            "Si \\(f\\) est d\u00e9rivable sur un ouvert \\(D\\), et si \\(f'(x)=0\\) pour\ntout \\(x\\in D\\), alors \\(f\\) est une constante.",
+            "Si \\(f:]a,b[\\to \\bR\\) est telle que \\(f'(x)=0\\) pour pour tout \\(x\\in\n]a,b[\\), alors \\(f(x_1)=f(x_2)\\) pour toute paire \\(x_1,x_2\\in ]a,b[\\)."
+        ],
+        "question": "Parmi ces affirmations, lesquelles sont toujours vraies?",
+        "sol_id": 2937788
+    },
+    {
+        "answer": "Its development is one of the first to start in the embryo",
+        "choices": [
+            "It is the first system to be fully developed in the embryo",
+            "Its development is one of the first to start in the embryo",
+            "It is the last system to start its development in the embryo",
+            "Its development continues after birth"
+        ],
+        "explanation": null,
+        "question": "Which of the following statements about the nervous system are true?",
+        "sol_id": 2531237
+    },
+    {
+        "answer": "ExplicationP=3*U*I*cos(phi)Q=3*U*I*sin(phi)S=3*U*IS=sqrt(P^2+Q^2)",
+        "explanation": "S=sqrt(P^2+Q^2)",
+        "question": "Soit un syst\u00e8me triphas\u00e9 sym\u00e9trique. Les valeurs efficaces des tensions et des courants dans les phases de la charge sont: U, I.  Exprimer les realtions suivantes (utiliser \"phi\" pour la phase de la charge):Pour la synthaxe d'un probl\u00e8me de type alg\u00e9brique merci de vous r\u00e9f\u00e9rer au document disponible dans l'onglet \"Course Info\"",
+        "sol_id": 1776325
+    },
+    {
+        "answer": "3.",
+        "choices": [
+            "1. Un cycle mitotique et une seule m\u00e9iose comportent chacun une phase S.",
+            "2. Au cours de la m\u00e9iose, il y a au moins un enjambement (crossover) entre les chromatides non s\u0153urs de deux chromosomes homologues pendant la prophase de la meiose I.",
+            "3. Les chromatides soeurs de chaque chromosome homologue sont s\u00e9par\u00e9es pendant l'anaphase de la m\u00e9iose I.",
+            "4. Le fuseau m\u00e9iotique est d\u00e9sassembl\u00e9 entre la m\u00e9iose I et la m\u00e9iose II.",
+            "5. \u00c0 la fin d'une mitose normale chez la femelle humaine, chaque cellule fille contient un chromosome X actif et un chromosome X inactif."
+        ],
+        "explanation": "",
+        "question": "Les affirmations ci-dessous concernent la m\u00e9iose et la mitose. Veuillez choisir une affirmation qui est fausse dans la liste (1-5) ci-dessous.",
+        "sol_id": 2706171
+    },
+    {
+        "answer": "It was well standardized",
+        "choices": [
+            "It was generated in live animals",
+            "It was well standardized",
+            "It was extracted from the literature",
+            "It covered the whole rat brain"
+        ],
+        "explanation": "The data was generated from brain slices of 14 days old brain slices of the Wistar rat primary somatosensory cortex using standardized methods and reagents.",
+        "question": "What is an important characteristic of the dataset used for the first reconstruction?",
+        "sol_id": 2349183
+    },
+    {
+        "answer": "FAUX",
+        "question": "Par \u00abcolorier une carte\u00bb, on veut dire\n\u00ab colorier tous les pays de cette carte de sorte qu'aucun pays \nn'ait la m\u00eame couleur qu'un de ses voisins (Et par \u00ab voisin \u00bb,\n  on entend \u00ab ayant une fronti\u00e8re commune non ponctuelle \u00bb) \u00bb; et par \u00ab facile de d\u00e9cider \u00bb, on veut dire\nque le probl\u00e8me de d\u00e9cision correspondant est dans la classe P.\nToute carte peut \u00eatre colori\u00e9e avec deux couleurs.\n Vrai ou Faux?",
+        "sol_id": 2904268
+    }
+]
