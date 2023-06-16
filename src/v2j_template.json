@@ -1,0 +1,6 @@
+{
+    "description": "Template used by Vector2Jokes team for MNLP course project.",
+    "prompt_input": "Below is a question along with the available answer choices. Write a response that succinctly answers the question by selecting the correct choice or choices. Provide a reasoning.\n\n### Question:\n{instruction}\n\n### Choices:\n{input}\n\n### Response:\n",
+    "prompt_no_input": "Below is a question. Write a response that succinctly answers the question and provides reasoning.\n\n### Question:\n{instruction}\n\n### Response:\n",
+    "response_split": "### Response:"
+}
