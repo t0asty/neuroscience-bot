@@ -1,13 +1,13 @@
 # Adapted from https://github.com/tloen/alpaca-lora/blob/main/generate.py
 
 base_model = "eachadea/vicuna-7b-1.1"
-lora_weights = "models/v2j-vicgen-alpaca"
+lora_weights = "models/v2j-vicgen-lora"
 load_8bit = False
 temperature = 0.1
 top_p = 0.75
 top_k = 40
 num_beams = 4
-max_new_tokens = 256
+max_new_tokens = 512
 SEED = 42
 
 import sys
@@ -132,12 +132,10 @@ for p in prompts:
         "model_answer": response
     })
 
+    i+=1
+    print(f"Prompt {i}")
     print(response)
     print("".join(["-"*30]))
-
-    i+=1 
-    if i == 30:
-        break
 
 with open("answers_v2j-vectors-to-jokes-llama.json", "w") as f:
     json.dump(answers, f, indent=4)
