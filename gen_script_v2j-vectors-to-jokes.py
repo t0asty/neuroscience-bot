@@ -114,7 +114,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--output_path", 
         type=str, 
-        default="answers_v2j-vectors-to-jokes-llama.json",
+        default="answers_v2j-vectors-to-jokes.json",
         help="Path to the test output file.")
     args = parser.parse_args()
 
