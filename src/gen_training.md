@@ -30,7 +30,7 @@ python finetune.py \
     --output_dir '../models/v2j-vicgen-lora' \
     --batch_size 32 \
     --micro_batch_size 4 \
-    --num_epochs 1 \
+    --num_epochs 5 \
     --learning_rate 3e-4 \
     --cutoff_len 512 \
     --val_set_size 100 \
