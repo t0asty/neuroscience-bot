@@ -22,12 +22,12 @@ Copy the provided src/v2j_template.json to alpaca-lora/templates/v2j_template.js
 cp ../src/v2j_template.json templates/v2j_template.json
 ```
 
-Run LoRA fine-tuning with using the following command. For simplicity, we are using LLaMA 7B weights uploaded to Huggingface (`decapoda-research/llama-7b-hf`). The training is performed on the generative dataset we created. We follow hyperparameters used by LoRA and Alpaca papers. For the prompt, we use created v2j template.
+Run LoRA fine-tuning with using the following command. For simplicity, we are using LLaMA 7B weights uploaded to Huggingface (`eachadea/vicuna-7b-1.1`). The training is performed on the generative dataset we created. We follow hyperparameters used by LoRA and Alpaca papers. For the prompt, we use created v2j template.
 ```
 python finetune.py \
     --base_model 'eachadea/vicuna-7b-1.1' \
     --data_path '../gen_dataset_v2j-vectors-to-jokes.json' \
-    --output_dir '../models/v2j-vicgen-7b' \
+    --output_dir '../models/v2j-vicgen-lora' \
     --batch_size 32 \
     --micro_batch_size 4 \
     --num_epochs 1 \

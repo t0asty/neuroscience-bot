@@ -1,0 +1,99 @@
+/mnt/nlp4sd/vukovic/projectm3/project-m3-v2j-vectors-to-jokes/alpaca-lora
+$ python finetune.py     --base_model 'eachadea/vicuna-7b-1.1'     --data_path '../gen_dataset_v2j-vectors-to-jokes.json'     --output_dir '../models/v2j-vicgen-lora'     --batch_size 32     --micro_batch_size 4     --num_epochs 5     --learning_rate 3e-4     --cutoff_len 512     --val_set_size 100     --prompt_template_name 'v2j_template'     --lora_r 8     --lora_alpha 16     --lora_dropout 0.05     --lora_target_modules '[q_proj,k_proj,v_proj,o_proj]'
+
+===================================BUG REPORT===================================
+Welcome to bitsandbytes. For bug reports, please run
+
+python -m bitsandbytes
+
+ and submit this information together with your error trace to: https://github.com/TimDettmers/bitsandbytes/issues
+================================================================================
+bin /opt/conda/lib/python3.10/site-packages/bitsandbytes/libbitsandbytes_cuda117.so
+/opt/conda/lib/python3.10/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/usr/local/nvidia/lib64'), PosixPath('/usr/local/nvidia/lib')}
+  warn(msg)
+CUDA SETUP: CUDA runtime path found: /opt/conda/lib/libcudart.so.11.0
+CUDA SETUP: Highest compute capability among GPUs detected: 8.0
+CUDA SETUP: Detected CUDA version 117
+CUDA SETUP: Loading binary /opt/conda/lib/python3.10/site-packages/bitsandbytes/libbitsandbytes_cuda117.so...
+Training Alpaca-LoRA model with params:
+base_model: eachadea/vicuna-7b-1.1
+data_path: ../gen_dataset_v2j-vectors-to-jokes.json
+output_dir: ../models/v2j-vicgen-lora
+batch_size: 32
+micro_batch_size: 4
+num_epochs: 5
+learning_rate: 0.0003
+cutoff_len: 512
+val_set_size: 100
+lora_r: 8
+lora_alpha: 16
+lora_dropout: 0.05
+lora_target_modules: ['q_proj', 'k_proj', 'v_proj', 'o_proj']
+train_on_inputs: True
+add_eos_token: False
+group_by_length: False
+wandb_project: 
+wandb_run_name: 
+wandb_watch: 
+wandb_log_model: 
+resume_from_checkpoint: False
+prompt template: v2j_template
+
+The model weights are not tied. Please use the `tie_weights` method before using the `infer_auto_device` function.
+Loading checkpoint shards: 100%|███████████████████████████████████████████████████| 2/2 [00:08<00:00,  4.05s/it]
+/home/9128/.local/lib/python3.10/site-packages/peft/utils/other.py:102: FutureWarning: prepare_model_for_int8_training is deprecated and will be removed in a future version. Use prepare_model_for_kbit_training instead.
+  warnings.warn(
+Found cached dataset json (/home/9128/.cache/huggingface/datasets/json/default-cfa9e2cf3353012b/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51)
+100%|█████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 363.55it/s]
+trainable params: 8,388,608 || all params: 6,746,804,224 || trainable%: 0.12433454005023165
+Loading cached split indices for dataset at /home/9128/.cache/huggingface/datasets/json/default-cfa9e2cf3353012b/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51/cache-cff1584a7b2e8f6e.arrow and /home/9128/.cache/huggingface/datasets/json/default-cfa9e2cf3353012b/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51/cache-1ee3a857bbf7615b.arrow
+  0%|                                                                                    | 0/260 [00:00<?, ?it/s]/opt/conda/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:318: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+{'loss': 2.3517, 'learning_rate': 8.999999999999999e-05, 'epoch': 0.19}                                          
+{'loss': 2.1946, 'learning_rate': 0.00017999999999999998, 'epoch': 0.38}                                         
+{'loss': 1.7664, 'learning_rate': 0.00028, 'epoch': 0.58}                                                        
+{'loss': 1.5522, 'learning_rate': 0.0002895652173913043, 'epoch': 0.77}                                          
+{'eval_loss': 1.4738669395446777, 'eval_runtime': 6.9715, 'eval_samples_per_second': 14.344, 'eval_steps_per_second': 1.865, 'epoch': 0.77}                                                                                       
+ 15%|███████████▌                                                               | 40/260 [09:31<50:01, 13.64s/it/opt/conda/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:318: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+{'loss': 1.4639, 'learning_rate': 0.00027652173913043476, 'epoch': 0.96}                                         
+{'loss': 1.394, 'learning_rate': 0.0002634782608695652, 'epoch': 1.15}                                           
+{'loss': 1.376, 'learning_rate': 0.00025043478260869563, 'epoch': 1.34}                                          
+{'loss': 1.39, 'learning_rate': 0.00023739130434782607, 'epoch': 1.53}                                           
+{'eval_loss': 1.4141416549682617, 'eval_runtime': 6.9082, 'eval_samples_per_second': 14.476, 'eval_steps_per_second': 1.882, 'epoch': 1.53}                                                                                       
+ 31%|███████████████████████                                                    | 80/260 [19:13<44:05, 14.70s/it/opt/conda/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:318: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+{'loss': 1.3906, 'learning_rate': 0.0002243478260869565, 'epoch': 1.73}                                          
+{'loss': 1.4154, 'learning_rate': 0.00021130434782608694, 'epoch': 1.92}                                         
+{'loss': 1.3762, 'learning_rate': 0.00019826086956521737, 'epoch': 2.11}                                         
+{'loss': 1.3424, 'learning_rate': 0.0001852173913043478, 'epoch': 2.3}                                           
+{'eval_loss': 1.4050654172897339, 'eval_runtime': 6.9025, 'eval_samples_per_second': 14.487, 'eval_steps_per_second': 1.883, 'epoch': 2.3}                                                                                        
+ 46%|██████████████████████████████████▏                                       | 120/260 [28:36<34:07, 14.63s/it/opt/conda/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:318: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+{'loss': 1.3916, 'learning_rate': 0.00017217391304347825, 'epoch': 2.49}                                         
+{'loss': 1.2993, 'learning_rate': 0.0001591304347826087, 'epoch': 2.69}                                          
+{'loss': 1.3322, 'learning_rate': 0.00014608695652173912, 'epoch': 2.88}                                         
+{'loss': 1.3356, 'learning_rate': 0.00013304347826086955, 'epoch': 3.07}                                         
+{'eval_loss': 1.400991678237915, 'eval_runtime': 6.9017, 'eval_samples_per_second': 14.489, 'eval_steps_per_second': 1.884, 'epoch': 3.07}                                                                                        
+ 62%|█████████████████████████████████████████████▌                            | 160/260 [38:08<23:41, 14.22s/it/opt/conda/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:318: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+{'loss': 1.3975, 'learning_rate': 0.00011999999999999999, 'epoch': 3.26}                                         
+{'loss': 1.2727, 'learning_rate': 0.00010695652173913043, 'epoch': 3.45}                                         
+{'loss': 1.2494, 'learning_rate': 9.391304347826087e-05, 'epoch': 3.65}                                          
+{'loss': 1.3169, 'learning_rate': 8.08695652173913e-05, 'epoch': 3.84}                                           
+{'eval_loss': 1.4072281122207642, 'eval_runtime': 6.8888, 'eval_samples_per_second': 14.516, 'eval_steps_per_second': 1.887, 'epoch': 3.84}                                                                                       
+ 77%|████████████████████████████████████████████████████████▉                 | 200/260 [47:37<13:48, 13.81s/it/opt/conda/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:318: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+{'loss': 1.2575, 'learning_rate': 6.782608695652173e-05, 'epoch': 4.03}                                          
+{'loss': 1.2713, 'learning_rate': 5.478260869565217e-05, 'epoch': 4.22}                                          
+{'loss': 1.252, 'learning_rate': 4.1739130434782605e-05, 'epoch': 4.41}                                          
+{'loss': 1.2466, 'learning_rate': 2.869565217391304e-05, 'epoch': 4.6}                                           
+{'eval_loss': 1.4126075506210327, 'eval_runtime': 6.8715, 'eval_samples_per_second': 14.553, 'eval_steps_per_second': 1.892, 'epoch': 4.6}                                                                                        
+ 92%|████████████████████████████████████████████████████████████████████▎     | 240/260 [57:13<04:53, 14.67s/it/opt/conda/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:318: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+{'loss': 1.2946, 'learning_rate': 1.5652173913043477e-05, 'epoch': 4.8}                                          
+{'loss': 1.2606, 'learning_rate': 2.608695652173913e-06, 'epoch': 4.99}                                          
+{'train_runtime': 3716.2316, 'train_samples_per_second': 2.244, 'train_steps_per_second': 0.07, 'train_loss': 1.4304314613342286, 'epoch': 4.99}
+100%|████████████████████████████████████████████████████████████████████████| 260/260 [1:01:55<00:00, 14.29s/it]
+
+ If there's a warning about missing keys above, please disregard :)
