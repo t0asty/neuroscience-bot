@@ -10,15 +10,13 @@ num_beams = 4
 max_new_tokens = 512
 SEED = 42
 
+import argparse
 import sys
 import torch
 import json
 import transformers
 from peft import PeftModel
 from transformers import GenerationConfig, LlamaForCausalLM, LlamaTokenizer
-
-with open("prompts.json") as f:
-    prompts = json.load(f)
 
 if torch.cuda.is_available():
     device = "cuda"
@@ -105,37 +103,54 @@ def generate_response(model, tokenizer, prompt, generation_config, max_new_token
     response_only = decoded_sequence.split("### Response:")
     response_only = response_only[1].strip() if len(response_only)>1 else ""
     return response_only
-    
 
-model, tokenizer = load_model(base_model, lora_weights, load_8bit)
-generation_config = GenerationConfig(
-    temperature=temperature,
-    top_p=top_p,
-    top_k=top_k,
-    num_beams=num_beams,
-    no_repeat_ngram_size=3
-)
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--prompts_path", 
+        type=str, 
+        default="prompts.json",
+        help="Path to the given prompt samples.")
+    parser.add_argument(
+        "--output_path", 
+        type=str, 
+        default="answers_v2j-vectors-to-jokes-llama.json",
+        help="Path to the test output file.")
+    args = parser.parse_args()
 
-torch.manual_seed(SEED)
-answers = []
-i = 0
-for p in prompts:
-    is_multiple_choice = "choices" in p and p["choices"]
-    if is_multiple_choice:
-        prompt = create_prompt(p["question"], p["choices"])
-    else:
-        prompt = create_prompt(p["question"])
-    
-    response = generate_response(model, tokenizer, prompt, generation_config, max_new_tokens)
-    answers.append({
-        "guid" : p["guid"],
-        "model_answer": response
-    })
+    with open(args.prompts_path) as f:
+        prompts = json.load(f)
 
-    i+=1
-    print(f"Prompt {i}")
-    print(response)
-    print("".join(["-"*30]))
+    model, tokenizer = load_model(base_model, lora_weights, load_8bit)
+    generation_config = GenerationConfig(
+        temperature=temperature,
+        top_p=top_p,
+        top_k=top_k,
+        num_beams=num_beams,
+        no_repeat_ngram_size=3
+    )
 
-with open("answers_v2j-vectors-to-jokes-llama.json", "w") as f:
-    json.dump(answers, f, indent=4)
+    torch.manual_seed(SEED)
+    answers = []
+    i = 0
+    for p in prompts:
+        is_multiple_choice = "choices" in p and p["choices"]
+        if is_multiple_choice:
+            prompt = create_prompt(p["question"], p["choices"])
+        else:
+            prompt = create_prompt(p["question"])
+        
+        response = generate_response(model, tokenizer, prompt, generation_config, max_new_tokens)
+        answers.append({
+            "guid" : p["guid"],
+            "model_answer": response
+        })
+
+        i+=1
+        print(f"Prompt {i}")
+        print(response)
+        print("".join(["-"*30]))
+
+    with open(args.output_path, "w") as f:
+        json.dump(answers, f, indent=4)
+
