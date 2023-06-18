@@ -2,6 +2,8 @@ import argparse
 import json
 import torch
 import statistics
+import os
+os.chdir('../')
 
 from tqdm import tqdm
 from torch.utils.data import DataLoader, Dataset
@@ -42,11 +44,11 @@ class TestDataset(Dataset):
 
     def __getitem__(self, ix):
         d = self.ds[ix]
-        prompt = create_prompt(d['question'], choices=d['choices'] if 'choices' in d.keys else None)
+        prompt = create_prompt(d['question'], choices=d['choices'] if 'choices' in d.keys() else None)
         p = self.pred_ds[ix]
         assert d['guid'] == p['guid']
         return {
-            "chosen" : "Human: {}\nAssistant: {}".format(prompt, d["model_answer"]),
+            "chosen" : "Human: {}\nAssistant: {}".format(prompt, p["model_answer"]),
             "rejected": ""
         }
 
@@ -95,7 +97,7 @@ class Evaluator:
         # Load the model and dataset
         self.load_model(model_path, device)
         self.ds_test = ds_test
-        self.ds_pred
+        self.ds_pred = ds_pred
         self.dataset = TestDataset(ds_test, ds_pred)
         self.dataloader = DataLoader(
             self.dataset, batch_size=2, shuffle=False,
@@ -122,7 +124,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--model_path", 
         type=str, 
-        default="Vector2Jokes/V2JRewardModel",
+        default="models/v2j-reward-large",
         help="Path to the reward model")
     parser.add_argument(
         "--data_path", 
