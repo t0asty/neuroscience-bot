@@ -1,0 +1,42 @@
+[
+    {
+        "guid": "94cdfd24-de94-4072-a5aa-a3a9dc953d2b",
+        "model_answer": "It can be shown that all the coefficients of odd indices are zero."
+    },
+    {
+        "guid": "3826e1bd-05f7-4f80-a6ad-937af83dc3e4",
+        "model_answer": "We need to apply the following sequence:\n1. MapCons\n2. MapTr\n3. NilAppend\n4. ConsAppend\n5. IH\n6. NilTr\n7. NilCons\n8. MapNil\n9. NilNil\n10. ConsNil"
+    },
+    {
+        "guid": "f6f7e3a3-b63a-4f13-abbe-a2b3f74c64e5",
+        "model_answer": "2"
+    },
+    {
+        "guid": "0b473eff-0fc8-4fb0-9d10-bc49d18e52e3",
+        "model_answer": "The exercise is a math refresher, it should act as a smoke detector, which is typically the level of difficulty we will encounter when dealing with differentiation and integration of functions. Calculate $F (x)$, the primitive of $f (x)$ for: \n1. $ f (x) = \\cos x$ \n2. $f = -3 x^2$\n3. $F = e^{2 x}$ \n4. $ F = \\sin x \\ cos x$"
+    },
+    {
+        "guid": "6654c2b0-4dcd-432e-9c8e-26d638afe0ef",
+        "model_answer": "2"
+    },
+    {
+        "guid": "202f9e3f-be4d-4b51-8789-f4eb0666690f",
+        "model_answer": "2"
+    },
+    {
+        "guid": "198d8637-b6eb-4a3a-92c0-6baad4f34a2e",
+        "model_answer": "42 (blocs)"
+    },
+    {
+        "guid": "da3590dc-4da0-4790-bd94-b9e56450702b",
+        "model_answer": "2"
+    },
+    {
+        "guid": "299255b4-6b4b-423b-bafa-e1f2ca04ecb5",
+        "model_answer": "3"
+    },
+    {
+        "guid": "92251192-94ec-4d07-a94c-34775db00d70",
+        "model_answer": "The maximum variance can be found by taking the derivative of the squared Euclidean distance with respect to $\\xx$ and setting it equal to 0. This gives us $\\frac{\\partial^2}{\\partial \\xx^2} d^2(\\xx, \\wv) = 0$. Then, by the mean value theorem, there must exist a $\\xx_0$ such that $\\frac{d^2}{d\\xx^{2}}(\\wv^{op}\\xx)_{\\xx=\\xx_{0}}=0$. This means that the maximum variance is achieved at $\\xx=\\wwv$."
+    }
+]
