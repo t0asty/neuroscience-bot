@@ -1,0 +1,1002 @@
+[
+  {
+    "guid":1204861.0,
+    "model_answer":"La r\u00e9ponse est 0, car la repr\u00e9sentation d\u00e9cimale de la valeur binaire 11 00 01 10 est \u00e9gale \u00e0 0. Cette valeur est obtenue en multipliant chaque bit par 2, puis en soustrayant 1 de la somme. Ainsi, le premier bit est multipli\u00e9 par 16, le deuxi\u00e8me par 8, le troisi\u00e8me par 4 et le quatri\u00e8me par 3. La somme de ces multiplications donne 64, qui est soustrait de 1 pour obtenir 63. En convertissant cette valeur en d\u00e9cimales, on obtient 1,00,01,10.",
+    "guid2":null
+  },
+  {
+    "guid":2582061.0,
+    "model_answer":"The answer is that if $A=A^T$ then for any complex vector $x$, the real number $x^TA^Tx$ is real. This is because $A^TA=AA^T=I$, where $I$ is the identity matrix, so $Ax=x$ for any $x\\in\\mathbb{R}^n$. Therefore, $x^{T}Ax = x^T(x)=x^2$ is a real number. This implies that the eigenvalues of a real symmetric matrix are real.",
+    "guid2":null
+  },
+  {
+    "guid":2782029.0,
+    "model_answer":"The work necessary to compress the air is $W = P_1 V_1 - P_0 V_0$, where $V_1$ is the volume of the compressed air at pressure $7$ atmospheres. Since the air consists mostly of nitrogen and oxygen, we can use the ideal gas law to calculate the pressure of the air at each stage. At pressure $1$ atmosphere, the pressure is $P = 1$ atm, and the volume is $V = \\frac{1}{2} \\pi r^2$, where the radius of the pump is $r = 0.01$ m. Therefore, the work done by the compressor is $\\int_1^{7} P dV = (7-1) \\times 1\/2 \\pi \\times (r^2\/2) = 3.5$ J.",
+    "guid2":null
+  },
+  {
+    "guid":1725949.0,
+    "model_answer":"The statement is true because for any real number $r$, the conjugate of $rz$ is equal to $r\\bar{z}$. This follows from the definition of conjugate, which states that for any complex number $z = a + bi$, we have $\\bar{a} + \\bar{b}i = a - bi$. Therefore, if $r$ is a real number, then $rz = (a + bi)(r + bi) = r(a - bi) + i(b - ai) = (r + 0i)(a - 0bi) + (0 + 1i)(b - 1ai) = ra - rb + ia - ib = rz$.",
+    "guid2":null
+  },
+  {
+    "guid":1315355.0,
+    "model_answer":"The answer is option 2 because when the segment size is doubled, the resistance also doubles.",
+    "guid2":null
+  },
+  {
+    "guid":1711011.0,
+    "model_answer":"The correct answer is: New knowledge and understanding. When you succeed, you gain new knowledge about the problem you were trying to solve, and you also gain new understanding about how to approach similar problems in the future. This is important because it allows you to learn from your successes and failures, and to improve your problem-solving skills over time.",
+    "guid2":null
+  },
+  {
+    "guid":1950916.0,
+    "model_answer":"The QR decomposition of a matrix is a factorization of the matrix into two matrices, Q and R, where Q is orthogonal and R is upper triangular with non-zero diagonal entries. The QR algorithm is an iterative method that computes the decomposition. The first step is to compute the eigenvectors of A, which are the columns of Q. Then, we compute the diagonal entries of R by solving a system of linear equations. After that, we update R by subtracting the product of Q and A from R. This process is repeated until R is lower triangular and non-singular. To compute the decomposition of the given matrices, we can use the QR factorization function in MATLAB.",
+    "guid2":null
+  },
+  {
+    "guid":2462320.0,
+    "model_answer":"The matrices $A$, $B$, $C$, $D$, and $E$ are all inversible. To see why, we can use the fact that a matrix is invertible if and only if its determinant is nonzero. We can calculate the determinant of each matrix using the formula $\\det(A) = a_{11}a_{22}-a_{12}^2$, where $a_{ij}$ is the element in the $ij$th row and column of the matrix $A$.\n\nFor example, for $A$:\n\\begin{alignat*}{2}\n\\det A &= 1\\cdot 1 - 2^2 &&= -1\\\\\n&= -1 &&\\neq 0.\n\\intertext{Similarly, we find that $\\det B = -1$, $\\det C = -3\\cdot -3 + 3^2 = 9$, $\\ det D = 1$, and $\\det E = 2\\cdot (-1) + 1^2 - 4^2$.}\n&= 9 &&= 9\\\\\n& &= -3 &&\\not= 0\\\\\n&\\det E &= -4\\cdot(-1) - 0 + 0^2 + 5^2 &= -17 + 25 + 625 &&\\geq 0.\\end{alignedat}\n\nTherefore, all of these matrices are invertible.",
+    "guid2":null
+  },
+  {
+    "guid":1985477.0,
+    "model_answer":"The answer is option 2) because the frequency shift is proportional to the relative change in the material properties, which is given by the ratio of the perturbation to the unperturbed material properties. In this case, the relative perturbation in permittivities is given as $\\Delta\\epsilon\/\\epsilon$, which is the reciprocal of $\\Delta n\/n$.",
+    "guid2":null
+  },
+  {
+    "guid":1716664.0,
+    "model_answer":"For the given question, the correct answer is option 4: Entropy. This is because the Boltzman equation does not conserve the entropy of the system, while Vlassov equation does. Entropy is a measure of the disorder or randomness of a system, and its conservation ensures that the system remains in a state of maximum disorder.",
+    "guid2":null
+  },
+  {
+    "guid":2331240.0,
+    "model_answer":"The answer is 1) because the regulation of gene expression by combinatorial control of transcription is used in both eukaryotic and prokaryotic cells.",
+    "guid2":null
+  },
+  {
+    "guid":1368861.0,
+    "model_answer":"The coefficient of isothermal compressibility of mercury is $\\kappa = 26 \\cdot 10^-12$ Pa$^{-1}$. At the surface of the Mercury, the pressure is $p = p_0$, and the height above the surface is $ho = ho_0 $. To find the ratio of the height to the height at the surface, we can use the formula $\\frac{ho}{ho\\_0} = \\left(\\frac{p}{p\\_0}\\right)^{\\frac{\\kappa}{c_p}}$, where $c\\_p$ is the specific heat capacity at constant pressure. Substituting the given values, we find that $\\kappa \/ c\\_p = \\frac{1}{26} \\approx 0.038$. Therefore, the ratio $ho \/ ho\\_0$ can be approximated as $0.962$.\n\nTo calculate the variation of the mass density of Mercury when the pressure varies from $50$ bar to $1$ bar, we need to use the equation $\\rho = \\rho\\_0 \\left(1 + \\frac{\\Delta p}{p}\\right)^{-1}$, where $\\Delta p = (p\\_1 - p\\_0)$ is the change in pressure and $\\rho \\_{0}$ is the density at the reference pressure $p \\_0 = 76000$ Pa. Using the value of $\\kappa$ and the equation for $ho$, we can find that $ho \\_{1} = 1.001 \\cdot ho \\_{\n0}$. Therefore, $\\Delta \\rho = (\\rho \\_1 - \\rho\n\\_0) = 4.99 \\cdot (1 - 1) = -0.499$ g\/cm$^3$. This means that the density decreases as the pressure decreases.",
+    "guid2":null
+  },
+  {
+    "guid":1981510.0,
+    "model_answer":"The answer is that if the limit of the derivative of a function exists at a point, then the function is differentiable at that point and its derivative is equal to the limit.",
+    "guid2":null
+  },
+  {
+    "guid":2136943.0,
+    "model_answer":"The entropy of the market of Christmas stands is 1 + 2 \\* log(3). This is because there are 3 different types of stands (food, warm clothes, and jewelry) and each stand has 8 different items. Therefore, there are a total of 3 \\* 8 = 24 different items in the market. The entropy is calculated by multiplying the number of items by the logarithm base 2 of the total number of stands.",
+    "guid2":null
+  },
+  {
+    "guid":2584990.0,
+    "model_answer":"La r\u00e9ponse est la suivante:\n\nLes caract\u00e9ristiques indiqu\u00e9es ne permettent pas de d\u00e9terminer avec certitude si l'HLA d\u00e9crive un type I ou un type II. En effet, certaines caract\u00e9ristiques peuvent \u00eatre communes \u00e0 tous les types d'HLAs, tandis que d'autres sont sp\u00e9cifiques \u00e0 un type en particulier. Par exemple, l'expression augmente lors d'une inflammation peut \u00eatre une caract\u00e9ristique sp\u00e9cifique aux HLAs du type II, mais elle peut \u00e9galement \u00eatre pr\u00e9sente chez les HLAS du type I. Il est donc important de prendre en compte plusieurs caract\u00e9ristiques pour \u00e9valuer la nature d'un HLA.",
+    "guid2":null
+  },
+  {
+    "guid":2336123.0,
+    "model_answer":"The answer is no, adding continuous integration does not mean that testing is no longer necessary. Continuous integration is a process that automatically builds, tests, and deploys code changes, but it does not replace the need for manual testing. Manual testing is still necessary to ensure that the code is working as expected and to catch any bugs that may have been introduced during the development process. It is important to have a balance between automated and manual testing to ensure the quality of the codebase.",
+    "guid2":null
+  },
+  {
+    "guid":2942732.0,
+    "model_answer":"The answer is option 3 because the free fall time is inversely proportional to the square root of the cloud's density. Therefore, as the density increases, the freefall time decreases.",
+    "guid2":null
+  },
+  {
+    "guid":1455116.0,
+    "model_answer":"La r\\'eponse est la suivante:\n\n\"La matrice $A = U \\Sigma V^\\mathrm{T}$ d\\'ecrit une transformation lin\\'eaire d'un espace vectoriel de dimension $n$ dans un espace de dimension $\\mathrm{rank}(A) \\times \\mathrm{dim}(A)$ (o\\`u $U$, $\\Sigma$, $V$, et $m$ d\\'esignent respectivement l'orthogonalisation de $A$, les valeurs singulares, la transpos\\'ee de $V^T$, et la dimension de l'espace sous-jacent). Si $\\Sigma = \\Sigma^\\prime$, alors $U = U^\\prime$ car $UU^\\prime = A$ et $\\Sigma U = A$. Ainsi, si $\\Sigma \\neq \\Sigma^{\\prime}$, $U \\neq U^{\\prime}$. De plus, si $V = V^{\\prime}$ et $UV = AV = AU$, alors $\\Sigma V = V\\Sigma = V^\\prime \\Sigma = (V^\\prime V) \\Sigma$ et donc $V\\Sigma$ ne d\\'epend pas de $\\Sigma$. Par cons\\'equent, $\\Sigma $ est unique.\"",
+    "guid2":null
+  },
+  {
+    "guid":2378551.0,
+    "model_answer":"The correct answer is 1) and 2) because inertial force is proportional to the square of the velocity gradient, which is much larger in the lamina regime, and the Reynolds number is much higher in smaller reactors. This means that the flow is much more prone to lamination. Additionally, inertia forces become more important as the flow progresses along the surface.",
+    "guid2":null
+  },
+  {
+    "guid":1737800.0,
+    "model_answer":"The reason for rods being more sensitive than cones is that they have a larger number of photopigments. This allows them to respond to a wider range of wavelengths of light, making them more sensitive to different colors. Cones, on the other hand, have a smaller number of pigments, which limits their sensitivity to a narrower range of colors.",
+    "guid2":null
+  },
+  {
+    "guid":2746148.0,
+    "model_answer":"The correct answer is option 3, which is \"Stefan-Boltzmann law\". This law describes the relationship between the temperature of an object and the amount of energy it emits. It states that the energy emitted by an object is proportional to the fourth power of its temperature. This law is important in understanding the behavior of stars and other celestial objects.",
+    "guid2":null
+  },
+  {
+    "guid":2653646.0,
+    "model_answer":"The answer is option 4 because these entities (electrical and molecular) are intertwined and it's important to understand how they relate to each other in order to gain a deeper understanding of the brain's functioning. By connecting electrical profiles (i.e. the electrical activity of a neuron) to the molecular properties of the neuron, we can gain insights into how the brain processes information and how different neurons interact with each other. This information can be used to develop new treatments for neurological disorders and improve our understanding of brain function.",
+    "guid2":null
+  },
+  {
+    "guid":2215454.0,
+    "model_answer":"The correct answer is: 1, 2, 3, and 4. These methods are all used to analyze functional data, which is data that measures the activity of the brain or other biological systems over time. Principal component analysis (PCA) is used to reduce the dimensionality of the data and identify underlying structures. Autoencoder is a type of neural network that is trained to reconstruct the input data from the output data, and it can be used to identify patterns and relationships in the data. Combining networks derived from different types of data can provide a more comprehensive understanding of brain activity and cognitive processes.",
+    "guid2":null
+  },
+  {
+    "guid":1137883.0,
+    "model_answer":"The power spectral density (PSD) of a 100 MHz bandwidth signal with a noise power of 30 dB below the carrier power is given by 1\/f^2, where f is the frequency in Hz. This PSD corresponds to a temperature of 290 K, which is equivalent to 20\u00b0C. Therefore, the power of the noise in the system is approximately 0.5 mW at room temperature.",
+    "guid2":null
+  },
+  {
+    "guid":2394832.0,
+    "model_answer":"The answer is option 3, integrated data, because it provides a comprehensive understanding of the brain and its disorders. By combining different types of data, such as genetic, behavioral, brain imaging, and others, researchers can build a more complete picture of the underlying mechanisms of brain diseases and develop more effective treatments.",
+    "guid2":null
+  },
+  {
+    "guid":2565648.0,
+    "model_answer":"The answer is \"Tissue from patients with brain cancer\" because this type of tissue is often used for research purposes. However, it is important to note that the use of cancer tissue for research raises ethical concerns.",
+    "guid2":null
+  },
+  {
+    "guid":2854164.0,
+    "model_answer":"Il est difficile de donner une r\u00e9ponse pr\u00e9cise \u00e0 cette question car il n'est pas indiqu\u00e9 dans l'\u00e9nonc\u00e9 s'il s'agit d'une estimation ou d'un calcul rigoureux. Cependant, en utilisant les donn\u00e9es fournies, il est possible de d\u00e9duire que la masse de l'ast\u00e9ro\u00efde est d'environ 2,5 \u00d7\u202f10^12 kg. Si 25% de cette masse s'est \u00e9cras\u00e9e sur Terre (soit environ 625 millions de tonnes), cela correspond \u00e0 une masse par m\u00e8tre carr\u00e9 de 6,25 kg\/m^2. Si nous supposons qu'il y a eu une uniformit\u00e9 dans la dispersion de la mati\u00e8re, cela signifie que la densit\u00e9 moyenne de la surface de Terre est de 3,5 g\/cm^3. En utilisant cette densit\u00e9, nous pouvons calculer la hauteur de la zone d'impact \u00e0 environ 1,5 km. En multipliant cette hauteur par l'angle de chute (environ 45 degr\u00e9s), nous obtenons une distance de 0,67 km. Nous pouvons maintenant utiliser la formule d'Archim\u00e8de pour d\u00e9terminer la taille de la balle qui a caus\u00e9 cet impact, qui est environ 300 m\u00e8tres de diam\u00e9tre.",
+    "guid2":null
+  },
+  {
+    "guid":1332143.0,
+    "model_answer":"The state evolution for the Random Field Ising Model (RFIM) is a mathematical equation that describes the evolution of the magnetization of the system over time. In the large N limit, this equation predicts that the system will converge to a stable fixed point. This fixed point corresponds to the global minimum of the free energy, and the state evolution equation provides a way to calculate this minimum. The algorithm used to find this minimum is called the \"replica symmetric\" algorithm, and it involves iterating over all possible configurations until the energy is minimized. The state evolution provides a theoretical basis for this algorithm, showing that it converges to the correct solution.",
+    "guid2":null
+  },
+  {
+    "guid":2269130.0,
+    "model_answer":"La r\u00e9ponse est fausse. En effet, il n'est pas possible de colorier toutes les cartes de mani\u00e8re \u00e0 ce que chaque pays ait une couleur diff\u00e9rente de celle de son voisin. Cela est d\u00fb au fait qu'il existe des cartes qui ont des bordures non ponctuelles, ce qui signifie que deux pays peuvent avoir des fronti\u00e8res communes. Par cons\u00e9quent, il est n\u00e9cessaire de prendre en compte ces bordures lors de la coloration de la carte.",
+    "guid2":null
+  },
+  {
+    "guid":2503485.0,
+    "model_answer":"To construct a matrix A with eigenvectors v1=(1,3) and v2=(1,-1), we first need to find the eigenvalues of the matrix. The eigenvalues of a matrix are the values that make the matrix diagonalizable. In this case, we know that the matrix is not diagonalizable, so we need to use the Jordan normal form to find its eigenvalues. We can write the matrix in the form:\n\nA = \\begin{pmatrix} 2 & 0 \\\\ 0 & -3 \\ \n\\end{pmatrix}.\n\nWe can then use the formula for the eigenvalue-eigenvector decomposition of this matrix to find that the eigenvalues are 2 and -3, and the corresponding eigenspaces are spanned by the columns of A. The eigenvector v1 is in the eigenspace associated with eigenvalue 2, while the eigenvect",
+    "guid2":null
+  },
+  {
+    "guid":1870197.0,
+    "model_answer":"The answer is option 4) because Fagin\u2019s algorithm is designed to minimize the number of entries read from the posting lists. This is achieved by only reading the top n\/2 entries from each posting list, where n is the size of the posting list. By doing this, the algorithm is able to efficiently find the k most relevant documents while minimizing the amount of data that needs to be processed.",
+    "guid2":null
+  },
+  {
+    "guid":2076019.0,
+    "model_answer":"The answer is option 2. It is important to note that the molecule profile of a neuron can be used to determine its electrical properties. This relationship is crucial in understanding how neurons function and how they communicate with other cells in the nervous system.",
+    "guid2":null
+  },
+  {
+    "guid":1739370.0,
+    "model_answer":"The correct answer is: The two elementary signals that are carried by neurons are the action potential and the graded potential. Action potentials are the fast, all-or-nothing signals that propagate along the axon of a neuron. They are responsible for the transmission of information from one neuron to another. Graded potentials, on the other hand, are slower and more gradual signals that carry information about the intensity of a stimulus. They help neurons to adjust their activity in response to changes in the environment.",
+    "guid2":null
+  },
+  {
+    "guid":1195233.0,
+    "model_answer":"The answer is that $AB^T = A^TB^T$ because of the definition of matrix multiplication. The left-hand side of the equation is the transpose of the product of the matrices $AB$, which is defined as the matrix whose rows are the transposes of the rows of $AB$. On the other hand, the right-hand",
+    "guid2":null
+  },
+  {
+    "guid":1951150.0,
+    "model_answer":"The answer is 2^t - 1. This is because we need to consider all possible sequences of length t that can be generated from the given word sequence, and each of these sequences corresponds to a different hypothesis. However, not all of these hypotheses need to be considered because some of them can be eliminated based on lexical constraints. Therefore, the number of free parameters in the model is the difference between the total number of possible hypotheses and the number that are eliminated due to the lexical constraint.",
+    "guid2":null
+  },
+  {
+    "guid":1797070.0,
+    "model_answer":"The answer is:\n\nThe first axiom of matroids states that for any $A'\\subseteq A$, $A\\setminus A'$ is a basis if and only if it is a subset of a basis. In this case, we have $A' = A\\setminus B$ for some $B\\subseteq A$. Since $B$ is a matching, it is also a basis for $(A,\\mathcal I)$. Therefore, $A \\setminus B = A' = B$ is indeed in $\\mathcal I$.\n\nFor the second axiom, we need to show that if $B_1, B_2 \\subseteq B$ are two bases, then $\\bigcup B_1 \\cup \\bigcup (B_2 - B_3)$ is a base. Let $v$ be a vertex in the intersection of the two bases. Then, there exists a matching $M_1$ in $G[A_1]$ that matches all the vertices in $A'_1 = A_1\\setminus (A_2\\cup A_3)$, and there is no edge in this matching that connects any vertex in $B'_1$ to any vertex outside of $B''_1$. Similarly, we can find a matching~$M_2$ in~$G[B'_2]$ that has no edge connecting any vertex of~$B'''_2$ to a vertex outside~$B'''_2$. Then, $M = M_1 + M_2 + (v, B'_1\\cup B'_2)$ satisfies the axiom.",
+    "guid2":null
+  },
+  {
+    "guid":1903067.0,
+    "model_answer":"I believe the answer is 1, 3, 4, and 5 because these are the potentials that are associated with different types of ion channels in the nervous system. For example, 1 mV is associated with sodium channels, which are responsible for action potentials in neurons. On the other hand, 55mV is the reversal voltage of the potassium channel, which is responsible for the repolarization phase of the action potential. Therefore, it is important to consider the type of ion channel in question when answering this question.",
+    "guid2":null
+  },
+  {
+    "guid":1095247.0,
+    "model_answer":"Option 1 is incorrect because the positive potential is applied to the Si wafer, not to the solution. Option 2 is correct because very high concentrations of B can cause damage to the silicon wafer and compromise its crystal structure, making it unsuitable for use in standard semiconductor devices.",
+    "guid2":null
+  },
+  {
+    "guid":2676342.0,
+    "model_answer":"The answer is 1) and 2) are correct. The stellar populations in elliptic galaxies are relatively young and old, respectively. This is because the elliptic galaxy is formed from the merging of smaller galaxies, which have different ages and compositions of stars. The bulge of a spiral galaxy, on the other hand, is composed of older stars, as it forms from the collapse of gas and dust in the galaxy's center. The stars in the spiral arm of a galaxy are also relatively young, as they form from recent star formation events.",
+    "guid2":null
+  },
+  {
+    "guid":1789953.0,
+    "model_answer":"Option 1 is correct because whistlers are electromagnetic waves that propagate in the Earth's magnetic field. The frequencies of these waves are determined by the properties of the plasma and the magnetic field, and they are typically in the range of tens to hundreds of megahertz. Option 2 is incorrect because the frequencies of the waves are not affected by the ions, which are much heavier than the electrons and do not participate in wave propagation. Options 3 and 4 are also incorrect because they do not accurately describe the characteristics of the whistling waves.",
+    "guid2":null
+  },
+  {
+    "guid":2941092.0,
+    "model_answer":"The answer is option 2) \"Radiation\" refers to the emission and transfer of energy through particles or light. This is because radiation is a form of energy that travels through space and matter, and it can be emitted in different forms such as light, X-rays, gamma rays, and radio waves. Radiation is important in many fields, including medicine, physics, and astronomy.",
+    "guid2":null
+  },
+  {
+    "guid":2567580.0,
+    "model_answer":"The answer is 1) because the joint probability of $Y=0$ given $X = 1$ is $p(Y = 0 \\mid X=1) = \\frac{p(X,Y)}{p_X(X)p_Y(Y)}$ and we know that $p(\\cdot)$ is a joint probability distribution. Using Bayes' theorem, we can calculate this probability as follows:\n\n$$\\begin{aligned}\np(\\text{Y}\\mid\\text{X}=1) &= \\frac{\\text{p}(Y=1)\\text{P}(X\\mid Y=\n1)}{\\sum\\_{y=0}^{1} \\text{\np}(y=y) \\text {P}( X\\mid y=y)}\n\\end{aligned}$$\n\nSubstituting the given probabilities, we get:\n$$p(\\mathrm{Y} \\mid \\mathrm{X} =\n\\mathrm{1}) = \\left(\\frac{0.8}{0.9}\\right) \\cdot \\left(0.6\\right)\n= 0.06$$\n\nTherefore, the probability of making a correct prediction is $\\frac{\\mathrm{p}(\\mathrm{\nY}\n\\mid\\mathrm{\\_X})}{\\mathrm{P}(\\_X)}$ where $\\_X$ is the random variable representing the value of $X$. In this case, we have $\\mathrm{_X}=0$, so the maximum probability of correctness we can achieve is $1-\\frac{P(\\_X)}{P(\n\\_X=\n0)}$, which simplifies to $0.5$.",
+    "guid2":null
+  },
+  {
+    "guid":1563963.0,
+    "model_answer":"The correct answer is:\n\n1. Both algorithms output solutions of weight strictly greater than 2OPT.\n2. Algorithm B outputs solutions that may be strictly lighter than or equal to OPT.\n3. Algorithm A outputs a solution whose weight may be at most 2 times the optimal solution weight.\n4. However, it is not guaranteed that Algorithm A will output solutions lighter in weight than Algorithm B.",
+    "guid2":null
+  },
+  {
+    "guid":2620150.0,
+    "model_answer":"Belief propagation (BP) is a message-passing algorithm that can be used to approximate the marginal likelihood of a graphical model. In the case of a coloring problem, we can use BP to find the most likely coloring of the graph. The BP equations for coloring are as follows:\n\nFor each node $i$ in the graph, we have a variable $z_i$ that represents the belief that the node is of color $c_i$. We also have variables $z_{ij}$ for each edge $(i,j)$, which represent the probability that the edge is between nodes of the same color. These variables can be updated using the following equations:\n\\begin{align}\nz_{i} &\\leftarrow \\frac{1}{1 + \\sum_{j \\in N(i)} z_{ij}} \\label{eq:belief_update_i} \\displaybreak[0] \\\\\nz_{(i, j)} &= z_i \\cdot z_j \\cdot \\prod_{k \\neq i, j} (1 - z_k) \\label {eq:edge_update}\n\\end{align}\\\nwhere $N(i)$ is the set of nodes that are adjacent to $i$, and $\\cdot$ denotes element-wise multiplication. These equations allow us to iteratively update the beliefs of each node and edge until convergence, at which point we have found the optimal coloring.",
+    "guid2":null
+  },
+  {
+    "guid":1998585.0,
+    "model_answer":"The answer is option 4: all of the below. When choosing a virus vector for gene therapy, it is important to consider several factors, including the size of the virus capsid, the potential for triggering immune responses, the ability to infect target cells, and the safety and efficacy of the vector. A virus vector that is too small may not be able to carry the desired genetic material, while a virus that triggers too strong of an immune reaction may be harmful to the patient. Additionally, the virus must be capable of infecting the desired target cells in order to deliver the gene of interest.",
+    "guid2":null
+  },
+  {
+    "guid":2627789.0,
+    "model_answer":"The answer is: 1, 2, 3, 4, and 5. Descriptive metadata can include information such as the right to access the data, the authors who created it, a title and abstract that provide a brief overview of what the data is about, keywords that describe the data and its content, and a structure that outlines the organization and format of the information. This metadata helps users understand what they are accessing and how to use the data effectively.",
+    "guid2":null
+  },
+  {
+    "guid":2472076.0,
+    "model_answer":"To solve the equations, we can use the following steps:\n\n1. For the equation \\(z^2 + 6z + 12 - 4 \\icomp = 0\\), we can substitute \\(z = \\frac{1}{2} + \\frac{\\icomp}{2}\\), which gives us the equation \\(\\frac{3}{4} + 3 \\ic\n```",
+    "guid2":null
+  },
+  {
+    "guid":1668789.0,
+    "model_answer":"The rank of $[A\\vec b]$ is equal to the rank of $A$, and the equation $Ax=b$ is compatible if and only if $\\vec x$ is a non-zero solution of the system of linear equations $Ay=b$.",
+    "guid2":null
+  },
+  {
+    "guid":1168698.0,
+    "model_answer":"The answer is option 1 because during prophase of mitosis, the two sister chromatids generated during S phase remain attached by cohesin molecules. Option 2 is false because cyclin A can form a complex with either Cdk2 or Cdk1, depending on the stage of the cell cycle, and not just during G1 or G2 phase. Option",
+    "guid2":null
+  },
+  {
+    "guid":1009332.0,
+    "model_answer":"The correct answer is: A Boolean network model because it is a simple mathematical model that can capture the basic principles of gene regulation. It is based on the idea that genes can be in one of two states (on or off) and that the state of one gene can affect the states of other genes. This model can be used to study the dynamics of the network and to predict the behavior of the system under different conditions.",
+    "guid2":null
+  },
+  {
+    "guid":2553292.0,
+    "model_answer":"The answer is: 1) Cluster analysis is a method used to identify groups of similar data points in a dataset. It is commonly used in neuroscience to identify patterns of activity in brain imaging data. The results of cluster analysis can provide insights into the structure and function of the brain.",
+    "guid2":null
+  },
+  {
+    "guid":1869145.0,
+    "model_answer":"There are two ways to obtain a spin total of zero: either all the spins are pointing up or all of them are pointing down. The probability of this configuration is $\\frac{1}{2}$.",
+    "guid2":null
+  },
+  {
+    "guid":2616641.0,
+    "model_answer":"The solution of an ordinary differential equation of the form \\(A \\ddot \\theta + B \\theta = C \\sin (\\Omega t +\\phi)\\) can be expressed as \\(\\theta (t) = \\theta _0 \\sin \\left( \\Omega t+ \\phi \\right)\\). We set \\(C := \\frac{F _0}{m l}\\). Express the amplitude \\(\\theta 0\\) of the oscillations of Batman in terms of \\(C \\) and the quantities encountered so far (we denote \\*Omega* for \\(\\Omega\\)).",
+    "guid2":null
+  },
+  {
+    "guid":1225025.0,
+    "model_answer":"The answer is: 1, 2, 3, 4, 5, 6. The reasoning is as follows:\n\nFor 1), we can use the limit comparison test to show that the limit is equal to 1. For 2), 3), 4), 5), we use the squeeze theorem, which states that if a sequence is bounded above and below by two other sequences that converge, then the limit of the original sequence is the average of the limits of the two bounded sequences. Finally, for 6) we use L'Hopital's rule to find the limit.",
+    "guid2":null
+  },
+  {
+    "guid":2956332.0,
+    "model_answer":"The answer is option 1 because the weights need to be updated for each epoch. Therefore, we need two loops: one to update the weights using gradient descent and another to iterate through the epoch numbers.",
+    "guid2":null
+  },
+  {
+    "guid":1096450.0,
+    "model_answer":"Answer: 1) True\n\nExplanation: This is true because the algorithm iteratively updates the cluster centroids based on the closest data points to each centroid. As long as the data points are not too far away from the centroid, the algorithm will converge towards the optimal solution. However, there is no guarantee that the final solution will be the global optimum, which is the best possible clustering of the data.",
+    "guid2":null
+  },
+  {
+    "guid":2183825.0,
+    "model_answer":"The answer is increasing matrix size. This is because a larger matrix size means that there are more pixels in the detector, which results in a higher SNR. The other options do not necessarily increase the SNR, although they may have an impact on the image quality in other ways. For example, increasing mAs may increase the dose of radiation that is delivered to the patient, which can be a concern for patient safety. Similarly, increasing the scan time may result in longer examination times, which may be uncomfortable for the patient.",
+    "guid2":null
+  },
+  {
+    "guid":1232485.0,
+    "model_answer":"The correct answer is: a constant. This equation relates the ionic conductance of a membrane to the temperature, resistance, and charge of the membrane. It is a fundamental equation in membrane biophysics and electrophysiology.",
+    "guid2":null
+  },
+  {
+    "guid":1523473.0,
+    "model_answer":"The answer is no because the total order property is not necessary for the best effort broadcast. This is because in best effort routing, packets are not guaranteed to be delivered in the order they were sent. Instead, packets may be delivered out of order due to network congestion or other factors. Therefore, it is sufficient for the network to guarantee that packets will be delivered eventually, rather than in a specific order.",
+    "guid2":null
+  },
+  {
+    "guid":2424096.0,
+    "model_answer":"The answer is 1 because the operator a^2 causes the cavity to be in the state 0, which is the vacuum state. The operator a^\\* causes the photon to be absorbed or emitted, so the state changes to 0.",
+    "guid2":null
+  },
+  {
+    "guid":2484450.0,
+    "model_answer":"Le sch\u00e9ma ci-dessus montre une vue d'ensemble de la structure de l'organe thymique. Il est compos\u00e9 d'une couche de cellules \u00e9pith\u00e9liales qui forment une couche externe appel\u00e9e la couche \u00e9pidermique. En dessous, on trouve une autre couche d'\u00e9pith\u00e9lioles appel\u00e9e couche interm\u00e9diaire. Enfin, en dessous de cette couche, se trouvent des cellules appel\u00e9es thymocytes. Ces cellules sont en train de se d\u00e9velopper et de se diff\u00e9rencier pour devenir les cellules du syst\u00e8me immunitaire. Les cellules thymiques jouent un r\u00f4le important dans la diff\u00e9renciation et la maturation des celles et des autres cellules immunitaires.",
+    "guid2":null
+  },
+  {
+    "guid":1044789.0,
+    "model_answer":"The correct answer is 4) Reversal potential because it is a measure of the electrical potential difference between the pre-synaptic and postsynaptic neurons that determines whether or not a synaptic connection will be established or strengthened. The other factors play important roles in determining the strength of the connection.",
+    "guid2":null
+  },
+  {
+    "guid":1680379.0,
+    "model_answer":"To answer the question, we need to first understand the problem statement. The problem is about exchanging a single Euro to Swiss Francs over two consecutive trading days. On the first day, we learn the rate at which we can exchange one Euro to one Swiss Franc. We then have two options to choose from: either trade the entire Euro at the rate we learned, or wait until the second day to trade the Euro at a new rate that we will learn on that day. The goal of the algorithm is to maximize the number of Francs we can get for our Euro. To do this, we can use a greedy algorithm that chooses the option that will give us the most Francs. However, this algorithm may not always be optimal. We need to find an algorithm that maximizes the expected value of the Francs obtained over all possible scenarios. We can use the concept of competitive ratios to measure the performance of our algorithm. A ratio of 1 means that our algorithm is optimal, while a ratio greater than 1 indicates that the algorithm performs better than an optimal algorithm. In this case, we want to show that any algorithm that uses a deterministic approach will have a ratio of no more than .",
+    "guid2":null
+  },
+  {
+    "guid":1392989.0,
+    "model_answer":"The answer is that we can use a greedy algorithm to solve this problem. At each step, we select the set that maximizes the number of sets that can be added to it without violating the constraint that the union of all sets in the family is less than or equal to $k$. This algorithm has a time complexity of $O(|U|\\cdot \\log(|U|))$, which is linear in the universe size. Additionally, the space complexity of this algorithm is $O(\\sum_{i=1}^{|U|} |S_i|)$, where $S_1, S_2, \\dots, S_{|U|$ are the sets that have been added to the family so far. Since each set has size at most $|U|$, the total space complexity is $k\\cdot |U| = O(n \\cdot \\text{polylog} n)$. Finally, we can prove that the algorithm always returns a family of size at least $\\frac{1}{k}$ times the maximum possible size of a family by considering the worst-case scenario, where all sets have size $k$ and the algorithm returns the empty family. In this case, the size of the returned family is zero, but the maximum size of any family is $\\binom{n}{k}$, so the ratio of the sizes is at most $\\frac{\\binom{k}{k}}{0} = 1$.",
+    "guid2":null
+  },
+  {
+    "guid":1824303.0,
+    "model_answer":"For part a), we know that for any matrix $A$, $A^T = -A$. Therefore, we can write $A + B = A^T + B^T - A - B = 2A - 2B$. Since $A - B$ is skew-symmetric, it follows that $2A-2B$ is anti-skew symmetric. Therefore, for any $B$, we have $A-B = (A-A) + (B-B) = 0$, which implies that $B = A$. Therefore $A_1 = A$ and $B_1=A$ are the only possible solutions for $A,B$. For part b), we can use the Singular Value Decomposition (SVD) of a matrix to decompose it as $M = U\\Sigma V^T$, where $U,V$ are orthogonal matrices and $\\Sigma$ is a diagonal matrix with the singular values of $M$. We can then take $S = VU^T$ to be the orthogonal matrix that diagonalizes $M$, and $A = V\\Sigma^2 U^T$. Finally, for part c), we need to find the eigenvalues of each matrix and their corresponding eigenvectors. Then we can find the matrix $U$ and diagonal matrix $\\Sigma$.",
+    "guid2":null
+  },
+  {
+    "guid":2129485.0,
+    "model_answer":"The correct answer is: number of train samples. The reason is that the logistic function needs to be trained on a large number of samples in order to generalize well to new data. Therefore, the more training samples you have, the better the model will perform.",
+    "guid2":null
+  },
+  {
+    "guid":1849414.0,
+    "model_answer":"The answer is: 1, 2, and 3. Combs are used to measure the capacitance of the accelerometer, which is proportional to the acceleration. The gap between the combs should be as small as possible to minimize noise and improve sensitivity. Accelerometers need to be hermetically encapsulated to prevent moisture and other contaminants from entering the device and affecting its performance.",
+    "guid2":null
+  },
+  {
+    "guid":2411023.0,
+    "model_answer":"The answer is option 3, \"The streams are more functionally connected in mice than in cats.\" This is because the mouse has a more complex visual system than the cat, with more neurons in the primary visual cortex and more connections between different areas of the brain. As a result, the mouse's visual system is more specialized for processing visual information, and the connections between the different parts of the visual system are more complex. In contrast, the cat has a simpler visual system, with fewer neurons and fewer connections, which makes it more efficient for processing simple visual stimuli.",
+    "guid2":null
+  },
+  {
+    "guid":2644315.0,
+    "model_answer":"The correct answer is: 1) and 3) because we need to find the fixed points of the system by solving the two equations simultaneously. The first step is to take the derivatives of both functions and set them equal to zero. This will give us the intersection points between both functions. In the second step, we can use numerical analysis to find these intersection points.",
+    "guid2":null
+  },
+  {
+    "guid":1709985.0,
+    "model_answer":"The answer is option 3: Because the mem",
+    "guid2":null
+  },
+  {
+    "guid":2853215.0,
+    "model_answer":"The answer is option 3) to prevent over-heating. Superconductors are materials that can conduct electricity with zero resistance when cooled to very low temperatures. In a magnetic resonance imaging (MRI) machine, the super-cooled helium is used to cool the coil and keep it at a low temperature, which allows it to maintain its super-conductivity. This is important because if the temperature rises above the critical temperature of the helium, it will no longer be able to maintain the supercon-ductivity of the magnet, which would cause it to lose its ability to generate a strong magnetic field.",
+    "guid2":null
+  },
+  {
+    "guid":2272119.0,
+    "model_answer":"The correct answer is \"About 250-350 megaparsecs\" because Large-scale structures in the universe, such as galaxy clusters and superclusters, are typically on the order of hundreds of millions to billions of light years in size.",
+    "guid2":null
+  },
+  {
+    "guid":1829826.0,
+    "model_answer":"The answer is option 3: \u0394 Q( \ud83d\udc56 \u2192\ud83d\udc34 ) < \u0394  Q(\ud83d\udd22  \u2192\ud83d\udcc2) because the Louvein algorithm is designed to find the most cohesive communities in a graph. When a node is added to a community, the algorithm calculates the difference in modularities before and after adding the node to the community. If the difference is positive, it means that the node is more likely to be in the same community as the nodes it is already connected to. In this case, the node will be added to that community. On the other hand, if the difference",
+    "guid2":null
+  },
+  {
+    "guid":1862639.0,
+    "model_answer":"La r\u00e9ponse est \"Oui, le message a \u00e9t\u00e9 sign\u00e9 correctement par l'assistant.\"\n\nCela est d\u00fb \u00e0 la formule de calcul de la signature RSA, qui consiste \u00e0 multiplier la valeur de la somme des carr\u00e9s des chiffres de l'exposant public par le chiffre priv\u00e9. Dans ce cas, le chiffr\u00e9 priv\u00e9 est \u00e9gal \u00e0 (3+15)\/2 = 5, ce qui donne un exposant public de 7. En multipliant 5 par 7, on obtient 35, qui est l'identifiant du message. Ainsi, la signature est correcte et le message est authentique.",
+    "guid2":null
+  },
+  {
+    "guid":1624340.0,
+    "model_answer":"The answer is option 1 because X- rays are used to take pictures of the inside of the body. They are passed through the body, and then they fall onto detectors that measure the amount of radiation that has passed through. This information is recorded and used to create images that can help doctors diagnose and treat medical conditions. Option 2 is incorrect because the detectors do not measure transmission values. Instead, they measure how much radiation is being absorbed or blocked by the body tissue, which is known as the atten",
+    "guid2":null
+  },
+  {
+    "guid":1647879.0,
+    "model_answer":"The answer is option 3: All connections between units are local. This means that the connections between the units are limited to their immediate neighbors, and there are no connections that span the entire network ring. This is important because it helps to maintain the stability of the network and prevent it from becoming too unstable.",
+    "guid2":null
+  },
+  {
+    "guid":1754801.0,
+    "model_answer":"The answer is that we can use a data structure called a Bloom filter to achieve this. Bloom filters are a probabilistic data structure that can be used to test whether an element is a member of a set. In this case, we can maintain a set of all the items that have been inserted into the stream so far, and then use a separate set of $k-1$ randomly chosen elements from this set as the set of elements that we want to maintain as uniformly random. If an item is added to the stream that is not already in the set, we add it to the set and also add it as a random element to the other set. This ensures that at any point in time, we have at least $\\frac{1}{k}$ of the elements in our set that are randomly chosen.",
+    "guid2":null
+  },
+  {
+    "guid":2097826.0,
+    "model_answer":"The answer is \"You see a growth in the delay of the response.\" The reason for this is that the neurons in the brain communicate with each other through electrical impulses called action potentials or spikes. When one neuron is stimulated, it sends an electrical signal to the next neuron, and so on. The delay between the stimulation of the first neuron and the response of the second neuron depends on the distance between the two neurons and the speed at which electrical signals travel through the brain. Therefore, if the neuron that is being stimulated is far away from the receiving neuron or if the signal has to travel a long distance, there will be a longer delay before the response is seen.",
+    "guid2":null
+  },
+  {
+    "guid":1770357.0,
+    "model_answer":"The answer is option 3 because some cells respond consistently to a specific stimulus, while others respond randomly. This variability is important to consider when studying the behavior of neurons in the brain.",
+    "guid2":null
+  },
+  {
+    "guid":2141784.0,
+    "model_answer":"The answer is 1) because the physics fusion gain is a measure of the efficiency of a fusion reactor. It is defined as the ratio of the energy produced by the fusion reactions to the energy required to heat the plasma. In this case, the physics gain is approximately 0, which means that the reactor is not very efficient and is not likely to produce a significant amount of energy.",
+    "guid2":null
+  },
+  {
+    "guid":1449194.0,
+    "model_answer":"The value of the Debye length, \u03bbD, depends on the temperature and density of the plasma, as well as the magnetic field. In this case, we are given the electron density, n\\_e, and the electron temperature, T\\_e. We can use these values to calculate \u03bb\\_D using the formula:\n\n$$ \\lambda_{D} = \\sqrt{\\frac{T_e}{m_e}} $$\n\nwhere m\\_e is the mass of the electron. Using this formula, we find that \u03bb_D is approximately 0.0001 m. The plasma frequency, \u03c9\\_p, is the frequency at which plasma oscillations become unstable. It is given by the formula \u03c9_p = sqrt(\u03c9_c^2 - \u03c9^2), where \u03c9 is the angular frequency of the oscillations, and \u03c9c is the cyclotron frequency. Using these formulas, we can calculate \u03c9p for this plasma and find that it is approximately equal to 1.5 GHz. Finally, the number of Debye lengths, N\\_D, can be calculated by dividing the volume of the toroidal plasma chamber by \u03bb_{D}. Using these values and the formula for \u03bb\\_{D}, we can find that N\\_d is about 2.5 x 11^6.",
+    "guid2":null
+  },
+  {
+    "guid":1619455.0,
+    "model_answer":"The given problem can be formulated as a linear program as follows:\n\nMinimize: $x_1 + x_2$\n\nSubject to: $0 \\leq x_1 \\leq 1$ and $0\\leq x\\_2\\leq 2$ and $\\sum\\_{i=1}^{3} x\\_i = 4$ and $(x\\_1,x\\_2) \\in \\mathbb{R}^2_+$\n\nwhere $x\\_i$ represents the amount of the $i$-th food item (moiti\u00e9 moiti\u00e9, a la",
+    "guid2":null
+  },
+  {
+    "guid":1968091.0,
+    "model_answer":"The answer is \"Bad CNR\" because the CNR (contrast-to-noise ratio) is a measure of the contrast between the tumor and the surrounding tissue. A low CNR means that it is difficult to distinguish between the two, which can lead to false negatives and missed tumors.",
+    "guid2":null
+  },
+  {
+    "guid":2447951.0,
+    "model_answer":"The correct answer is: 1. Plate\n\nThe answer is 1 because the neural tubes can be seen three times in image d of Plate",
+    "guid2":null
+  },
+  {
+    "guid":2040613.0,
+    "model_answer":"Principal Component Analysis (PCA) is an un supervised method. It is used to reduce the dimensionality of a dataset by projecting it onto a lower-dimensional space while preserving as much of the original information as possible. PCA is often used as a preprocessing step to improve the performance of supervised learning algorithms.",
+    "guid2":null
+  },
+  {
+    "guid":2817072.0,
+    "model_answer":"The statement that is true is: \"They can be",
+    "guid2":null
+  },
+  {
+    "guid":2167522.0,
+    "model_answer":"The matrix A can be decomposed into its singular values using the Singular Value Decomposition (SVD) factorization. The SVD factorization of a matrix A is given by:\n\nA = U \\Sigma V^T\n\nwhere U and V are orthogonal matrices and \u03a3 is a diagonal matrix. The diagonal entries of \u03a3 are the singular values of A, which are the square roots of the eigenvalues of A^T A. In this case, the SVD of A is:\n```scss\n A = \n \u23a1\u23a3\u23a2\u23a4\u23a5\u23a6 \n  1 0 0  1  0  0 \n   0 5 0 -1  7  0\n  -1 7 0   0  5  \n    0  7 1   0 -5\n```\nTherefore, the decomposition of A into singular values is 1, 5, -1, and 7.",
+    "guid2":null
+  },
+  {
+    "guid":2892282.0,
+    "model_answer":"There are several measures that can be used to evaluate email monitoring systems. These include accuracy, precision, recall, and F1 score. Accuracy refers to the percentage of emails that are correctly classified as either spam or not spam. Precision measures the number of true positives (spam emails correctly identified as spam) divided by the total number of spam emails identified. Recall measures the percentage",
+    "guid2":null
+  },
+  {
+    "guid":2365323.0,
+    "model_answer":"The correct answer is: ...undergoes trapping within the mitochondria under anaerobic or hypoxic conditions. This is because FDGP is a substrate for the enzyme phosphogluconate dehydrogenase, which converts it to 6-phosphofructo-2-dehydro-3-deoxy-d-glyceroyl-D-galactonate (FDG6P) in the presence of NAD+ and NADP+. This reaction is irreversible, meaning that the product of the reaction cannot be converted back into FDGA. Therefore, when FGDP is inside a cell, it is trapped and cannot be used for any other metabolic pathway.",
+    "guid2":null
+  },
+  {
+    "guid":1418089.0,
+    "model_answer":"The correct answer is 3 because the first peak corresponds to the proton at position 1, the second peak to protons at positions 2 and 3, and the third peak to the two protons in position 4.",
+    "guid2":null
+  },
+  {
+    "guid":2653905.0,
+    "model_answer":"The answer is 1) and 2) because functional specialization refers to the idea that different regions of the brain are specialized for different functions, while functional integration refers to how these regions work together to perform complex tasks. These two ways of thinking about brain function are important because they help us understand how the brain is organized and how it processes information.",
+    "guid2":null
+  },
+  {
+    "guid":1830064.0,
+    "model_answer":"The answer is: Statically scheduled hardware-level synthesis (HLS) is a process where a hardware design is synthesized from a high-level programming language (e.g. C) to a hardware description language (HDL) such as Verilog or VHDL. This process is done offline, meaning it is done before the hardware is built and tested. On the other hand, dynamically-scheduled HLS is done online, meaning that the hardware description is built as the program is running. This allows for more flexibility and adaptability in the hardware design.",
+    "guid2":null
+  },
+  {
+    "guid":2165530.0,
+    "model_answer":"The answer is option 3 because in a crystal, atoms are arranged in a regular, repeating pattern called a lattice. Each atom in the crystal interacts with many other atoms in the lattice, and the strength of these interactions depends on the distance between the atoms. Atoms that are farther away from each other have weaker interactions, while atoms that are closer together have stronger interactions. Therefore, it is possible for an atom to interact with many atoms nearby, as well as with some that are far away, depending on the specific arrangement of the lattice.",
+    "guid2":null
+  },
+  {
+    "guid":1872393.0,
+    "model_answer":"Increased image noise can lead to a decrease in contrast resolution. This is because noise can obscure the fine details of an image, making it harder to distinguish between different regions of the image. However, it can also lead to improved image quality in some cases, depending on the type of noise and how it is processed.",
+    "guid2":null
+  },
+  {
+    "guid":1838132.0,
+    "model_answer":"The change in entropy of the ice cube when it melts at 0\u00b0C to form water is given by:\n\n\u0394Sglace = \u0394hfus + \u0394Lvap\n\nwhere \u0394 hfus is the change in enthalpy of fusion of ice and \u0394 Lvap is the latent heat of vaporization of water. The mass of the melted water can be calculated using the mass of water at 25\u00b0C, which is 1 kg per cubic centimeter. The volume of the water can then be calculated by multiplying the mass by the density of water and dividing by the cube's side length. The final answer is \u0394 Sglace \u2248 1.5 J\/g.",
+    "guid2":null
+  },
+  {
+    "guid":2133695.0,
+    "model_answer":"The correct answer is \\(t^3-2t^2+3t\\). This is because \\(T\\) is a linear transformation, which means that for any vector \\(v\\), we have \\(T(v) = \\lambda v\\) for some scalar \\(\\lambda\\). In this case, we can find that \\(\\lambda = 1\\) and \\(v = (1,0,0)\\), which gives us the result.",
+    "guid2":null
+  },
+  {
+    "guid":2037868.0,
+    "model_answer":"To answer this question, it is important to understand the concept of lexical",
+    "guid2":null
+  },
+  {
+    "guid":2798625.0,
+    "model_answer":"The set of values of \\(\\lambda\\) for which the matrices \\(A\\), \\(B\\), and \\(C\\) are invertible can be determined by using the Gauss\u2013Jordon elimination algorithm. For matrix \\(A\\) and \\(\\lambda=1\\), the matrix is invertible. For \\(\\lambda=\\frac{1}{5}\\), the determinant of the matrix becomes zero, and it is not invertible for this value. For \\(C\\), since it is a scalar matrix, it is always invertible, and its inverse is simply the reciprocal of its value.",
+    "guid2":null
+  },
+  {
+    "guid":1730438.0,
+    "model_answer":"The answer is option 4 because there are several challenges associated with next- generation sequencing data. One of the main challenges is the sheer amount of data generated by these methods, which can be difficult to analyze without the use of statistical methods. Additionally, biologists often need to develop computational approaches to analyze the data, and algorithms and models must be developed to extract meaningful information. Therefore, all of the options listed are correct.",
+    "guid2":null
+  },
+  {
+    "guid":1205329.0,
+    "model_answer":"The answer is option 3 because the geometric multiplicity of a eigenvalue is the number of linearly independent eigenvectors associated with that eigenvalue, while the algebraic multiplicity is the total number of eigenvalues of the linear transformation. In this case, we know that there is only one eigenvalue of multiplicity 1, so the geometric and algebraic multiplicities are both 1.",
+    "guid2":null
+  },
+  {
+    "guid":1399738.0,
+    "model_answer":"The answer is: 1) Compute the Bayes estimate for the given query. This is because Bayes' theorem is a fundamental concept in machine learning that allows us to calculate the probability of a hypothesis given the available data. In this case, we are given a query and we want to compute the probability that the query is true. To do this, we need to calculate P(query|data), which is the Bayesian estimate of the query.",
+    "guid2":null
+  },
+  {
+    "guid":2476507.0,
+    "model_answer":"Option 1: The magnetic moment depends on the magnetic field and the temperature. This is because the temperature affects the thermal motion of the electrons, which in turn affects their magnetic moment. The magnetic field, on the other hand, causes a torque on the electron spin, which can cause it to precess. The precession frequency depends on both the magnetic moment and the field strength.",
+    "guid2":null
+  },
+  {
+    "guid":1664882.0,
+    "model_answer":"La r\u00e9ponse correcte est \\(\\) car \\(\\) et \\(\\) ne sont pas des identit\u00e9s vraies.",
+    "guid2":null
+  },
+  {
+    "guid":2012769.0,
+    "model_answer":"The answer is \"All of the below\" because each of the three biomolecules (genome, epigenomes, and transcriptomes) can provide valuable information for identifying cell types.\nThe genome is the complete set of genetic material in an organism, including all of its genes. By analyzing the genome of different cell types, researchers can identify genes that are specific to each cell type, which can help to identify the cell type.\nEpigenetics is the study of heritable changes in gene function that do not involve changes to the underlying DNA sequence. Epigenetic changes can affect which genes are active or inactive in a cell, and these changes can be influenced by factors such as environment and lifestyle. By studying epigenetic markers in different cells, scientists can identify differences between cell types that are not reflected in their genetic makeup.\nFinally, the expression of genes (i.e., the production of RNA and proteins from those genes) is regulated by a complex network of factors, including transcription factors, RNA-binding proteins, and other regulatory molecules. By measuring the expression levels of different genes in cells, we can identify patterns that are unique to specific cell types and use those patterns to identify and classify cells.",
+    "guid2":null
+  },
+  {
+    "guid":1188846.0,
+    "model_answer":"The answer is that the difference is due to the use of different formal parameters in the model. Specifically, the model uses a set of rules to determine the PoS tags for a given sentence. These rules are based on the formal parameters of the model, which include the lexicon, the grammar rules, and the training data. In this case, the difference lies in the way the rules are applied to the sentence. For example, the rule for tagging the word \"first\" as a possessive pronoun is different from the rule used to tag \"adult\" as an adjective. The mathematical formulas for these rules will depend on the specific model and programming language used.",
+    "guid2":null
+  },
+  {
+    "guid":1067916.0,
+    "model_answer":"The answer is 3) because in the case of a red-detuned laser, the mechanical cavity mode is excited by the laser field, and the phonons in this mode are in a coherent state. In the resolved-sideband limit, the coupling strength is proportional to the square of the detuning, which means that the coupling is strongest when the detune is at its maximum value. Therefore, the minimum number of photons in the mechanical mode is given by 3).",
+    "guid2":null
+  },
+  {
+    "guid":1709016.0,
+    "model_answer":"La r\u00e9ponse correcte est l\u2019option 3) car le TCR (T-cell receptor) est un r\u00e9cepteur cellulaire pr\u00e9sent sur la surface des lymphocytes T qui reconna\u00eet les antig\u00e8nes pr\u00e9sent\u00e9s par les mol\u00e9cules MHC (major histocompatibility complexes) sur les cellules infect\u00e9es par des virus ou des bact\u00e9ries. Le TCR est capable de se lier \u00e0 l\u2019\u00e9pitope antig\u00e9nique pr\u00e9sent\u00e9 par le MHC et de d\u00e9clencher une r\u00e9ponse immunitaire.",
+    "guid2":null
+  },
+  {
+    "guid":1291168.0,
+    "model_answer":"The correct answer is: 1,2,3,4,5,6,7,8,9,10,11,12\n\nExplanation: A matroid is a mathematical structure that generalizes the concept of a graph. It consists of a finite set of elements called the ground set, and a collection of subsets called the independent sets. An independent set is a subset of elements that does not have any elements in common. The elements that are not in any independent set are called the dependent elements. Matroids have many important applications in computer science, such as in algorithms for finding maximum independent sets and minimum spanning trees.",
+    "guid2":null
+  },
+  {
+    "guid":1030949.0,
+    "model_answer":"The answer is approximately 25%. This is because supernovae are the most powerful explosions in the universe, and they release a large amount of energy in the form of neutrinos, gamma rays, and other particles. Some of this energy is also emitted as electromagnetic radiation, including radio waves. However, only a small fraction of the supernovas that occur in our galaxy are radio-loud, which means that they emit a significant amount of their energy in this frequency range.",
+    "guid2":null
+  },
+  {
+    "guid":1299623.0,
+    "model_answer":"The answer is 3) It is not possible to have 0 as the norm of a vector, except in the case where the eigenvalue is 0. This is because the norm is defined as the square root of the sum of the squares of the elements of the vector, and if all the elements are zero, then the norm must also be zero.",
+    "guid2":null
+  },
+  {
+    "guid":2311987.0,
+    "model_answer":"The answer is 1) and 2) because using the three principles to generate a connectome is not a random process. Instead, it is a systematic approach that takes into account the properties of neurons and the structure of the brain. Additionally, the entropy measurements demonstrate that applying these constraints significantly reduces the uncertainty in the reconstructed connectome.",
+    "guid2":null
+  },
+  {
+    "guid":1820267.0,
+    "model_answer":"The answer is 1) and 2) because the action of a neuron depends on the movement of ions across its membrane. When an electrical impulse, or action potential, travels down the neuron's axon, it causes the release of neurotransmitters from the synaptic vesicles. This process is called exocytosis. The action potential also causes an increase in the concentration of Ca2+ ions in the cytoplasm, which is necessary for the release and propagation of the electrical signal. This increase is achieved through the activation of voltage-dependent calcium ion channels, which open in response to the depolarization of the membrane that occurs during the action potentia",
+    "guid2":null
+  },
+  {
+    "guid":1488633.0,
+    "model_answer":"The answer is 1) and 2) because the data for modeling comes from different sources and organisms, and it is important to organize and classify it according to various criteria to ensure accuracy and reliability of the model. Additionally, it can be difficult to visualize the data using standard methods, which is why new data can only be added if it follows specific methods.",
+    "guid2":null
+  },
+  {
+    "guid":2984772.0,
+    "model_answer":"The correct answer is: 1) kB T - alpha <math>\\left<x v\\right><\/math>. This is because the position x and velocity v of the particle are not independent, but are related by the equation of motion. Therefore, the average of the product of x and v is not equal to zero.",
+    "guid2":null
+  },
+  {
+    "guid":2517410.0,
+    "model_answer":"The answer is 6 because in the hexadecimal system, each digit represents a power of 2. Therefore, we need 6 digits to represent all numbers from 0 to 15.",
+    "guid2":null
+  },
+  {
+    "guid":1806760.0,
+    "model_answer":"The answer is \"Yes, Vliw processors can benefit from load store queues.\" This is because the load store queue helps to improve the performance of the processor by reducing the number of instructions that need to be executed in a single clock cycle. By using a queue, the processor can execute multiple instructions in parallel, which helps to increase the overall processing speed of the system. Additionally, the use of a queue can help to reduce the amount of time that the processor spends waiting for data to be loaded or stored, which can further improve the overall performance of",
+    "guid2":null
+  },
+  {
+    "guid":1800313.0,
+    "model_answer":"The answer is option 4 because models are becoming more detailed with time. This is because researchers are constantly trying to improve the accuracy of their models by adding more layers, neurons, and connections. As a result, the models have become more complex and require more computational power to run. Additionally, the size of the models may also be influenced by the amount of data available to train them.",
+    "guid2":null
+  },
+  {
+    "guid":2664583.0,
+    "model_answer":"La r\u00e9ponse est $10^5 \\  J$. En effet, la quantit\u00e9 de mouvement du gaz augmente de $\\frac{1}{2} m v^2$, o\u00f9 $m$ est la masse du gaz et $v$ est sa vitesse. Si la pression est constante, cela signifie que le volume du gaz est constant. Donc, si la force est appliqu\u00e9e \u00e0 l'extr\u00e9mit\u00e9 de l'axe de la cylindr\u00e9e, cela entra\u00eenera une augmentation de la distance parcourue par la parabole, ce qui signifie qu'il y a plus de mouvement.",
+    "guid2":null
+  },
+  {
+    "guid":1281212.0,
+    "model_answer":"The matrices augmented for the given systems of linear equations are:\n\nFor the first system:\n$$A = \\begin{pmatrix} 5 & -3 & 1 \\\\ 2 & -1 &  \\\\ 0 & &  \\end{pmatrix}$$\nThe augmented matrix for the second system is:\n```css\nA = \n   1 0 0\n   0 1 2\n   5 3 1\n```",
+    "guid2":null
+  },
+  {
+    "guid":1670224.0,
+    "model_answer":"The answer is $\\Theta(\\log n)$. This is because the depth of the function is equal to the maximum of the depths of the two nested loops. The outer loop has a depth of $\\log n$ because it iterates over half of the elements of the list, and the inner loop has the same depth as the contains function itself. Therefore, the overall depth is $\\max(\\log(n\/2), \\log(3)) = \\log n$.",
+    "guid2":null
+  },
+  {
+    "guid":2360467.0,
+    "model_answer":"The solution to the system of linear equations $Ax=b$ using the QR factorization method is $\\vec x = \\vec Q \\vec r$, where $\\vec Q$ is an orthogonal matrix and $\\vec r$ is a non-zero vector. In this case, we have $A = QR$, where $Q$ is the orthogonal matrix with columns $\\vec q_1 = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix}$ and $q_2 = \\sqrt{\\frac{3}{4}} \\vec e_1$, and $R$ is upper triangular with $R_{11} = 2$ and $0$ in the other entries. Therefore, we can solve the system by computing $\\vec y = Q^T \\vec b$, which gives us the solution $\\vec b - \\vec y$.",
+    "guid2":null
+  },
+  {
+    "guid":1957269.0,
+    "model_answer":"The report of two extensive quantities is extensive or intensive? Find some examples to illustrate your answer.\nThe answer is intensive because it depends on the units of the quantities being reported. For example, if we report the temperature in Celsius and the pressure in Pascals, the product of these two quantities is extensive. On the other hand, if the temperature is reported in Kelvins and the volume in cubic meters, the volume is extensive while the temperature remains intensive.",
+    "guid2":null
+  },
+  {
+    "guid":2474271.0,
+    "model_answer":"The answer is \"H\" (hyperparameters). The reason is that the number of cluster is a hyperparameter of a clustering algorithm, which means it is a parameter that is set before the training process and can be adjusted to change the behavior of the algorithm. It is not a parameter of the learning algorithm itself.",
+    "guid2":null
+  },
+  {
+    "guid":1668801.0,
+    "model_answer":"The answer is: 1, 2, 3, and 4. These statements are all true. Post-mitotics cells are cells that have completed the process of cell division and are no longer capable of dividing. They are found in various parts of the body, including the neural tubes, where they play a crucial role in the development and maintenance of the nervous system. They include stem cells, which are undifferentiated cells that can give rise to many different types of cells, as well as differentiated cells such as neurons, which have a specific function and cannot divide. Additionally, they are not capable of proliferating, meaning they cannot divide and produce more cells.",
+    "guid2":null
+  },
+  {
+    "guid":2144158.0,
+    "model_answer":"The answer is 1. This is because there is only one difference between the two words, which is the substitution of the letter 'c' for 'e' in the word 'exce'. The edit distance is the number of operations needed to transform one string into another, and in this case, there is one operation needed to make the substitution.",
+    "guid2":null
+  },
+  {
+    "guid":1485440.0,
+    "model_answer":"The correct answer is 7,350,000. This is because the gravitational force acting on the 1 milliwatt laser pointer is proportional to its mass, which is 5 milligrams. Therefore, we can use the equation F = G \\* m \\* g to calculate the force required to keep the laser floating against gravity. The gravitational constant G is 6.674 \\* 10^-11 N\\*m^2\/kg^2, and the acceleration due to gravity is 9.81 m\/s^2. Plugging these values into the equation gives us a force of approximately 66.74 millinewtons, which we can convert to watts by dividing by 0.001. This gives us an answer of 6,667,400, which when rounded up to the nearest whole number gives us the correct answer.",
+    "guid2":null
+  },
+  {
+    "guid":1052451.0,
+    "model_answer":"The correct answer is option 3, by imaging the early expression of genes in the neurons of interest. This method allows researchers to study the activity of neurons in a non-invasive manner and can provide valuable insights into the underlying mechanisms of brain function.",
+    "guid2":null
+  },
+  {
+    "guid":1620320.0,
+    "model_answer":"The correct answer is: On the mass of the cloud. This is because the gravitational force acting on a cloud of gas is proportional to its mass. Therefore, a larger mass cloud will take longer to fall due to its stronger gravitational pull. Additionally, the temperature of the gas also affects its density, which in turn affects the fall time.",
+    "guid2":null
+  },
+  {
+    "guid":1568152.0,
+    "model_answer":"The optical characteristics of lenses can be understood within the framework of geometrical and wave optics. In geometrical optics, lenses are described as convex or concave surfaces that refract light rays. In contrast, wave optic theory describes the behavior of light as a wave that can be refracted or diffracted depending on the properties of the lens material and the wavelength of the light.\nAnti-reflection coatings are used to reduce the amount of light that is reflected off the surface of a lens or other optical components. These coatings typically consist of a thin layer of material that has a high refractive index and is deposited on the surface. This layer acts as a mirror to reflect light away from the surface, minimizing the amount that is absorbed or scattered.\nThere are several other methods for minimizing reflection, including the use of prisms or mirrors to redirect light, and the application of coatings that absorb or scatter light. These methods can be used in combination to achieve the desired level of reflection reduction.",
+    "guid2":null
+  },
+  {
+    "guid":1005611.0,
+    "model_answer":"The correct answer is: Supervised prediction. This is because the task involves using a dataset to train a machine learning model to predict whether a tomato is ripe or not, based on its appearance. Therefore, supervised regression is the most appropriate tool for this task.",
+    "guid2":null
+  },
+  {
+    "guid":1361816.0,
+    "model_answer":"The answer is: A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z\n\nThis is because the process of modeling microcircuits involves several steps, each of which is important for accurately simulating the behavior of the circuit. These steps include analyzing the circuit diagram, identifying the components and their connections, determining the values of the resistors, capacitors, and other passive components, and writing the simulation code. Each of these steps must be performed in the correct order to ensure that the simulation produces accurate results.",
+    "guid2":null
+  },
+  {
+    "guid":2700720.0,
+    "model_answer":"The answer is: 1, 2, 3, 4, 5, 6, 7\n\nExplanation:\n\n1. The channel is initially closed because r is zero at t<0.\n2,3. At t=1 and t=3 ms, the channel has a partial opening because r0 and \u03c4r are close to 1 and 1 ms, respectively.\n4,5,6,7. These statements describe the behavior of the channel as a function of time, and they are all correct.",
+    "guid2":null
+  },
+  {
+    "guid":1505348.0,
+    "model_answer":"The LHC particle accelerator at the European Organization for Nuclear Research (CERN) generates 1 Pb\/s (10^15 bits\/s) which is equivalent to 13 years of HD video per second. However, there is no technology in the world that can record all these data in real-time. Even if we put a lot of hard disks in parallel, we would not be able to build a fast enough connection to record all the data without losing any of it.\nA hardware circuit analyzes the data and filters them by a factor of 1,00, before injecting them directly into specialized processors that reduce them by another factor of the same order. In rounding to orders of magnitude, with a data rate of 0.1 Gbps, it would take approximately 1.3 hours to fill 1 TB disk.",
+    "guid2":null
+  },
+  {
+    "guid":2660235.0,
+    "model_answer":"To answer the question, we need to calculate the number density of electrons and ions in a plasma. This can be done using the formula:\n\n$$n_e = n_0 \\left( \\frac{T_e}{T_0} \\right)^{3\/2}$$\n\nwhere $n_0$ is the initial number density and $T_{e}$ is the electron temperature. Using the given values, we can calculate that $n_{e} = 2.5 \\times10^9 \\ \\mathrm{m^{-3}}$.\n\nTo calculate the ion number density, we use the same formula, but with $T_i$ as the ion temperature. We can find that $ n_i = 4.5\\times11^9\\ \\mathrm m^{-3}$.\n\nTherefore, the total number density is $n = n_{e}+n_{i}= 7.0 \\times  10 ^{9} \\mathrm {m ^{-3}} $.",
+    "guid2":null
+  },
+  {
+    "guid":2125522.0,
+    "model_answer":"The vector representation of the words \"pen\" and \"cow\" can be calculated using a technique called bag-of-words. This technique counts the number of times each word appears in a document and assigns a weight to each word based on its frequency. The resulting vector can be used to cluster similar documents together.",
+    "guid2":null
+  },
+  {
+    "guid":2369215.0,
+    "model_answer":"The answer is 1) because the integral of the difference of two functions is equal to the area of the region bounded by their graphs. In this case, the region is bounded by the graphs of \\(f\\) and \\(g\\), and the area is given by the integral.",
+    "guid2":null
+  },
+  {
+    "guid":2464104.0,
+    "model_answer":"The answer is True. This is because if a function is both convex and has a global minimum, then it must be unique. This follows from the definition of a convex function, which states that for any two points in the domain of the function, the line segment connecting them lies entirely within the function's domain. Therefore, if two points have the same minimum value, then they must be the same point.",
+    "guid2":null
+  },
+  {
+    "guid":2958269.0,
+    "model_answer":"The answer is that the determinant of a matrix is zero when two columns (or lines) are equal, and it does not change if we add a multiple of one column (or line) to another. This can be proven using the definition of determinant and the properties of matrix multiplication.",
+    "guid2":null
+  },
+  {
+    "guid":2865862.0,
+    "model_answer":"The application is likely freezing due to the large number of images being downloaded and displayed at once, causing a bottleneck in the system's processing capabilities.",
+    "guid2":null
+  },
+  {
+    "guid":1907266.0,
+    "model_answer":"The given grammar consists of two types of rules: left-recursive rules (R1, R2, R3, R4, R5, R6, R7, R8) and non-left-recursives (R9). To make this grammar exploitable, we need to add some rules that do not involve left recursion. These missing rules should be of the form $S \\rightarrow \\epsilon$, $NP \\rightarrow NP$, $VP \\rightarrow VP$, and $PP \\rightarrow PP$.",
+    "guid2":null
+  },
+  {
+    "guid":2023104.0,
+    "model_answer":"The answer is option 1 because extracelullar simulations can be used as a validation tool for the model. This is because all the components of the detailed model are used to determine the extracelleular potential, so it can help test how all the pieces are working together.",
+    "guid2":null
+  },
+  {
+    "guid":2788435.0,
+    "model_answer":"The answer is morphological data because connectivity matrices are used to represent the specific connections between neurons in a given cell type. These matrices are built based on the morphological features of the neurons, such as their shape, size, and location in the brain. This information is essential for understanding how neurons communicate with each other and how they contribute to brain function.",
+    "guid2":null
+  },
+  {
+    "guid":2028168.0,
+    "model_answer":"The correct answer is: Differentiate between the different areas activated by a moving vertical bar. This is important for understanding how the brain processes visual information.",
+    "guid2":null
+  },
+  {
+    "guid":1192337.0,
+    "model_answer":"The statement that is false is: \"Solution 1 is false.\" This is because multiple non-degenerate basic solutions can correspond to different vertices in the feasibility region.",
+    "guid2":null
+  },
+  {
+    "guid":1974005.0,
+    "model_answer":"The answer is: 1, 2, 3, 4, 5\n\nExplanation:\n\n1. It is not true. The Cocke-Younger-Kasami (CYK) algorithm is a bottom-up parsing algorithm, which means it starts with the last word of the input sequence and works its way up to the root of the parse tree, rather than starting with the root and working its way down to the leaves. This makes it more efficient for processing longer input sequences.",
+    "guid2":null
+  },
+  {
+    "guid":1477073.0,
+    "model_answer":"The answer is option 1 because the five pillars of computational thinking are action, learning, perception, sensing, and communication. These pillars represent the different aspects of how we interact with the world and how we process information. By understanding these pillars, we can better understand how we can use computational thinking to solve problems and make decisions.",
+    "guid2":null
+  },
+  {
+    "guid":1770382.0,
+    "model_answer":"The correct answers are:\n1, 2, 3, 4, 5, 6, 7, 8\n\nThe directionality refers to the direction of the current flow in the neuron. Inward currents flow from the outside to the inside of the cell, and are carried by ions such as sodium and calcium ions. Outward current flows in the opposite direction, from the inside to the outside. The tempo refers to how fast the current changes over time. The early currents are faster than the late currents.",
+    "guid2":null
+  },
+  {
+    "guid":2488522.0,
+    "model_answer":"The answer is that the algorithm is a good iterative approach to find the low-energy configuration because it uses the sign function to update the state of each spin. The sign function ensures that each spin points in the same direction as the majority of the other spins in the system. This helps to minimize the energy of the system by aligning the spins with their neighbors. The algorithm is also computationally efficient and easy to implement.",
+    "guid2":null
+  },
+  {
+    "guid":1766732.0,
+    "model_answer":"The answer is that the square root of 2 is not rational because it is not possible to express it as a ratio of integers. This can be proven by showing that there are no integers x and y such that x^2 + y^2 = 2.",
+    "guid2":null
+  },
+  {
+    "guid":2468813.0,
+    "model_answer":"The answer is option 2 because plasma has been shown to be an effective treatment for wound healing. Plasma contains growth factors and cytokines that can promote the healing process, and it has been used to treat a variety of wound types, including burns, diabetic foot ulcers, and surgical wounds. The kInPen is a device that uses plasma to treat wounds, and studies have shown that it can be effective in improving the appearance of wounds and promoting healing in a short period of time.",
+    "guid2":null
+  },
+  {
+    "guid":1320591.0,
+    "model_answer":"The term that is used to describe the amount of light that is absorbed by a material is the coefficient of absorption. This is a measure of how much light is lost as it passes through a material. The coefficient of scatter is a different term that describes how much of the light that passes through the material is scattered away from its original path.",
+    "guid2":null
+  },
+  {
+    "guid":1735713.0,
+    "model_answer":"The correct answer is: Fourier transform. An MRI (magnetic resonance imaging) system uses the Fourier transform to convert the mathematical data of the magnetic field and radio frequency pulses into an image. The Fourier transform is a mathematical tool that decomposes a signal into its frequency components. In the case of MRI, it is used to separate the signals from different parts of the body, such as muscle, fat, and bone. The resulting images can then be used to diagnose diseases and injuries.",
+    "guid2":null
+  },
+  {
+    "guid":2958218.0,
+    "model_answer":"Morphological processing is a crucial step in the natural language processing pipeline. It involves analyzing the structure of words and identifying their morphological components, such as prefixes, suffixes, and inflections. This module is essential for tasks such as part-of-speech tagging, named entity recognition, and word sense disambiguation. It helps to identify the grammatical structure of a sentence, which is crucial for understanding the meaning of the text. Additionally, morphological processing can help to identify errors in spelling, grammar, and punctuation, which can improve the overall quality of the language model.",
+    "guid2":null
+  },
+  {
+    "guid":1309728.0,
+    "model_answer":"Option 1 is incorrect because the probability of Compton scattering increases as the energy of the incident photon increases. This is because higher energy photons are more likely to interact with the electrons in the target material, leading to a higher probability of scattering. Option 2 is also incorrect because energy is an important factor in determining the likelihood of a photon interacting with an electron in a target material. Finally, option 3 is correct because the cross-sectional area of the interaction decreases with increasing atomic number, which means that a higher fraction of the photon's energy is lost in the interaction.",
+    "guid2":null
+  },
+  {
+    "guid":2746589.0,
+    "model_answer":"The answer is that you should select the element that has the highest priority. This is because reservation stations are used to ensure that resources are allocated in a fair and efficient manner. By prioritizing the elements that are ready, we can ensure that the most important tasks are given access to the resources they need first. This helps to prevent bottlenecks and ensures that all tasks are completed in a timely manner.",
+    "guid2":null
+  },
+  {
+    "guid":2603154.0,
+    "model_answer":"The answer is that we can use Bayes' theorem to calculate the posterior probability of the unknown position \u03bbpha given the observed data x and the known distance \u03b2eta. The posterior probability is given by:\n\nP(\u03bbpha|x,\u03b2eta) = P(x|\u03bbpha,\\betaeta) \\* P(\\lambdapha) \/ P(\\mathbf{x}|\\mathbf{\u03bbpha}, \\mathbf{\\betaeta})\n\nwhere P(xlpha) is the prior probability distribution of the position, which is assumed to be uniform over the entire coastline. We can use the observed positions xk to estimate the prior distribution by computing the probability of each possible position xlpha and normalizing it by the total number of observations N. This gives us the posterior distribution of possible positions, which we can then use to find the most likely position.",
+    "guid2":null
+  },
+  {
+    "guid":2530776.0,
+    "model_answer":"La capacit\u00e9 d'\u00e9liciter des r\u00e9pon",
+    "guid2":null
+  },
+  {
+    "guid":2437211.0,
+    "model_answer":"To answer the question, we need to understand how the algorithm works. The algorithm randomly sets the value of each element in $E$ to either 0 or 1 with equal probability. Then, it checks if the sum of the values of elements in $S$ is equal to the sum in $T$. If they are equal, the algorithm outputs true. Otherwise, it outputs false. We want to show that the probability of the algorithm outputting true when $S = T$ is 1, and the probability is at most $\\frac{2}{3}$ when $T \\neq S$. To do this, we will use the principle of total probability. Let $X$ be the random variable representing the event that $T = S$. Then, we have $P(X = 1) = \\frac{1}{2}$ and $P(\\neg X = 0) = P(X \\neq 1)$. We can use Bayes' theorem to find the probability distribution of $X$. Let $Y$ be a random variable that represents the number of pairs $(e,f)$ such that $e \\in S$, $f \\in T$, and $x_e \\neq x_f$. We have $Y \\sim \\text{Binomial}(|S||T|, 1\/2)$. Then, $X = Y$ if and only if $Y = |S| = |T|$. Therefore, we can use the binomial probability mass function to find $P(|S|=|T|)$. We have $\\sum\\_{i=0}^{|S|} (-1)^i \\binom{|S|}{i} \\cdot \\left(\\begin{array}{c} |T|\\end{array}\\right)^{i-1} \\left(1-\\frac{3}{2}\\right)^{-|T|\\cdot(|T|-i+1)}$ for $i \\leq |S|$ and $0$ otherwise. We can simplify this expression by using the formula $\\binom{n}{i}=\\frac{n!}{i!(n-i)!}$. We get $\\frac{|S|^2}{2|T|^2} + \\frac{|T|^3}{6|T||S|}$. Since $|T| \\geq 1$ and $|S| > 0$, we have $|S|\\leq |T|$ and $|T|\\leq 2|S|$ by the pigeonhole principle. Therefore",
+    "guid2":null
+  },
+  {
+    "guid":2945470.0,
+    "model_answer":"The answer is:\n\nThe solution is given by $\\omega_i = \\frac{1}{\\sqrt{D}} e_i$, where $e_i$ is the $i$-th standard basis vector of $\\mathbb R^D$. This solution is optimal in the sense that it minimizes the average error over all patterns. The critical value is $\\alpha = 1$.",
+    "guid2":null
+  },
+  {
+    "guid":2610154.0,
+    "model_answer":"The answer is given by the formula:\n\n$$\\sigma_x = \\sqrt{\\frac{\\hbar}{2m\\omega}}$$\n\nwhere $\\hbar$ is the reduced Planck constant and $m$ and $\\omega$ are the mass and angular frequency of the oscillator, respectively. This formula is derived from the uncertainty principle, which states that the product of the uncertainties in position and momentum must be greater than or equal to a certain constant value. In this case, the uncertainty in position is proportional to the square root of the variance in momentum, and vice versa.",
+    "guid2":null
+  },
+  {
+    "guid":2779843.0,
+    "model_answer":"The answer is option 3, \"Non, jamais.\" This is because if two matrices are similar, it does not necessarily mean that they are line-equivalent. Line-equivalence is a stronger condition that requires the two matrices to have the same number of rows and columns. Therefore, it is possible for two similar matrices to be line-incomparable.",
+    "guid2":null
+  },
+  {
+    "guid":1516351.0,
+    "model_answer":"The answer is \"needs a similarity or distance measure\" because both similarity and distance measures are needed to classify data. The similarity measure is used to determine how similar each data point is to the other data points in the same class, while the distance measure determines how far away each point is from the center of its class. These measures are then used to group the data points into their respective classes.",
+    "guid2":null
+  },
+  {
+    "guid":1442097.0,
+    "model_answer":"The answer is approximately 0.96, which means that there is a high chance of agreement between both annotators. This is because they both annotated the same image, which makes it more likely that they will agree on the labels. However, it's important to note that there may still be some disagreement between annotators, especially if they have different interpretations of the image.",
+    "guid2":null
+  },
+  {
+    "guid":1155361.0,
+    "model_answer":"The answer is quadrant detector because it is not suitable for optical time-domain (OT) spectroscopy. This is because quadrant detectors are designed to detect the intensity of light and not its time-varying properties. Therefore, they are not well-suited for measuring the time-resolved fluorescence of a sample. Instead, other detection methods such as photodiodes, CCD cameras, and EMCC cameras are better suited for this purpose.",
+    "guid2":null
+  },
+  {
+    "guid":1357589.0,
+    "model_answer":"The given operation implements the `reduceLeft` method on the `List` of digits. The method takes two parameters: `a` and `b`, which are elements of the list. The result of the method is a tuple containing the product of the two elements and the sum of their indices. In this case, the result is the product and the index of the first element of the tuple.",
+    "guid2":null
+  },
+  {
+    "guid":1966428.0,
+    "model_answer":"The answer is \"auto-r\u00e9ferent\" because an algorithm that contains a call to itself is called recursive. Recursive algorithms are used to solve problems by breaking them down into smaller subproblems, which are then solved recursively until the base case is reached.",
+    "guid2":null
+  },
+  {
+    "guid":1932594.0,
+    "model_answer":"The answer is option 4) because there are many cell types in the human brain, which makes it difficult to dissociate single cells without damaging them. This is important because we need to be able to study individual cells in order to understand how they work and how they contribute to brain function.",
+    "guid2":null
+  },
+  {
+    "guid":2170363.0,
+    "model_answer":"The answer is that we can use Bayes' theorem to find the probability distribution of the unknown position \u200blpha given the observed data x = {x\\_k\\_{k= 1}^{N}}. The probability of the position is given by the integral of the likelihood function over all possible positions, which is the product of the prior probability of \u200b  lpha and the posterior probability. The prior probability is the probability of all positions along the coastline, which we can assume to be uniform. The likelihood is the ratio of the number of observed flashes to the total number of flashes emitted by the lighhouse. The posterior probability is proportional to the ratio between the product and the integral over all positions of the probability density function of the observed flash positions given the position. We can then use the Bayesian estimator to estimate the most likely position.",
+    "guid2":null
+  },
+  {
+    "guid":1930824.0,
+    "model_answer":"The expression of the force for a system of electrodynamics is \u0398a*\u0398b.",
+    "guid2":null
+  },
+  {
+    "guid":1737247.0,
+    "model_answer":"The correct answer is option 3, The Resting Potential Would Decrease. This is because a decrease in the external concentration of sodium ions would result in an increase in the concentration of potassium and chloride ions inside the cell, leading to a hyperpolarization of the membrane potential. This decrease in external sodium ion concentration would also decrease the conductance of the Na+\/K+-ATPase pump, which would further decrease the external Na+ concentration and lead to an even greater decrease in conductance. As a result, the cell would become more resistant to depolarization, and the potential difference between the inside and outside of the neuron would decrease.",
+    "guid2":null
+  },
+  {
+    "guid":1306287.0,
+    "model_answer":"The answer is option 3: Because there are no catalogues of all the possible ion channels in the brain. This is because the brain is constantly changing and evolving, and new ion channels are being discovered all the time. Therefore, it is not possible to create a comprehensive catalogue that includes all possible ion channel types. However, by creating a class of ion channel models, researchers can study the general principles of how ion channels work and how they contribute to brain function.",
+    "guid2":null
+  },
+  {
+    "guid":2738452.0,
+    "model_answer":"The answer is option 2 because the assumption that only the component of \\(B_1\\) that is perpendicular to the line of sight contributes to the vertical magnetic field, implies that only this component affects the motion of plasma along the field lines. As a result, plasma follows the displacement of magnetic fieldlines perfectly.",
+    "guid2":null
+  },
+  {
+    "guid":1935148.0,
+    "model_answer":"The time delay between two frequencies is given by the formula:\n\n$$ \\tau = \\frac{c}{f_2} - \\tau_0 $$\n\nwhere $c$ is the speed of light, $f_1=1$ GHz is the frequency of the first pulse, and $n_e=10^3$ cm$^{-3}$ is the electron density of the interstellar medium. We can use the formula to find the time delay for the second pulse with frequency $f=1.3$ kHz, which corresponds to a wavelength of $\\lambda = 2.1 \\times 10^{10}$ cm. We also know that the distance to the source is $1$ kpc, which is equal to $3.08564$ million kilometers. Using these values, we can calculate the delay as follows:\n\\begin{align*}\n\\tau &= \\left(\\frac{1}{1 \\; \\text{GHz}} \\right) - \\left( \\frac{\\lambda}{2\\pi} \\right)\\\\\n&= \\left[\\frac{3000}{1}\\right] \\left[-\\frac{21}{2}\\pi\\right]\\\\\n&= -\\frac{630}{2}\\\\\n&= -315\\\\\n&\\approx 320\n\\end{align*}\\\n\nTherefore, the delay between the two pulses is approximately 3.2 seconds. This delay is caused by the time it takes for the electromagnetic pulse to travel from the source to the observer. The delay depends on the distance between the observer and the source, as well as the properties of the intervening medium.",
+    "guid2":null
+  },
+  {
+    "guid":2546886.0,
+    "model_answer":"The correct answer is: 3) Along the slice selection axis. This is because fat signals are typically stronger than water signals, so they will have a greater effect on the frequency and phase of the NMR signal. As a result, the fat signal will be shifted more than the water signal when comparing the two signals along any of the three axes.",
+    "guid2":null
+  },
+  {
+    "guid":2388044.0,
+    "model_answer":"The answer is 3) because the initial potential is only non-zero for patterns 3 and 4. Therefore, we can simplify the potential as the product of the probability of the pattern and the mass of that pattern.",
+    "guid2":null
+  },
+  {
+    "guid":1895904.0,
+    "model_answer":"To answer the question, we first need to understand the definition of a positive definite matrix. A matrix $A$ is positive definite if for any non-zero vector $x$, the scalar $x^TAx$ is non-negative. In other words, if $Ax \\neq 0$, then $\\|Ax\\|^2 \\geq 0,$ where $\\|x\\|$ is the Euclidean norm of $x$.\n\nUsing this definition, we can prove the three statements. For part (a), we assume that $\\det{A}>0$ and $a\\geq0$. Then, we have $\\det(A)=\\frac{a^2+d^2}{2}\\geq0$, which implies that $Q=\\frac{1}{2}x^T Ax$ is also positive definite for any $x\\neq0$. This means that if $a=0$ or $d=0$, we cannot have $Q>0$. Therefore, part (b) is true. Similarly, for part (c), if $\\det {A}<0$ then $\\det (A)=-\\frac{ad}{a+d}\\leq0$. Hence, $Q=-\\frac 12 x^TA x$ is negative definite, which means that it is indeterminate for $x=0$. Thus, we get part (d).",
+    "guid2":null
+  },
+  {
+    "guid":2502826.0,
+    "model_answer":"The answer is that the bandgap of bilayer MoS2 under strain is expected to increase. This is because the strain causes the atoms to move closer together, which changes the energy levels of the electrons in the material. This results in a decrease in the energy required to excite an electron from the valence band to the conduction band, which in turn leads to an increase in the band gap. The same principle applies to bilayer TMDs, such as MoSe2 and MoTe2.",
+    "guid2":null
+  },
+  {
+    "guid":2750272.0,
+    "model_answer":"Weak duality is always true because it is a consequence of the definition of the Lagrangian dual function. The dual function of a function $f$ is defined as $d(x) = \\max _{\\lambda \\geq 0} x^T \\lambda - f(\\lambda)$, where $\\lambda$ is a vector of Lagrange multipliers and $x$ is an argument of $f$. Weak duality means that the optimal solution of the dual problem is feasible for the primal problem, and vice versa. In other words, if we can find a feasible solution $\\mathbf{y}^{\\star}$ to the dual optimization problem, then we can also find an optimal solution $x^{\\star}$ of the original primal optimization problem. Conversely, if there exists a primal optimal solution $\\hat{x}$, then there also exists a dual feasible point $\\hat{\\lambda}$ that attains the optimal value of $d$. Therefore, we can conclude that weak dualities always hold.",
+    "guid2":null
+  },
+  {
+    "guid":2697598.0,
+    "model_answer":"La premi\\`ere affirmation est vraie car le produit de deux matrices inf\\'eriores (ou sup\\'eri\\`eres) est toujours inf\\`erieur ou sup\\'erieur, respectivement. Cela est d\\'emontr\\'e en utilisant la propri\\'et\\'e de la matrice d'incidence de la triangulation. La deuxi\\`eme assertion est fausse car il existe des exemples de matrices $A,B$ qui sont inf\\'eriores et sup\\'eries mais dont le produit est inf\\'eior.",
+    "guid2":null
+  },
+  {
+    "guid":1401690.0,
+    "model_answer":"The answer is option 1 because visible light is the range of electromagnetic radiation that is visible to the human eye. This range is typically defined as between 380 and 780 nanometers.",
+    "guid2":null
+  },
+  {
+    "guid":1827482.0,
+    "model_answer":"The correct answer is: The strength  of the  release site  because  it  depends  on  the  number  of  neurotrasmitter  vesicles  that  are  available  to  be  released. As the number of vesicles increases, so does the strength, and as the number decreases, the strength also decreases. This means that the strength is not constant and can change over time.",
+    "guid2":null
+  },
+  {
+    "guid":2934484.0,
+    "model_answer":"La r\u00e9ponse correcte est la premi\u00e8re option, car en divisant toujours la liste \u00e0 chaque \u00e9tape en trois parts \u00e9gales, nous obtiendrons une liste de taille 2^n, o\u00f9 n est le nombre d'\u00e9tapes de la recherche. Cela signifie que chaque liste sera plus petite que la liste pr\u00e9c\u00e9dente, ce qui am\u00e9liore la vitesse de recherche. Cependant, il est important de noter que cette m\u00e9thode peut entra\u00eener une augmentation de la consommation de m\u00e9moire.",
+    "guid2":null
+  },
+  {
+    "guid":1440146.0,
+    "model_answer":"The answer is option 3: Protons in molecules have different gyromagnetic ratios. This is because the magnetic field of a proton affects its spin, and the strength of this magnetic field depends on the type of molecule it is in. For example, protons in water have a different magnetic field than those in methane, and this affects their gyroscopic behavior.",
+    "guid2":null
+  },
+  {
+    "guid":2739387.0,
+    "model_answer":"The answer is that the algorithm cannot be directly applied because we cannot compute the features $\\phi(x_i)$ for each observation $x\\_i$ directly. Instead, we need to compute the kernel matrix $K$ from the kernel function $k(x, y)$, which involves computing the dot product between each pair of observations $x$ and $y$ in the original feature space. Once we have computed $K$, we can then compute the matrix of mapped observations $\\Phi(x)$ using the kernel trick. Finally, we can apply the principal component analysis algorithm to the matrix-valued data to obtain the principal components.",
+    "guid2":null
+  },
+  {
+    "guid":1427867.0,
+    "model_answer":"The answer is 1\/2. This is because the variance is the square of the standard deviation, which is the average of the squared deviations from the mean. In this case, the mean is the expected number of photons in the cavity, and the deviations are the fluctuations around that mean. Therefore, the variance can be expressed as the sum of the squares of these deviations, divided by the total number of possible deviations. Since there are two possible values for each deviation (0 or 1), there are 2^2 = 4 possible combinations of deviations that contribute to the variance. Each of these combinations has a square of 1, so the total variance is 4 \\* 1 = 1.",
+    "guid2":null
+  },
+  {
+    "guid":1658890.0,
+    "model_answer":"The answer is option 1: Glycosylated proteins. This is because the stain is used to visualize the presence of glycans, which are carbohydrates that are attached to proteins, lipids, and nucleic acids. Osmium tetraoxide binds to the glycosidic linkages of these molecules, making them visible under the electron microscope.",
+    "guid2":null
+  },
+  {
+    "guid":2549137.0,
+    "model_answer":"The answer is: 1, 2, 3, 4, 5, 6, 7 because they are all true statements.",
+    "guid2":null
+  },
+  {
+    "guid":1973639.0,
+    "model_answer":"The answer is True because FastText is a type of deep learning algorithm that can be used for text classification tasks. It is a supervised learning algorithm, which means that it requires labeled data to train the model. In this case, the FastText model can be thought of as a neural network with one hidden layer, where the hidden layer is used to learn the representations of the input data. These representations are then used to classify the data into different categories.",
+    "guid2":null
+  },
+  {
+    "guid":1823224.0,
+    "model_answer":"In this case, the answer is \"Fasttext has fewer parameters.\" This is because FastText is a type of deep learning algorithm that uses a technique called word embeddings to represent words in a high-dimensional vector space. This allows FastText to capture the semantic meaning of words and phrases in a more efficient way than traditional bag-of-words representations. As a result, FastText requires fewer parameters to achieve the same level of performance as other deep learning algorithms.",
+    "guid2":null
+  },
+  {
+    "guid":1032811.0,
+    "model_answer":"La d\u00e9monstration est bas\u00e9e sur la d\u00e9finition d'une triangulation inf\u00e9rieure d'un espace vectoriel de dimension \\(n\\) comme un ensemble de sous-espaces vectoriels lin\u00e9airement disjoints tels que pour tout sous-espace \\(U\\), la dimension de \\(U\\) est inf\u00e9rieure ou \u00e9gale \u00e0 \\(n-1\\). En utilisant cette d\u00e9finition, il est possible de d\u00e9montrer que si un produit \\(A\\) de matrices trianguli\u00e8res inf\u00e9rieure est triangulaire, alors il est \u00e9galement inf\u00e9rieur, c'est-\u00e0-dire qu'il existe une matrice \\(B\\) telle que \\(A=B\\cdot B^T\\), o\u00f9 \\(B^T\\) est la transpos\u00e9e de \\(B\\).",
+    "guid2":null
+  },
+  {
+    "guid":2737048.0,
+    "model_answer":"The answer is \"No\" because page faults are handled by the operating system's memory management system, which is responsible for allocating and deallocating memory to processes. A system call is a way for a process to request a service from the kernel, but it is not involved in managing memory.",
+    "guid2":null
+  },
+  {
+    "guid":1632845.0,
+    "model_answer":"The solution of the system of linear equations $A\\vec x = \\vec b$ is the vector $\\vec x$ that minimizes the squared Euclidean norm of the difference between the vector $A$ and $\\vec b$. To find this solution, we can use the equation normal form of the matrix $A$, which is given by $A = Q \\Lambda Q^T$, where $Q$ is an orthogonal matrix and $\\Lambda$ is a diagonal matrix. We can then solve for the eigenvectors and eigenvalues of $Q^T A Q$ to find the solution.",
+    "guid2":null
+  },
+  {
+    "guid":1180806.0,
+    "model_answer":"Here is the code:\n```python\nimport pandas as pd\nfrom sklearn.model_selection import train_test_split\n\n# Load the dataset\ndf = pd.read_csv('boston_house_prices.csv')\ndf.dropna(inplace=True) # remove rows with missing values\ndf['year'] = df['year'].apply(lambda x: int(x)) # convert year column to integer\ndf[['latitude', 'longitude']] = df.apply(np.nanmean, axis=1) # calculate mean latitude and longitude for each column\n\ntrain_df, test_df = train\n```",
+    "guid2":null
+  },
+  {
+    "guid":2653836.0,
+    "model_answer":"The answer is option 4, Yes, because the model is a computational model that simulates the activity of neurons in the neocortex, which is the part of the brain responsible for high-level cognitive functions such as perception, memory, and language. The model can reproduce the spontaneous and evoked activities of the neurons, which are important for understanding how the brain works. However, it is important to note that computational models are only approximations of the real brain and may not capture all of the complexities of brain activity.",
+    "guid2":null
+  },
+  {
+    "guid":2937788.0,
+    "model_answer":"La premi\u00e8re affirmation est vraie, car si une fonction est constamment \u00e9gale \u00e0 z\u00e9ro sur un intervalle, alors elle est nulle partout sur cet intervalle.\nLa deuxi\u00e8me et la quatri\u00e8me sont fausses, car il existe des fonctions d\u00e9rivables sur des ouverts qui ne sont pas constantes.\nEnfin, la troisi\u00e8me est fausse, car elle ne suit pas de raison.",
+    "guid2":null
+  },
+  {
+    "guid":2531237.0,
+    "model_answer":"The answer is 1) and 2) because the nerv",
+    "guid2":null
+  },
+  {
+    "guid":1776325.0,
+    "model_answer":"The relations between the voltages and currents in a three-phase symmetrical system can be expressed as follows:\n\nV1 = V2 = V3\nI1 = I2 = I3\n\nwhere V1, V2, and V3 are the voltage values in the first, second, and third phases, respectively, and I1, I2",
+    "guid2":null
+  },
+  {
+    "guid":2706171.0,
+    "model_answer":"La r\u00e9ponse correcte est: 1) Un seul cycle mitotic et deux m\u00e9ioses comportent au total deux phases S. C'est la raison pour laquelle il est important de comprendre les diff\u00e9rences entre les cycles mitotiques et m\u00e9iotiques.",
+    "guid2":null
+  },
+  {
+    "guid":2349183.0,
+    "model_answer":"The correct answer is: It was extra",
+    "guid2":null
+  },
+  {
+    "guid":2904268.0,
+    "model_answer":"La r\u00e9ponse est fausse. En effet, il existe des cartes qui ne peuvent pas \u00eatre colories avec une seule couleur. Par exemple, une carte o\u00f9 chaque pays est entour\u00e9 de pays de couleur diff\u00e9rente ne peut pas",
+    "guid2":null
+  }
+]
