@@ -3,7 +3,7 @@ import json
 import torch
 import statistics
 import os
-os.chdir('../')
+# os.chdir('../')
 
 from tqdm import tqdm
 from torch.utils.data import DataLoader, Dataset

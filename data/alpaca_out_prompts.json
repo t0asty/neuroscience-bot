@@ -1,0 +1,402 @@
+[
+    {
+        "guid": "94cdfd24-de94-4072-a5aa-a3a9dc953d2b",
+        "model_answer": "D'apr\u00e8s le th\u00e9or\u00e8me de Liouville, le coefficient \\(a_n\\) est nul pour tous les indices \\(n\\) impairs. Pour les indices pairs, on peut utiliser l'\u00e9quation diff\u00e9rentielle \\(f'(x)=x^{n-1}\\epsilon'(x)\\), o\u00f9 \\(\\epsilon'\\) est la d\u00e9riv\u00e9e de \\(\\epsilon\\). Comme \\(\\epsilon'(0)=0\\), on obtient que \\(a_{2k+1}=0\\) pour tout \\(k\\geq 0\\)."
+    },
+    {
+        "guid": "3826e1bd-05f7-4f80-a6ad-937af83dc3e4",
+        "model_answer": "We need to apply MapTr and NilAppend. \n\nBase case: x = Nil\nIH(x = Nil)\ny = y :: Nil\nl = x :: Nil \nf(y) = f(y :: Nil) \n= f(Nil)\n= Nil\n\nInductive step: \nx = Cons(y, xs)\n    IH(y = x.head, x.tail = xs.tail)  \n    y = ys.head \n    l = (x.head :: y.head) :: (y.tail :: l)  (by ConsAppend)\n                                            (by IH)\n                (by MapTr)\n              (by NilAppend)"
+    },
+    {
+        "guid": "f6f7e3a3-b63a-4f13-abbe-a2b3f74c64e5",
+        "model_answer": "2"
+    },
+    {
+        "guid": "0b473eff-0fc8-4fb0-9d10-bc49d18e52e3",
+        "model_answer": "1. $F (x) = \\cos x - \\sin x$ \n2. $ F (x ) = -3 x^2 - 2x + C $ \n3. $  F ( x ) = e^{2 x } - 3 x + C  $\n4. $   F( x )  = \\sin ( x  ) \\cos (x )$"
+    },
+    {
+        "guid": "6654c2b0-4dcd-432e-9c8e-26d638afe0ef",
+        "model_answer": "2"
+    },
+    {
+        "guid": "202f9e3f-be4d-4b51-8789-f4eb0666690f",
+        "model_answer": "2"
+    },
+    {
+        "guid": "198d8637-b6eb-4a3a-92c0-6baad4f34a2e",
+        "model_answer": "42 + 40 + 32 + ... + 8 = 128."
+    },
+    {
+        "guid": "da3590dc-4da0-4790-bd94-b9e56450702b",
+        "model_answer": "2"
+    },
+    {
+        "guid": "299255b4-6b4b-423b-bafa-e1f2ca04ecb5",
+        "model_answer": "2"
+    },
+    {
+        "guid": "92251192-94ec-4d07-a94c-34775db00d70",
+        "model_answer": "The maximum variance is achieved when the unit vector is $\\hat{\\wv} = \\frac{1}{\\sqrt{N}}\\sum_{i=1}^N \\xi_i e_i$ where $\\xi_1,\\xi_2,...\\xi_n$ are i.i.d. standard normal random variables and $e_1,...,e_D$ is the standard basis of $\\R^n$. The variance of $\\hat\\wv\\xx$ is $\\frac{D}{N}$."
+    },
+    {
+        "guid": "b82db1db-a6f9-4e3a-8d45-9a89cfddd953",
+        "model_answer": "4"
+    },
+    {
+        "guid": "e07a6c79-461a-40f2-b8a8-402f92e38839",
+        "model_answer": "The Jones vector of the input beam is $\\mathbf{J} = \\left(1, 0, \\alpha\\right)$. After passing through the HWP, the Jones vector is rotated to $\\mathbf{\\tilde{J}} = e^{i \\pi \\mathbf{n} \\cdot \\mathbf{\\hat{z}}} \\times \\left(\\begin{array}{c} 1 \\\\ 0 \\\\ \\alpha \\end{array} \\right) = \\frac{1}{\\sqrt{2}}\\left(0, 1, \\sqrt{1 - \\alpha^{2}}\\right)$. This means that the output beam is now $\\beta$-polarized."
+    },
+    {
+        "guid": "1f0c9830-5cb9-44ef-865a-1681b7cae654",
+        "model_answer": "There are 2^50 = 1,073,741,824 states (or microstates) in the system."
+    },
+    {
+        "guid": "8dca0280-913e-469b-a9b0-e0edea7fc589",
+        "model_answer": "0"
+    },
+    {
+        "guid": "e82b5b83-63be-4052-8b90-856964aa898b",
+        "model_answer": "True."
+    },
+    {
+        "guid": "fb202e2b-e599-44d7-b4ff-3fec50e91311",
+        "model_answer": "2"
+    },
+    {
+        "guid": "7690f1a8-df38-4e65-a667-09f0877fb255",
+        "model_answer": "No, you would not find the PC (Memory Address) of a particular instruction inside the Reorder Buffer as it is not needed. The Reorder buffer is used to store the instructions that the processor has already fetched but has not yet executed. It stores the instructions in the order in which they were fetched, so the PC of each instruction is already known and does not need to be stored."
+    },
+    {
+        "guid": "a442d457-38a3-4ec4-898f-89cbbf5db372",
+        "model_answer": "The sum converges if $\\mu > 1$ and diverges if $0 < \\mu \\le 1$."
+    },
+    {
+        "guid": "bfb2e9ae-9035-40ee-8406-b95519d675ac",
+        "model_answer": "128 disques."
+    },
+    {
+        "guid": "6fab6a7c-f678-401b-965d-4b1b7e514852",
+        "model_answer": "2"
+    },
+    {
+        "guid": "841d52c7-5353-424c-a1f4-8ebf473ecc6d",
+        "model_answer": "The update rule of SGH is given by:\n\\begin{equation}\nx_i^{t+1} = x_i^t - \\alpha \\cdot \\nabla f(x^t_i), \\quad \\forall i \\in [1,p]\n\\end{equation},\nwhere $\\nabla f$ is the gradient of $f$ with respect to its argument. In this case, the batch size is $B=n$ and the step size is $\\alpha=1/L$."
+    },
+    {
+        "guid": "f72cf01b-8f66-4e8f-a3b9-3bfb27f562d7",
+        "model_answer": "4"
+    },
+    {
+        "guid": "60c20157-95f6-4cf5-b71c-29ce9d194200",
+        "model_answer": "def get_coefficient_and_bias(X, y):\n    coeff = 0\n    bias = 1\n    for i in range(len(X)):\n        coeff += X[i, 0] * y[i]\n    return coeff, bias"
+    },
+    {
+        "guid": "3538e748-434d-4ed8-adc3-e9bda94c46c9",
+        "model_answer": "2"
+    },
+    {
+        "guid": "426d5d69-1a8d-4aca-b6f3-71b5a9af11ab",
+        "model_answer": "import java.util.Comparator;\n\npublic class LeftistMinHeap {\n    public static void main(String[] args) {\n        Comparator<Integer> comparator = Collections.reverseOrder();\n        Heap h1 = new Node(1, 10, null, null);\n        h1.insert(5, comparator);\n        \n        Node h2 = h1;\n        while (h2.getLeft() != null) { \n            h2= h2.removeMin(); \n        }\n        System.out.println(h2);\n    }\n}"
+    },
+    {
+        "guid": "30afbb49-8450-43c9-bb4d-ffd127127497",
+        "model_answer": "2"
+    },
+    {
+        "guid": "7c17680c-400d-4adf-96cb-7af4b14ff562",
+        "model_answer": "The integral is equal to 0."
+    },
+    {
+        "guid": "d9b30a74-5f67-4c4a-9a83-e9bfd09bc47d",
+        "model_answer": "2"
+    },
+    {
+        "guid": "99de7be3-24e6-45b7-9ef3-a9f1bd649c8a",
+        "model_answer": "For a quarter wave plate, the Jones vector of the beam after passing through the QWP is given by:\n\n$J_{QWP} = \\left(1, e^{i \\frac{\\phi}{2}}, 0, 0\\right) $\n\nwhere $\\phi$ is the phase difference between the $x$ and $y$ components of the electric field. \n\nSimilarly, for a half wave plate the Jones vectors of the input and output beams are given by \n  $J_{HWP}= \\left(\\cos \\phi, \\sin \\phi ,0,0 \\right), J_{out} = (1,e^{i\\phi}, 0 ,0).$"
+    },
+    {
+        "guid": "f2ccb67e-6051-4111-8434-0209cad56ee3",
+        "model_answer": "Examples of tasks that can be evaluated with accuracy include text classification tasks such as sentiment analysis, text summarization, and question answering. Accuracy is a suitable evaluation metric for these tasks because it measures the overall performance of the model in terms of the number of correctly classified instances or answered questions. In order for a task to be accurately evaluable, it must have a discrete set of labels or answers that the model can be compared against."
+    },
+    {
+        "guid": "04ca849b-3186-4abc-b865-c512d9119e0a",
+        "model_answer": "Two common exceptions that must be precisely implemented are OutOfMemoryError and StackOverflowError. These exceptions must be handled precisely because they indicate that the program is running out of memory or that the stack is overflowing, respectively. If these exceptions are not handled correctly, the program may crash or produce unexpected results."
+    },
+    {
+        "guid": "36d8f75e-6249-4cab-9e1e-69571358b0ad",
+        "model_answer": "A(x)_l = \\begin{cases} 1 & l = k \\\\ 0 & \\text{otherwise} \\end{cases}, \n             \n              a = (1,1)"
+    },
+    {
+        "guid": "e1a1b845-bc57-4250-a715-6b7bf2f3e192",
+        "model_answer": "2"
+    },
+    {
+        "guid": "7a2855e0-5c47-4622-b025-4dfa11353f41",
+        "model_answer": "$h = h_1 + h_2 + 1$"
+    },
+    {
+        "guid": "f24af540-a417-4810-b572-c6a816fd36d8",
+        "model_answer": "To design the estimator, we can use the technique of stratified sampling. We can divide the population into $k$ strata, where each stratum is a subset of the population of size $n/k$. We can then randomly select $n_i$ people from each strata and ask them about their preference. The estimator will be the average of the answers from these $n$ people. By the law of large numbers, the estimators will be close to the true value with high probability. To bound the error, we use the Cauchy-Schwarz inequality, which states that for any two random variables $X, Y$ with mean $\\mu_X, \\mu_Y$ and variance $\\sigma_X^2, \\sigma_Y^2$, we have $\\Pr[\\abs{X - Y} \\ge \\epsilon \\abs{Y}] \\le \\frac{1}{2}\\left(\\frac{\\sigma^2_X}{n} + \\frac{\\epsilon^4}{n^2}\\right).$ By setting $\\epsilon = \\sqrt{\\frac{\\delta}{n}}$, we can bound the probability of error as $\\delta$."
+    },
+    {
+        "guid": "aac16eb3-0584-4b0d-bee5-311565c0b0d7",
+        "model_answer": "2"
+    },
+    {
+        "guid": "c304254e-8c84-4179-a6a8-a78b3bdd633d",
+        "model_answer": "3"
+    },
+    {
+        "guid": "6f0d7868-be35-4f47-8770-22999fe667a9",
+        "model_answer": "Algorithm:\n1. Create a list of all the numbers from 1 to n.\n2. Sort the list in ascending order.\n3. For each number in the list, check if it is divisible by 3.\n4. If it is, add the number to the result.\n5. Repeat steps 2 and 3 until the list is finished.\n6. The result is the solution."
+    },
+    {
+        "guid": "32cb1531-16d4-4bd0-871d-09c05f083d33",
+        "model_answer": "The equation of motion for the float can be written as: \n\n$m\\ddot{x} + \\frac{1}{2}mr\\dot{\\theta} + P_A - k\\eta v = 0$\n\nWhere $x$ is the displacement from the center of gravity, $\\theta$ the angle with respect to the vertical, $v$ the velocity, $m$ the mass, $r$ the radius and $\\eta$ the viscosity of the fluid. The non-dimensionalized frequency of oscillation is $\\omega = \\sqrt{\\frac{m}{r\\eta}}$, and the dampening coefficient is $\\lambda = \\frac{\\eta}{mr}$."
+    },
+    {
+        "guid": "215d2a69-d6c0-4aca-bf47-70eb2091c3fe",
+        "model_answer": "A Prime + Probe attack is a type of side-channel attack that can be used to reveal information about the internal state of a program. It works by exploiting the fact that some programs have predictable execution times for certain operations, allowing an attacker to measure the time it takes for the program to complete certain tasks. By measuring the time taken to complete different operations, the attack can determine which operations the program is performing and what data it is processing. This can reveal sensitive information such as encryption keys, passwords, and other sensitive data."
+    },
+    {
+        "guid": "19799141-5b4f-4239-bc50-dd5c1c14a3e9",
+        "model_answer": "A et C sont diagonalisables, S est non diagonalisable."
+    },
+    {
+        "guid": "f3ca44ac-51a9-4ff7-aec4-7b7d76f4837f",
+        "model_answer": "3"
+    },
+    {
+        "guid": "a559e3e1-2520-4d95-9cc1-7cce4798fea3",
+        "model_answer": "2"
+    },
+    {
+        "guid": "52f78310-1458-4ad2-9605-e99a10e73550",
+        "model_answer": "3"
+    },
+    {
+        "guid": "70f8efa0-1816-445b-a053-cf92ee323bab",
+        "model_answer": "2"
+    },
+    {
+        "guid": "98df46d4-9b69-4702-8e58-6e4c2fedc94e",
+        "model_answer": "[1] Ecrire une matrice carr\u00e9e augment\u00e9e.\n[2] R\\'ealiser la transformation en \u00e9liminant les colonnes et les lignes suppl\\'ementaires. \n[3] Identifier les variables ind\\'ependantes et li\\'ees, et calculer les solutions."
+    },
+    {
+        "guid": "59c0251a-f677-46d1-aff0-a5435e62230c",
+        "model_answer": "a) True\nb) False\nc) True \nd) False \ne) True"
+    },
+    {
+        "guid": "13739c83-35d1-4fec-867c-98bd69f9ae73",
+        "model_answer": "2"
+    },
+    {
+        "guid": "dc243fc6-5295-426f-ace7-c1594dcb4d59",
+        "model_answer": "2"
+    },
+    {
+        "guid": "2f7b092b-e05b-4b04-a99c-b9963f8e3032",
+        "model_answer": "2"
+    },
+    {
+        "guid": "23ffa81e-c9d4-4c01-87ef-d88bb108587b",
+        "model_answer": "2"
+    },
+    {
+        "guid": "2fabe332-48ef-433b-9b1c-b4e486180637",
+        "model_answer": "2"
+    },
+    {
+        "guid": "1986353f-b780-4b31-94d6-fd9af077fb07",
+        "model_answer": "4"
+    },
+    {
+        "guid": "b1ea7aed-566b-4da0-803d-f29fc4cf50e1",
+        "model_answer": "Vraie"
+    },
+    {
+        "guid": "d563f81d-6eef-4e06-b40c-e00352d5aa78",
+        "model_answer": "Operations such as adding a line to another line, exchanging two lines, and multiplying a line by a non-zero real number transform a linear system into an equivalent system."
+    },
+    {
+        "guid": "c1bc4cc6-e6af-4bb6-86c2-1dee8ec49ad2",
+        "model_answer": "2"
+    },
+    {
+        "guid": "f732d470-1631-4a0d-b1f6-51e937cf55be",
+        "model_answer": "2"
+    },
+    {
+        "guid": "88379c2b-4bda-41c0-b1c1-e44dc19ea14b",
+        "model_answer": "4"
+    },
+    {
+        "guid": "ec128ef4-97e2-4998-a41c-e6eab0953c8c",
+        "model_answer": "Given a uniform total order broadcast abstract machine, we can construct a uniform consensus abstract machine as follows: \n\n1. Each node maintains a local copy of the total order.\n2. When a node receives a message from another node, it checks if the message is greater than or equal to its own local order. \n3. If it is, the node updates its local order to be the message's value.\n4. The node then broadcasts the updated order to its neighbors.\n5. If a node does not receive a reply from any of its neighbor nodes within a certain timeout period, it assumes that the message was lost and discards it.\n6. The process is repeated until all nodes in the network have the same order."
+    },
+    {
+        "guid": "2b3de139-3757-4f15-9b48-e785fd51c3f4",
+        "model_answer": "4"
+    },
+    {
+        "guid": "19799141-5b4f-4239-bc50-dd5c1c14a3e9",
+        "model_answer": "A et C sont diagonalisables, S est non diagonalisable."
+    },
+    {
+        "guid": "45f4f919-77fb-4bbc-92f6-172fec8f4a92",
+        "model_answer": "2"
+    },
+    {
+        "guid": "f1d23839-38a5-46f6-946d-c0a11cc6c4e8",
+        "model_answer": "4"
+    },
+    {
+        "guid": "d12be254-279f-4223-852c-9bb0791bb816",
+        "model_answer": "2"
+    },
+    {
+        "guid": "6a7100d1-64e2-426d-b762-62bafa8b9d55",
+        "model_answer": "2"
+    },
+    {
+        "guid": "458183ae-aef2-4798-b64d-b7de727c5300",
+        "model_answer": "2"
+    },
+    {
+        "guid": "cc24cdb8-3a06-4a93-9b94-aca69608ddb1",
+        "model_answer": "La premi\\`ere affirmation est \\'equivalente \\`a dire que pour tous $u$ et $v$ dans $V$, on a\n\\begin{align*}\n(u,v) = (u+v) - (u-v).\n\\end{align*}\\\nLa deuxi\\`eme affirme que pour tout $u, v \\in V$, on peut \\'ecrire\n\\[ (u|v)= \\frac14 \\left( (u + v) \\cdot (u - v)\\right). \\]\nEn effet, on a d'une part\n\\[(u+ v)\\cdot(u- v)= \\sum_{i=1}^n (u_i + v_i)\\cdot ( u_i -v_i) = 0 \\cdot 0 + 0\\cdot (v_1 - v_n) + \\cdots + (u_{n-1} - u_n)\\cdot v_1, \\]\net d'autre part, on sait que\n\\[\\| u + v \\|^2 = \\sum\\limits_{i = 1}^{n} ( u_{i} + v_{i})^{2} \\quad \\text{ et } \\quad \\| u - v \\|^{2}= \\sum \\limits_{j=1} ^{n}( u_{j} - v_{j})^{ 2}. \\]\nIl suffit alors de rajouter et soustraire les deux membres de l'identit\\'e pour obtenir le r\\'esultat souhait\\'e."
+    },
+    {
+        "guid": "703e2827-6fe4-4f64-99ba-d81016d141ff",
+        "model_answer": "2"
+    },
+    {
+        "guid": "e384b432-93ad-4770-9d13-74fc984cff31",
+        "model_answer": "2"
+    },
+    {
+        "guid": "de41310c-1119-420c-84f7-f391781a5f97",
+        "model_answer": "2"
+    },
+    {
+        "guid": "68e15f77-d5da-484b-ba19-659cc1bea2da",
+        "model_answer": "2"
+    },
+    {
+        "guid": "bee98e82-357d-4d86-8c63-2f4c36b56e3f",
+        "model_answer": "I think it's a great idea to have a daily scrum meeting to discuss progress and any complex features that need to be implemented. It's important to make sure everyone is on the same page and that tasks are being completed in a timely manner. Discussing complex features, such as the QR scanning feature, will help ensure that the feature is implemented correctly and efficiently."
+    },
+    {
+        "guid": "19a6f5aa-151f-4b61-9cc2-5b2872ce4e6f",
+        "model_answer": "3"
+    },
+    {
+        "guid": "f61d34e0-d7a9-40f6-a9d1-02ca34b8dc3f",
+        "model_answer": "4"
+    },
+    {
+        "guid": "83ae18dc-a016-4f97-adc4-402ac56b1359",
+        "model_answer": "4"
+    },
+    {
+        "guid": "d875b0d6-054c-42b3-848f-7d354a32eea6",
+        "model_answer": "2"
+    },
+    {
+        "guid": "be73736f-6104-4dc5-b315-618c35f0e5f6",
+        "model_answer": "2"
+    },
+    {
+        "guid": "1718610f-8dd6-4625-a6fb-becaf0881858",
+        "model_answer": "2"
+    },
+    {
+        "guid": "8bd54ea2-2ebb-40d4-9450-7b14a8b06b8a",
+        "model_answer": "2"
+    },
+    {
+        "guid": "70f8efa0-1816-445b-a053-cf92ee323bab",
+        "model_answer": "2"
+    },
+    {
+        "guid": "e35d196d-d378-4134-9ac5-2e799a393890",
+        "model_answer": "The associated matrix is\n\\[\\begin{bmatrix}\n2 & -1 & 0 \\\\\n0 & 2 & 1 \\\\\n-1 & -2 & \\frac{1}{2}\n\\end {bmatrix}\\,.\\]"
+    },
+    {
+        "guid": "edc67f0d-3970-4202-88be-01a9fdc54246",
+        "model_answer": "2"
+    },
+    {
+        "guid": "3b7e8491-0a75-4620-9a08-5236121d55a3",
+        "model_answer": "To minimize the objective function, we first need to compute the gradient of the objective w.r.t. the mean vector, which is given by $\\frac{\\partial}{\\partial \\mu_{k}}= \\sum\\nolimits_{n} \\left(x_{nk} - \\bar{x}\\right) \\delta_{k}(n)$. Then, we need to calculate the Hessian matrix, which can be done by taking the derivative of the gradient with respect to $\\mu_{l}$ for all $l \\neq k$ and setting it to zero. This gives us the following system of equations:\n\n$$\\sum\\limits_{n = 1}^N \\left[ \\left\\langle \\nabla_{\\mu_k} f(\\mathbf{X}, \\mu), \\delta_k(n) \\right\\rangle \\right] = 0,$$\n\nwhere $\\nabla_\\mu f(\\cdot, \\mu) = \\sum_n f_n(\\mu) \\cdot \\delta(\\mu, n)$ and $f_n$ is the $n$th component of the function $f$. This can be rearranged to $\\sum \\limits_n \\left[\\left\\langlex_n - \\overline{x}, \\delta(k)\\right\\rangled\\mu_l=0$ for $l\\neq k$. This is the same as the $k$th equation of the Euler-Lagrange equations for a constrained optimization problem, which states that the partial derivatives of the Lagrangian must be equal to zero in order for the system to be in a stationary point. This corresponds to the step of choosing the means of the clusters."
+    },
+    {
+        "guid": "53d7b649-afab-48bd-a2b4-769df94b491c",
+        "model_answer": "3"
+    },
+    {
+        "guid": "245c93a8-3253-4b95-aca5-6918cf5bd650",
+        "model_answer": "La structure simple."
+    },
+    {
+        "guid": "bfef8387-5cd3-4cb1-9fbe-ae87f876425a",
+        "model_answer": "2"
+    },
+    {
+        "guid": "13739c83-35d1-4fec-867c-98bd69f9ae73",
+        "model_answer": "2"
+    },
+    {
+        "guid": "64a34fa8-6bda-475f-b7da-b752ff1d1456",
+        "model_answer": "2"
+    },
+    {
+        "guid": "e88dde48-5fbb-46b6-855f-1b41da17322b",
+        "model_answer": "2"
+    },
+    {
+        "guid": "c3842176-bc8b-4bba-8ad5-fb127d3282d8",
+        "model_answer": "2"
+    },
+    {
+        "guid": "d32e91ed-7eb4-44cd-be2b-2defaff5ce00",
+        "model_answer": "2"
+    },
+    {
+        "guid": "24e3fd38-37a4-4934-b74d-dc666e8c60b8",
+        "model_answer": "3"
+    },
+    {
+        "guid": "056ea0f5-990e-45ec-9d81-60ec66ecf9a9",
+        "model_answer": "2"
+    },
+    {
+        "guid": "2d9de929-7645-4192-8b90-8a7c253b162a",
+        "model_answer": "2"
+    },
+    {
+        "guid": "1d74cd2f-d3fc-4f0e-b3ec-b27225b9160e",
+        "model_answer": "2"
+    },
+    {
+        "guid": "aa7e1cbf-f33f-4579-83d7-3bef5673a7ba",
+        "model_answer": "4"
+    },
+    {
+        "guid": "ee1a1937-ed58-499b-94ea-fe6fdd4717e2",
+        "model_answer": "4"
+    },
+    {
+        "guid": "4c07c694-88e7-48d8-b711-e8809a0c679d",
+        "model_answer": "2"
+    },
+    {
+        "guid": "76ce9513-bd2e-460e-a0b4-7a36819646d2",
+        "model_answer": "2"
+    },
+    {
+        "guid": "6303517c-ecc8-4deb-8785-550de1188bca",
+        "model_answer": "Lidar"
+    }
+]

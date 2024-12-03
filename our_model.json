@@ -1,0 +1,42 @@
+[
+    {
+        "guid": "94cdfd24-de94-4072-a5aa-a3a9dc953d2b",
+        "model_answer": "The answer is that all the coefficients of odd indices are zero. This is because the function is a polynomial of degree $n$ in $x$, and the coefficient of $x^{n+1}$ in a polynomial is always zero. Therefore, we can write the function as $a_n x^n + b_nx^{n-1} + \\cdots + c_nx + d$, where $b_n, c_n$ and $d$ are polynomials of degree less than $n$. Since $f$ is paired, we know that $d=0$, and since $f(0)\\neq 0$, we must have $c_n=0$. Therefore, all the odd-indexed coefficients are zero, and we only need to show that the even-index coefficients are also zero. However, this is true by definition, since $a_{2n}=0$ for all $n\\geq 1$."
+    },
+    {
+        "guid": "3826e1bd-05f7-4f80-a6ad-937af83dc3e4",
+        "model_answer": "To prove the lemma (AccOut), we use induction on the length of the list l. The base case is when l has length 0, in which case the lemma is trivially true. For the inductive step, we assume that the lemma holds for all lists of length less than or equal to n, and we want to show that it holds for lists of all lengths n. We name this lemma IH, which stands for \"inductive hypothesis\".\n\nTo apply the lemma, we first need to break down the left-hand side of the equation into two parts: the first part is the head of l, which is x in this case, and the second part is xs. We then apply the mapTr function to each of these two parts separately. The result of applying mapTr to the head is y, which we append to the end of ys using the append function from the NilAppend lemma. The second part, xs, is also appended to ys in the same way. This gives us y :: xs as the result of the right-hand-side of the original equation. Finally, we use the ConsAppend lemma to concatenate y and xs into a single list. This completes the proof of the AccOut lemma."
+    },
+    {
+        "guid": "f6f7e3a3-b63a-4f13-abbe-a2b3f74c64e5",
+        "model_answer": "The answer is 3) because Bell inequalities are violated when a state is entangled. Entangled states are those that are correlated in a way that cannot be explained by classical probability theory. When a system is in such a state, the properties of the two subsystems cannot be described independently of each other, and this is what leads to the non-classical correlations that are necessary to violate a Bell equality."
+    },
+    {
+        "guid": "0b473eff-0fc8-4fb0-9d10-bc49d18e52e3",
+        "model_answer": "For question 1, we need to find the primitive of the function $f$, which is the antiderivative of $f$ with respect to $x$. Using the definition of the primitive, we can see that it is equal to $\\frac{dF}{dx}$, where $F$ is the primitive. We can use the formula for the derivative of a trigonometric function to find $F$:\n\n$$F'(x) = \\frac{df}{dx}$$\n\nSubstituting the given function, we get:\n\n\\begin{align*}\n\\frac{dcos(x)}{dx} &= \\sin'(x)\\\\\n&= -\\cos'(x)\\\n\\end{align*}\\\n\nTherefore, the primitive is given by:"
+    },
+    {
+        "guid": "6654c2b0-4dcd-432e-9c8e-26d638afe0ef",
+        "model_answer": "The answer is $O(\\log(n))$, where $n$ is the number of directory entries. This is because directories are implemented as hash tables, which have a worst-case time complexity of $\\Omega(n \\log n)$. However, in practice, hash tables have a much better performance than this, so the actual time complexity is much faster."
+    },
+    {
+        "guid": "202f9e3f-be4d-4b51-8789-f4eb0666690f",
+        "model_answer": "The correct answer is to reduce the learning rate. This is because a high learning rate can cause the model to converge too quickly, which can lead to overfitting. By reducing the learning rates, we can slow down the convergence of the model and prevent it from fitting the noise in the data. This helps to improve the generalization performance of the linear regression model."
+    },
+    {
+        "guid": "198d8637-b6eb-4a3a-92c0-6baad4f34a2e",
+        "model_answer": "La r\u00e9ponse est 1024. Pour comprendre cela, il est important de comprendre que chaque bloc contient 512 octets d'informations. Par cons\u00e9quent, le nombre total d'octets n\u00e9cessaires pour repr\u00e9senter un bloc est \u00e9gal \u00e0 4 octets, car chaque octet repr\u00e9sente 24 bits. En utilisant cette formule, nous pouvons calculer le nombre de fois qu'un bloc doit \u00eatre r\u00e9p\u00e9t\u00e9 pour atteindre le nombre requis. Dans ce cas, nous avons besoin de r\u00e9p\u00e9ter le bloc 5 fois, ce qui donne un total de 5 x 4 = 20 octets. En ajoutant 1 octet pour la fin du bloc, nous obtenons 21 octets au total. En multipliant ce nombre par 4 pour obtenir le nombre d'oc"
+    },
+    {
+        "guid": "da3590dc-4da0-4790-bd94-b9e56450702b",
+        "model_answer": "The answer is false. This is because the function \\(f(x) = |x|\\) is continuous on the interval \\(I = ]-1,1[\\), but it is not differentiable at any point in the interval. Therefore, the function is not in the class of functions that are twice differentiable."
+    },
+    {
+        "guid": "299255b4-6b4b-423b-bafa-e1f2ca04ecb5",
+        "model_answer": "The answer is option 4 because when we represent a connective graph of a webpage, we can use a reference graph from another webpage. In this case, we only need to search for the reference graph in the neighborhood of the URL of the webpage we are analyzing. This is because most of the extra nodes will be found in this neighborhood. Therefore, it is important to understand the concept of reference graphs and how they can be used to improve the performance of connectivity servers."
+    },
+    {
+        "guid": "92251192-94ec-4d07-a94c-34775db00d70",
+        "model_answer": "The answer is that the variance is equal to $D^2/N$. This can be shown by using the definition of variance, which is the average of the squared deviations from the mean. In this case, the mean is zero since $\\xx$ is centered. Therefore, we can write the variance as $\\E{(\\wv^{op} \\xx)^2} = \\E{\\wv^{\\top} \\E{ \\xx \\xx^{\\top}} \\wv}$. Using the fact that $\\E{\\xx\\xx^\\top} = N \\I_D$, we can simplify this expression to $\\E{{\\wv}^{\\top} {N \\I}_D {\\wv}}$. Since ${\\wv}^\\top {N\\I}_d {wv} = {w^\\top N\\I_d w}$, we can further simplify this to ${N^2 w^\\top w}/{N}$. Finally, since $w$ is normalized to have unit length, we have $\\E{{w}^\\top w} = 1$. Therefore, the answer is $1/{N}$."
+    }
+]

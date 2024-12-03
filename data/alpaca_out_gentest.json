@@ -1,0 +1,802 @@
+[
+    {
+        "guid": 1204861,
+        "model_answer": "The binary representation of the number 378 in base 10 is 355 in binary, which corresponds to a decimal value of 635."
+    },
+    {
+        "guid": 2582061,
+        "model_answer": "Supposons que $A=A^T$. Alors, pour tout vecteur complexe $x\\in\\mathbb C^n$, on a $\\overline x^T A x = \\overline{\\sum_{i=1}^n x_i A_{i,j} } = \\sum_{j=1}^{n} x_j \\overline{A_{j,i}} = x^TA^Tx$. Par cons\\'equent, les \\'el\\'ements $v_i$ des vecteurs propres de la matrice $A$, qui sont solutions de l'\u00e9quation $Av_i = \\lambda_i v_i$, sont des nombres r\u00e9els."
+    },
+    {
+        "guid": 2782029,
+        "model_answer": "Le travail n\u00e9cessaire est de 14.75 Joules."
+    },
+    {
+        "guid": 1725949,
+        "model_answer": "This is true because the complex conjugate of a complex number is its conjugate in the real number line. That is, if $r$ is a real number, then $\\overline{r}$ is the number on the opposite side of the number line from $r$. In other words, $z$ and $w$ have the same real part if their imaginary parts are opposite in sign."
+    },
+    {
+        "guid": 1315355,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1711011,
+        "model_answer": "3"
+    },
+    {
+        "guid": 1950916,
+        "model_answer": "La d\u00e9composition de QR de la matrice A est : \nQ = [[2, 0], [3, 2], [1, 1], [0, -1]\nR = [[0, 4], [2, -2], [-1,1], [-2,1]"
+    },
+    {
+        "guid": 2462320,
+        "model_answer": "Yes, the matrices A, B, C, D, and E are all invertible."
+    },
+    {
+        "guid": 1985477,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1716664,
+        "model_answer": "4"
+    },
+    {
+        "guid": 2331240,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1368861,
+        "model_answer": "The isothermal compressibility of mercury is $\\kappa = 26 \\times 10^{\u221212}~$Pa$^{-1}$. At standard conditions, the pressure is $p = p_0 = 0.1~$MPa and the temperature is $T = 300~$K. By using the ideal gas law, the ratio of the molar volume $V$ to the saturated vapor pressure $V_\\text{sat}$ can be expressed as $V/V_{\\rm sat} = (p/p_{\\rm 0})^{1/3}$. Therefore, the variation of molar mass with pressure can be calculated as\n\\begin{equation}\n\\frac{m}{m_0} = \\frac{V}{V_{\\text{Sat}}} = \\left(\\frac{p}{p_{0}}\\right)^{\\frac{1}{3}}.\n\\label{eq:molar_mass_ratio} \n\\end{equation}\\par\n\nSubstituting the value of $\\kappa$ into the equation of state of an ideal gas, $pV = nRT$, where $n$ is the number of moles, we can calculate the ratio $n/n_{0}$. Then, by using equation \\eqref{eq_mass}, the variation in molar density can be obtained as $\\rho = \\rho_0 + \\frac{\\kappa}{n} \\left(n - n_0\\right)$. Finally, the change in mass per unit volume can be written as $\\frac{\\partial \\rho}{\\partial p}$."
+    },
+    {
+        "guid": 1981510,
+        "model_answer": "Since \\(f'\\) is continuous on \\([a, b]\\), we know that \\(f'(b) - f'(a) = \\int_a^b f'(x)dx\\). By the mean value theorem for integrals, there exists a \\(\\xi \\in (a,\nb)\\) such that \\(\\frac{f(b)-f(a)}{b-a} = f'(\\xi)\\). This implies that\n\\(f'(a +) = f'(b)\\), and thus \\(f_+\\)(a) exists and is equal to\n\\(\\lim\\limits_{x \\to a^+\\) \\(f(x)\\))."
+    },
+    {
+        "guid": 2136943,
+        "model_answer": "The entropy of the Christmas market plan is 8 + 3 * log\u2082(3) = 11.5, with a and b being two non-zero fractions, justified by providing reasoning."
+    },
+    {
+        "guid": 2584990,
+        "model_answer": "2"
+    },
+    {
+        "guid": 2336123,
+        "model_answer": "No, continuous integration does not replace the need for testing. Continuous integration is a set of practices and tools used to ensure that changes to the codebase are reliably and quickly merged into the main code repository. Testing is still necessary to ensure the quality of the code and that it meets the company's requirements."
+    },
+    {
+        "guid": 2942732,
+        "model_answer": "3."
+    },
+    {
+        "guid": 1455116,
+        "model_answer": "Cela peut \\^etre d\\'emontr\\'e en montrant que les valeurs propres de $A-\\lambda I$ sont les m\\^emes pour tous les $\\lambda \\in \\mathbb{C}$ et en utilisant le th\\'eor\\`eme de Perron-Frobenius."
+    },
+    {
+        "guid": 2378551,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1737800,
+        "model_answer": "The reason for rods being more sensitive than cones is that they have a greater surface area and a larger number of photoreceptor cells, which means they can absorb more light. Additionally, rods are more responsive to low light levels and are better suited to night vision. Cones, on the other hand, are responsible for color vision and are less sensitive than rods."
+    },
+    {
+        "guid": 2746148,
+        "model_answer": "Wien's Law."
+    },
+    {
+        "guid": 2653646,
+        "model_answer": "3"
+    },
+    {
+        "guid": 2215454,
+        "model_answer": "2, 4"
+    },
+    {
+        "guid": 1137883,
+        "model_answer": "The noise power spectral density at room temperature (290 K) is typically -174 dBW/Hz. This corresponds to a noise power of 4.144 mW in the frequency band of interest."
+    },
+    {
+        "guid": 2394832,
+        "model_answer": "4"
+    },
+    {
+        "guid": 2565648,
+        "model_answer": "2"
+    },
+    {
+        "guid": 2854164,
+        "model_answer": "S'il est suppos\u00e9 que 0.2 m\u00e8tre cubes de mati\u00e8re se sont d\u00e9pos\u00e9s sur la surface terrestre, la masse d'un cube de 2 m\u00e8tres de c\u00f4t\u00e9 est de 819,2 kg. La densit\u00e9 de l'ast\u00e9ro\u00efde est estim\u00e9e \u00e0 3,5 g/cm\u00b3, ce qui signifie que chaque cube contiendrait 247,3 kg de roche. Donc, si l'on sait que 1/20e de cette masse a pu se d\u00e9poser uniform\u00e9ment sur le sol, le diam\u00eatre de l\u2019astre est estim\u00e9 \u00e0 16,16 cm."
+    },
+    {
+        "guid": 1332143,
+        "model_answer": "The state evolution equation can be derived by noting that the free energy is a function of the magnetization and its time derivative, and using the fact that the time derivative of a sum of independent random variables is a weighted sum of the time derivatives of the individual random variables. We can then use the law of large numbers to show that the average of the random variables approaches the expected value as $N\\to\\infty$."
+    },
+    {
+        "guid": 2269130,
+        "model_answer": "Vrai."
+    },
+    {
+        "guid": 2503485,
+        "model_answer": "A = \n\\begin{pmatrix}\n2 & 1 \\\\\n-1 & -3\n\\end{pmatrix}."
+    },
+    {
+        "guid": 1870197,
+        "model_answer": "2"
+    },
+    {
+        "guid": 2076019,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1739370,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1195233,
+        "model_answer": "Ce que l'on sait, le produit d'une matrice par son adjoint est le m\u00eame que son inverse. Donc, on sait que $AB^T = (AB^{-1})^{T} = (A^T)^{-1} B^{-T}$. Par cons\\'equent, on a bien $(AB)^{T}=B^TA^{T}$."
+    },
+    {
+        "guid": 1951150,
+        "model_answer": "4"
+    },
+    {
+        "guid": 1797070,
+        "model_answer": "We first show that the axiom of independence is satisfied. Let $A' \\in \\mathcal I$. This means that there is a matching $M \\subseteq E$ such that every vertex in $A \\setminus A'$ is unmatched. This implies that for every vertex $v \\in A'$, there exists an edge $e \\in M$ with $v$ as the end-vertex of $e$. This shows that the endpoints of each edge in the matching are independent, and thus the independence axiom holds. \n\nNext, we show that for any two sets $A', A'' \\in\\mathcal I$, we have $A'\\subseteq A''$. This follows from the fact that any two matchings $M, M' \\supseteq M$ in $G[A']$ can be extended to a larger matching $N$ by adding edges from $A''\\setminus A'$. This extension can be done in such a way that all endpoints remain independent, thus proving the set inclusion."
+    },
+    {
+        "guid": 1903067,
+        "model_answer": "4"
+    },
+    {
+        "guid": 1095247,
+        "model_answer": "2"
+    },
+    {
+        "guid": 2676342,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1789953,
+        "model_answer": "2"
+    },
+    {
+        "guid": 2941092,
+        "model_answer": "2"
+    },
+    {
+        "guid": 2567580,
+        "model_answer": "3"
+    },
+    {
+        "guid": 1563963,
+        "model_answer": "2"
+    },
+    {
+        "guid": 2620150,
+        "model_answer": "For a graph with n vertices and m edges, the belief propagation equations are as follows:\n\nFor each vertex i, the probability of it being colored red is given by: \np_i = (1/m) * sum_j W_{ij}\n\nWhere W is the weighted adjacency matrix of the graph, with weights given by the edge probabilities."
+    },
+    {
+        "guid": 1998585,
+        "model_answer": "4"
+    },
+    {
+        "guid": 2627789,
+        "model_answer": "2, 3, 4, 5"
+    },
+    {
+        "guid": 2472076,
+        "model_answer": "1. The solution to the first equation is \\(z = \\pm \\sqrt{3}\\icomp\\).\n2. The solutions to the second equation are \\(z_1 = -2\\pm\\sqrt{6}\\), \\( z_2 = -1\\pm i\\), where \\(\\icomp = \\sqrt{\\frac{1}{6}}\\). \n3. The only solution to this equation is \\(\\bar{z} = z\\). \n4. This equation has no solutions."
+    },
+    {
+        "guid": 1668789,
+        "model_answer": "The equation $A\\vec{x} = \\vec{b}$ is compatible if and only if the rank of the matrix $[A \\ \\vec {b}]$ is equal to the ranks of $A$."
+    },
+    {
+        "guid": 1168698,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1009332,
+        "model_answer": "4"
+    },
+    {
+        "guid": 2553292,
+        "model_answer": "<nooutput>"
+    },
+    {
+        "guid": 1869145,
+        "model_answer": "There are two ways to obtain a spin total of 0. The probability of this configuration is 1/4, or 25%."
+    },
+    {
+        "guid": 2616641,
+        "model_answer": "The solution of a differential equation of the type A *dot* \u03b8 + B *\u03b8 = C *sin(\u03a9 *t + \u03a6) is of the form \u03b8(t) = \u03b8_0 *sin((\u03a9*t) + \u03c6). Express the amplitude \u03b80 of the oscillations of Batman in terms of C, the other quantities encountered so far (noting *\u03a9* for \u03a9)."
+    },
+    {
+        "guid": 1225025,
+        "model_answer": "2"
+    },
+    {
+        "guid": 2956332,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1096450,
+        "model_answer": "2"
+    },
+    {
+        "guid": 2183825,
+        "model_answer": "2, 3, 4, 5, 6, 7"
+    },
+    {
+        "guid": 1232485,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1523473,
+        "model_answer": "No, it would not make sense. The total order property is a guarantee that all messages will be delivered in the same order in which they were sent, which is not the case with best effort broadcast."
+    },
+    {
+        "guid": 2424096,
+        "model_answer": "4"
+    },
+    {
+        "guid": 2484450,
+        "model_answer": "<nooutput>"
+    },
+    {
+        "guid": 1044789,
+        "model_answer": "4"
+    },
+    {
+        "guid": 1680379,
+        "model_answer": "We can prove the claim by contradiction. Assume that there exists a deterministic online algorithm $\\mathcal{A}$ such that for any two real numbers $x,y\\in[1, W^2]$ with $x\\leq y$ we have $\\mathcal A(x)\\geq \\frac{1}{W} \\cdot y$. This would imply that the algorithm is always making the best decision, since it is always exchanging the Euro for at least $\\frac1W$ of the amount it could have gotten at the next day. However, this contradicts the fact that the amount that can be exchanged is not known in advance, and thus the algorithm cannot be deterministic."
+    },
+    {
+        "guid": 1392989,
+        "model_answer": "Algorithm:\n\n1. Create an empty set $\\mathcal T$ of disjoint pairs.\n2. Iterate over the stream of sets.\n3. For each set, add it to the disjoint pair if it is not present in any other pair.\n4. Remove the set from the stream.\n5. Repeat steps 2 and 3 until all sets have been processed.\n6. Return the current set of pairs as the solution."
+    },
+    {
+        "guid": 1824303,
+        "model_answer": "a) i) et ii) sont vraies. \n\nb) Si $M = S + A$ avec $S = \\frac12(M + M^T)$, alors $S + A = M + \\frac{A + A^T}{2}$. Or, on sait que $A +A^T$ est antisym\u00e9trique par hypoth\u00e8se, d'o\u00f9 l'anti-sym\u00e9trie de $M$.\n\nPour le calcul de $S$, on peut utiliser le th\u00e9or\u00e8me de Cayley-Hamilton : $M^2 - 2SM + S^2 = 0$ et on peut alors calculer $S$."
+    },
+    {
+        "guid": 2129485,
+        "model_answer": "4"
+    },
+    {
+        "guid": 1849414,
+        "model_answer": "2"
+    },
+    {
+        "guid": 2411023,
+        "model_answer": "4"
+    },
+    {
+        "guid": 2644315,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1709985,
+        "model_answer": "3"
+    },
+    {
+        "guid": 2853215,
+        "model_answer": "2"
+    },
+    {
+        "guid": 2272119,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1829826,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1862639,
+        "model_answer": "Oui"
+    },
+    {
+        "guid": 1624340,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1647879,
+        "model_answer": "3"
+    },
+    {
+        "guid": 1754801,
+        "model_answer": "My algorithm for this problem is as follows: \n\n1. Initialize an array of size $k$. \n2. At any point in time, there will be $k-1$ elements in the array. \n3. When a new item is encountered, add it to the array and remove the oldest item from the array (i.e. the item at the end of the array). \n4. To maintain the uniformity of the sample, shuffle the array whenever the array size is greater than 1.\n5. The space complexity of the algorithm is $O (k \\log n)$."
+    },
+    {
+        "guid": 2097826,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1770357,
+        "model_answer": "3"
+    },
+    {
+        "guid": 2141784,
+        "model_answer": "3"
+    },
+    {
+        "guid": 1449194,
+        "model_answer": "For the given parameters, the values of the Debye length, plasma frequency, and collision frequency are \n\\( \\lambda_{D} = 2.2 \\times 11.6 \\times n_{e}^{-1/2} \\), \n \\( \\Omega_{p} = \\sqrt{4\\pi e^{2}n_{e}/m_{e}}\\) \n, and \n \\( N_{D}= \\lambda^{3}_{D}/\\omega_{p}^{2} \\)\n, respectively.  Here, \\( m_{e} \\) is the electron mass."
+    },
+    {
+        "guid": 1619455,
+        "model_answer": "The problem can be formulated as a linear program as follows: \n\nMinimize cost \nSubject to:\nVitamin A \u2265 0  mg/week \nB Vitamins \u2265  0.07 mg week \nC Vitamin \u2265   0.3 mg  week\nFondue Moitie Moitie \u2264 40 CHF/ kg \nRaclette \u2264  50 CHf/ kg\n\nThe optimal solution is to buy 10 kg of fondue moiti\u00e9 moiti\u00e9 and 5 kg of raclette for a total cost of 85 CHF. This combination provides the required vitamins A, B, and C in the required amounts."
+    },
+    {
+        "guid": 1968091,
+        "model_answer": "2"
+    },
+    {
+        "guid": 2447951,
+        "model_answer": "3"
+    },
+    {
+        "guid": 2040613,
+        "model_answer": "Principal Component Analysis (PCA) is a type of statistical analysis that is used to reduce the dimensionality of data while still preserving most of the information contained in the original dataset. It is a univariate technique, meaning it can only be used to analyze one variable at a time, and is typically used as a pre-processing step for supervised machine learning algorithms such as classification and regression."
+    },
+    {
+        "guid": 2817072,
+        "model_answer": "2"
+    },
+    {
+        "guid": 2167522,
+        "model_answer": "A = 5 + (-1)i"
+    },
+    {
+        "guid": 2892282,
+        "model_answer": "1. Accuracy: The accuracy of the system should be measured by how many false positives and false negatives it produces.\n2. Precision: This is the ratio of true positives to true negatives, i.e. the number of emails that are correctly identified as secure or not secure.\n3. Recall: The number of secure emails that the system identifies as such.\n4. F1 Score: A combination of precision and recall."
+    },
+    {
+        "guid": 2365323,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1418089,
+        "model_answer": "3"
+    },
+    {
+        "guid": 2653905,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1830064,
+        "model_answer": "Statically scheduled HTTP Live Streaming (HLS) is a method of delivering content to viewers where the content is pre-prepared and delivered to the viewer in a predetermined order. This method is used when the content does not change often, and the same content can be delivered to all viewers. \n\nDynamic HLS is an adaptive streaming technology that allows the content to be adjusted to the capabilities of each viewer. This means that the content can change based on the bandwidth available, the device being used, and other factors. Dynamic HLS also allows for more efficient delivery of content, since the same amount of data does not need to be sent to all users."
+    },
+    {
+        "guid": 2165530,
+        "model_answer": "4"
+    },
+    {
+        "guid": 1872393,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1838132,
+        "model_answer": "\u0394Sglace = \u0394hfus + \u0394Lvap - c_p\u0394T\n     o\u00f9 \u0394T = T_fus - T_liquide\n     avec \n       T_liq = T + m_vap/m_g\n       et \n         m_g = m_V_g/densit\u00e9_glace\n     Donc, \n       \u0394S_glac\u00e9 = (3 300 J/g\u00b0C) * (0\u00b0C - 25 \u00b0C) - (4.184 J/kg\u00b0C * 32 J/mol) = -772 J."
+    },
+    {
+        "guid": 2133695,
+        "model_answer": "3"
+    },
+    {
+        "guid": 2037868,
+        "model_answer": "NLP tasks that can benefit from lexicalcohesion include tasks such as text summarization, text classification, text-to-speech synthesis, question answering, and text generation. For example, in text summary tasks, lexical coheision can be used to identify important words and phrases in the text that should be included in the summary, helping to ensure that the summary accurately captures the key points of the text. In text classification tasks, it can help to identify words or phrases that are associated with a particular class, allowing for more accurate classification. In synthesis tasks, like text to speech or text to image, it helps to generate more natural sounding output by taking into account the context of the words being spoken or drawn. Question answering tasks can use it to better understand the relationships between words and generate more accurate answers. Finally, text generation tasks can leverage it to generate text that is more grammatically and syntactically correct."
+    },
+    {
+        "guid": 2798625,
+        "model_answer": "La matrice \\(A\\) est inversible pour \\(\\lambda=0\\), \\(1/2\\), et \\(3/4\\). La matrice \\({1\\over 1}\\), \\({5\\over4}\\), et \\({3\\over2}\\) sont ses inverses respectives."
+    },
+    {
+        "guid": 1730438,
+        "model_answer": "4"
+    },
+    {
+        "guid": 1205329,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1399738,
+        "model_answer": "0.5"
+    },
+    {
+        "guid": 2476507,
+        "model_answer": "5"
+    },
+    {
+        "guid": 1664882,
+        "model_answer": "0"
+    },
+    {
+        "guid": 2012769,
+        "model_answer": "4"
+    },
+    {
+        "guid": 1188846,
+        "model_answer": "The difference between the tagging of the sentence is determined by the parameters of the model. For example, the verb 'developed' is tagged as VBD in the sentence, which indicates it is in the past tense. The verb 'tooth' is also tagged with VBN, which is the past participle form of the verb. The pronoun 'my' is a possessive pronoun and is thus tagged PRP$\\$$. The daughter's age is indicated by the adjective 'adult', which is a JJ tag."
+    },
+    {
+        "guid": 1067916,
+        "model_answer": "4"
+    },
+    {
+        "guid": 1709016,
+        "model_answer": "3"
+    },
+    {
+        "guid": 1291168,
+        "model_answer": "2, 4, 6, 8, 11"
+    },
+    {
+        "guid": 1030949,
+        "model_answer": "3"
+    },
+    {
+        "guid": 1299623,
+        "model_answer": "2"
+    },
+    {
+        "guid": 2311987,
+        "model_answer": "4"
+    },
+    {
+        "guid": 1820267,
+        "model_answer": "3"
+    },
+    {
+        "guid": 1488633,
+        "model_answer": "2"
+    },
+    {
+        "guid": 2984772,
+        "model_answer": "2"
+    },
+    {
+        "guid": 2517410,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1806760,
+        "model_answer": "Yes, a load store queue would be beneficial for VLIQ processors as it would allow for faster data transfer between the processor and memory, resulting in improved performance."
+    },
+    {
+        "guid": 1800313,
+        "model_answer": "4"
+    },
+    {
+        "guid": 2664583,
+        "model_answer": "La pression du gaz augmente de 500 Pa."
+    },
+    {
+        "guid": 1281212,
+        "model_answer": "(i) The augmented matrix corresponding to the given system of linear equations is \n\n$\\left[\\begin{matrix} 5 & -2 & 10 \\\\ 2 & -5 & 4 \\\\ 0 & 6 & -1 \\end{matrix}\\right].$\n\n(ii) The solutions of the system are $x_1 = -2, x_2 = 4, x3 = 6$."
+    },
+    {
+        "guid": 1670224,
+        "model_answer": "Asymptotic depth = 2n"
+    },
+    {
+        "guid": 2360467,
+        "model_answer": "La solution du probl\\`eme est $\\vec x = (1,2,0)^T$."
+    },
+    {
+        "guid": 1957269,
+        "model_answer": "The relationship between two extensive quantities is either additive or subtractive, depending on the sign of the two quantities. Examples of additive relationships are when two lengths are added together (length + length = length, area + area = area, mass + mass = mass), while subtractive relationships occur when two quantities are subtracted from each other (length - length = width, area - area = depth, mass - mass = density)."
+    },
+    {
+        "guid": 2474271,
+        "model_answer": "Hyperparameter."
+    },
+    {
+        "guid": 1668801,
+        "model_answer": "4"
+    },
+    {
+        "guid": 2144158,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1485440,
+        "model_answer": "4"
+    },
+    {
+        "guid": 1052451,
+        "model_answer": "4"
+    },
+    {
+        "guid": 1620320,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1568152,
+        "model_answer": "Anti-reflection coatings are used to reduce the amount of light that is reflected from a surface. They do this by altering the way light interacts with the surface of the lens, causing it to bend and pass through instead of being reflected back. These coatings can be applied to both glass and plastic lenses, and come in a variety of different types depending on the application. Other methods of minimizing reflection include the use of specialized filters, prisms, and diffusers."
+    },
+    {
+        "guid": 1005611,
+        "model_answer": "3"
+    },
+    {
+        "guid": 1361816,
+        "model_answer": "A. B. C. D. E. F. G. H. I. J. K. L. M. N. O. P. Q. R. S. T. U. V. W. X. Y. Z."
+    },
+    {
+        "guid": 2700720,
+        "model_answer": "3"
+    },
+    {
+        "guid": 1505348,
+        "model_answer": "Il faudrait 11 disques."
+    },
+    {
+        "guid": 2660235,
+        "model_answer": "Yes, the same answer applies."
+    },
+    {
+        "guid": 2125522,
+        "model_answer": "The vector representation of document 1 is [1, 0], document 2 is [0.5, 1], document\n3 is [-0.25, -0.75], and so on."
+    },
+    {
+        "guid": 2369215,
+        "model_answer": "2"
+    },
+    {
+        "guid": 2464104,
+        "model_answer": "True"
+    },
+    {
+        "guid": 2958269,
+        "model_answer": "\\(\\forall n \\in \\mathbb{N}\\), \\(\\forall A \\in M_n(\\mathbb{C})\\), \n\n(1) \\(\\det(A) = 0\\) si et seulement si \\(\\exists i,j \\in \\{1,2,\\dots,n\\}, a_{ij} = a_{ji}\\) pour tout \\(a_{ij}\\) dans \\(A\\). \n(2) Si \\(A' = \\lambda A\\) avec \\(\\lambda > 0\\), alors \\(\\det(\\lambda A) = \\det A\\)."
+    },
+    {
+        "guid": 2865862,
+        "model_answer": "The application is likely freezing because it is running out of memory due to the large number of images being downloaded and displayed."
+    },
+    {
+        "guid": 1907266,
+        "model_answer": "$G$ consists of 9 production rules. It is a non-terminal-based, left-recursive grammar. To make it exploitable for natural language processing tasks, it should be supplemented with rules for tokenization, part-of-speech tagging, and syntactic parsing. These rules should be in the form of PEG (Partial Evaluation Grammar) expressions."
+    },
+    {
+        "guid": 2023104,
+        "model_answer": "2"
+    },
+    {
+        "guid": 2788435,
+        "model_answer": "2"
+    },
+    {
+        "guid": 2028168,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1192337,
+        "model_answer": "3"
+    },
+    {
+        "guid": 1974005,
+        "model_answer": "2, 4, 5"
+    },
+    {
+        "guid": 1477073,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1770382,
+        "model_answer": "2"
+    },
+    {
+        "guid": 2488522,
+        "model_answer": "The algorithm is based on the principle of sign-flipping, which states that if a spin is flipped from up to down, the energy of the system decreases. By iterating this process, the system will eventually reach the global minimum energy state. This algorithm is known as the simulated annealing algorithm."
+    },
+    {
+        "guid": 1766732,
+        "model_answer": "The square root of 2 is not a rational number because its decimal expansion is non-repeating and non-terminating. This means that it cannot be expressed as a fraction of two integers with a finite number of decimal places."
+    },
+    {
+        "guid": 2468813,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1320591,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1735713,
+        "model_answer": "2"
+    },
+    {
+        "guid": 2958218,
+        "model_answer": "The goal of morphological modules in NLP is to analyze the structure and form of words, such as their root words, prefixes, suffixes, and infixes, in order to better understand their meaning and context. This can be useful for tasks such as text classification, part-of-speech tagging, and word sense disambiguation."
+    },
+    {
+        "guid": 1309728,
+        "model_answer": "4"
+    },
+    {
+        "guid": 2746589,
+        "model_answer": "Depending on the context, any one of the elements could be selected. If time is of the essence, then the element with the shortest processing time should be chosen. If the elements are of equal priority, then it may be beneficial to select the one with the most advanced features. Ultimately, the decision should be based on the specific needs of the situation."
+    },
+    {
+        "guid": 2603154,
+        "model_answer": "P (lpha | \u03b2eta , x) = \\frac{P(\\betaeta | x)P(x | lpha) }{\\sum_{k=0}^{N-1} P(\\beta k | x)},\nwhere P(x|lpha) is the probability of observing x given lpha."
+    },
+    {
+        "guid": 2530776,
+        "model_answer": "The adaptive immune system is defined as having the ability to elicit different responses to different antigens."
+    },
+    {
+        "guid": 2437211,
+        "model_answer": "We can use the Law of Total Probability to prove this. Let $A = \\{\\text{True}\\}$ and $B = \\{ \\text{False} \\}$ be the two possible outcomes of the algorithm. Then the probability of $A$ is $\\frac{1}{3} \\times 1 + \\frac{2}{3}\\times 0 = 1$. Similarly, the probability for $B$ is $0 \\times \\frac13 + 1\\times 2 = \\frac23$. Therefore, the overall probability of the event $A \\cap B = \\emptyset$ (i.e. when $S$ is not equal to $T$) is $1 - \\frac 23 = 0.67$."
+    },
+    {
+        "guid": 2945470,
+        "model_answer": "The expectation of the minimum eigenvalue of the adjacency matrix can be expressed as\n\\begin{equation}\ne_{\\min }^{\\mathrm{ av }}(\\alpha ) = \\frac{1}{N} \\sum_{\\mu = 1}^N \\mathbbm{1} \\left\\{ \\sigma \\left( {\\mathbf{ x }^\\mu } \\right) = \\alpha \\right\\},\n\\end{equation}%\nwhere $\\mathbbm 1 \\{\\cdot \\}$ is the indicator function. By setting the derivative of the above equation with respect to $\\alpha$ to zero, we obtain the critical point $\\alpha _c = 0$."
+    },
+    {
+        "guid": 2610154,
+        "model_answer": "The standard deviation \\(\\sigma_x\\) of the position x (in m) is related to the mass m and the angular frequency \u03c9m by the following equation:\n\n\\(\\sigma^2_x = {\\frac{1}{2}}\\left( {\\frac{\\hbar}{m\\omega _m}}\\right)\\)."
+    },
+    {
+        "guid": 2779843,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1516351,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1442097,
+        "model_answer": "0.8"
+    },
+    {
+        "guid": 1155361,
+        "model_answer": "4"
+    },
+    {
+        "guid": 1357589,
+        "model_answer": "Mystery3 implements the operation of summing all the digits in a list of integers and returning the result as a single integer."
+    },
+    {
+        "guid": 1966428,
+        "model_answer": "R\u00e9cursif."
+    },
+    {
+        "guid": 1932594,
+        "model_answer": "4"
+    },
+    {
+        "guid": 2170363,
+        "model_answer": "P(x|lighthouse, \u03b2) =rac{\u03b2}{\\pi[(\u03b2^2+x^2]}, \nwhere \u03b2 is the unknown angle from the coast and x is the observed value."
+    },
+    {
+        "guid": 1930824,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1737247,
+        "model_answer": "4"
+    },
+    {
+        "guid": 1306287,
+        "model_answer": "2"
+    },
+    {
+        "guid": 2738452,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1935148,
+        "model_answer": "The time delay between the two frequencies is 3.67 seconds."
+    },
+    {
+        "guid": 2546886,
+        "model_answer": "2"
+    },
+    {
+        "guid": 2388044,
+        "model_answer": "3"
+    },
+    {
+        "guid": 1895904,
+        "model_answer": "a) True\nb) False\nc) False"
+    },
+    {
+        "guid": 2502826,
+        "model_answer": "I expect the band gap of bilayer MoS2 to increase under strain. This is because strain causes the lattice constant of the material to change, which affects the energy band structure. In particular, strain can cause the bandgap to increase, as it has a direct effect on the position of the Fermi level and the number of states in the conduction and valence bands. Similarly, I expect the same to be true for layered TMDs, such as WS2, with an increase in strain leading to a larger band gap."
+    },
+    {
+        "guid": 2750272,
+        "model_answer": "Weak duality holds because for any given $\\lambda \\geq 0$ and any $\\lambda$-feasible point $\\mathbf x$, we have $f(\\mathbf x)\\geq d(\\lambda)$ by the definition of the Lagrangian dual function. Since $\\lambda$ is arbitrary, we conclude that $d$ is upper-semicontinuous and thus $f$ is weakly convex."
+    },
+    {
+        "guid": 2697598,
+        "model_answer": "True."
+    },
+    {
+        "guid": 1401690,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1827482,
+        "model_answer": "4"
+    },
+    {
+        "guid": 2934484,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1440146,
+        "model_answer": "3"
+    },
+    {
+        "guid": 2739387,
+        "model_answer": "The algorithm cannot be applied directly because we do not know the values of the eigenvalues $\\lambda_1, \\ldots, \\lambda_H$ and the associated eigenvector of the kernel matrix. These values must be estimated from the data, which requires the computation of the full kernel matrix, which is computationally expensive."
+    },
+    {
+        "guid": 1427867,
+        "model_answer": "Variance = 0"
+    },
+    {
+        "guid": 1658890,
+        "model_answer": "2"
+    },
+    {
+        "guid": 2549137,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1973639,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1823224,
+        "model_answer": "3"
+    },
+    {
+        "guid": 1032811,
+        "model_answer": "Demonstrar que un producto de matrices n x n triangulares inferiores es triangular inferior."
+    },
+    {
+        "guid": 2737048,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1632845,
+        "model_answer": "The solution of $A\\vec x = \\vec b$ in the sense of the minimum norm, using the normal equation is:\n\n\\(x_1 = \\frac{2b_1 - 2a_1}{a_2 - b_2}\\), \\(x_2 = \\pm \\sqrt{\\frac{b_2^2 - a_2 b_1 + a_1^2}{2}}\\)."
+    },
+    {
+        "guid": 1180806,
+        "model_answer": "import numpy as np\nfrom sklearn.model_selection import train_test_split\n\n# Load the dataset\ndata = np.load('boston_house_prices.npy') \nX = data[:,:2] \ny = data[1,:] \n \n# Split into training and test sets\nX_train, X_test, y_train , y_test = train_split(X, y, test_size=0.2, random_state=42)"
+    },
+    {
+        "guid": 2653836,
+        "model_answer": "4"
+    },
+    {
+        "guid": 2937788,
+        "model_answer": "2"
+    },
+    {
+        "guid": 2531237,
+        "model_answer": "2"
+    },
+    {
+        "guid": 1776325,
+        "model_answer": "The effective values of voltages and currents in the three phases of the circuit are: U1, I1. To express the relationships (using \u03c6 for the charging phase):\nFor algebraic problems of this type, please refer to the document available in the Course Info folder."
+    },
+    {
+        "guid": 2706171,
+        "model_answer": "5"
+    },
+    {
+        "guid": 2349183,
+        "model_answer": "The first dataset was generated from live animals."
+    },
+    {
+        "guid": 2904268,
+        "model_answer": "Vrai."
+    }
+]

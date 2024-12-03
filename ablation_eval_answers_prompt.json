@@ -1,0 +1,502 @@
+[
+    {
+        "sol_id":null,
+        "model_answer":"The answer is that all the coefficients of odd indices (i.e. indices greater than 1) are zero. This is because the function is a polynomial of degree n, and the coefficient of x^n is the value of the function at x=0. Since the function has a DL(n) around 0, this value must be zero. Therefore, the only non-zero coefficients are those of even indices.",
+        "guid":"94cdfd24-de94-4072-a5aa-a3a9dc953d2b"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"To prove the lemma (AccOut), we use induction on the length of the list l. The base case is when l is empty, in which case the lemma is trivially true. For the inductive step, we assume that the lemma holds for all lists of length less than or equal to n-1, and we want to show that it also holds for n-element lists. We can use the following sequence of theorems:\n1. For any list l and any function f, we have l.append(f(head(l))) === l.concat(f).\n2. Given any two lists l and r, if l is a prefix of r, then l === r.\n3. Given a function f and a list l, we can construct a new list l' such that l === l' if and only if f(l) === l'.\n\nBy applying these lemmata to the left-hand side of the equation, we get the following:\nl' = (x::xs).concat(y::ys)\nl = y::l'\n\nTherefore, the lemma AccOut is true.",
+        "guid":"3826e1bd-05f7-4f80-a6ad-937af83dc3e4"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is option 3: Entangement is necessary for Bell inequality violation. This is because entangled states have correlations between their properties that cannot be explained by classical physics. These correlations can be used to violate Bell inequalities, which test the limits of our understanding of quantum mechanics.",
+        "guid":"f6f7e3a3-b63a-4f13-abbe-a2b3f74c64e5"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"For question 1, we need to find the primitive of the function $\\cos x$. The primitive of a function is the antiderivative of its derivative. Therefore, we can use the formula for the derivative of $\\sin x$ to find its primitive:\n\n$$F'(x) = \\cos x + C$$\n\nwhere $C$ is a constant. Substituting $x = 0$ into this equation, we get $F'(0) = 1$, so $C = -1$. Therefore, the primitive function is $F = \\sin x - 1$.\n\nFor questions 2 and 3, we know that the primitives of the given functions are $e^x$ and $e^{-x}$, respectively. Therefore we can simply plug in the values of $x$ for which we want to evaluate these primitives to find their values. For question 2, we have $x=0$, so the primitive is $\\frac{1}{e^0 - e^{-1}} = \\frac{e^1}{1-e^{-1}}$. For question",
+        "guid":"0b473eff-0fc8-4fb0-9d10-bc49d18e52e3"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is option 2: $O(\\sum_{i=1}^{n} n_i)$, where $n_i$ is the number of entries in the $i$-th directory. This is because each directory is implemented as a hash table, and each entry in the hash table requires a constant amount of space. Therefore, the total space required for all directories is proportional to the sum of the sizes of all directories. The time complexity is determined by the size of the largest directory.",
+        "guid":"6654c2b0-4dcd-432e-9c8e-26d638afe0ef"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is \"reduce learning rate\" because when the learning rate is too high, the model can overshoot the optimal solution and converge to a suboptimal solution. This can lead to numerical instability and poor performance. Therefore, it is important to choose an appropriate learning rate that balances the trade-off between convergence speed and stability.",
+        "guid":"202f9e3f-be4d-4b51-8789-f4eb0666690f"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"La r\u00e9ponse est 100. Pour comprendre pourquoi cela est correct, il est important de comprendre la fa\u00e7on dont les donn\u00e9es sont stock\u00e9es sur disque. Lorsqu'un disque est enregistr\u00e9, chaque bloc de donn\u00e9es est stock\u00e9 sur le disque en utilisant un algorithme de compression pour r\u00e9duire la taille du bloc. Cela permet de maximiser l'utilisation de l'espace disque et d'am\u00e9liorer la vitesse d'\u00e9criture et de lecture. Dans ce cas, nous supposons qu'il n'y a qu'un seul bloc stock\u00e9 pour notre file d'attente, ce qui signifie que nous ne devons pas prendre en compte les autres blocages dans notre calcul. En utilisant cette m\u00e9thode, nous pouvons d\u00e9terminer le nombre total d'octets n\u00e9cessaires pour stocker toutes les informations de notre syst\u00e8me.",
+        "guid":"198d8637-b6eb-4a3a-92c0-6baad4f34a2e"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is: 1, 2, 3, 5, 6, 7, 8\n\nThe reasoning is as follows:\n\n1. This statement is false. For example, consider the function \\(f(x) = x^2\\) on the interval \\([0,1]\\). This function is continuous, but it is not differentiable at the point \\(x=0\\). Therefore, we cannot conclude that if a function is differentiable, it must be continuous.\n2. The statement is true. This follows from the definition of differentiability, which requires that the limit of the difference quotient exists. If the limit exists, then the function must be differentiable. However, if the limit does not exist, then we cannot say anything about the differentiability of the function. Therefore, it is possible to have a function that is not twice differentiable but has a limit of its derivative at a point.\n4. This is also true. If a function has a finite number of derivatives, then it is bounded on any compact subset of its domain. This can be proven by using the mean value theorem for integrals.\n6. This also holds true. The derivative of a function can be bounded by the function itself, so if the function is bounded, then its derivative must also be bounded.\n7. This holds true for functions in \\(C^k\\) for any \\(k\\geq 1\\). The limit of a sequence of derivatives must converge to the derivative at any point, and this is true for all \\(k\\).\n8. This function does not have a derivative at the origin, so it cannot be differentiated at that point.",
+        "guid":"da3590dc-4da0-4790-bd94-b9e56450702b"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is option 4 because most extra nodes (i.e., URLs that are not part of the main URL's window) are typically found in a window that is neighboring to the main window. This is because URLs in the same window tend to have similar structures and URLs in neighboring windows are more likely to be similar due to the nature of web browsing.",
+        "guid":"299255b4-6b4b-423b-bafa-e1f2ca04ecb5"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is $\\frac{1}{N} \\sum_{i=1}^N \\xx_i^2$. This is because the variance is a measure of the spread of a random variable, and in this case, we are trying to find the unit vector that maximizes the spread. By taking the average of the squared values of each data point in the dataset, we get an estimate of the average squared distance from the origin, which is proportional to the variance.",
+        "guid":"92251192-94ec-4d07-a94c-34775db00d70"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is option 4: \"Everything is fine.\" This is because the choice of activation function does not affect the convergence of the model, as long as it is differentiable. In this case, the ReLU activation function is also differentiable and would work just as well.",
+        "guid":"b82db1db-a6f9-4e3a-8d45-9a89cfddd953"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The Jones vector representation of a polarized beam is given by $\\mathbf{J} = \\left(\\begin{array}{c} J_{x} \\\\ J_{y} \\end{array}\\right)$, where $J_{x,y}$ are the components of the Jones vector along the $x$ and $y$ axes, respectively. The polarization of the input beam can be represented by a unit vector $\\hat{\\mathbf{u}}$. The Jones vector of the output beam after passing through the HWP can be calculated as follows:\n\n$$\n\\begin{aligned}\nJ' &= \\frac{1}{\\sqrt{2}} \\begin{pmatrix} J_x + J_y \\cos(2 \\theta) \\cos(\\phi) \\\\\nJ_y -J_x \\cos^2(\\theta)\\sin(\\phi)\\end{pmatrix},\n\\end{aligned}$$\n\nwhere $\\theta$ and $\\phi$ are the angles of incidence and polarization, respectively, with respect to the $z$ axis. The output polarization can be found by taking the dot product of $\\hat{u}$ and $J'$.",
+        "guid":"e07a6c79-461a-40f2-b8a8-402f92e38839"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The number of microscopic states depends on the number of electrons in the system. In this case, we have 51 electrons, so there are 2^51 = 1,228,890,937,558,403,275,808,073,709,154,261,627,984,665,640,564,038,963,976,595,423,542,357,098,500,000 possible states.",
+        "guid":"1f0c9830-5cb9-44ef-865a-1681b7cae654"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is \"1\" because the value 1 is the probability of the path from the start node to the node corresponding to \"time\" being the optimal path. This value is obtained by summing up the probabilities of all possible paths from the starting node to each node along the path, and choosing the path with the highest probability. In this case, the path goes through \"time\", so the probability is 1.",
+        "guid":"8dca0280-913e-469b-a9b0-e0edea7fc589"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is true for all the questions. This is because if a function is continuous, differentiable and its derivative is positive, then it is strictly increasing. Also, if the limit of the derivative exists at a point, then the function is differentiable at that point and the derivative is equal to the limit.",
+        "guid":"e82b5b83-63be-4052-8b90-856964aa898b"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The correct answer is: $-\\frac{1}{n}\\sum_{i=1}^{n} (y_i - f_i(\\mathbf{x}_i,W))^2$ because it is the average squared difference between the predicted output and the true output for a given sample. This is a commonly used metric in machine learning to evaluate the performance of a model.",
+        "guid":"fb202e2b-e599-44d7-b4ff-3fec50e91311"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is no, you would not find the PC (Program Counter) value inside the Reorder Buffer. The PC value is used to keep track of the instruction that is currently being executed, and it is stored in the CPU (Central Processing Unit) register. The Reorder Buffers, on the other hand, are used to temporarily store instructions that have been fetched from memory but have not yet been executed. This allows the CPU to fetch multiple instructions at once and execute them in the correct order, rather than fetching them one at a time and executing them sequentially.",
+        "guid":"7690f1a8-df38-4e65-a667-09f0877fb255"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is that the sum diverges for $\\mu \\geq 1$ and converges for $0 < \\mu < 1$. This can be shown by using the comparison test with the harmonic series. For $\\mu > 1$, we have $\\frac{n}{(\\ln n)^{\\mu-1}} \\geq \\ln n$ for all $n \\geq n_0$, where $n_0$ is a sufficiently large integer. Therefore, the series diverges. For $0<\\mu<1$, the series converges by the alternating series test.",
+        "guid":"a442d457-38a3-4ec4-898f-89cbbf5db372"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The LHC particle accelerator generates 1 Pb\/s (10^15 bits per second), which is equivalent to 13 years of HD video per second. However, there is no technology in the world that can record all these data in real-time. Even if we put a lot of hard drives in parallel, we would not be able to build a fast enough connection to record all the data without losing any of it.\nA hardware circuit analyzes the data and filters it by a factor of 1,00,0, before injecting it directly into specialized processors that reduce it by another factor of the same order. In rounding to the orders of magnitude, how many hard drives at 1 TB\/s in parallel are needed for a data rate of 0.1 GB\/s?",
+        "guid":"bfb2e9ae-9035-40ee-8406-b95519d675ac"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is option 2: $O(|D|)$, where $|D|$ is the number of entries in the linked-list directory. This is because the worst-case scenario is when the directory is empty, in which case we need to traverse the entire linked list to find out that there are no entries. On the other hand, if the directory contains many entries, we can traverse the linked list in constant time.",
+        "guid":"6fab6a7c-f678-401b-965d-4b1b7e514852"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is: The update rule is given by: $\\mathbf{w}_{t+1} = \\alpha \\mathbf{g}_{t} + \\frac{\\alpha}{B} \\boldsymbol{\\xi}_{t}$ where $\\alpha$ is the step size, $\\boldsymbol{\\gamma}_t$ is a vector containing the gradients of $f$ with respect to the weights of the $t$-th neuron in the $i$-th layer, and $\\xi_t$ are i.i.d. random variables with mean zero and variance $\\frac{2}{B}$. This update rule ensures that the gradient of the loss function is averaged over the mini-batch, which helps to reduce the variance of the updates and improve the convergence rate of the algorithm.",
+        "guid":"841d52c7-5353-424c-a1f4-8ebf473ecc6d"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is $(5 + 9 \tarepsilon)^{2}$. This is because we are trying to maximize the difference between the true value of $y$ (which is 2) and the value that we predict using the linear model with the adversarially perturbed input. The optimization problem is trying to find the \tilter that maximizes this difference, subject to the constraint that the magnitude of the perturbation must be less than or equal to $\\epsilon$. In this case, we can see that the optimal solution is to add a perturbation of magnitude $\\epsilon$ to the input, which will cause the model to predict a value of 1. Therefore, the objective function is maximized when $\\epsilon = 1$, which means that the maximum possible value is $(1 + 1)^{2} = 2$.",
+        "guid":"f72cf01b-8f66-4e8f-a3b9-3bfb27f562d7"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is that the function should return the coefficients and bias of the linear regression model. The coefficients are the values that are multiplied by the input features to produce the predicted output. The bias is the constant value that is added to the sum of the coefficients. This function can be implemented using the numpy library in Python.",
+        "guid":"60c20157-95f6-4cf5-b71c-29ce9d194200"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is: 1) faux, 2) vrai, 3) fausse\n\nExplanation:\n\n1. This statement is false because it is possible for the sum of two divergent series to converge. For example, consider the series \\(\\sum\\_{n=1}^{\\infty} \\frac{1}{n^2}\\). This series diverges, but if we consider the subsequence of even numbers, we get a convergent series.\n2. This is true because if the series of sub-sums converges, then the original series must also converge by the definition of a sub-series.\n3. This also true because we can use the same argument as in part 2. If the sub-sub-sum converges, it means that the original sum converges.",
+        "guid":"3538e748-434d-4ed8-adc3-e9bda94c46c9"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The merge function should be implemented as follows:\n\n1. If the left heap is empty, return the right heap.\n2. Otherwise, merge the left and right heaps using the `merge` function.\n3. Return the merged heap.",
+        "guid":"426d5d69-1a8d-4aca-b6f3-71b5a9af11ab"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The correct answer is \\(\\log(1 + 2\/3 \\sqrt{6})\\). This is because the state we are given is a superposition of two Bell states, which are maximally entangled states. We can express this state as a linear combination of the Bell states as follows: \\begin{align} |\\psi\\rangle = \\frac{1}{2} (|00\\rangle + |11\\rangle - |22\\rangle) + \\frac{\\sqrt{1\/3}}{2}(|01 \\rangle + e^{i\\pi\/3} |10 \\rangle - e^{2\\pi i\/3}|20 \\otimes 21 \\rbrace) \\end{align}. Using the formula for the negativity, we can calculate the logaritmic negitivity of this state. The negativity is defined as the absolute value of the concurrence, which is a measure of the entanglement of a state. It is given by the following formula: \\( \\mathcal{N} = \\max\\lbrace 0, 1 - \\sum_{i=1}^{n} |\\lambda_i|\\rbrace \\), where \\(n\\) is the number of qubits in the state, and \\(\\lambda_1, \\lambda_2, \\ldots ,\\lambda_n\\) are the eigenvalues of the partial transpose of the density matrix. In this case, we have \\(n = 2\\), and the eigenvalues are given by \\( \\lambda_{1,2} = 1\/2 \\pm \\sqrt{(1\/4)^2 + (1\/6)^2} \\). Using these values, we find that the negitivity is equal to \\( \\log(3 + 4\/3) \\).",
+        "guid":"30afbb49-8450-43c9-bb4d-ffd127127497"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is \\(\\frac{1}{27}\\pi^{2\/3}\\). This is because the integral is equal to the integral of the product of the integrand and its derivative with respect to \\(x\\) from \\(0\\) to \\(\\pi\\). The derivative of \\(\\sin\\sin x\\) is \\(\\cos x\\), and the derivative of \\(x^3\\) is \\(3x^2\\). Therefore, the integral can be rewritten as \\(\\int_0^{\\pi} \\cos x \\cdot 3 x^2 \\cdot \\cos \\sin x dx\\), which can be evaluated using integration by parts.",
+        "guid":"7c17680c-400d-4adf-96cb-7af4b14ff562"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is 1) it is closed. This is because if a set is not open, it means that there exists a point in the set that does not have an open neighborhood around it. Therefore, the complement of the set is open, which means that it is not closed.",
+        "guid":"d9b30a74-5f67-4c4a-9a83-e9bfd09bc47d"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The Jones vector is a mathematical representation of a polarized light beam. In this case, the input beam has a polarization angle of $\\pi\/4$ degrees, which means it is polarized along the $x$ axis. When the beam passes through a quarter wave plate, it experiences a phase shift of $\\frac{3}{2}\\pi$, which changes its polarization to be polarized in the $y$ direction. This can be represented by the Jones vector $\\mathbf{J} = \\left(\\begin{array}{c} 1 \\\\ 0 \\end{array}\\right)$. Similarly, when a half wave plate is passed through, the phase shift is $\\pi$, resulting in polarization of the beam in the direction of the $z$ axis, which can be written as $\\left(\\frac{1}{\\sqrt{2}},\\sqrt{\\frac{i}{2}}\\right)$.",
+        "guid":"99de7be3-24e6-45b7-9ef3-a9f1bd649c8a"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"Accuracy is a simple evaluation metric that measures the percentage of correct predictions made by a machine learning model. It is commonly used for binary classification tasks, where the goal is to predict whether a given input belongs to one of two classes. However, accuracy can also be used for multi-class classification tasks by treating each class as a separate binary classification problem. Accuracy can be a useful evaluation metric for tasks such as sentiment analysis, part-of-speech tagging, and named entity recognition. In these tasks, the model is expected to correctly identify the sentiment, part of speech, or named entity in a given text. In order for accuracy to be a suitable evaluation metric, the task must have a clear and well-defined set of correct answers, and the model must be able to distinguish between correct and incorrect answers. Additionally, the dataset must be large enough and diverse enough to ensure that the model can generalize well to new data.",
+        "guid":"f2ccb67e-6051-4111-8434-0209cad56ee3"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is:\n\n1. RuntimeExceptions: Runtime exceptions are unchecked exceptions that occur during the execution of a program. They are typically caused by programming errors, such as null pointer references or division by zero. It is important to handle runtime exceptions precisely because they can cause the program to crash or produce incorrect results.\n2. Errors: Errors are checked exceptions that indicate a programming error. They can occur at any point in the program, including when the program is being compiled or when it is being executed. Error handling is important because it ensures that the program can recover from unexpected errors and continue running smoothly.",
+        "guid":"04ca849b-3186-4abc-b865-c512d9119e0a"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is that the padding should be done by adding zeros to the left and right of the input. This is because the filter size is 2 and we want to convolve the input with the filter. If we don't pad the input, the filter will not be able to cover the entire input. By adding zeros, we ensure that the filter can cover the input and detect the edges.",
+        "guid":"36d8f75e-6249-4cab-9e1e-69571358b0ad"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The correct answer is 1. Edge betweenness is a measure of the importance of an edge in a graph. It is calculated by counting the number of shortest paths that pass through the edge. In this case, the edge from node 7 to node 5 has a betweenness of 1 because there is only one shortest path that passes through this edge.",
+        "guid":"e1a1b845-bc57-4250-a715-6b7bf2f3e192"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The height of the concatenated tree is equal to the sum of the heights of the two original trees. This is because each node in the original trees is replaced by a node with two children, and each of these children corresponds to a child of the original node. As a result, the total number of nodes in the resulting tree is the same as in the concatenation of two smaller trees. The height of a tree is defined as the number of edges in the longest path from the root to a leaf node. Therefore, the height of this concatenation tree is $h = h_1 + h_2$.",
+        "guid":"7a2855e0-5c47-4622-b025-4dfa11353f41"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The estimator we propose is based on the following idea: we will ask each person to give us a random number between $0$ and $1$, and then we will take the average of all the random numbers given by all the people we have asked so far. This will give us an estimate of the fraction of people who prefer cheese to chocolate. We can then use this estimate to calculate the total consumption of cheese in Switzerland by multiplying it by the total population of Switzerland. This estimator is efficient because it only asks a small number of people, and it has a high success probability because we are taking an average of many random numbers. To analyze this estimator, we can use Chebyshev's inequality, which states that the probability of a random variable being more than a certain amount away from its expected value is at most the expected value of the variable divided by that amount. In our case, the probability that our estimate is more than $\\epsilon W$ away from the true value is bounded by $\\delta$, which is the desired success probability.",
+        "guid":"f24af540-a417-4810-b572-c6a816fd36d8"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is: 1, 2, 3, 4, 6, 7, 8\n\nExplanation:\n\n1. If \\(a_{n}\\leq b_{n}\\) for an infinite number of indices, then \\(b_{n} \\rightarrow \\infty\\) because as \\(n\\) increases, the difference between the two sequences becomes arbitrarily large.\n2. If for every \\(n \\in \\mathbb{N} \\), \\( a_{n+1} \\leq a_{1} + b_{1}\\), then \\( \\lim\\_{n\\rightarrow\\infty} \\frac{b_{1}}{a_{1}} = 0 \\). This is because if we take the ratio of any two consecutive terms in the sequence, the denominator will always be greater than or equal to the numerator.\n3. If there exists a constant \\(c>0\\) such that \\( b_{c} \\geq a_{c}\\) for all sufficiently large \\(c\\), then the sequence is majorized. This means that the sequence has a subsequence that is bounded above by a constant multiple of the original sequence. In this case, we can take \\(c\\) to be the maximum of the values of \\(a\\) and \\(b\\).\n4. If the sequence \\(b\\) is minorized, i.e., for every \\(\\epsilon > 0\\), there exists an \\(N\\), such that for all \\(n > N\\), \\(b(n) \\leq \\epsilon a(n)\\), then we have \\(a\\cdot b \\to \\epsilon\\) as \\(N\\) goes to infinity. This follows from the definition of minorization.\n5. If we take \\(\\delta = \\max(a)\\) and define \\(r = \\frac{\\max(b)}{\\min(a)}\\), then for any \\(n>\\max(\\frac{r}{\\delta}, \\delta)\\), we have \\((a_{r}b_{r})^{n} = a_{r}^{n} b_{r}^{\\frac{n}{\\max(r)}}\\) is greater than \\(\\delta^{n}\\). Therefore, \\(a \\cdot b\\) is not bounded below by any positive constant.\n6. We can use the limit comparison test to show that \\((e^{a})\\) is monotonically decreasing to zero. To see this, note that for any positive integer \\(k\\), we can write \\(e^{",
+        "guid":"aac16eb3-0584-4b0d-bee5-311565c0b0d7"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The correct answer is option 3, supervised classification. This is because the goal of the task is to classify a sentence into a specific language based on the information provided in the database. This can be achieved through supervised learning, where the model is trained on a set of labeled examples and then used to make predictions on new, unseen data.",
+        "guid":"c304254e-8c84-4179-a6a8-a78b3bdd633d"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"For the first problem, we can use a breadth-first search (BFS) algorithm to find the shortest path from the source node to the sink node. We start at the source and mark it as visited. Then, we recursively explore all the neighbors of the current node, marking them as visited as we go. When we reach a leaf node (i.e., a node that has no neighbors), we return the distance to that node as the answer. The time complexity of this algorithm is O(n^2), where n is the number of nodes in the graph, because we visit each node at most twice (once as a source and once as a sink). However, the space complexity can be quite high, depending on the size of the graph and the data structure used to store the visited nodes. For example, if we use a priority queue to keep track of the nodes we need to visit, we may need to store up to n nodes in memory at any given time, which can quickly become infeasible for large graphs. To avoid this issue, we could use a different data structure, such as a hash table or a binary heap, which would allow us to store only the nodes that are currently being explored. However, these data structures may have different time and space complexities, so it's important to choose the right one for the specific problem at hand.",
+        "guid":"6f0d7868-be35-4f47-8770-22999fe667a9"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"To answer this question, we first need to find the equation of motion for the float. We can use Newton's second law, which states that the net force acting on an object is equal to its mass multiplied by its acceleration. In this case, we have two forces acting on the float: the weight of the water displaced by the float, which we can call $F_1$, and the Archimedes force, which is proportional to the volume of water the float displaces, and is given by $F\\_2 = P\\_A \\rho\\_f V\\_f$, where $P\\_A$ is the density of water and $V\\_f = \\frac{4}{3} \\pi r^3 h_f$.\n\nWe can then use these equations to write a differential equation that describes the motion of the fishing float. This equation will depend on the radius of the cylinder, its height, and its mass. Once we have this equation, we can use it to determine the non-damped oscillation frequency and the coefficient of friction.",
+        "guid":"32cb1531-16d4-4bd0-871d-09c05f083d33"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"A prime+probe attack is a type of cache side-channel attack that can be used to extract sensitive information from a victim's code. The attack works by exploiting the fact that modern processors use a small number of cache lines to store frequently accessed data. By repeatedly probing different cache lines, an attacker can determine which lines contain sensitive information, such as encryption keys or other secret data. This information can then be used by attackers to bypass security measures and gain unauthorized access to sensitive data.",
+        "guid":"215d2a69-d6c0-4aca-bf47-70eb2091c3fe"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The matrices A, C, and S are all diagonalizable. To see this, we need to find the eigenvectors and eigenvalues of each matrix. For matrix A, we have:\n\n1. Eigenvalue 2: Eigenvector (1, 0, -1)\n2. eigenvalue 4: Eigervector (0, 1, -2)\n3. Eigervalue -6: Eigenspace {0}\n\nFor matrix C, we can find the eigenvalues by solving the characteristic equation \u03bb^2 - \u03bb + 1 = 0. The solutions are \u03bb = 1 and \u03bb - 1. Therefore, the matrix C is diagonalizable with eigenvector (2, 3, -3) and eigenvalue -1 + \u03bb, where \u03bb is either 1 or -1. To find the matrix of change of basis from the standard basis to the eigenbasis, we use the following formula: \n\nP = \u03bb I - A\n\nwhere I is the identity matrix. Plugging in the values for \u03bb and A gives us the matrix P = (1 - 2I) - (4I - 3I^2) = -2I + 4I. This matrix is invertible, so we can use it to change the basis. The matrix P^(-1) is the inverse of P, and we can compute it using the formula for the determinant of a matrix: det(P) = (det(P))^-1 = det(-2I)^-1 det(4I) = 4^(-2) det(I) det(-4I).\n\nFinally, for matrix S, we find that the eigenvalues are 4, 5, and 5. The eigenvector for the eigenvalue of 4 is (2\/5, 2\/3, 4\/15), and the eigenvecor for the eigenvalues of 5 is (1\/5,-1\/3,-1). To diagonalize the matrix, we first find a matrix Q such that Q^T S Q = D, where D is the diagonal matrix with the eigenvalues on the diagonal. We can solve this system of linear equations using Gaussian elimination. Once we have the matrix Q, we apply it to the original matrix S to get the diagonalized matrix D.",
+        "guid":"19799141-5b4f-4239-bc50-dd5c1c14a3e9"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The correct answer is 1) and 2) because measuring a cell's response in the absence of a template can be difficult due to the presence of noise in the measurement and the need to obtain responses to a sufficient number of stimuli. Option 3) is incorrect because the patch clamp technique used to measure cell responses does not cause drift over time.",
+        "guid":"f3ca44ac-51a9-4ff7-aec4-7b7d76f4837f"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The correct answer is: Lens distortion. Projection radiographs are used to visualize the internal structure of an object by projecting it onto a flat surface. The lens used in projection radiography can introduce distortions in the image, which can affect the accuracy of the diagnosis. Therefore, it is important to be aware of the characteristics of the lens and how it affects the image.",
+        "guid":"a559e3e1-2520-4d95-9cc1-7cce4798fea3"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is 1) and 3) because the scoring procedure proposed by the authors accounts for the variability of experimental data by penalizing the model and does not sum features. This allows for a more accurate representation of the data.",
+        "guid":"52f78310-1458-4ad2-9605-e99a10e73550"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The correct answer is \"Two different frequencies\" because the natural frequency is the frequency of oscillation of a system when it is subjected to an external force, while the magnetic field causes the spinning electrons to precess at a different frequency. These two frequencies are not the same.",
+        "guid":"70f8efa0-1816-445b-a053-cf92ee323bab"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The augmented matrix for the given system of equations is:\n\n$$\\begin{bmatrix} 2 & 1 & 0 & -1 & -2 & -3 & -4 & -5 \\end{bmatrix}$$\n\nThe reduced echelon form of the matrix can be obtained by performing elementary row operations such as adding multiples of one row to another row until the matrix is in row-echelon normal form. In this case, we can see that the first row is a multiple of the second row, so we can add the first and second rows together to obtain the reduced form:\n$$ \\begin{pmatrix} 1&0&-1&-2&-3&-4&-5\\end{pmatrix}$$\nThe solution to the system is given by the inverse of the reduced matrix, which can be found by solving the system of linear equations for each row and then taking the inverse. The solution is: \n$$ x_1 = \\frac{1}{2}, x_i = 0, i = 2, 3, 4, 5$$",
+        "guid":"98df46d4-9b69-4702-8e58-6e4c2fedc94e"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"1. Faux, car la sym\u00e9trie ne garantit pas que la matrice soit positive semi-d\u00e9finie.\n2. Vrai, car si $Ax=0$, alors $x^T A x = x^T 0 = 0$.\n3. Fausse, car $x$ peut \u00eatre un vecteur non nul et n\u00e9gatif.\n4. Fausses, car $\\| x \\|$ ne d\u00e9pend pas seulement de $x$, mais aussi de la norme choisie.",
+        "guid":"59c0251a-f677-46d1-aff0-a5435e62230c"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is option 2 because it is not possible to train such a large neural network without a powerful computer. The size of the network and the number of layers are important factors in determining the complexity of the model and the amount of computational resources required to train it. In this case, the neighbor's linear regression model is simpler and requires less computational resources to train, which is why they were able to achieve better results.",
+        "guid":"13739c83-35d1-4fec-867c-98bd69f9ae73"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is option 1, computational modeling, because it allows researchers to simulate and predict the behavior of genetic networks based on mathematical models. This approach is useful for understanding how genes interact with each other and how changes in one gene can affect the expression of other genes in the network. Computational models can also be used to identify key genes and pathways involved in various biological processes.",
+        "guid":"dc243fc6-5295-426f-ace7-c1594dcb4d59"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The correct answer is: 1. This is because the Wiener process is a random process, and its properties are described by its autocorrelation function. In this case, we have that the auto-correlation of the phase is a Gaussian distribution with a variance proportional to the diffusion constant. Therefore, the expected value of the product of two phase increments is proportional to their separation in time.",
+        "guid":"2f7b092b-e05b-4b04-a99c-b9963f8e3032"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is: 1, 2, 3, and 4 because cable theory is a mathematical model that describes the electrical properties of neurons. It is based on the assumption that neurons are made up of a series of compartments, each of which has its own conductance. Therefore, statement 1 is true because the conductance of each ion does not change along the length of the neuron. Statement 2 is also true because it describes how cable theory can be used to quantify the amount of current that flows through a neuron at any given time. Finally, statement",
+        "guid":"23ffa81e-c9d4-4c01-87ef-d88bb108587b"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is $N - D + 1$. This is because the SVD of a matrix is a factorization of the matrix into the product of three matrices. The first matrix is the matrix of singular values, which are sorted in non-increasing order. The second matrix is an orthogonal matrix that transforms the columns of the first matrix into orthonormal vectors. The third matrix is another orthogonal matrix whose columns are the eigenvectors of the second matrix. Therefore, we can use the third matrix to transform the original matrix into a lower-dimensional space. The reconstruction matrix is then obtained by multiplying the transformed matrix with the first and second matrices.",
+        "guid":"2fabe332-48ef-433b-9b1c-b4e486180637"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is \"All of the below\" because genetic traits are passed down from one generation to the next and are determined by the sequence of nucleotides in the DNA. On the other hand, the epigenome is the layer of genetic information that sits on top of the genome and controls which genes are active and which are not. Epigenomics is the study of how this layer of information is inherited and how it affects gene expression.",
+        "guid":"1986353f-b780-4b31-94d6-fd9af077fb07"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The statement is true. This is because a matrix is invertible if and only if all of its eigenvalues are non-zero. Therefore, if a matrix has an eigenvalue, it must also have a corresponding eigenvector. Since the eigenvectors of the inverse of a matrix are the same as those of the original matrix, we can conclude that the eigenvalue of the matrix must also be an eigenspace of its inverse.",
+        "guid":"b1ea7aed-566b-4da0-803d-f29fc4cf50e1"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The operations on valid lines (i.e., adding a line to another, exchanging two lines, and multiplying a line by a non-zero real) transform a system into an equivalent system.",
+        "guid":"d563f81d-6eef-4e06-b40c-e00352d5aa78"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is option 1 because arrows on a nullcline always point vertically, regardless of the orientation of the coordinate system.",
+        "guid":"c1bc4cc6-e6af-4bb6-86c2-1dee8ec49ad2"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The expression of the magnetic energy for an infinitesimal volume is \\(dW_{magn} = B\\cdot dH \\cdot dV\\). This is because magnetic energy is proportional to the product of magnetic field strength, magnetic flux density, and volume.",
+        "guid":"f732d470-1631-4a0d-b1f6-51e937cf55be"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The correct answer is option 3, which is dipping the substrate in a diluted hydrofluoric acid (HF) solution. This process helps to remove any remaining chloride ions from the surface, preventing the formation of corrosive residues. Option 1, immersing the sample in a phosphoric-glycol-methyl-ether-acetic acid (PGMEA) developer, is not recommended as it can cause damage to the surface of the sample. Options 2 and 4 are also not recommended because they can cause additional damage or contamination to the sample surface.",
+        "guid":"88379c2b-4bda-41c0-b1c1-e44dc19ea14b"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"Consensus is a fundamental primitive in distributed systems that allows multiple nodes to agree on a single value. In the context of broadcasting, consensus can be used to ensure that a message is received by all nodes in the network. One way to implement consensus is by using a leader-follower protocol. In this protocol, one node is elected as the leader and the other nodes follow the leader's decisions. The leader broadcasts a message to all nodes and waits for a response. If a node receives the message, it broadcasts it to all other nodes. The process is repeated until all nodes have received the message. This ensures that all nodes agree on the message and can use it for further communication.",
+        "guid":"ec128ef4-97e2-4998-a41c-e6eab0953c8c"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is option 4 because PET scans use positron emission tomography (PET) which is a type of nuclear medicine imaging that uses a radioactive tracer to produce three-dimensional images of the body's metabolic activity. PET is used to diagnose and monitor a wide range of diseases, including cancer, heart disease, and neurological disorders. On the other hand, single photon emission computed tomography scans (SPECT) use gamma rays to produce images of organs and tissues in the body.",
+        "guid":"2b3de139-3757-4f15-9b48-e785fd51c3f4"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The matrices A, C, and S are all diagonalizable. To see this, we need to find the eigenvectors and eigenvalues of each matrix. For matrix A, we have:\n\n1. Eigenvalue 2: Eigenvector (1, 0, -1)\n2. eigenvalue 4: Eigervector (0, 1, -2)\n3. Eigervalue -6: Eigenspace {0}\n\nFor matrix C, we can find the eigenvalues by solving the characteristic equation \u03bb^2 - \u03bb + 1 = 0. The solutions are \u03bb = 1 and \u03bb - 1. Therefore, the matrix C is diagonalizable with eigenvector (2, 3, -3) and eigenvalue -1 + \u03bb, where \u03bb is either 1 or -1. To find the matrix of change of basis from the standard basis to the eigenbasis, we use the following formula: \n\nP = \u03bb I - A\n\nwhere I is the identity matrix. Plugging in the values for \u03bb and A gives us the matrix P = (1 - 2I) - (4I - 3I^2) = -2I + 4I. This matrix is invertible, so we can use it to change the basis. The matrix P^(-1) is the inverse of P, and we can compute it using the formula for the determinant of a matrix: det(P) = (det(P))^-1 = det(-2I)^-1 det(4I) = 4^(-2) det(I) det(-4I).\n\nFinally, for matrix S, we find that the eigenvalues are 4, 5, and 5. The eigenvector for the eigenvalue of 4 is (2\/5, 2\/3, 4\/15), and the eigenvecor for the eigenvalues of 5 is (1\/5,-1\/3,-1). To diagonalize the matrix, we first find a matrix Q such that Q^T S Q = D, where D is the diagonal matrix with the eigenvalues on the diagonal. We can solve this system of linear equations using Gaussian elimination. Once we have the matrix Q, we apply it to the original matrix S to get the diagonalized matrix D.",
+        "guid":"19799141-5b4f-4239-bc50-dd5c1c14a3e9"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is \"Yes\" because it is important to engage in discussions and provide feedback to your peers. This helps to build a sense of community and encourages everyone to learn from each other.",
+        "guid":"45f4f919-77fb-4bbc-92f6-172fec8f4a92"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"In MRI, the tissues are imaged by measuring the differences in the magnetic properties of the body's tissues. These differences are obtained by comparing the magnetic susceptibility of the tissue to that of the surrounding tissue. Therefore, the correct answer is \"Magnetic susceptibilities of tissues\" because the magnetic field of the MRI scanner is used to measure the difference in magnetic properties between different tissues in the body.",
+        "guid":"f1d23839-38a5-46f6-946d-c0a11cc6c4e8"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The distance between the Sun and Venus is approximately 1 astronomical unit (AU), which is equal to 149.6 million kilometers (92.9 million miles). Therefore, the answer is option 1, which is the correct conversion from kilometers to meters.",
+        "guid":"d12be254-279f-4223-852c-9bb0791bb816"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is 1) and 4) because neurotrasmitter release is a complex process that involves the fusion of synaptic vesicles with the plasma membrane of the presynaptic neuron. This process is regulated by a number of factors, including the number of vesicles present at the synapse and the probability of vesicle fusion with the membrane. Additionally, the release of a single vesicle can generate a significant amount of electrical activity, which can propagate through the network of neurons in the brain.",
+        "guid":"6a7100d1-64e2-426d-b762-62bafa8b9d55"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is: 1) If \\(R_{n}(x)\\) converges to zero as \\(n \\to \\infty\\) then the function has a Taylor series expansion around \\(x_{0}\\).\n\nThis is because the Taylor series of a function is the sum of its partial derivatives evaluated at the point of interest. In this case, the partial derivatives of the function are given by the coefficients of the polynomial \\(p_{n}\\). If the function is not differentiable at \\(x\\), then the coefficient of \\(x^{n+1}\\) in the polynomial is zero, and the function does not have a Taylor expansion at that point. Therefore, if the function can be approximated by a polynomial, then it will converge to zero at infinity, and we can use this to find its Taylor series.",
+        "guid":"458183ae-aef2-4798-b64d-b7de727c5300"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The first statement is true because the norm of a vector is the square root of the sum of the squares of its components. The second statement is also true because of the definition of the dot product and the properties of the norm.",
+        "guid":"cc24cdb8-3a06-4a93-9b94-aca69608ddb1"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is: 1) Vrai, 2) Faux\n\nThe first statement is true because the limit superior of the sum of two sequences is equal to the maximum of the limits of the sequences. The second statement is false because the product of two limits is not necessarily a limit.",
+        "guid":"703e2827-6fe4-4f64-99ba-d81016d141ff"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is \"cash flow positive point\" because this is the point where the company starts to generate positive cash flow from its operations. This means that the company is generating more money from its sales than it is spending on its expenses. This is an important milestone for a company because it indicates that it is on the path to profitability.",
+        "guid":"e384b432-93ad-4770-9d13-74fc984cff31"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is option 1 because it is the most efficient way to encode the given sequence in binary. The entropy of the sequence is calculated by counting the number of occurrences of each letter in the sequence and dividing by the total number of possible combinations. In this case, there are 2^8 = 256 possible combinations, so the entropy is approximately 2.5 bits per letter. Option 1 encodes the sequence in the most compact way possible, with each letter taking up only one bit.",
+        "guid":"de41310c-1119-420c-84f7-f391781a5f97"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is option 2 because the energy of photons emitted by stars is sufficient to break the bonds between atoms and create ions. This process is known as ionization, and it plays a crucial role in the formation of stars and the structure of the universe.",
+        "guid":"68e15f77-d5da-484b-ba19-659cc1bea2da"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"I think it's a great idea to have daily scrum meet",
+        "guid":"bee98e82-357d-4d86-8c63-2f4c36b56e3f"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is option 4 because genetic optimization algorithms use several steps to generate a set of parameters that best fit the problem at hand. The algorithm starts with a random set of initial parameters and then iteratively improves the parameters by generating new sets and evaluating their performance. This process continues until the algorithm finds the optimal parameters for the given problem.",
+        "guid":"19a6f5aa-151f-4b61-9cc2-5b2872ce4e6f"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is 1) smaller matrix size. This is because the size of the matrix determines the number of pixels in the image, which affects the resolution of the image. A smaller matrix means that there are fewer pixels, which results in lower contrast resolution.",
+        "guid":"f61d34e0-d7a9-40f6-a9d1-02ca34b8dc3f"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is option 4, all of the options. Simulation neurosciences are needed to understand how the brain works and to predict the results of changes in its components. By simulating the brain, researchers can gain insights into how different elements interact with one another and how they contribute to brain function. This knowledge can be used to develop new treatments for brain disorders and to improve our understanding of brain development and aging.",
+        "guid":"83ae18dc-a016-4f97-adc4-402ac56b1359"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The correct answer is option 4, a combination of both Na+ and K+ ions. This is because these two ions play important roles in regulating the electrical activity of neurons, and their combined presence in the cell membrane helps to maintain the balance of ionic currents.",
+        "guid":"d875b0d6-054c-42b3-848f-7d354a32eea6"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is: 1, 2, 3, 4, 5, 6\n\nThe reasoning is as follows:\n\nFor 1), we know that if a function is differentiable at a point, then its value at that point is well-defined. Therefore, we can conclude that the value of f(x0) is well defined.\n2), we can use the definition of the derivative to show that as h approaches 0, the ratio of the difference of the function evaluated at x0 and x0 - h to h approaches f'(x0).\n3), we use the fact that the derivative of a sum is equal to the sum of the derivatives. We can then apply this to the expression on the left-hand side of the equation to obtain the desired result.\n4), this statement is true because the limit of a ratio of two functions as one of the functions approaches a point is the quotient of the limits of the two functions. In this case, we have f(z) as the numerator, which approaches 1 as z approaches x0, so the limit is 1\/1 = 1. The denominator is f'(z), which is the slope of the tangent line to the graph of f at the point x0. As x0 approaches the point, the slope approaches infinity, so we can take the limit to infinity and obtain 0\/infinity = 0.\n5), this is a consequence of the mean value theorem, which states that for any continuous function f on a closed interval [a, b], there exists a point c in the interval such",
+        "guid":"be73736f-6104-4dc5-b315-618c35f0e5f6"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is option 2 because increasing the bandwidth of an NMR spectrometer can improve the signal-to-noise ratio, but it can also lead to phase cancellation and worsen chemical shift effects. Phase cancellation occurs when the frequency of the RF pulse used to excite the nuclei is close to the Larmor frequency, which can cause the signal to cancel out. Chemical shift effects occur due to the interaction between the magnetic field and the nuclear spins, which results in a shift of the resonance frequency. Increasing the frequency bandwidth can lead to a broader range of chemical shifts, making it more difficult to accurately assign peaks to specific nuclei.",
+        "guid":"1718610f-8dd6-4625-a6fb-becaf0881858"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The correct answer is:\n\n1. Diffusion constant D is defined as the ratio of the mass of the particle to the thermal energy kB T. Therefore, D = m g \/ (kB T) is the correct answer.",
+        "guid":"8bd54ea2-2ebb-40d4-9450-7b14a8b06b8a"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The correct answer is \"Two different frequencies\" because the natural frequency is the frequency of oscillation of a system when it is subjected to an external force, while the magnetic field causes the spinning electrons to precess at a different frequency. These two frequencies are not the same.",
+        "guid":"70f8efa0-1816-445b-a053-cf92ee323bab"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The matrix associated with the orthogonal projection onto the plane $W$ given by $W = \\left\\{ \\vec x \\in \\mathbb R^3 \\mid 2 x_1 - x_ 2 = 0 \\right\\}$ is $\\frac{1}{2} I_2$, where $I_2$ is the $2 \\times 2$ identity matrix. This is because the projection of any vector $\\vec x$ onto $W$, denoted by $\\pi_W(\\vec x)$, is given by $\\frac{\\vec x}{|\\vec x|}$, where $|\\vec x|$ is the Euclidean norm of the vector. Therefore, the matrix $P_W$ that maps any vector in $\\mathbb R ^3$ to its projection onto $ W$ is $ \\frac 1 2 \\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix}$.",
+        "guid":"e35d196d-d378-4134-9ac5-2e799a393890"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The correct interpretation of the property is that all patterns have an equal number of positive and negative pixels.",
+        "guid":"edc67f0d-3970-4202-88be-01a9fdc54246"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer to this question is that we can choose the $\\mu_k$'s by solving the following optimization problem:\n\nminimize \u2211n \u2211k znk \u2225xn\u2212\u03bck\u22252\n\nsubject to the constraint\n\n\u2211n zn1 + \u2026 + znK = 1\n\nThis optimization problem can be solved using Lagrange multipliers. The solution is given by\n\n\u03bck = (\u2211nznk\u2211n)\u22121 xn\n\nwhich is the mean of all data points assigned to cluster k. This formula corresponds to the step of computing the cluster centers in the $k$-meanse clustering algorithm.",
+        "guid":"3b7e8491-0a75-4620-9a08-5236121d55a3"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is option 3, 3 seconds. This is because T2 is the time it takes for the NMR signal to decay by a factor of 1\/e, which is approximately 37%. Therefore, it takes 3\/0.37 = 8.14 seconds for the signal to reach 1%.",
+        "guid":"53d7b649-afab-48bd-a2b4-769df94b491c"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"La r\u00e9ponse correcte est \"la structure simple\" car un syst\u00e8me r\u00e9tract\u00e9 polaris\u00e9 a une structure simple, c'est-\u00e0-dire qu'il n'y a qu'un seul p\u00f4le. Cela signifie que le syst\u00e8me est plus facile \u00e0 comprendre et \u00e0 contr\u00f4ler.",
+        "guid":"245c93a8-3253-4b95-aca5-6918cf5bd650"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The correct answer is 1) and 2) because these tricks were used by the scientists to keep the electrical activity of the neuron constant while they were measuring the underlying mechanism that enables spikes. By using a current clump, they were able to maintain a constant flow of electricity through the cell, which allowed them to study the underlying electrical properties of the cell without interference. Additionally, a space clump was used to render the entire axon electrically neutral, which helped to isolate the activity of individual neurons and make it easier to study their behavior.",
+        "guid":"bfef8387-5cd3-4cb1-9fbe-ae87f876425a"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is option 2 because it is not possible to train such a large neural network without a powerful computer. The size of the network and the number of layers are important factors in determining the complexity of the model and the amount of computational resources required to train it. In this case, the neighbor's linear regression model is simpler and requires less computational resources to train, which is why they were able to achieve better results.",
+        "guid":"13739c83-35d1-4fec-867c-98bd69f9ae73"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is option 2 because the law of Ohm generalized states that the voltage across the terminals of a coil is equal to the resistance of the wire multiplied by the current flowing through it.",
+        "guid":"64a34fa8-6bda-475f-b7da-b752ff1d1456"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is option 3: Humans and mice have different rates of brain development postnatally. This is because humans have a longer gestation period than mice, which means that the human brain is more developed at birth than the mouse brain. Therefore, some parts of the mice's brain development occur at a different stage in human development.",
+        "guid":"e88dde48-5fbb-46b6-855f-1b41da17322b"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is:\n\n1. False\n2. True\n\nExplanation:\nIn logistic regression, the logistic loss function is used instead of the $L_2$ loss because it is more suitable for binary classification problems. This is because the log loss function takes into account the probability of the correct class, which is more informative than just the difference between the predicted probability and the true class.\nOn the other hand, in $L^2$ regularization, the penalty is proportional to the square of the magnitude of the weights, which encourages the weights to be small and sparse. This can be useful for feature selection and reducing overfitting, but it may not be the best choice for all types of problems.",
+        "guid":"c3842176-bc8b-4bba-8ad5-fb127d3282d8"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is option 4: \"Several conductances can produce similar firing patterns.\" This is because the firing patterns of neurons are determined by the balance of excitatory and inhibitory inputs to the cell. The conductances of the cell's soma (the body of the neuron) and its dendrite (the branching structure that receives inputs from other neurons) play a role in this balance, but they are not the only factors that determine the firing behavior of a neuron.",
+        "guid":"d32e91ed-7eb4-44cd-be2b-2defaff5ce00"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is 4) because most neurons of the central nervous system are excitatory and only a small fraction of neurons are inhibitory. This is because the brain needs to be able to respond quickly to sensory stimuli, and excitation is necessary for this. Inhibition is important for maintaining balance and preventing over-excitation.",
+        "guid":"24e3fd38-37a4-4934-b74d-dc666e8c60b8"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is option 2. This is because the diffusion equation describes the movement of particles in a medium, and in this case, the particles are represented by the probability density function p(x,t). The equation takes into account both the drift velocity and the diffusion coefficient of the particles. Option 1 is incorrect because it only considers the diffusion term and does not take into account the effect of the time increment.",
+        "guid":"056ea0f5-990e-45ec-9d81-60ec66ecf9a9"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is option 1) because genetic sequencing of an organism's genome can reveal information about its genetic makeup, including any mutations or variations that may be associated with certain diseases. This information can be used to develop new treatments and therapies, as well as to better understand the underlying causes of disease.",
+        "guid":"2d9de929-7645-4192-8b90-8a7c253b162a"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is: 1, 2, and 3. \n\nExplanation:\n1. System calls are used to handle interrupts, such as when a division by zero error occurs or when a page fault occurs. They allow the operating system to take control of the CPU and handle the problem.\n\t* In JOS, system calls are made by using the `syscall` instruction. In `x86`, the `int` instruction is used to make system calls. The stack pointer (esp) remains the same in user mode before and",
+        "guid":"1d74cd2f-d3fc-4f0e-b3ec-b27225b9160e"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is 3) because in the case of a red-detuned laser, the mechanical cavity mode is excited by the laser field, and the phonons in this mode are in a coherent state. In the resolved-sideband limit, the coupling strength is proportional to the square of the detuning, which means that the coupling is strongest when the detune is at its maximum value. Therefore, the minimum number of photons in the mechanical mode is given by 3).",
+        "guid":"aa7e1cbf-f33f-4579-83d7-3bef5673a7ba"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is: 3) the field of magnetism. This is because the letter \"D\" is often used in physics to represent the magnetic field. The magnetic field is a vector field that describes the force exerted on a charged particle in the presence of a magnet. It is a measure of the strength and direction of the magnetic force.",
+        "guid":"ee1a1937-ed58-499b-94ea-fe6fdd4717e2"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is option 2, \"One of the Two DNA Strands Can Be Used As A Template To Copy And Amplify A DNA Sequence.\" This is because during the PCR process, a specific DNA sequence is amplified exponentially through the use of two primers. One primer is complementary to the 5' end of the target sequence, while the other primer is located at the 3' end. These primers serve as starting points for the enzymes that synthesize new strands of DNA. By using one of these primers as the template, the polymeras",
+        "guid":"4c07c694-88e7-48d8-b711-e8809a0c679d"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is: 1, 2, 3, 4 because for any real number x, there are infinitely many rationally and irrationally close to x.",
+        "guid":"76ce9513-bd2e-460e-a0b4-7a36819646d2"
+      },
+      {
+        "sol_id":null,
+        "model_answer":"The answer is option 1: Lidars. This is because lidars are specialized sensors that are designed to detect and classify objects based on their distance, angle, and intensity. They are particularly useful for detecting and classifying traffic signs because they can accurately measure the distance between the sensor and the sign, which is important for determining the size and shape of the sign. Additionally, lidars can detect the intensity of the light emitted by the sign and use this information to distinguish between different types of traffic signs. Overall, lidar sensors are the best choice for accurately detecting traffic signs in a self-driving vehicle.",
+        "guid":"6303517c-ecc8-4deb-8785-550de1188bca"
+      }
+]
